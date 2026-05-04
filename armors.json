@@ -1,0 +1,329 @@
+{
+  "schemaVersion": 1,
+  "armors": [
+    {
+      "id": "skin",
+      "name": "Skin",
+      "calculationType": "Custom",
+      "primaryAbility": "DEX",
+      "secondaryAbility": "NONE"
+    },
+    {
+      "id": "padded-cloth",
+      "name": "Padded Cloth",
+      "calculationType": "Light Armor",
+      "primaryAbility": "DEX",
+      "secondaryAbility": "NONE",
+      "maxAbilityMod": 7,
+      "armorBonus": 1,
+      "finalAC": 1,
+      "bulk": 1
+    },
+    {
+      "id": "leather-weave",
+      "name": "Leather Weave",
+      "calculationType": "Light Armor",
+      "primaryAbility": "DEX",
+      "secondaryAbility": "NONE",
+      "maxAbilityMod": 7,
+      "armorBonus": 2,
+      "finalAC": 2,
+      "bulk": 1
+    },
+    {
+      "id": "armored-cloth",
+      "name": "Armored Cloth",
+      "calculationType": "Light Armor",
+      "primaryAbility": "DEX",
+      "secondaryAbility": "NONE",
+      "maxAbilityMod": 7,
+      "armorBonus": 3,
+      "finalAC": 3,
+      "bulk": 2
+    },
+    {
+      "id": "reinforced-cloth",
+      "name": "Reinforced Cloth",
+      "calculationType": "Light Armor",
+      "primaryAbility": "DEX",
+      "secondaryAbility": "NONE",
+      "maxAbilityMod": 7,
+      "armorBonus": 3,
+      "finalAC": 3,
+      "bulk": 2
+    },
+    {
+      "id": "synthetic-weave",
+      "name": "Synthetic Weave",
+      "calculationType": "Light Armor",
+      "primaryAbility": "DEX",
+      "secondaryAbility": "NONE",
+      "maxAbilityMod": 7,
+      "armorBonus": 4,
+      "finalAC": 4,
+      "bulk": 3
+    },
+    {
+      "id": "shinobi-weave",
+      "name": "Shinobi Weave",
+      "calculationType": "Light Armor",
+      "primaryAbility": "DEX",
+      "secondaryAbility": "NONE",
+      "maxAbilityMod": 7,
+      "armorBonus": 5,
+      "finalAC": 5,
+      "bulk": 3
+    },
+    {
+      "id": "combat-jacket",
+      "name": "Combat Jacket",
+      "calculationType": "Medium Armor",
+      "primaryAbility": "DEX",
+      "secondaryAbility": "NONE",
+      "maxAbilityMod": 3,
+      "armorBonus": 4,
+      "finalAC": 4,
+      "bulk": 4
+    },
+    {
+      "id": "shinobi-jacket",
+      "name": "Shinobi Jacket",
+      "calculationType": "Medium Armor",
+      "primaryAbility": "DEX",
+      "secondaryAbility": "NONE",
+      "maxAbilityMod": 3,
+      "armorBonus": 4,
+      "finalAC": 4,
+      "bulk": 3
+    },
+    {
+      "id": "shinobi-combat-jacket",
+      "name": "Shinobi Combat Jacket",
+      "calculationType": "Medium Armor",
+      "primaryAbility": "DEX",
+      "secondaryAbility": "NONE",
+      "maxAbilityMod": 3,
+      "armorBonus": 5,
+      "finalAC": 5,
+      "bulk": 4
+    },
+    {
+      "id": "chunin-jacket",
+      "name": "Chunin Jacket",
+      "calculationType": "Medium Armor",
+      "primaryAbility": "DEX",
+      "secondaryAbility": "NONE",
+      "maxAbilityMod": 3,
+      "armorBonus": 5,
+      "finalAC": 5,
+      "bulk": 5
+    },
+    {
+      "id": "battle-coat",
+      "name": "Battle Coat",
+      "calculationType": "Medium Armor",
+      "primaryAbility": "DEX",
+      "secondaryAbility": "NONE",
+      "maxAbilityMod": 3,
+      "armorBonus": 6,
+      "finalAC": 6,
+      "bulk": 6
+    },
+    {
+      "id": "armored-chunin-coat",
+      "name": "Armored Chunin Coat",
+      "calculationType": "Medium Armor",
+      "primaryAbility": "DEX",
+      "secondaryAbility": "NONE",
+      "maxAbilityMod": 3,
+      "armorBonus": 6,
+      "finalAC": 6,
+      "bulk": 6
+    },
+    {
+      "id": "combat-armor",
+      "name": "Combat Armor",
+      "calculationType": "Heavy Armor",
+      "primaryAbility": "NONE",
+      "secondaryAbility": "NONE",
+      "maxAbilityMod": 0,
+      "armorBonus": 6,
+      "finalAC": 6,
+      "bulk": 6
+    },
+    {
+      "id": "synthetic-armor",
+      "name": "Synthetic Armor",
+      "calculationType": "Heavy Armor",
+      "primaryAbility": "NONE",
+      "secondaryAbility": "NONE",
+      "maxAbilityMod": 0,
+      "armorBonus": 6,
+      "finalAC": 6,
+      "bulk": 5
+    },
+    {
+      "id": "jonin-armor",
+      "name": "Jonin Armor",
+      "calculationType": "Heavy Armor",
+      "primaryAbility": "NONE",
+      "secondaryAbility": "NONE",
+      "maxAbilityMod": 0,
+      "armorBonus": 7,
+      "finalAC": 7,
+      "bulk": 4
+    },
+    {
+      "id": "elite-jonin-armor",
+      "name": "Elite Jonin Armor",
+      "calculationType": "Heavy Armor",
+      "primaryAbility": "NONE",
+      "secondaryAbility": "NONE",
+      "maxAbilityMod": 0,
+      "armorBonus": 7,
+      "finalAC": 7,
+      "bulk": 6
+    },
+    {
+      "id": "ronin-armor",
+      "name": "Ronin Armor",
+      "calculationType": "Heavy Armor",
+      "primaryAbility": "NONE",
+      "secondaryAbility": "NONE",
+      "maxAbilityMod": 0,
+      "armorBonus": 8,
+      "finalAC": 8,
+      "bulk": 6
+    },
+    {
+      "id": "samurai-armor",
+      "name": "Samurai Armor",
+      "calculationType": "Heavy Armor",
+      "primaryAbility": "NONE",
+      "secondaryAbility": "NONE",
+      "maxAbilityMod": 0,
+      "armorBonus": 8,
+      "finalAC": 8,
+      "bulk": 8
+    },
+    {
+      "id": "chakra-skin",
+      "name": "Chakra Skin",
+      "calculationType": "Ability Mod",
+      "primaryAbility": "INT",
+      "secondaryAbility": "NONE",
+      "armorBonus": 3,
+      "finalAC": 3
+    },
+    {
+      "id": "chakra-skin-b-rank",
+      "name": "Chakra Skin (B-Rank)",
+      "calculationType": "Ability Mod",
+      "primaryAbility": "INT",
+      "secondaryAbility": "NONE",
+      "armorBonus": 4,
+      "finalAC": 4
+    },
+    {
+      "id": "chakra-skin-s-rank",
+      "name": "Chakra Skin (S-Rank)",
+      "calculationType": "Ability Mod",
+      "primaryAbility": "INT",
+      "secondaryAbility": "NONE",
+      "armorBonus": 5,
+      "finalAC": 5
+    },
+    {
+      "id": "dust-coat",
+      "name": "Dust Coat",
+      "calculationType": "Ability Mod",
+      "primaryAbility": "INT",
+      "secondaryAbility": "PROF",
+      "armorBonus": 3,
+      "finalAC": 8
+    },
+    {
+      "id": "dust-coat-b-rank",
+      "name": "Dust Coat (B-Rank)",
+      "calculationType": "Ability Mod",
+      "primaryAbility": "INT",
+      "secondaryAbility": "PROF",
+      "armorBonus": 4,
+      "finalAC": 9
+    },
+    {
+      "id": "dust-coat-s-rank",
+      "name": "Dust Coat (S-Rank)",
+      "calculationType": "Ability Mod",
+      "primaryAbility": "INT",
+      "secondaryAbility": "PROF",
+      "armorBonus": 5,
+      "finalAC": 10
+    },
+    {
+      "id": "weaved-mail",
+      "name": "Weaved Mail",
+      "calculationType": "Custom",
+      "primaryAbility": "DEX",
+      "secondaryAbility": "INT"
+    },
+    {
+      "id": "wooden-suit",
+      "name": "Wooden Suit",
+      "calculationType": "Light Armor",
+      "primaryAbility": "DEX",
+      "secondaryAbility": "NONE",
+      "armorBonus": 3,
+      "finalAC": 3,
+      "bulk": 3
+    },
+    {
+      "id": "iron-shell",
+      "name": "Iron Shell",
+      "calculationType": "Medium Armor",
+      "primaryAbility": "DEX",
+      "secondaryAbility": "NONE",
+      "maxAbilityMod": 2,
+      "armorBonus": 5,
+      "finalAC": 5,
+      "bulk": 6
+    },
+    {
+      "id": "steel-fortress",
+      "name": "Steel Fortress",
+      "calculationType": "Heavy Armor",
+      "primaryAbility": "NONE",
+      "secondaryAbility": "NONE",
+      "maxAbilityMod": 0,
+      "armorBonus": 8,
+      "finalAC": 8,
+      "bulk": 8
+    },
+    {
+      "id": "geo-breastplate-intelligence",
+      "name": "Geo-Breastplate (Intelligence)",
+      "calculationType": "Ability Mod",
+      "primaryAbility": "INT",
+      "secondaryAbility": "NONE",
+      "armorBonus": 3,
+      "finalAC": 3
+    },
+    {
+      "id": "geo-breastplate-constitution",
+      "name": "Geo-Breastplate (Constitution)",
+      "calculationType": "Ability Mod",
+      "primaryAbility": "CON",
+      "secondaryAbility": "NONE",
+      "armorBonus": 3,
+      "finalAC": 3
+    },
+    {
+      "id": "martial-defense",
+      "name": "Martial Defense",
+      "calculationType": "Ability Mod",
+      "primaryAbility": "DEX",
+      "secondaryAbility": "PROF",
+      "finalAC": 5
+    }
+  ]
+}
