@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "properties": [
+    {
+      "id": "weapon.ammunition",
+      "kind": "weapon",
+      "name": "Ammunition",
+      "description": "Requires ammunition to fire. Roll your ammunition die each time you attack; on a 1 or 2 the die size drops. If used in melee, it's an improvised weapon."
+    },
+    {
+      "id": "weapon.blocking",
+      "kind": "weapon",
+      "name": "Blocking",
+      "description": "While equipped, your AC increases by +1. The bonus applies once and does not stack."
+    },
+    {
+      "id": "weapon.critical",
+      "kind": "weapon",
+      "name": "Critical",
+      "description": "Gains +1 to your Critical Threat range per rank of Critical when attacking with it (max +3). Does not stack when dual-wielding."
+    },
+    {
+      "id": "weapon.deadly",
+      "kind": "weapon",
+      "name": "Deadly",
+      "description": "On a critical hit, adds +1 damage die per rank of Deadly, once per turn (max rank 3)."
+    },
+    {
+      "id": "weapon.disarm",
+      "kind": "weapon",
+      "name": "Disarm",
+      "description": "In place of one weapon attack, attempt to disarm a target creature."
+    },
+    {
+      "id": "weapon.evocation",
+      "kind": "weapon",
+      "name": "Evocation",
+      "description": "Combat Scroll only. Seals an echo of a Ninjutsu, Genjutsu, or weapon you know into the scroll. Attacks use that source's attack bonus and damage type, no ability-mod to damage, at most 1 attack per Attack action. Damage die scales at levels 5/11/17."
+    },
+    {
+      "id": "weapon.finesse",
+      "kind": "weapon",
+      "name": "Finesse",
+      "description": "You may use either your Strength or Dexterity modifier for attack and damage rolls (must use the same for both)."
+    },
+    {
+      "id": "weapon.flexible",
+      "kind": "weapon",
+      "name": "Flexible",
+      "description": "Lists a secondary damage type in parentheses (e.g. Flexible (Bludgeoning)). You choose the damage type when rolling damage, but the damage die is one step smaller (min d4)."
+    },
+    {
+      "id": "weapon.grapple",
+      "kind": "weapon",
+      "name": "Grapple",
+      "description": "In place of one weapon attack, attempt to grapple a target creature."
+    },
+    {
+      "id": "weapon.heavy",
+      "kind": "weapon",
+      "name": "Heavy",
+      "description": "Requires Strength 16 or higher to wield without disadvantage. Creatures add half their Strength modifier to damage rolls with it."
+    },
+    {
+      "id": "weapon.hidden",
+      "kind": "weapon",
+      "name": "Hidden",
+      "description": "Advantage on Dexterity (Sleight of Hand) checks to conceal the weapon."
+    },
+    {
+      "id": "weapon.lethal",
+      "kind": "weapon",
+      "name": "Lethal",
+      "description": "Adds +1 damage die against a surprised creature or one that can't see you, per rank of Lethal, once per turn. Stacks up to rank 5."
+    },
+    {
+      "id": "weapon.light",
+      "kind": "weapon",
+      "name": "Light",
+      "description": "Small and easy to handle. Once per turn, while dual-wielding two light weapons, you can make a second attack with the off-hand weapon as part of the Attack action."
+    },
+    {
+      "id": "weapon.loading",
+      "kind": "weapon",
+      "name": "Loading",
+      "description": "A limited number of shots between reloads. Reloading uses the Use an Object action and requires a free hand."
+    },
+    {
+      "id": "weapon.multiattack",
+      "kind": "weapon",
+      "name": "Multiattack",
+      "description": "May be used to attack again as a bonus action. You can't add your ability modifier or any damage bonuses to the bonus-action damage \u2014 only the weapon's base die."
+    },
+    {
+      "id": "weapon.range",
+      "kind": "weapon",
+      "name": "Range",
+      "description": "Ranged weapon. Two numbers in parentheses: normal range in feet / maximum range. Beyond normal range: disadvantage on the attack. Beyond long range: cannot attack."
+    },
+    {
+      "id": "weapon.reach",
+      "kind": "weapon",
+      "name": "Reach",
+      "description": "Adds 5 feet to your reach per rank of Reach when attacking with it (e.g. Reach 1 = +5 ft)."
+    },
+    {
+      "id": "weapon.returning",
+      "kind": "weapon",
+      "name": "Returning",
+      "description": "After a thrown ranged attack within 30 ft, you may recall the weapon to your hand. Requires one free hand to catch."
+    },
+    {
+      "id": "weapon.thrown",
+      "kind": "weapon",
+      "name": "Thrown",
+      "description": "You can throw the weapon to make a ranged attack using Strength (not Dexterity) for attack and damage rolls."
+    },
+    {
+      "id": "weapon.tactical",
+      "kind": "weapon",
+      "name": "Tactical",
+      "description": "Once per turn, deals +1 damage per rank of any physical condition on the target (e.g. Bruised 3 + Bleed 2 \u2192 +5 damage)."
+    },
+    {
+      "id": "weapon.trip",
+      "kind": "weapon",
+      "name": "Trip",
+      "description": "In place of one weapon attack, attempt to Trip or Shove a target. On success, deals the weapon's damage."
+    },
+    {
+      "id": "weapon.two-handed",
+      "kind": "weapon",
+      "name": "Two-Handed",
+      "description": "Requires two hands to use."
+    },
+    {
+      "id": "weapon.unarmed",
+      "kind": "weapon",
+      "name": "Unarmed",
+      "description": "Equipped to both hands; cannot be disarmed. Doesn't block Taijutsu stances. You can still use Hand Seals and Chakra Seals and wield a separate weapon. Uses your Unarmed Damage if the listed damage die is lower. Can cast Taijutsu and Bukijutsu; bonuses/penalties to weapon attacks also apply to your unarmed attacks."
+    },
+    {
+      "id": "weapon.versatile",
+      "kind": "weapon",
+      "name": "Versatile",
+      "description": "Can be wielded with one or two hands. The parenthetical damage applies when used two-handed in melee."
+    },
+    {
+      "id": "weapon.volatile",
+      "kind": "weapon",
+      "name": "Volatile",
+      "description": "No ability modifier added to damage. If your d20 result is \u2264 the Volatile rank, the weapon backfires and deals its damage to you. If the damage die is increased in count or size, Volatile rank increases by +4."
+    },
+    {
+      "id": "weapon.winding",
+      "kind": "weapon",
+      "name": "Winding",
+      "description": "In place of a weapon attack, wind up the weapon. Your next attack with this weapon has advantage."
+    },
+    {
+      "id": "weapon.special",
+      "kind": "weapon",
+      "name": "Special",
+      "description": "Has a unique ability \u2014 see the specific weapon's entry (e.g. Battle Wire's trap actions)."
+    },
+    {
+      "id": "armor.bulky",
+      "kind": "armor",
+      "name": "Bulky",
+      "description": "Grants disadvantage on Stealth checks."
+    },
+    {
+      "id": "armor.bulwark",
+      "kind": "armor",
+      "name": "Bulwark",
+      "description": "+2 bonus to saving throws and checks made to resist being moved against your will."
+    },
+    {
+      "id": "armor.camouflage",
+      "kind": "armor",
+      "name": "Camouflage",
+      "description": "+2 bonus to Stealth checks at Night."
+    },
+    {
+      "id": "armor.fashionable",
+      "kind": "armor",
+      "name": "Fashionable",
+      "description": "+2 bonus to Persuasion checks against non-hostile creatures."
+    },
+    {
+      "id": "armor.fortified",
+      "kind": "armor",
+      "name": "Fortified",
+      "description": "Treats the first critical hit against you per rest as a normal hit."
+    },
+    {
+      "id": "armor.heavyweight",
+      "kind": "armor",
+      "name": "Heavyweight",
+      "description": "Imposes a Strength ability score requirement to wear without penalty (the requirement is listed in parentheses with this property)."
+    },
+    {
+      "id": "armor.high-quality",
+      "kind": "armor",
+      "name": "High Quality",
+      "description": "Gains +1 Seal Slots for Armor Seals."
+    },
+    {
+      "id": "armor.lightweight",
+      "kind": "armor",
+      "name": "Lightweight",
+      "description": "Reduces the armor's Bulk by half."
+    },
+    {
+      "id": "armor.reinforced",
+      "kind": "armor",
+      "name": "Reinforced",
+      "description": "Gains Damage Reduction against Bludgeoning, Piercing, and Slashing damage. The DR value is listed in parentheses with this property."
+    },
+    {
+      "id": "armor.threatening",
+      "kind": "armor",
+      "name": "Threatening",
+      "description": "+2 bonus to Intimidation checks."
+    }
+  ]
+}
