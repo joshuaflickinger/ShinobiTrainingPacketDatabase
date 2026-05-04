@@ -28,7 +28,8 @@
       "maxAbilityMod": 7,
       "armorBonus": 2,
       "finalAC": 2,
-      "bulk": 1
+      "bulk": 1,
+      "properties": "Camouflage"
     },
     {
       "id": "armored-cloth",
@@ -39,7 +40,8 @@
       "maxAbilityMod": 7,
       "armorBonus": 3,
       "finalAC": 3,
-      "bulk": 2
+      "bulk": 2,
+      "properties": "Fortified"
     },
     {
       "id": "reinforced-cloth",
@@ -50,7 +52,8 @@
       "maxAbilityMod": 7,
       "armorBonus": 3,
       "finalAC": 3,
-      "bulk": 2
+      "bulk": 2,
+      "properties": "Reinforced (2)"
     },
     {
       "id": "synthetic-weave",
@@ -61,7 +64,8 @@
       "maxAbilityMod": 7,
       "armorBonus": 4,
       "finalAC": 4,
-      "bulk": 3
+      "bulk": 3,
+      "properties": "Fashionable"
     },
     {
       "id": "shinobi-weave",
@@ -72,7 +76,8 @@
       "maxAbilityMod": 7,
       "armorBonus": 5,
       "finalAC": 5,
-      "bulk": 3
+      "bulk": 3,
+      "properties": "High Quality"
     },
     {
       "id": "combat-jacket",
@@ -83,7 +88,8 @@
       "maxAbilityMod": 3,
       "armorBonus": 4,
       "finalAC": 4,
-      "bulk": 4
+      "bulk": 4,
+      "properties": "Bulky"
     },
     {
       "id": "shinobi-jacket",
@@ -94,7 +100,8 @@
       "maxAbilityMod": 3,
       "armorBonus": 4,
       "finalAC": 4,
-      "bulk": 3
+      "bulk": 3,
+      "properties": "Fashionable, Reinforced (2)"
     },
     {
       "id": "shinobi-combat-jacket",
@@ -105,7 +112,8 @@
       "maxAbilityMod": 3,
       "armorBonus": 5,
       "finalAC": 5,
-      "bulk": 4
+      "bulk": 4,
+      "properties": "Camouflage, Reinforced (3)"
     },
     {
       "id": "chunin-jacket",
@@ -116,7 +124,8 @@
       "maxAbilityMod": 3,
       "armorBonus": 5,
       "finalAC": 5,
-      "bulk": 5
+      "bulk": 5,
+      "properties": "Fortified, Reinforced (3)"
     },
     {
       "id": "battle-coat",
@@ -127,7 +136,8 @@
       "maxAbilityMod": 3,
       "armorBonus": 6,
       "finalAC": 6,
-      "bulk": 6
+      "bulk": 6,
+      "properties": "High Quality, Heavyweight (12), Reinforced (4)"
     },
     {
       "id": "armored-chunin-coat",
@@ -138,7 +148,8 @@
       "maxAbilityMod": 3,
       "armorBonus": 6,
       "finalAC": 6,
-      "bulk": 6
+      "bulk": 6,
+      "properties": "Fortified, Heavyweight (14), Reinforced (4)"
     },
     {
       "id": "combat-armor",
@@ -149,7 +160,8 @@
       "maxAbilityMod": 0,
       "armorBonus": 6,
       "finalAC": 6,
-      "bulk": 6
+      "bulk": 6,
+      "properties": "Bulky, Reinforced (4)"
     },
     {
       "id": "synthetic-armor",
@@ -160,7 +172,8 @@
       "maxAbilityMod": 0,
       "armorBonus": 6,
       "finalAC": 6,
-      "bulk": 5
+      "bulk": 5,
+      "properties": "High Quality, Reinforced (4)"
     },
     {
       "id": "jonin-armor",
@@ -171,7 +184,8 @@
       "maxAbilityMod": 0,
       "armorBonus": 7,
       "finalAC": 7,
-      "bulk": 4
+      "bulk": 4,
+      "properties": "Threatening, Heavyweight (14), Reinforced (6)"
     },
     {
       "id": "elite-jonin-armor",
@@ -182,7 +196,8 @@
       "maxAbilityMod": 0,
       "armorBonus": 7,
       "finalAC": 7,
-      "bulk": 6
+      "bulk": 6,
+      "properties": "Threatening, High Quality, Reinforced (6)"
     },
     {
       "id": "ronin-armor",
@@ -193,7 +208,8 @@
       "maxAbilityMod": 0,
       "armorBonus": 8,
       "finalAC": 8,
-      "bulk": 6
+      "bulk": 6,
+      "properties": "Lightweight, Fortified, Heavyweight (16), Reinforced (8)"
     },
     {
       "id": "samurai-armor",
@@ -204,7 +220,8 @@
       "maxAbilityMod": 0,
       "armorBonus": 8,
       "finalAC": 8,
-      "bulk": 8
+      "bulk": 8,
+      "properties": "High Quality, Fortified (2), Heavyweight (18), Reinforced (8)"
     },
     {
       "id": "chakra-skin",
