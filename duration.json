@@ -9,7 +9,7 @@
     {
       "id": "concentration",
       "name": "Concentration",
-      "description": "Requires the caster to maintain concentration to keep the effect active. The duration entry specifies how long concentration can be held; concentration can be ended at any time with no action required (unless otherwise specified). Maintaining a jutsu costs half (rounded down) of its initial chakra cost, paid at the start of each of the caster's turns or the jutsu ends.\n\nUp to two concentration jutsu can be maintained at once; casting a third breaks one. Taking damage forces a Chakra Control check (DC 12 + sum of concentrated jutsu ranks, or half the damage taken \u2014 whichever is higher); a separate check is made per damage source. Becoming Incapacitated or dying ends concentration. The GM may also call for DC 20 Chakra Control checks for environmental disturbances."
+      "description": "Requires the caster to maintain concentration to keep the effect active. The duration entry specifies how long concentration can be held; concentration can be ended at any time with no action required (unless otherwise specified). Maintaining a jutsu costs half (rounded down) of its initial chakra cost, paid at the start of each of the caster's turns or the jutsu ends.\n\nUp to two concentration jutsu can be maintained at once; casting a third breaks one. Taking damage forces a Chakra Control check (DC 12 + amount based on the jutsus rank (D=1,C=2,B=3,A=4,S=5), or half the damage taken \u2014 whichever is higher); a separate check is made per damage source. Becoming Incapacitated or dying ends concentration. The GM may also call for DC 20 Chakra Control checks for environmental disturbances."
     },
     {
       "id": "round",
