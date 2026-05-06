@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "keywords": [
+    {
+      "id": "universal.ninjutsu",
+      "category": "universal",
+      "name": "Ninjutsu",
+      "description": "Jutsu with the Ninjutsu keyword use your Ninjutsu attack bonus or Save DC when cast."
+    },
+    {
+      "id": "universal.genjutsu",
+      "category": "universal",
+      "name": "Genjutsu",
+      "description": "Jutsu with the Genjutsu keyword use your Genjutsu attack bonus or Save DC when cast. All Genjutsu have at least one Stimuli keyword (Visual, Auditory, Inhaled, Tactile, Unaware); to be immune to a Genjutsu with multiple Stimuli, you need immunity to all of them."
+    },
+    {
+      "id": "universal.taijutsu",
+      "category": "universal",
+      "name": "Taijutsu",
+      "description": "Jutsu with the Taijutsu keyword use your Taijutsu attack bonus or Save DC when cast."
+    },
+    {
+      "id": "universal.bukijutsu",
+      "category": "universal",
+      "name": "Bukijutsu",
+      "description": "Jutsu with the Bukijutsu keyword use your Taijutsu attack bonus or Save DC when cast."
+    },
+    {
+      "id": "universal.fuinjutsu",
+      "category": "universal",
+      "name": "Fuinjutsu",
+      "description": "Jutsu with the Fuinjutsu keyword are summoning or sealing jutsu. Casting requires Chakra Seals."
+    },
+    {
+      "id": "universal.sensory",
+      "category": "universal",
+      "name": "Sensory",
+      "description": "Jutsu with the Sensory keyword are designed to track and find other creatures through manipulation of chakra."
+    },
+    {
+      "id": "universal.clash",
+      "category": "universal",
+      "name": "Clash",
+      "description": "Jutsu with the Clash keyword can initiate a Jutsu Clash (see the Clashing Jutsu rules in Combat)."
+    },
+    {
+      "id": "universal.barrier",
+      "category": "universal",
+      "name": "Barrier",
+      "description": "Conjures, creates, or summons a defensive structure or force field that protects the caster or a designated creature. Cast as a reaction, the effect always applies to the triggering damage instance \u2014 possibly turning a hit into a miss or reducing damage. Barrier structures with their own HP intercept damage; if reduced to 0, excess damage carries over to the protected creature."
+    },
+    {
+      "id": "universal.stable",
+      "category": "universal",
+      "name": "Stable",
+      "description": "Applies only to concentration jutsu with a duration greater than instant. The caster cannot lose concentration on this jutsu as a result of taking damage."
+    },
+    {
+      "id": "universal.efficient",
+      "category": "universal",
+      "name": "Efficient",
+      "description": "Applies only to concentration jutsu with a duration greater than instant. The caster does not need to spend chakra to maintain concentration."
+    },
+    {
+      "id": "universal.interrupt",
+      "category": "universal",
+      "name": "Interrupt",
+      "description": "Reserved for jutsu with a Reaction casting time. The Interrupt jutsu's effects apply before the triggering effect occurs, with the express purpose of preventing it entirely. Unless otherwise specified, the action and resource cost of the interrupted action is still paid."
+    },
+    {
+      "id": "universal.combination",
+      "category": "universal",
+      "name": "Combination",
+      "description": "Multiple casters can cast the jutsu simultaneously. Cost is split evenly between participants, and the effect is magnified per the Combination text. Casters who know the jutsu may join as a reaction; casters who don't but have all required keyword access within 30 ft may make a Ninshou, Martial Arts, or Illusion check vs the Save DC to assist."
+    },
+    {
+      "id": "universal.clone",
+      "category": "universal",
+      "name": "Clone",
+      "description": "Reserved for Ninjutsu. Creates duplicates controlled by the summoner, resembling the summoner's appearance. Clones use the Clone stat block (Summon Stat Blocks section) with per-jutsu tweaks. Commanded by the summoner spending an Action or Bonus Action; on command, a clone moves up to its speed and may take a Clone Action. Clones share 1 Reaction per round collectively."
+    },
+    {
+      "id": "genjutsu.visual",
+      "category": "genjutsu",
+      "name": "Visual",
+      "description": "Tricks the target's visual perception. Creatures with Blindness are immune to jutsu carrying only this Stimuli keyword."
+    },
+    {
+      "id": "genjutsu.auditory",
+      "category": "genjutsu",
+      "name": "Auditory",
+      "description": "Tricks the target's perception of sound. Deafness provides immunity to jutsu carrying only this Stimuli keyword."
+    },
+    {
+      "id": "genjutsu.inhaled",
+      "category": "genjutsu",
+      "name": "Inhaled",
+      "description": "Triggered by inhaling a poison or drug. Immunity to the Envenomed condition provides immunity to jutsu carrying only this Stimuli keyword."
+    },
+    {
+      "id": "genjutsu.tactile",
+      "category": "genjutsu",
+      "name": "Tactile",
+      "description": "Tricks the target's perception of touch, allowing the Genjutsu to deal damage. Immunity to Psychic damage provides immunity to jutsu carrying only this Stimuli keyword."
+    },
+    {
+      "id": "genjutsu.unaware",
+      "category": "genjutsu",
+      "name": "Unaware",
+      "description": "Bypasses a creature's ability to discern real from fake. Becoming aware of an Unaware Genjutsu requires a successful Identify Genjutsu skill action. Not a Stimuli."
+    },
+    {
+      "id": "taijutsu.combo",
+      "category": "taijutsu",
+      "name": "Combo",
+      "description": "Until the end of your turn, you can target one affected creature with a Taijutsu Finisher regardless of range, once per turn, using either an Action or Bonus Action \u2014 ignoring its listed casting time."
+    },
+    {
+      "id": "taijutsu.finisher",
+      "category": "taijutsu",
+      "name": "Finisher",
+      "description": "You can only use a jutsu's Finisher effect if you cast a Taijutsu with the Combo keyword immediately prior in the same turn."
+    },
+    {
+      "id": "bukijutsu.chain",
+      "category": "bukijutsu",
+      "name": "Chain",
+      "description": "See the full Chain rules in the Bukijutsu chapter for chain-rank scaling and follow-up cast effects."
+    },
+    {
+      "id": "limited.hijutsu",
+      "category": "limited",
+      "name": "Hijutsu",
+      "description": "Unique to Clans. Jutsu with this keyword can be learned and cast ignoring ability score requirements, Medical/elemental keyword limitations, and the Kinjutsu keyword. Branch-family unique keywords are still required even with Hijutsu."
+    },
+    {
+      "id": "limited.kinjutsu",
+      "category": "limited",
+      "name": "Kinjutsu",
+      "description": "Forbidden Techniques \u2014 barred from being taught across the Five Great Nations. Cover complex techniques causing grotesque/grave bodily injury, defilement, communion with the dead, or that are too powerful for general use. Learnable only by spending downtime with a master familiar with the desired jutsu, unless granted by a class or clan feature."
+    },
+    {
+      "id": "limited.medical",
+      "category": "limited",
+      "name": "Medical",
+      "description": "Considered Medical Ninjutsu. You must have a feature or feat that allows you to add jutsu with this keyword to your jutsu list."
+    },
+    {
+      "id": "limited.earth-release",
+      "category": "limited",
+      "name": "Earth Release",
+      "description": "Considered Earth Release jutsu. You must have a feature or feat (e.g. the Nature Release feat) that allows you to add jutsu with this keyword to your jutsu list."
+    },
+    {
+      "id": "limited.wind-release",
+      "category": "limited",
+      "name": "Wind Release",
+      "description": "Considered Wind Release jutsu. You must have a feature or feat (e.g. the Nature Release feat) that allows you to add jutsu with this keyword to your jutsu list."
+    },
+    {
+      "id": "limited.fire-release",
+      "category": "limited",
+      "name": "Fire Release",
+      "description": "Considered Fire Release jutsu. You must have a feature or feat (e.g. the Nature Release feat) that allows you to add jutsu with this keyword to your jutsu list."
+    },
+    {
+      "id": "limited.water-release",
+      "category": "limited",
+      "name": "Water Release",
+      "description": "Considered Water Release jutsu. You must have a feature or feat (e.g. the Nature Release feat) that allows you to add jutsu with this keyword to your jutsu list."
+    },
+    {
+      "id": "limited.lightning-release",
+      "category": "limited",
+      "name": "Lightning Release",
+      "description": "Considered Lightning Release jutsu. You must have a feature or feat (e.g. the Nature Release feat) that allows you to add jutsu with this keyword to your jutsu list."
+    },
+    {
+      "id": "limited.unique",
+      "category": "limited",
+      "name": "Unique",
+      "description": "Jutsu, clan, and class features sometimes append keywords found nowhere else (such as the Hy\u016bga clan's Branch keywords). Jutsu with these keywords can only be accessed or cast when a feature or effect explicitly grants the ability to do so."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "components": [
+    {
+      "id": "hs",
+      "abbreviation": "HS",
+      "name": "Hand Seals",
+      "description": "Special hand formations made in a specific order using the shinobi's hands. The caster must have at least one hand free to perform these gestures."
+    },
+    {
+      "id": "cm",
+      "abbreviation": "CM",
+      "name": "Chakra Molding",
+      "description": "An advanced technique that requires the caster to mold and shape chakra into specific forms. The caster must be able to mold chakra. If the ability to mold chakra is lost while concentrating on a CM jutsu, concentration ends and the effects end immediately."
+    },
+    {
+      "id": "cs",
+      "abbreviation": "CS",
+      "name": "Chakra Seals",
+      "description": "Paper tags with a personal formula printed in ink and chakra, infused with different chakra signatures for the desired effect. The caster must have free use of at least one hand to imprint the chakra signature."
+    },
+    {
+      "id": "m",
+      "abbreviation": "M",
+      "name": "Mobility",
+      "description": "The caster must be able to move all parts of their body and have a movement speed greater than 0."
+    },
+    {
+      "id": "w",
+      "abbreviation": "W",
+      "name": "Weapons",
+      "description": "Requires a weapon, usually with a weapon group specified \u2014 e.g. W (Blade). Multiple required weapons or groups are joined by '&'; a list of acceptable choices is comma-separated. Melee weapons are not consumed; thrown or ranged weapons roll the ammunition die."
+    },
+    {
+      "id": "nt",
+      "abbreviation": "NT",
+      "name": "Ninja Tools",
+      "description": "Requires a ninja tool such as Scrolls, flowers, or Tool Kits \u2014 usually with the specific tool listed, e.g. NT (Medicine Kit). Often spends a use/charge of the tool; tools without charges are not spent."
+    }
+  ]
+}

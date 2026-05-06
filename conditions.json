@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 1,
+  "conditions": [
+    {
+      "id": "disabled.dying",
+      "category": "disabled",
+      "name": "Dying",
+      "description": "You are bleeding out or otherwise at death's door. Automatically applied when you fall to 0 HP without instant death. While Dying, you are Unconscious. At the start of each of your turns at 0 HP you make a death saving throw (no ability mod, DC 10 on a d20). Three successes = stable; three failures = death. A natural 1 counts as two failures; a natural 20 restores 1 HP and removes two failed saves. Damage at 0 HP imposes one failure (two for a critical, instant death if damage equals or exceeds your HP maximum). Successful saves reset to zero on regaining HP or stabilizing; failures reset only after a short rest."
+    },
+    {
+      "id": "disabled.incapacitated",
+      "category": "disabled",
+      "name": "Incapacitated",
+      "description": "An Incapacitated creature can't take actions or reactions, and cannot maintain Concentration or Mold Chakra."
+    },
+    {
+      "id": "disabled.stunned",
+      "category": "disabled",
+      "name": "Stunned",
+      "description": "Completely paralyzed, unable to move or act. The creature is Incapacitated, can't move, and can speak only falteringly. Automatically fails Strength and Dexterity saves. Attack rolls against the creature have advantage."
+    },
+    {
+      "id": "disabled.exhaustion",
+      "category": "disabled",
+      "name": "Exhaustion",
+      "description": "Some abilities and environmental hazards (long-term freezing or scorching, etc.) cause Exhaustion. Each rank applies: -1 to all dice rolls, -1 to AC, -1 to all Save DCs. At 11 ranks the creature dies. A long rest with food and drink reduces Exhaustion by 2; effects that remove Exhaustion remove no more than 1 rank unless otherwise stated.",
+      "maxRank": 11
+    },
+    {
+      "id": "disabled.unconscious",
+      "category": "disabled",
+      "name": "Unconscious",
+      "description": "Total mental remission or asleep. Incapacitated, can't move or speak, unaware of surroundings. Drops what it's holding and falls Prone. Auto-fails all saves. Attack rolls against it have advantage; any hit from within 5 ft is a critical."
+    },
+    {
+      "id": "disabled.petrified",
+      "category": "disabled",
+      "name": "Petrified",
+      "description": "Transformed (along with anything worn/carried) into a solid inanimate substance, usually stone. Weight increases ten-fold and aging stops. Incapacitated, can't move or speak, unaware of surroundings. Attack rolls against it have advantage. Auto-fails Strength and Dexterity saves. Resistance to all damage. Immune to poison and disease (any already in the system is suspended, not neutralized).",
+      "tags": [
+        "persists"
+      ]
+    },
+    {
+      "id": "elemental.burned",
+      "category": "elemental",
+      "name": "Burned",
+      "description": "Takes 1d8 Fire damage at the start of each of its turns per rank.\n\nEnding early: spend an Action to make a DC 15 Dexterity or Constitution check; on success the affliction ends. Submerging fully in water also ends Burned.",
+      "maxRank": 5,
+      "tags": [
+        "elemental"
+      ]
+    },
+    {
+      "id": "elemental.chilled",
+      "category": "elemental",
+      "name": "Chilled",
+      "description": "Body and nerves overwhelmed by cold. Once per turn, when the creature willingly moves more than 5 feet, it takes 1d10 cold damage per rank.\n\nEnding early: spend an Action to make a DC 15 Dexterity or Constitution check; on success the affliction ends.",
+      "maxRank": 5,
+      "tags": [
+        "elemental"
+      ]
+    },
+    {
+      "id": "elemental.corroded",
+      "category": "elemental",
+      "name": "Corroded",
+      "description": "A penalty is applied to the creature's DR (damage reduction) equal to the rank of the jutsu that inflicted it: D-Rank: -2, C-Rank: -4, B-Rank: -6, A-Rank: -8, S-Rank: -10.\n\nEnding early: spend an Action to make a DC 15 Dexterity or Constitution check; on success the affliction ends. Submerging fully in water also ends Corroded.",
+      "tags": [
+        "elemental"
+      ]
+    },
+    {
+      "id": "elemental.shocked",
+      "category": "elemental",
+      "name": "Shocked",
+      "description": "Can never make more than one attack, or cast more than one jutsu, per turn. Loses 1 rank of Shocked at the end of each of its turns unless otherwise specified.",
+      "maxRank": 5,
+      "tags": [
+        "elemental"
+      ]
+    },
+    {
+      "id": "elemental.envenomed",
+      "category": "elemental",
+      "name": "Envenomed",
+      "description": "Has been exposed to poison, venom, or toxin, causing vitality to drop rapidly. -1 to AC per rank. Cannot regain hit points and cannot gain the benefits of a rest. Creatures immune to poison damage are immune to Envenomed.",
+      "maxRank": 5,
+      "tags": [
+        "elemental",
+        "persists"
+      ]
+    },
+    {
+      "id": "physical.bruised",
+      "category": "physical",
+      "name": "Bruised",
+      "description": "Suffered a traumatic blow causing increased vulnerability. Takes +4 bonus damage from all sources. A creature can spend an Action to make a DC 15 Strength check to end the condition.",
+      "tags": [
+        "physical"
+      ]
+    },
+    {
+      "id": "physical.staggered",
+      "category": "physical",
+      "name": "Staggered",
+      "description": "Completely overwhelmed by pain or has had its battle senses shaken. Cannot take Disengage, Dash, or Dodge actions. Disadvantage on all Strength, Dexterity, and Constitution attacks, saves, and checks. Ends at the end of the affected creature's next turn.",
+      "tags": [
+        "physical"
+      ]
+    },
+    {
+      "id": "physical.bleed",
+      "category": "physical",
+      "name": "Bleed",
+      "description": "Suffered a minor abrasion causing slow blood loss. Takes 1d6 necrotic damage per rank at the beginning of each of its turns. As an Action a creature can attempt to stop the bleeding with a DC 20 Medicine check, removing one rank; for every +2 above the DC, remove +1 additional rank.",
+      "maxRank": 5,
+      "tags": [
+        "physical",
+        "persists"
+      ]
+    },
+    {
+      "id": "physical.dazed",
+      "category": "physical",
+      "name": "Dazed",
+      "description": "Recovering from a powerful physical or mental blow. Can only either move or take an action \u2014 not both. Cannot take a bonus action. Lasts until the end of the affected creature's next turn.",
+      "tags": [
+        "physical",
+        "mental"
+      ]
+    },
+    {
+      "id": "physical.shaken",
+      "category": "physical",
+      "name": "Shaken",
+      "description": "Physically destabilized from physical stress. -1 penalty to all d20 rolls made using Strength, Dexterity, or Constitution per rank. Loses 1 rank at the end of each of its turns unless otherwise specified.",
+      "maxRank": 5,
+      "tags": [
+        "physical"
+      ]
+    },
+    {
+      "id": "physical.grappled",
+      "category": "physical",
+      "name": "Grappled",
+      "description": "Usually partially restrained \u2014 typically by another creature or a trap. Speed becomes 0 and cannot benefit from any speed bonus. Attacks at disadvantage. Ends if the grappler is Incapacitated or if an effect moves the grappled creature out of the grappler's reach or the original grappling space.",
+      "tags": [
+        "physical"
+      ]
+    },
+    {
+      "id": "physical.restrained",
+      "category": "physical",
+      "name": "Restrained",
+      "description": "Completely pinned in place, unable to move from its space. Counts as Grappled (and ends if the Grappled condition ends). Attack rolls against it have advantage. Disadvantage on Strength, Dexterity, and Constitution saves.",
+      "tags": [
+        "physical",
+        "mental"
+      ]
+    },
+    {
+      "id": "physical.prone",
+      "category": "physical",
+      "name": "Prone",
+      "description": "Down on the ground. Only movement option is to crawl up to half its speed. Disadvantage on attack rolls. Ranged attacks against it have disadvantage; melee attacks against it have advantage. Spending half movement to stand up dispels the condition; if speed is 0, cannot stand.",
+      "tags": [
+        "physical"
+      ]
+    },
+    {
+      "id": "physical.weakened",
+      "category": "physical",
+      "name": "Weakened",
+      "description": "Unable to exert maximum physicality. Reduces damage dealt by -4 per rank.",
+      "maxRank": 5,
+      "tags": [
+        "physical",
+        "mental",
+        "persists"
+      ]
+    },
+    {
+      "id": "mental.concussed",
+      "category": "mental",
+      "name": "Concussed",
+      "description": "Experienced a traumatic blow causing mental acuity to suffer. -1 penalty to all Save DCs per rank. A creature can spend an Action with a Medicine kit to make a DC 20 Medicine check, ending the condition on a success.",
+      "maxRank": 5,
+      "tags": [
+        "mental",
+        "physical",
+        "persists"
+      ]
+    },
+    {
+      "id": "mental.demoralized",
+      "category": "mental",
+      "name": "Demoralized",
+      "description": "Mentally disturbed with heightened stress. -1 penalty to all d20 rolls made using Intelligence, Wisdom, or Charisma per rank. Loses 1 rank at the end of each of its turns unless otherwise specified.",
+      "maxRank": 5,
+      "tags": [
+        "mental"
+      ]
+    },
+    {
+      "id": "mental.compelled",
+      "category": "mental",
+      "name": "Compelled",
+      "description": "Will is steered off-course at the behest of another. The inflicting creature is the compeller. Compelled is a parent condition with three specific forms: Berserk, Charmed, and Confused. A creature resistant or immune to being Compelled is resistant or immune to all of the listed forms.",
+      "tags": [
+        "mental"
+      ]
+    },
+    {
+      "id": "mental.berserk",
+      "category": "mental",
+      "name": "Berserk",
+      "description": "A Compelled form. The Berserk creature treats the nearest creature to it as its priority target for combat, except its compeller. If multiple creatures are equally in range, it picks one at random. Ends at the end of the affected creature's next turn.",
+      "tags": [
+        "mental",
+        "compelled"
+      ]
+    },
+    {
+      "id": "mental.charmed",
+      "category": "mental",
+      "name": "Charmed",
+      "description": "A Compelled form. The Charmed creature's Attitude rank with its compeller is increased: D/C-Rank +1, B/A-Rank +2, S-Rank +3. It will not take hostile actions against its compeller. Ends early if the compeller or its allies harm the charmed creature in any way.",
+      "tags": [
+        "mental",
+        "compelled"
+      ]
+    },
+    {
+      "id": "mental.confused",
+      "category": "mental",
+      "name": "Confused",
+      "description": "A Compelled form. The Confused creature forgets the most critical parts of jutsu, becoming unable to cast jutsu requiring Hand Seals (HS). Ends at the end of the affected creature's next turn.",
+      "tags": [
+        "mental",
+        "compelled"
+      ]
+    },
+    {
+      "id": "mental.slowed",
+      "category": "mental",
+      "name": "Slowed",
+      "description": "Feels as though in slow motion, akin to walking in water. Speed is reduced by half and cannot gain bonuses to speed for the duration. Cannot take a Reaction. Ends at the end of the affected creature's next turn unless otherwise specified.",
+      "tags": [
+        "mental",
+        "physical",
+        "elemental"
+      ]
+    },
+    {
+      "id": "mental.sealed",
+      "category": "mental",
+      "name": "Sealed",
+      "description": "Has a limiter on its chakra network \u2014 usually the result of a Fuinjutsu. Increases the base chakra cost of Ninjutsu and Genjutsu by +4 per rank. A creature with 3+ ranks cannot teleport by any means. As an action, a creature can make a DC 20 Ninshou check to remove 1 rank; on a failure, the DC increases by +4.",
+      "maxRank": 5,
+      "tags": [
+        "mental",
+        "persists"
+      ]
+    },
+    {
+      "id": "sensory.blinded",
+      "category": "sensory",
+      "name": "Blinded",
+      "description": "Cannot see. Cannot target or select another creature unless they have Blindsight, Tremor Sense, or Chakra Sensing. Cannot benefit from clan features with the [Dojutsu] tag (e.g. Sharingan, Byakugan). Auto-fails any check requiring sight. Disadvantage on Dexterity, Intelligence, and Wisdom saves. Attack rolls against the creature have advantage; its attack rolls have disadvantage (unless using one of the special senses above). A creature can willingly close their eyes as a free action, imposing this condition until the start of their next turn.",
+      "tags": [
+        "sensory",
+        "physical"
+      ]
+    },
+    {
+      "id": "sensory.dazzled",
+      "category": "sensory",
+      "name": "Dazzled",
+      "description": "Senses overloaded. -2 penalty to all checks and attack rolls per rank. Cannot gain advantage on attack rolls. Reduces the range of attacks and jutsu by half (minimum 5 feet). A creature can make a DC 15 Constitution check as an action to remove all ranks.",
+      "maxRank": 5,
+      "tags": [
+        "sensory",
+        "persists"
+      ]
+    },
+    {
+      "id": "sensory.deafened",
+      "category": "sensory",
+      "name": "Deafened",
+      "description": "Cannot hear. Auto-fails any check requiring hearing. -10 penalty to Perception. Creatures hidden from a Deafened creature do not need to reroll Stealth to maintain stealth against them. A creature can willingly cover their ears as a bonus action, imposing this condition (and occupying both hands) until the start of their next turn.",
+      "tags": [
+        "sensory",
+        "physical"
+      ]
+    },
+    {
+      "id": "sensory.invisible",
+      "category": "sensory",
+      "name": "Invisible",
+      "description": "Impossible to see without a special sense. For hiding purposes, the creature is heavily obscured; its location can be detected by noise it makes or tracks it leaves. Attack rolls against it have disadvantage and its attack rolls have advantage, unless it can be perceived by a special sense.",
+      "tags": [
+        "sensory"
+      ]
+    }
+  ]
+}
