@@ -41,7 +41,7 @@
       "id": "universal.clash",
       "category": "universal",
       "name": "Clash",
-      "description": "Jutsu with the Clash keyword can initiate a Jutsu Clash (see the Clashing Jutsu rules in Combat)."
+      "description": "Clashing Jutsu: While most jutsu will never collide with one another, there are some that will. When this collision happens a Jutsu Clash is initiated. Jutsu with the Clash keyword that are used in the same turn (or round, depending on the jutsu/ability) initiates a clash. When a clash is initiated the opposing users of either ability or jutsu must make opposing checks using certain skills depending on the jutsu used.\n\n\u2022 Ninjutsu Clash: Intelligence (Ninshou) check vs an opposing Intelligence (Ninshou) check.\n\u2022 Taijutsu Clash: Strength or Dexterity (Martial Arts) check vs an opposing Strength or Dexterity (Martial Arts) check.\n\u2022 Ninjutsu vs Taijutsu Clash: Follow the above rules for the triggering jutsu.\n\nWhen you clash jutsu of different ranks, the difference in power becomes painfully apparent. For every rank higher a jutsu is compared to the one it is clashing, the caster gains one rank of Mastery to the clash check. The winner of the Jutsu Clash applies their jutsu's effects while the loser's jutsu is dispelled and they gain 1 rank of Concussed and are Dazed.\n\nBest of 3: Depending on the magnitude of jutsu being used, a Clash may not always be decided with a single roll. When two jutsu of B-Rank or higher are initiated in a Jutsu Clash, both parties shall instead make 3 Jutsu Clash contests against the other in a best of 3 (the clasher that wins two or more contests, wins the clash).\n\nElemental Advantage: When two different Ninjutsu of differing nature releases clash, you use the Elemental Advantage rules. Each of the 5 Nature Releases is strong or weak to another, with some being neutral. When this interaction happens, the user of the superior element makes any contested attacks or checks (such as Clash checks) at advantage, while the user of the inferior element rolls normally.\n\nCircle of Elemental Superiority (left is superior to right):\nFire > Wind > Lightning > Earth > Water > Fire"
     },
     {
       "id": "universal.barrier",
@@ -125,7 +125,7 @@
       "id": "bukijutsu.chain",
       "category": "bukijutsu",
       "name": "Chain",
-      "description": "See the full Chain rules in the Bukijutsu chapter for chain-rank scaling and follow-up cast effects."
+      "description": "Special Effect: Chain. Jutsu with this keyword are a dance of steel and are treated as steps. You must spend an Action casting a Jutsu with the Chain keyword to start a Chain. There are 3 levels of Chains: Chain 1, Chain 2, and Chain 3. When you spend your Action to cast a Bukijutsu with the Chain keyword, before the effects of your jutsu are applied you can either raise your Chain rank by +1, remain at your current Chain rank, or not benefit from chains at all.\n\nIf you cast a Bukijutsu as a Bonus action or Reaction with the Chain keyword, you can choose to remain at your current Chain rank for the round. If you have not raised or maintained your Chain rank before the start of your next turn, then at the beginning of your turn your Chain rank resets to 0.\n\nWhen you have a Chain rank of 1 or higher, Bukijutsu you cast with the Chain keyword may have effects attached to them based on your current Chain rank. You can only use the effects associated with your Chain rank."
     },
     {
       "id": "limited.hijutsu",
@@ -149,31 +149,31 @@
       "id": "limited.earth-release",
       "category": "limited",
       "name": "Earth Release",
-      "description": "Considered Earth Release jutsu. You must have a feature or feat (e.g. the Nature Release feat) that allows you to add jutsu with this keyword to your jutsu list."
+      "description": "Considered Earth Release jutsu \u2014 you must have a feature or feat that allows you to add jutsu with this keyword to your jutsu list (such as the Nature Release feat). Earth Release is naturally strong against Water Release and weak against Lightning Release.\n\nSpecial Effect: All structures and constructs made by a Ninjutsu with the Earth Release keyword have resistance to cold damage and vulnerability to lightning damage, even if the jutsu does not specifically state its resistances or immunities. Additionally, unless stated otherwise, structures summoned by Earth Release jutsu remain as structures after the jutsu's duration ends.\n\nUnique Mechanic \u2014 Earthen Artifact: Unlike normal constructs which are often recognized as creatures, Earthen Artifacts are a unique type of Object, Structure, and Construct that is recognized as such only when an effect or feature references it. Objects and Structures treated as an Earthen Artifact do not gain or lose traits, hit points, or any other statistic, and instead can interact with any feature, jutsu, or effect that specifically mentions it in its referenced way."
     },
     {
       "id": "limited.wind-release",
       "category": "limited",
       "name": "Wind Release",
-      "description": "Considered Wind Release jutsu. You must have a feature or feat (e.g. the Nature Release feat) that allows you to add jutsu with this keyword to your jutsu list."
+      "description": "Considered Wind Release jutsu \u2014 you must have a feature or feat that allows you to add jutsu with this keyword to your jutsu list (such as the Nature Release feat). Wind Release is naturally strong against Lightning Release and weak against Fire Release."
     },
     {
       "id": "limited.fire-release",
       "category": "limited",
       "name": "Fire Release",
-      "description": "Considered Fire Release jutsu. You must have a feature or feat (e.g. the Nature Release feat) that allows you to add jutsu with this keyword to your jutsu list."
+      "description": "Considered Fire Release jutsu \u2014 you must have a feature or feat that allows you to add jutsu with this keyword to your jutsu list (such as the Nature Release feat). Fire Release is naturally strong against Wind Release and weak against Water Release."
     },
     {
       "id": "limited.water-release",
       "category": "limited",
       "name": "Water Release",
-      "description": "Considered Water Release jutsu. You must have a feature or feat (e.g. the Nature Release feat) that allows you to add jutsu with this keyword to your jutsu list."
+      "description": "Considered Water Release jutsu \u2014 you must have a feature or feat that allows you to add jutsu with this keyword to your jutsu list (such as the Nature Release feat). Water Release is naturally strong against Fire Release and weak against Earth Release.\n\nSources of Water: Water Release jutsu are most easily performed using existing water sources, such as lakes or rivers. Users can also create water within their bodies with chakra, which they expel from their mouths, though this is generally regarded as a testament of skill. Water Release is typically used offensively \u2014 battering damage from sheer volume, or slashing/piercing pressure cuts \u2014 and can also trap targets with dense or sticky water, shield the user, or obscure vision with mist or invisibility-grade water droplets. Many Water Release jutsu have an alternate effect when cast near a sufficient source of water: typically reducing chakra cost by 2, or granting an enhanced effect such as additional range, extra targets, or condition removal as part of the cast."
     },
     {
       "id": "limited.lightning-release",
       "category": "limited",
       "name": "Lightning Release",
-      "description": "Considered Lightning Release jutsu. You must have a feature or feat (e.g. the Nature Release feat) that allows you to add jutsu with this keyword to your jutsu list."
+      "description": "Considered Lightning Release jutsu \u2014 you must have a feature or feat that allows you to add jutsu with this keyword to your jutsu list (such as the Nature Release feat). Lightning Release is naturally strong against Earth Release and weak against Wind Release.\n\nOvercharge: Some Lightning Release jutsu carry an Overcharge entry \u2014 a heightened effect that activates under conditions defined by the jutsu (typically when a target fails its saving throw, or when the caster opts into it). Overcharge varies per jutsu \u2014 examples on page 105 include adding an additional rank of Shaken on a failed save (Banquet of Lightning), or transforming a single-target attack into a 60-foot line that forces a Dexterity save and inflicts concentration disadvantage on creatures hit while concentrating on a jutsu (Guiding Bolt). Higher-rank casts may also expand or augment the Overcharge effect \u2014 see each jutsu's At Higher Ranks entry for specifics."
     },
     {
       "id": "limited.unique",
