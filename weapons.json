@@ -2,230 +2,13 @@
   "schemaVersion": 1,
   "weapons": [
     {
-      "id": "ballistic-kunai-gun",
-      "name": "Ballistic Kunai Gun",
-      "damageDice": "3d6",
-      "damageType": "Piercing",
-      "abilityMod": "DEX",
-      "properties": "Range (30/60), Loading, ammunition, multiattack, Volatile 3",
-      "category": "Weapon Properties",
-      "tags": [
-        "thrown-shinobi"
-      ]
-    },
-    {
-      "id": "ballistic-shuriken-rifle",
-      "name": "Ballistic Shuriken Rifle",
-      "damageDice": "3d8",
-      "damageType": "Slashing",
-      "abilityMod": "DEX",
-      "properties": "Range (120), Loading, Two-Handed, ammunition, multiattack, Volatile 5",
-      "category": "Ammunition",
-      "tags": [
-        "thrown-shinobi"
-      ]
-    },
-    {
-      "id": "battle-wire",
-      "name": "Battle Wire",
-      "damageDice": "1d4",
-      "damageType": "Slashing",
-      "abilityMod": "STR",
-      "properties": "Reach 2, Grapple, Trip, Finesse, Special",
-      "category": "Blocking",
-      "tags": []
-    },
-    {
-      "id": "blowgun",
-      "name": "Blowgun",
-      "damageDice": "1d4",
-      "damageType": "Piercing",
-      "abilityMod": "DEX",
-      "properties": "Range (25/100), Ammunition",
-      "category": "Critical (Max 3)",
-      "tags": []
-    },
-    {
-      "id": "bola",
-      "name": "Bola",
-      "damageDice": "1d4",
-      "damageType": "Piercing",
-      "abilityMod": "DEX",
-      "properties": "Thrown, Range (30/60), Trip, ammunition",
-      "category": "Deadly (Max 3)",
-      "tags": []
-    },
-    {
-      "id": "boomerang",
-      "name": "Boomerang",
-      "damageDice": "1d6",
-      "damageType": "Bludgeoning",
-      "abilityMod": "STR",
-      "properties": "Thrown (60/90), Versatile (1d8), Returning",
-      "category": "Evocation",
-      "tags": []
-    },
-    {
-      "id": "broadsword",
-      "name": "Broadsword",
-      "damageDice": "1d6",
-      "damageType": "Slashing",
-      "abilityMod": "STR",
-      "properties": "Light, Finesse, Disarm",
-      "category": "Disarm",
-      "tags": []
-    },
-    {
-      "id": "kusarigama-chained-hand-scythe",
-      "name": "Kusarigama (Chained Hand Scythe)",
-      "damageDice": "2d4",
-      "damageType": "Slashing",
-      "abilityMod": "STR",
-      "properties": "Reach 1, Grapple, Finesse, Tactical, Two-Handed, Winding",
-      "category": "Finesse",
-      "tags": []
-    },
-    {
-      "id": "chained-spear",
-      "name": "Chained Spear",
-      "damageDice": "1d10",
-      "damageType": "Piercing",
-      "abilityMod": "STR",
-      "properties": "Reach 1, Trip, Grapple",
-      "category": "Grapple",
-      "tags": []
-    },
-    {
-      "id": "chakram",
-      "name": "Chakram",
-      "damageDice": "1d6",
-      "damageType": "Slashing",
-      "abilityMod": "STR",
-      "properties": "Thrown(30/60), Light, Returning",
-      "category": "Heavy",
-      "tags": []
-    },
-    {
-      "id": "chigiriki",
-      "name": "Chigiriki",
-      "damageDice": "1d8",
-      "damageType": "Piercing",
-      "abilityMod": "STR",
-      "properties": "Reach 1, Trip, Disarm, Finesse",
-      "category": "Hidden",
-      "tags": []
-    },
-    {
-      "id": "cleaver-sword",
-      "name": "Cleaver Sword",
-      "damageDice": "1d8",
-      "damageType": "Slashing",
-      "abilityMod": "STR",
-      "properties": "Finesse, Critical, Deadly",
-      "category": "Lethal",
-      "tags": []
-    },
-    {
-      "id": "chokuto",
-      "name": "Chokuto",
-      "damageDice": "1d8",
-      "damageType": "Slashing/Piercing",
-      "abilityMod": "STR",
-      "properties": "Finesse, Critical, Lethal 2",
-      "category": "Light",
-      "tags": []
-    },
-    {
-      "id": "combat-bracers",
-      "name": "Combat Bracers",
-      "damageDice": "1d4",
-      "damageType": "Bludgeoning",
-      "abilityMod": "STR",
-      "properties": "Disarm, Light, Unarmed",
-      "category": "Loading",
-      "tags": []
-    },
-    {
-      "id": "combat-scroll",
-      "name": "Combat Scroll",
-      "damageDice": "1d8",
-      "damageType": "Variable",
-      "abilityMod": "DEX",
-      "properties": "Range (30/90), Evocation",
-      "category": "Multiattack",
-      "tags": []
-    },
-    {
-      "id": "crossbow-hand",
-      "name": "Crossbow, Hand",
-      "damageDice": "1d6",
-      "damageType": "Piercing",
-      "abilityMod": "DEX",
-      "properties": "Range (30/120), Light, Loading, Ammunition",
-      "category": "Range",
-      "tags": []
-    },
-    {
-      "id": "crossbow-heavy",
-      "name": "Crossbow, Heavy",
-      "damageDice": "1d10",
-      "damageType": "Piercing",
-      "abilityMod": "STR",
-      "properties": "Range (30/120), Heavy, Finesse, Loading, Ammunition",
-      "category": "Reach",
-      "tags": []
-    },
-    {
-      "id": "fuma-shuriken",
-      "name": "Fuma-Shuriken",
-      "damageDice": "1d8",
-      "damageType": "Slashing",
-      "abilityMod": "STR",
-      "properties": "Thrown(60/120). Hidden, Returning",
-      "category": "Returning",
-      "tags": [
-        "thrown-shinobi"
-      ]
-    },
-    {
-      "id": "giant-combat-scroll",
-      "name": "Giant Combat Scroll",
-      "damageDice": "1d12",
-      "damageType": "Variable",
-      "abilityMod": "DEX",
-      "properties": "Range (60/180), Evocation, Two-Handed",
-      "category": "Thrown",
-      "tags": []
-    },
-    {
-      "id": "great-axe",
-      "name": "Great Axe",
-      "damageDice": "1d12",
-      "damageType": "Slashing",
-      "abilityMod": "STR",
-      "properties": "Deadly, Heavy, Two-Handed",
-      "category": "Tactical",
-      "tags": []
-    },
-    {
-      "id": "gunbai-fan",
-      "name": "Gunbai Fan",
-      "damageDice": "1d6",
-      "damageType": "Bludgeoning",
-      "abilityMod": "STR",
-      "properties": "Blocking, Two-Handed",
-      "category": "Trip",
-      "tags": []
-    },
-    {
       "id": "gunsen",
       "name": "Gunsen",
       "damageDice": "1d4",
       "damageType": "Slashing",
       "abilityMod": "STR",
-      "properties": "Deadly, Light, Finesse, Hidden",
-      "category": "Two-Handed",
-      "tags": []
+      "properties": "Light, Finesse, Hidden",
+      "category": "Blade"
     },
     {
       "id": "hand-axe",
@@ -234,98 +17,16 @@
       "damageType": "Slashing",
       "abilityMod": "STR",
       "properties": "Light, Thrown (20/60)",
-      "category": "Unarmed",
-      "tags": []
+      "category": "Power/Thrown"
     },
     {
-      "id": "kama-hand-scythe",
-      "name": "Kama (Hand Scythe)",
+      "id": "hand-scythe",
+      "name": "Hand Scythe",
       "damageDice": "1d4",
       "damageType": "Slashing",
       "abilityMod": "STR",
-      "properties": "Light, Finesse, Critical, Tactical, Multiattack",
-      "category": "Versatile",
-      "tags": []
-    },
-    {
-      "id": "hidden-blade",
-      "name": "Hidden Blade",
-      "damageDice": "1d4",
-      "damageType": "Piercing",
-      "abilityMod": "STR",
-      "properties": "Deadly, Lethal 5, Hidden, Finesse",
-      "category": "Volatile",
-      "tags": []
-    },
-    {
-      "id": "hiya-taihou",
-      "name": "Hiya Taihou",
-      "damageDice": "6d6",
-      "damageType": "Fire",
-      "abilityMod": "DEX",
-      "properties": "Range (60/150), Loading, Two-Handed, Ammunition, Volatile 5",
-      "category": "Winding",
-      "tags": []
-    },
-    {
-      "id": "hooked-lance",
-      "name": "Hooked Lance",
-      "damageDice": "1d8",
-      "damageType": "Piercing",
-      "abilityMod": "STR",
-      "properties": "Reach 1, Two-Handed",
-      "category": "Flexible",
-      "tags": []
-    },
-    {
-      "id": "iron-claw",
-      "name": "Iron Claw",
-      "damageDice": "1d4",
-      "damageType": "Slashing",
-      "abilityMod": "STR",
-      "properties": "Unarmed, Finesse, Critical, Light",
-      "category": "Special (Battle Wire)",
-      "tags": []
-    },
-    {
-      "id": "jitte",
-      "name": "Jitte",
-      "damageDice": "1d4",
-      "damageType": "Bludgeoning",
-      "abilityMod": "STR",
-      "properties": "Light, Blocking, Disarm",
-      "category": "",
-      "tags": []
-    },
-    {
-      "id": "kanabo",
-      "name": "Kanabo",
-      "damageDice": "1d10",
-      "damageType": "Bludgeoning",
-      "abilityMod": "STR",
-      "properties": "Critical, Heavy, Two Handed",
-      "category": "",
-      "tags": []
-    },
-    {
-      "id": "katana",
-      "name": "Katana",
-      "damageDice": "1d8",
-      "damageType": "Slashing",
-      "abilityMod": "STR",
-      "properties": "Deadly, Finesse",
-      "category": "",
-      "tags": []
-    },
-    {
-      "id": "knuckle-blades",
-      "name": "Knuckle Blades",
-      "damageDice": "1d6",
-      "damageType": "Slashing",
-      "abilityMod": "STR",
-      "properties": "Light, Finesse, Hidden",
-      "category": "",
-      "tags": []
+      "properties": "Light, Finesse, Critical",
+      "category": "Blade"
     },
     {
       "id": "kunai",
@@ -333,113 +34,20 @@
       "damageDice": "1d4",
       "damageType": "Piercing",
       "abilityMod": "STR",
-      "properties": "Light, Finesse, Thrown (30/60), Multiattack, Ammunition",
-      "category": "",
+      "properties": "Thrown (30/60), Finesse, Multiattack, ammunition",
+      "category": "Thrown/Ammunition",
       "tags": [
         "thrown-shinobi"
       ]
     },
     {
-      "id": "longbow",
-      "name": "Longbow",
-      "damageDice": "1d8",
-      "damageType": "Piercing",
-      "abilityMod": "STR",
-      "properties": "Range (120/180), Finesse, Two-Handed, Ammunition",
-      "category": "",
-      "tags": []
-    },
-    {
-      "id": "matchlock-pistol",
-      "name": "Matchlock Pistol",
-      "damageDice": "3d6",
-      "damageType": "Piercing",
-      "abilityMod": "DEX",
-      "properties": "Range (15/60), Light, Loading, ammunition, Volatile 3",
-      "category": "",
-      "tags": []
-    },
-    {
-      "id": "matchlock-rifle",
-      "name": "Matchlock Rifle",
-      "damageDice": "3d8",
-      "damageType": "Piercing",
-      "abilityMod": "DEX",
-      "properties": "Range (60/150), Loading, Two-Handed, ammunition, Volatile 4",
-      "category": "",
-      "tags": []
-    },
-    {
-      "id": "monster-boomerang",
-      "name": "Monster Boomerang",
-      "damageDice": "1d10",
-      "damageType": "Bludgeoning",
-      "abilityMod": "STR",
-      "properties": "Thrown (90/120), Two-Handed, Heavy, Returning",
-      "category": "",
-      "tags": []
-    },
-    {
-      "id": "monster-chakram",
-      "name": "Monster Chakram",
-      "damageDice": "1d10",
+      "id": "kusarigama",
+      "name": "Kusarigama",
+      "damageDice": "2d4",
       "damageType": "Slashing",
       "abilityMod": "STR",
-      "properties": "Thrown(60/120). Two-Handed, Returning",
-      "category": "",
-      "tags": []
-    },
-    {
-      "id": "monster-shuriken",
-      "name": "Monster Shuriken",
-      "damageDice": "1d12",
-      "damageType": "Slashing",
-      "abilityMod": "STR",
-      "properties": "Thrown(40/80), Heavy, Two-Handed, Returning",
-      "category": "",
-      "tags": [
-        "thrown-shinobi"
-      ]
-    },
-    {
-      "id": "naginata",
-      "name": "Naginata",
-      "damageDice": "1d10",
-      "damageType": "Slashing",
-      "abilityMod": "STR",
-      "properties": "Reach 1, Heavy, Trip, Two-Handed, Flexible (Bludgeoning d8)",
-      "category": "",
-      "tags": []
-    },
-    {
-      "id": "nunchaku",
-      "name": "Nunchaku",
-      "damageDice": "1d6",
-      "damageType": "Bludgeoning",
-      "abilityMod": "STR",
-      "properties": "Disarm, Light, Multiattack, Winding",
-      "category": "",
-      "tags": []
-    },
-    {
-      "id": "odachi-great-sword",
-      "name": "Odachi (Great Sword)",
-      "damageDice": "2d6",
-      "damageType": "Slashing",
-      "abilityMod": "STR",
-      "properties": "Critical, Heavy, Two-Handed",
-      "category": "",
-      "tags": []
-    },
-    {
-      "id": "otsuchi-hammer",
-      "name": "Otsuchi Hammer",
-      "damageDice": "3d4",
-      "damageType": "Bludgeoning",
-      "abilityMod": "STR",
-      "properties": "Heavy, Two-Handed",
-      "category": "",
-      "tags": []
+      "properties": "Reach 1, Disarm, Finesse, Two-Handed",
+      "category": "Flail/Blade"
     },
     {
       "id": "quarterstaff",
@@ -447,19 +55,8 @@
       "damageDice": "1d6",
       "damageType": "Bludgeoning",
       "abilityMod": "STR",
-      "properties": "Versatile (1d8), Blocking",
-      "category": "",
-      "tags": []
-    },
-    {
-      "id": "quarterstaff-two-hands",
-      "name": "Quarterstaff (Two Hands)",
-      "damageDice": "1d8",
-      "damageType": "Bludgeoning",
-      "abilityMod": "STR",
-      "properties": "Versatile (1d8), Blocking",
-      "category": "",
-      "tags": []
+      "properties": "Versatile (1d8), Blocking 1",
+      "category": "Polearm/Power"
     },
     {
       "id": "sai",
@@ -467,39 +64,44 @@
       "damageDice": "1d4",
       "damageType": "Piercing",
       "abilityMod": "STR",
-      "properties": "Thrown (20/60), Light, Finesse, Disarm",
-      "category": "",
-      "tags": []
+      "properties": "Thrown (20/60), Finesse, Disarm",
+      "category": "Blade/Thrown"
     },
     {
-      "id": "sansetsukon",
-      "name": "Sansetsukon",
-      "damageDice": "1d10",
-      "damageType": "Bludgeoning",
-      "abilityMod": "STR",
-      "properties": "Reach 1, Disarm, Trip, Two-Handed, Finesse, Winding",
-      "category": "",
-      "tags": []
-    },
-    {
-      "id": "sasumata-forked-spear",
-      "name": "Sasumata (Forked Spear)",
-      "damageDice": "1d10",
+      "id": "spear",
+      "name": "Spear",
+      "damageDice": "1d6",
       "damageType": "Piercing",
       "abilityMod": "STR",
-      "properties": "Two-Handed, Grapple, Reach 1",
-      "category": "",
-      "tags": []
+      "properties": "Versatile (1d8), Reach 1",
+      "category": "Polearm"
     },
     {
-      "id": "scythe",
-      "name": "Scythe",
-      "damageDice": "1d8",
-      "damageType": "Slashing",
+      "id": "tanto",
+      "name": "Tanto",
+      "damageDice": "1d6",
+      "damageType": "Piercing",
       "abilityMod": "STR",
-      "properties": "Reach 1, Deadly, Heavy, Two-Handed",
-      "category": "",
-      "tags": []
+      "properties": "Light, Finesse",
+      "category": "Blade"
+    },
+    {
+      "id": "weighted-chain",
+      "name": "Weighted Chain",
+      "damageDice": "1d4",
+      "damageType": "Bludgeoning",
+      "abilityMod": "STR",
+      "properties": "Reach 2, Disarm, Two-Handed",
+      "category": "Flail/Power"
+    },
+    {
+      "id": "bola",
+      "name": "Bola",
+      "damageDice": "1d4",
+      "damageType": "Bludgeoning",
+      "abilityMod": "DEX",
+      "properties": "Range (30/60), Trip, ammunition",
+      "category": "Ammunition"
     },
     {
       "id": "senbon",
@@ -507,8 +109,8 @@
       "damageDice": "1d4",
       "damageType": "Piercing",
       "abilityMod": "STR",
-      "properties": "Thrown (30/60), Multiattack, Ammunition",
-      "category": "",
+      "properties": "Thrown (15/30), Light, ammunition",
+      "category": "Thrown/Ammunition",
       "tags": [
         "thrown-shinobi"
       ]
@@ -518,10 +120,9 @@
       "name": "Short Bow",
       "damageDice": "1d6",
       "damageType": "Piercing",
-      "abilityMod": "STR",
-      "properties": "Two-Handed, Finesse, Range (60/180), Ammunition",
-      "category": "",
-      "tags": []
+      "abilityMod": "DEX",
+      "properties": "Range (60/180), Two-Handed, Finesse, ammunition",
+      "category": "Ammunition"
     },
     {
       "id": "shuriken",
@@ -529,8 +130,8 @@
       "damageDice": "1d4",
       "damageType": "Slashing",
       "abilityMod": "STR",
-      "properties": "Thrown (30/120), Multiattack, Ammunition",
-      "category": "",
+      "properties": "Thrown (30/120), Multiattack, ammunition",
+      "category": "Thrown/Ammunition",
       "tags": [
         "thrown-shinobi"
       ]
@@ -541,69 +142,179 @@
       "damageDice": "1d4",
       "damageType": "Bludgeoning",
       "abilityMod": "DEX",
-      "properties": "Range (30/120), Ammunition",
-      "category": "",
-      "tags": []
+      "properties": "Range (30/120), ammunition",
+      "category": "Ammunition"
     },
     {
-      "id": "spear",
-      "name": "Spear",
-      "damageDice": "1d6",
-      "damageType": "Piercing",
-      "abilityMod": "STR",
-      "properties": "Versatile (1d8), Reach 1",
-      "category": "",
-      "tags": []
-    },
-    {
-      "id": "spear-two-hands",
-      "name": "Spear (Two Hands)",
-      "damageDice": "1d8",
-      "damageType": "Piercing",
-      "abilityMod": "STR",
-      "properties": "Versatile (1d8), Reach 1",
-      "category": "",
-      "tags": []
-    },
-    {
-      "id": "taichi",
-      "name": "Taichi",
-      "damageDice": "1d8",
+      "id": "battle-wire",
+      "name": "Battle Wire",
+      "damageDice": "1d4",
       "damageType": "Slashing",
       "abilityMod": "STR",
-      "properties": "Versatile (d10), Deadly",
-      "category": "",
-      "tags": []
+      "properties": "Reach 2, Trip, Disarm, Finesse, Special*",
+      "category": "Flail"
     },
     {
-      "id": "taichi-two-hands",
-      "name": "Taichi (Two Hands)",
+      "id": "broadsword",
+      "name": "Broadsword",
+      "damageDice": "1d6",
+      "damageType": "Slashing",
+      "abilityMod": "STR",
+      "properties": "Light, Finesse, Disarm",
+      "category": "Blade"
+    },
+    {
+      "id": "chained-spear",
+      "name": "Chained Spear",
       "damageDice": "1d10",
-      "damageType": "Slashing",
-      "abilityMod": "STR",
-      "properties": "Versatile (d10), Deadly",
-      "category": "",
-      "tags": []
-    },
-    {
-      "id": "tanto-shortsword",
-      "name": "Tanto (Shortsword)",
-      "damageDice": "1d6",
       "damageType": "Piercing",
       "abilityMod": "STR",
-      "properties": "Light, Finesse, Deadly, Flexible (Slashing d4)",
-      "category": "",
-      "tags": []
+      "properties": "Reach 1, Trip",
+      "category": "Flail/Polearm"
     },
     {
-      "id": "tekko",
-      "name": "Tekko",
+      "id": "chigiriki",
+      "name": "Chigiriki",
+      "damageDice": "1d8",
+      "damageType": "Piercing",
+      "abilityMod": "STR",
+      "properties": "Reach 2, Trip, Disarm",
+      "category": "Flail"
+    },
+    {
+      "id": "combat-bracers",
+      "name": "Combat Bracers",
       "damageDice": "1d4",
       "damageType": "Bludgeoning",
       "abilityMod": "STR",
-      "properties": "Unarmed, Grapple, Light",
-      "category": "",
-      "tags": []
+      "properties": "Unarmed, Disarm",
+      "category": "Power"
+    },
+    {
+      "id": "great-axe",
+      "name": "Great Axe",
+      "damageDice": "1d12",
+      "damageType": "Slashing",
+      "abilityMod": "STR",
+      "properties": "Deadly, Heavy, Two-Handed",
+      "category": "Polearm/Power"
+    },
+    {
+      "id": "gunbai-fan",
+      "name": "Gunbai Fan",
+      "damageDice": "1d6",
+      "damageType": "Bludgeoning",
+      "abilityMod": "STR",
+      "properties": "Blocking, Two-Handed",
+      "category": "Power/Flail"
+    },
+    {
+      "id": "hidden-blade",
+      "name": "Hidden Blade",
+      "damageDice": "1d4",
+      "damageType": "Piercing",
+      "abilityMod": "STR",
+      "properties": "Deadly 5, Critical 2, Hidden, Finesse",
+      "category": "Blade"
+    },
+    {
+      "id": "hooked-lance",
+      "name": "Hooked Lance",
+      "damageDice": "1d10",
+      "damageType": "Piercing",
+      "abilityMod": "STR",
+      "properties": "Reach 1, Two-Handed",
+      "category": "Polearm/Blade"
+    },
+    {
+      "id": "iron-claw",
+      "name": "Iron Claw",
+      "damageDice": "1d4",
+      "damageType": "Slashing",
+      "abilityMod": "STR",
+      "properties": "Unarmed, Finesse, Critical",
+      "category": "Blade"
+    },
+    {
+      "id": "katana",
+      "name": "Katana",
+      "damageDice": "1d8",
+      "damageType": "Slashing",
+      "abilityMod": "STR",
+      "properties": "Deadly, Finesse",
+      "category": "Blade"
+    },
+    {
+      "id": "knuckle-blades",
+      "name": "Knuckle Blades",
+      "damageDice": "1d6",
+      "damageType": "Slashing",
+      "abilityMod": "STR",
+      "properties": "Unarmed, Finesse, Hidden",
+      "category": "Blade"
+    },
+    {
+      "id": "naginata",
+      "name": "Naginata",
+      "damageDice": "1d10",
+      "damageType": "Slashing",
+      "abilityMod": "STR",
+      "properties": "Reach 1, Heavy, Trip, Two-Handed",
+      "category": "Polearm/Blade"
+    },
+    {
+      "id": "nunchaku",
+      "name": "Nunchaku",
+      "damageDice": "1d6",
+      "damageType": "Bludgeoning",
+      "abilityMod": "STR",
+      "properties": "Disarm, Multiattack",
+      "category": "Power/Flail"
+    },
+    {
+      "id": "odachi",
+      "name": "Odachi",
+      "damageDice": "2d6",
+      "damageType": "Slashing",
+      "abilityMod": "STR",
+      "properties": "Critical, Heavy, Two-Handed",
+      "category": "Blade/Power"
+    },
+    {
+      "id": "otsuchi-hammer",
+      "name": "Otsuchi Hammer",
+      "damageDice": "3d4",
+      "damageType": "Bludgeoning",
+      "abilityMod": "STR",
+      "properties": "Heavy, Two-Handed",
+      "category": "Power/Polearm"
+    },
+    {
+      "id": "sasumata",
+      "name": "Sasumata",
+      "damageDice": "1d10",
+      "damageType": "Piercing",
+      "abilityMod": "STR",
+      "properties": "Reach 1, Grapple, Two-Handed",
+      "category": "Polearm"
+    },
+    {
+      "id": "scythe",
+      "name": "Scythe",
+      "damageDice": "1d8",
+      "damageType": "Slashing",
+      "abilityMod": "STR",
+      "properties": "Reach 1, Deadly, Two-Handed",
+      "category": "Polearm/Blade"
+    },
+    {
+      "id": "tachi",
+      "name": "Tachi",
+      "damageDice": "1d8",
+      "damageType": "Slashing",
+      "abilityMod": "STR",
+      "properties": "Versatile (1d10), Deadly",
+      "category": "Blade"
     },
     {
       "id": "tetsubo",
@@ -611,29 +322,8 @@
       "damageDice": "1d10",
       "damageType": "Bludgeoning",
       "abilityMod": "STR",
-      "properties": "Heavy, Versatile (1d12), Deadly 2",
-      "category": "",
-      "tags": []
-    },
-    {
-      "id": "tetsubo-two-hands",
-      "name": "Tetsubo (Two Hands)",
-      "damageDice": "1d12",
-      "damageType": "Bludgeoning",
-      "abilityMod": "STR",
-      "properties": "Heavy, Versatile (1d12), Deadly 2",
-      "category": "",
-      "tags": []
-    },
-    {
-      "id": "tinbe-rochin",
-      "name": "Tinbe Rochin",
-      "damageDice": "1d6",
-      "damageType": "Piercing",
-      "abilityMod": "STR",
-      "properties": "Blocking, Two-Handed",
-      "category": "",
-      "tags": []
+      "properties": "Deadly 2, Heavy, Versatile (2d6)",
+      "category": "Power/Polearm"
     },
     {
       "id": "tonfa",
@@ -641,59 +331,8 @@
       "damageDice": "1d6",
       "damageType": "Bludgeoning",
       "abilityMod": "STR",
-      "properties": "Blocking, Light, Hidden, Trip, Multiattack",
-      "category": "",
-      "tags": []
-    },
-    {
-      "id": "triple-katar",
-      "name": "Triple Katar",
-      "damageDice": "1d6",
-      "damageType": "Piercing",
-      "abilityMod": "STR",
-      "properties": "Unarmed, Light, Blocking, Hidden",
-      "category": "",
-      "tags": []
-    },
-    {
-      "id": "unarmed-strike",
-      "name": "Unarmed Strike",
-      "damageDice": "1d4",
-      "damageType": "Bludgeoning",
-      "abilityMod": "STR",
-      "properties": "",
-      "category": "",
-      "tags": []
-    },
-    {
-      "id": "urumi",
-      "name": "Urumi",
-      "damageDice": "1d8",
-      "damageType": "Slashing",
-      "abilityMod": "STR",
-      "properties": "Reach 1, Finesse, Disarm, Trip, Grapple, Winding",
-      "category": "",
-      "tags": []
-    },
-    {
-      "id": "war-club",
-      "name": "War Club",
-      "damageDice": "1d8",
-      "damageType": "Bludgeoning",
-      "abilityMod": "STR",
-      "properties": "Reach 1, Heavy",
-      "category": "",
-      "tags": []
-    },
-    {
-      "id": "weighted-chain",
-      "name": "Weighted Chain",
-      "damageDice": "1d4",
-      "damageType": "Bludgeoning",
-      "abilityMod": "STR",
-      "properties": "Reach 2, Grapple, Trip, Two-Handed, Multiattack",
-      "category": "",
-      "tags": []
+      "properties": "Light, Blocking, Hidden, Disarm",
+      "category": "Power"
     },
     {
       "id": "whip",
@@ -701,9 +340,8 @@
       "damageDice": "1d6",
       "damageType": "Slashing",
       "abilityMod": "STR",
-      "properties": "Reach 2, Trip, Finesse, Winding",
-      "category": "",
-      "tags": []
+      "properties": "Reach 2, Trip, Finesse",
+      "category": "Flail"
     },
     {
       "id": "yari",
@@ -712,8 +350,181 @@
       "damageType": "Piercing",
       "abilityMod": "STR",
       "properties": "Reach 1, Heavy, Two-Handed",
-      "category": "",
-      "tags": []
+      "category": "Polearm/Blade"
+    },
+    {
+      "id": "blowgun",
+      "name": "Blowgun",
+      "damageDice": "1d4",
+      "damageType": "Piercing",
+      "abilityMod": "DEX",
+      "properties": "Range (25/100), ammunition",
+      "category": "Ammunition"
+    },
+    {
+      "id": "boomerang",
+      "name": "Boomerang",
+      "damageDice": "1d6",
+      "damageType": "Bludgeoning",
+      "abilityMod": "STR",
+      "properties": "Thrown (60/90), Versatile (1d8), Returning",
+      "category": "Thrown"
+    },
+    {
+      "id": "chakram",
+      "name": "Chakram",
+      "damageDice": "1d6",
+      "damageType": "Slashing",
+      "abilityMod": "STR",
+      "properties": "Thrown (30/60), Light, Returning",
+      "category": "Thrown/Blade"
+    },
+    {
+      "id": "fuma-shuriken",
+      "name": "Fuma-Shuriken",
+      "damageDice": "1d8",
+      "damageType": "Slashing",
+      "abilityMod": "STR",
+      "properties": "Thrown (60/120), Hidden, Returning",
+      "category": "Thrown/Blade",
+      "tags": [
+        "thrown-shinobi"
+      ]
+    },
+    {
+      "id": "longbow",
+      "name": "Longbow",
+      "damageDice": "1d8",
+      "damageType": "Piercing",
+      "abilityMod": "DEX",
+      "properties": "Range (120/180), Finesse, Two-Handed, ammunition",
+      "category": "Ammunition"
+    },
+    {
+      "id": "monster-boomerang",
+      "name": "Monster Boomerang",
+      "damageDice": "1d10",
+      "damageType": "Bludgeoning",
+      "abilityMod": "STR",
+      "properties": "Thrown (90/120), Two-Handed, Heavy, Returning",
+      "category": "Thrown/Power"
+    },
+    {
+      "id": "monster-chakram",
+      "name": "Monster Chakram",
+      "damageDice": "1d10",
+      "damageType": "Slashing",
+      "abilityMod": "STR",
+      "properties": "Thrown (60/120), Two-Handed, Returning",
+      "category": "Thrown/Power"
+    },
+    {
+      "id": "monster-shuriken",
+      "name": "Monster Shuriken",
+      "damageDice": "1d12",
+      "damageType": "Slashing",
+      "abilityMod": "STR",
+      "properties": "Thrown (40/80), Heavy, Two-Handed, Returning",
+      "category": "Thrown/Power",
+      "tags": [
+        "thrown-shinobi"
+      ]
+    },
+    {
+      "id": "combat-scroll",
+      "name": "Combat Scroll",
+      "damageDice": "1d8",
+      "damageType": "Variable",
+      "abilityMod": "DEX",
+      "properties": "Range (30/90), Evocation",
+      "category": ""
+    },
+    {
+      "id": "giant-combat-scroll",
+      "name": "Giant Combat Scroll",
+      "damageDice": "1d12",
+      "damageType": "Variable",
+      "abilityMod": "DEX",
+      "properties": "Range (60/180), Evocation, Two-Handed",
+      "category": ""
+    },
+    {
+      "id": "chokuto",
+      "name": "Chokuto",
+      "damageDice": "1d8",
+      "damageType": "Slashing/Piercing",
+      "abilityMod": "STR",
+      "properties": "Finesse, Critical, Lethal 2",
+      "category": "Blade"
+    },
+    {
+      "id": "giant-iron-fan",
+      "name": "Giant Iron Fan",
+      "damageDice": "1d10",
+      "damageType": "Slashing/Bludgeoning",
+      "abilityMod": "STR",
+      "properties": "Blocking, Two-Handed, Deadly 2",
+      "category": "Polearm"
+    },
+    {
+      "id": "sansetaukon",
+      "name": "Sansetaukon",
+      "damageDice": "1d10",
+      "damageType": "Bludgeoning",
+      "abilityMod": "STR",
+      "properties": "Reach 1, Disarm, Trip, Two-Handed, Finesse",
+      "category": "Power/Flail"
+    },
+    {
+      "id": "triple-bladed-scythe",
+      "name": "Triple-Bladed Scythe",
+      "damageDice": "1d12",
+      "damageType": "Slashing",
+      "abilityMod": "STR",
+      "properties": "Reach 2, Deadly 2, Two-Handed",
+      "category": "Polearm/Blade"
+    },
+    {
+      "id": "urumi",
+      "name": "Urumi",
+      "damageDice": "1d8",
+      "damageType": "Slashing",
+      "abilityMod": "STR",
+      "properties": "Reach 1, Finesse, Disarm, Trip, Grapple",
+      "category": "Flail"
+    },
+    {
+      "id": "ballistic-kunai-gun",
+      "name": "Ballistic Kunai Gun",
+      "damageDice": "3d8",
+      "damageType": "Piercing",
+      "abilityMod": "DEX",
+      "properties": "Range (50/60), ammunition, Multiattack, Volatile 2",
+      "category": "Ammunition",
+      "tags": [
+        "thrown-shinobi"
+      ]
+    },
+    {
+      "id": "ballistic-shuriken-rifle",
+      "name": "Ballistic Shuriken Rifle",
+      "damageDice": "3d8",
+      "damageType": "Slashing",
+      "abilityMod": "DEX",
+      "properties": "Range (120), Two-Handed, ammunition, Multiattack, Volatile 3",
+      "category": "Ammunition",
+      "tags": [
+        "thrown-shinobi"
+      ]
+    },
+    {
+      "id": "hiya-taihou",
+      "name": "Hiya Taihou",
+      "damageDice": "3d8",
+      "damageType": "Fire",
+      "abilityMod": "DEX",
+      "properties": "Range (60/150), Two-Handed, ammunition, Volatile 4, Special*",
+      "category": "Ammunition"
     }
   ]
 }
