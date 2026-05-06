@@ -623,7 +623,7 @@
       "bulk": 1,
       "damageDice": "1d8",
       "damageType": "Variable",
-      "abilityMod": "DEX",
+      "abilityMod": "INT",
       "properties": "Range (30/90), Evocation",
       "category": ""
     },
@@ -636,7 +636,7 @@
       "bulk": 3,
       "damageDice": "1d12",
       "damageType": "Variable",
-      "abilityMod": "DEX",
+      "abilityMod": "INT",
       "properties": "Range (60/180), Evocation, Two-Handed",
       "category": ""
     },
