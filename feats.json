@@ -34,6 +34,15 @@
     "rare": "Optional inclusion at the DM's discretion. Not automatically assumed available at every table; potentially stronger than baseline feats.",
     "repeatable": "Can be taken more than once, often selecting a different option each time."
   },
+  "abilityScoreIncrease": {
+    "Strength": "Feat permits +1 to Strength (max 20).",
+    "Dexterity": "Feat permits +1 to Dexterity (max 20).",
+    "Constitution": "Feat permits +1 to Constitution (max 20).",
+    "Intelligence": "Feat permits +1 to Intelligence (max 20).",
+    "Wisdom": "Feat permits +1 to Wisdom (max 20).",
+    "Charisma": "Feat permits +1 to Charisma (max 20).",
+    "_note": "Per-feat field of the same name is an array containing every ability score the player may choose from for the feat's +1 bump. An empty array means the feat grants no ability-score improvement. Multi-choice feats list every eligible option so a 'show me feats that can bump Strength' filter is a single contains check."
+  },
   "feats": [
     {
       "id": "general.action-surge",
@@ -50,7 +59,8 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "general.advanced-study",
@@ -61,7 +71,15 @@
       "description": "You are an advanced learner and capable student. You generally excel at grasping concepts far above your skill set with amazing potential.\n• Increase one ability score by 1, to a maximum of 20.\n• You learn an additional jutsu that is 1 rank above what your Highest Rank Jutsu Known is according to your Class table. This does not count against your jutsu known.\n• The next time you would hit 4th, 8th, 12th and 16th levels, you learn one additional jutsu of 1 rank higher than your Highest Rank Jutsu Known jutsu rank.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Strength",
+        "Dexterity",
+        "Constitution",
+        "Intelligence",
+        "Wisdom",
+        "Charisma"
+      ]
     },
     {
       "id": "general.agile-feint",
@@ -83,7 +101,10 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Dexterity"
+      ]
     },
     {
       "id": "general.alert",
@@ -94,7 +115,8 @@
       "description": "Always on the lookout for danger, you gain the following benefits:\n• You add your full proficiency bonus to your initiative, instead of half.\n• You may add your Wisdom modifier in place of Dexterity to your Initiative bonus.\n• You can't be surprised while you are conscious.\n• You become aware of any creature casting a jutsu with Hand Seals (HS) within 60 feet of you. This does not immediately tell you the creature's location, only that Hand Seals were made with intent to cast a jutsu.\n• You have advantage on checks made to find hidden creatures.\n• Other creatures do not gain advantage on attack rolls against you as a result of being hidden from you.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "general.athlete",
@@ -105,7 +127,11 @@
       "description": "You have undergone extensive physical training to gain the following benefits:\n• Increase your Strength or Dexterity score by 1, to a maximum of 20.\n• You gain a Swim, climbing and wall running speed equal to your normal speed.\n• Increase your maximum bulk by +5.\n• Long Jump increased to 10 + Strength score and High Jump increased to 5 + Strength score.\n• You have advantage on grapple checks against creatures whose Strength score is lower than yours.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Strength",
+        "Dexterity"
+      ]
     },
     {
       "id": "general.clashing-adept",
@@ -122,7 +148,8 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "general.clashing-expert",
@@ -133,7 +160,8 @@
       "description": "You have mastered the art of Clashing, gaining the following benefits:\n• You gain +1 ranks of Mastery in the skill selected with the Clashing Adept feat.\n• While in a Jutsu Clash and Bloodied (below 50% of your maximum hit points), you gain a +1d4 bonus to your Clash checks. Additionally, for every failed Death saving throw you possess, increase your Clash Checks by +1.\n• When you lose a Jutsu Clash, you do not become Concussed, and gain resistance to the damage dealt.\n• When you succeed a Jutsu Clash, you can choose to knock the target prone.\n• You may denote two additional jutsu you know as Clashing Jutsu. Once per long rest when you initiate a Clash with your Clashing Jutsu, you may declare this clash to be your Fated Clash. Fated Clash: you always treat your Clash as a Best of 3, regardless of the rank of the jutsu used. You may also clash with Arts, regardless of your jutsu's rank. Lastly, if the creature you are Clashing with would boost their Clash Checks with any form of dice-based bonus (such as Tenacity Die), you roll the same amount of bonus die, of the same die size, to your Clash Checks.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "general.dungeon-delver",
@@ -150,7 +178,11 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Intelligence",
+        "Wisdom"
+      ]
     },
     {
       "id": "general.durable",
@@ -161,7 +193,10 @@
       "description": "Hardy and resilient, you gain the following benefits:\n• Increase your Constitution score by 1, to a maximum of 20.\n• When you roll a Hit Die to regain hit points, the minimum number of hit points you can regain spending hit dice equals twice your Constitution modifier (Min. 2).\n• Your hit points maximum increases by an amount equal to twice your level when you gain this feat.\n• Whenever you gain a level thereafter, your hit points maximum increases by an additional 2 hit points.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Constitution"
+      ]
     },
     {
       "id": "general.elusive-target",
@@ -183,7 +218,10 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Dexterity"
+      ]
     },
     {
       "id": "general.gourmand",
@@ -200,7 +238,8 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "general.hand-seal-expert",
@@ -211,7 +250,11 @@
       "description": "You've practiced utilizing Ninjutsu & Genjutsu in close quarters and in contested conflicts, learning techniques that grant you the following benefits:\n• Increase your Intelligence or Wisdom score by 1, to a maximum of 20.\n• When making a ranged Ninjutsu or Genjutsu attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll.\n• When a creature would attempt to interrupt a jutsu you cast on your turn, they must attempt the ability check to interrupt regardless if they have a feature or jutsu that says otherwise. They increase the DC to interrupt your jutsu by +2.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Intelligence",
+        "Wisdom"
+      ]
     },
     {
       "id": "general.helping-hand",
@@ -228,7 +271,8 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "general.inspiring-leader",
@@ -245,7 +289,8 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "general.inspiring-presence",
@@ -272,7 +317,10 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Charisma"
+      ]
     },
     {
       "id": "general.maneuverable",
@@ -283,7 +331,8 @@
       "description": "You've learned that you are at your best when you're on the move. You gain the following benefits:\n• Your speed increases by 10 feet.\n• When you would make a Dexterity saving throw on your turn, you gain a +2 bonus to the save.\n• Once per turn, when you move at least 10 feet, you gain a 1d4 bonus to your next attack roll before the end of the current turn.\n• When you make a melee attack against a creature, you don't provoke opportunity attacks from that creature for the rest of the turn, whether you hit or not.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "general.master-weaver",
@@ -300,7 +349,8 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "general.mobile",
@@ -317,7 +367,8 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "general.monkeys-grip",
@@ -328,7 +379,10 @@
       "description": "Your make-do skills and superb chakra molding let you use everyday objects in unforeseen ways. You gain the following benefits:\n• Increase your Strength score by 1, to a maximum of 20.\n• You are proficient with improvised weapons, and attacks with them count as Chakra-enhanced for the purpose of overcoming resistances and immunities.\n• Once per turn, when you attack with an improvised weapon, you may add a bonus equal to your Intelligence modifier to the damage roll.\n• You may replace a Bukijutsu's weapon component with any item your DM considers a close-enough replacement.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Strength"
+      ]
     },
     {
       "id": "general.quick-witted",
@@ -339,7 +393,10 @@
       "description": "Great ideas come to you naturally, often when your life depends on it. You always have a plan, or at least parts of it. You gain the following benefits:\n• Increase your Intelligence score by 1, to a maximum of 20.\n• You can use your Intelligence modifier instead of your Dexterity modifier when making Initiative checks.\n• When you would make a Dexterity saving throw, you can instead make an Intelligence saving throw. You can use this effect twice per long rest.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Intelligence"
+      ]
     },
     {
       "id": "general.resilient",
@@ -350,7 +407,15 @@
       "description": "Choose one ability score. You gain the following benefits:\n• Increase the chosen ability score by 1, to a maximum of 20.\n• You gain proficiency in saving throws using the chosen ability score.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Strength",
+        "Dexterity",
+        "Constitution",
+        "Intelligence",
+        "Wisdom",
+        "Charisma"
+      ]
     },
     {
       "id": "general.seal-weaver",
@@ -367,7 +432,8 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "general.tough",
@@ -378,7 +444,10 @@
       "description": "You have the blood of heroes flowing through your veins. You gain the following benefits:\n• Increase your Constitution score by 1, to a maximum of 20.\n• You must now fail 5 Death saving throws before dying.\n• Whenever you take the Dodge action in combat, you can spend one Hit Die to heal yourself. Roll the die, add your Constitution modifier, and regain a number of hit points equal to the total (minimum of one).\n• If you would roll a natural 20 on a Death saving throw, you instead regain a number of hit points equal to your level.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Constitution"
+      ]
     },
     {
       "id": "skill.acrobat",
@@ -395,7 +464,10 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Dexterity"
+      ]
     },
     {
       "id": "skill.actor",
@@ -406,7 +478,10 @@
       "description": "Skilled at mimicry and dramatics, you gain the following benefits:\n• Increase your Charisma score by 1, to a maximum of 20.\n• You gain proficiency in the Performance skill. If you are already proficient, you instead gain Mastery.\n• When your Charisma (Performance) check is 5 or higher than a non-hostile creature's Passive Insight, they gain 1 rank of Charm towards you, until the end of this conversation. They can only gain 2 ranks of charm towards you this way.\n• While performing, you can try to distract one humanoid you can see who can see and hear you. Make a Charisma (Performance) check contested by the humanoid's Wisdom (Insight) check. If your check succeeds, you grab the humanoid's attention enough that it makes Wisdom (Perception) and Intelligence (Investigation) checks with disadvantage until you stop performing.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Charisma"
+      ]
     },
     {
       "id": "skill.alchemist",
@@ -423,7 +498,10 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Intelligence"
+      ]
     },
     {
       "id": "skill.animal-handler",
@@ -440,7 +518,10 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Wisdom"
+      ]
     },
     {
       "id": "skill.brawny",
@@ -451,7 +532,10 @@
       "description": "You've become stronger, gaining the following benefits:\n• Increase your Strength score by 1, to a maximum of 20.\n• You gain proficiency in the Athletics skill. If you are already proficient, you instead gain Mastery.\n• Increase your maximum bulk by +10.\n• Once per rest, you may make a Strength-based ability or skill check, attack roll or saving throw at advantage.\n• Thrown weapons that use Strength double both range increments.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Strength"
+      ]
     },
     {
       "id": "skill.burglar",
@@ -468,7 +552,10 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Dexterity"
+      ]
     },
     {
       "id": "skill.charming-persona",
@@ -479,7 +566,10 @@
       "description": "You've mastered the art of charming those around you, gaining the following benefits:\n• Increase your Charisma score by 1, to a maximum of 20.\n• You gain proficiency in the Persuasion skill. If you are already proficient, you instead gain Mastery.\n• You are skilled in gathering information through conversation, without asking a single question. By spending 10 minutes gathering information in a new place, you become aware of all current rumors and potentially important people you should be on the lookout for.\n• If you spend 1 minute talking to someone, you can make a Charisma (Persuasion) check contested by a creature's passive Insight. If you or your companions are in combat with the creature, you automatically fail. On a success, the target gains 2 ranks of Charmed for you as long as it remains within 60 feet of you for the next 10 minutes.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Charisma"
+      ]
     },
     {
       "id": "skill.chakra-intensity",
@@ -496,7 +586,10 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Constitution"
+      ]
     },
     {
       "id": "skill.chef",
@@ -507,7 +600,10 @@
       "description": "Time and effort spent mastering the culinary arts has paid off. You gain the following benefits:\n• Increase your Wisdom score by 1, to a maximum of 20.\n• You gain proficiency with a Cooking Kit or Survival (pick one). If you are already proficient, you instead gain Mastery.\n• Over the course of a short rest, you can cook special food with a cooking kit. This special food is of your description and creatures consume this food during the short rest. They regain additional hit points equal to your Survival bonus and, for the next 8 hours or until your next rest, they temporarily increase their maximum hit points by 10. You can cook special food in this way twice per long rest.\n• Over the course of a long rest, you can cook a special full-course meal for your team with a cooking kit. This special meal takes 1 hour to consume and spoils at the end of your long rest. Creatures who partake in the meal are cured of all diseases and poisons and make their next 2 Constitution saves at advantage. This benefit lasts for 24 hours.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Wisdom"
+      ]
     },
     {
       "id": "skill.chemist",
@@ -518,7 +614,10 @@
       "description": "You have studied the secrets of chemistry and are an expert in its practice, gaining the following benefits:\n• Increase your Intelligence score by 1, to a maximum of 20.\n• You gain proficiency with the Alchemist Kit or Investigation (pick one). If you are already proficient, you instead gain Mastery.\n• When you would make an Intelligence (Investigation) check, and have at least one charge of Alchemist Kit to collect DNA, evidence or any remains from a location, you reduce the DC set by the DM by -2.\n• Over the course of a short rest, you can develop different chemical compounds, using a Forensics Kit, which you then use to create one of the following of base quality: Chili Pepper Bomb, Smoke Bomb, Military Ration Pill or Chakra Pill.\n• Over the course of a long rest, you can develop a special chemical with an Alchemist Kit called White water. White water has 2 charges and expires after 8 hours. If a creature drinks this White water, they gain one of the following benefits for the next hour: 60ft Chakra Sight, 60ft Darkvision, 20ft Tremor Sense or 10ft Blindsight.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Intelligence"
+      ]
     },
     {
       "id": "skill.crafter",
@@ -529,7 +628,12 @@
       "description": "You have a knack for crafting; you work with greater efficiency and produce goods of higher quality. You gain the following benefits:\n• Increase your Strength, Intelligence or Wisdom score by 1, to a maximum of 20.\n• You gain proficiency in Crafting and either Weaponsmiths or Armorsmith Kit (pick one). If you are already proficient, you instead gain Mastery.\n• When you craft items using a kit you have proficiency in, the item is worth double the market value.\n• When you craft seals using either the Armorsmith or Weaponsmith kit you no longer need a Sealsmith forge.\n• Reduce the Enhancement seal crafting DC by -2 across all item ranks.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Strength",
+        "Intelligence",
+        "Wisdom"
+      ]
     },
     {
       "id": "skill.elite-agility",
@@ -540,7 +644,8 @@
       "description": "You have the reflexes of one who can see things before they happen, granting the following benefits:\n• You gain a 1d4 bonus to all Dexterity saving throws you make.\n• Choose two Dexterity skills which you already have proficiency in. When you make a skill check using these skills, you treat any roll of 9 or lower on the d20 as a 10.\n• You gain Mastery in one Dexterity skill of your choice which you already have proficiency in.\n• Increase your initiative by +5 and your movement speed by +10.\n• If a creature would have disadvantage on an attack against you, you can choose to make them roll an additional d20, using the lowest roll. Once you use this ability twice, you must complete a rest before using it again.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "skill.elite-awareness",
@@ -557,7 +662,8 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "skill.elite-intellect",
@@ -568,7 +674,8 @@
       "description": "You have the cunning of the most prolific scholars, granting the following benefits:\n• You gain a 1d4 bonus to all Intelligence saving throws you make.\n• You gain Mastery in one Intelligence skill which you already have proficiency in.\n• Intelligence ability and skill checks you make ignore any penalty inflicted by a creature or effect.\n• You reduce the Downtime cost required to complete any training to the following:\n  ◦ 1 Week: New Tool or Vehicle Proficiency.\n  ◦ 3 Weeks: New Weapon or Language Proficiency.\n  ◦ 5 Weeks: New Armor Proficiency.\n  ◦ 8 Weeks: New Skill Proficiency.\n  ◦ 16 Weeks: New Feat.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "skill.elite-presence",
@@ -585,7 +692,8 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "skill.elite-resilience",
@@ -596,7 +704,8 @@
       "description": "You have the fortitude often attributed to gods, granting the following benefits:\n• You gain a 1d4 bonus to all Constitution saving throws you make.\n• You gain Mastery in one Constitution skill which you already have proficiency in.\n• You cannot be Envenomed or succumb to disease as a result of non-jutsu-based methods.\n• Restoration effects, such as Healing Jutsu or Military Ration pills, that would restore hit points to you can't restore an amount less than half your level + your Constitution modifier. If this amount would exceed the maximum amount of hit points that effect could restore, you instead take that effect's maximum.\n• You can add your Constitution modifier to death saving throws you make.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "skill.elite-strength",
@@ -623,7 +732,8 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "skill.empathic",
@@ -645,7 +755,10 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Wisdom"
+      ]
     },
     {
       "id": "skill.feigned-confidence",
@@ -656,7 +769,10 @@
       "description": "You've spent years pretending you know what you're doing, gaining the following benefits:\n• Increase your Charisma score by 1, to a maximum of 20.\n• You gain proficiency in Deception. If you are already proficient, you instead gain Mastery.\n• When you would make a Charisma (Persuasion) check, you can choose to instead use your Charisma (Deception), as you weave white lies into your conversation or diplomatic statements in an attempt to gain favor with the other conversation participants. These white lies are harmless and cannot create negative reactions from other conversation participants.\n• Select one skill you are not proficient in, excluding Athletics, Acrobatics or Chakra Control (you can change this skill when you complete a long rest). When you would make a check using the chosen skill you instead use your Deception bonus in place of that skill's bonus. If you succeed, you believed in yourself so much that you complete the task haphazardly. The completed task may pass as genuine work for a moment, but upon further inspection against a DC equal to your Deception bonus, others realize that it was potentially dumb luck or you did it in a very unprofessional way. (Ex: You use this feat to use Deception in place of Sleight of Hand to pick a lock. If you succeed, you may have picked the lock, but now the door or lock itself is also broken or there is evidence of tampering.)",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Charisma"
+      ]
     },
     {
       "id": "skill.genius-toolist",
@@ -673,7 +789,10 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Intelligence"
+      ]
     },
     {
       "id": "skill.perceptive",
@@ -684,7 +803,10 @@
       "description": "You hone your senses until they become razor sharp. You gain the following benefits:\n• Increase your Wisdom score by 1, to a maximum of 20.\n• You gain proficiency in the Perception skill. If you are already proficient, you instead gain Mastery.\n• Being in a lightly obscured area doesn't impose disadvantage on your Wisdom (Perception) checks if you can both see and hear.\n• You have a +5 bonus to your passive Wisdom (Perception) and passive Intelligence (Investigation) scores.\n• If you can see a creature's mouth while it is speaking a dialect you understand, you can interpret what it's saying by reading its lips.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Wisdom"
+      ]
     },
     {
       "id": "skill.performer",
@@ -695,7 +817,10 @@
       "description": "Your years of training with your musical instrument have paid off. You gain the following benefits:\n• Increase your Charisma score by 1, to a maximum of 20.\n• You gain proficiency in the Performance skill. If you are already proficient, you instead gain Mastery.\n• When performing for at least one minute with your most practiced musical instrument, you gain advantage on a Performance skill check.\n• Once per long rest, you can perform for your team with your most practiced musical instrument and inspire your allies. Your inspired allies gain temporary hit points equal to your proficiency bonus + Charisma ability score.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Charisma"
+      ]
     },
     {
       "id": "skill.field-medic",
@@ -712,7 +837,10 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Wisdom"
+      ]
     },
     {
       "id": "skill.historian",
@@ -729,7 +857,10 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Intelligence"
+      ]
     },
     {
       "id": "skill.herbalist",
@@ -746,7 +877,10 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Intelligence"
+      ]
     },
     {
       "id": "skill.investigator",
@@ -768,7 +902,10 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Intelligence"
+      ]
     },
     {
       "id": "skill.master-of-disguise",
@@ -779,7 +916,8 @@
       "description": "You have honed your ability to shape your personality and visage into that of others with a surprising level of detail. You gain the following benefits:\n• You gain proficiency with the Disguise Kit.\n• You gain proficiency in Performance. If you are already proficient, you instead gain Mastery.\n• You can make Charisma (Performance) checks in place of Deception checks.\n• When you are mimicking a target, you have advantage on Performance checks made to impersonate that target.\n• Reduce the time it takes to make a disguise when using a Disguise Kit by a factor of up to 10. Plain disguises now only take 1 minute. Elaborate disguises now only take 10 minutes, and exquisite disguises now only take 1 hour.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "skill.poisoner",
@@ -796,7 +934,10 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Intelligence"
+      ]
     },
     {
       "id": "skill.practiced-adept",
@@ -809,7 +950,15 @@
       "description": "You have acquired skills over your career, gaining the following benefits:\n• Increase an ability score of your choice by 1, to a maximum of 20.\n• You gain proficiency in any combination of three skills or tools of your choice.\n• You can take this feat multiple times.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Strength",
+        "Dexterity",
+        "Constitution",
+        "Intelligence",
+        "Wisdom",
+        "Charisma"
+      ]
     },
     {
       "id": "skill.practiced-expert",
@@ -822,7 +971,15 @@
       "description": "You have honed your proficiency with particular skills or tools, gaining the following benefits:\n• Increase any ability score of your choice by 1, to a maximum of 20.\n• You gain +1 ranks of Mastery in any two skills or toolkits you are proficient in. You cannot select the same skill/toolkit twice.\n• You can take this feat multiple times.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Strength",
+        "Dexterity",
+        "Constitution",
+        "Intelligence",
+        "Wisdom",
+        "Charisma"
+      ]
     },
     {
       "id": "skill.quick-fingered",
@@ -844,7 +1001,10 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Dexterity"
+      ]
     },
     {
       "id": "skill.stealthy",
@@ -861,7 +1021,10 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Dexterity"
+      ]
     },
     {
       "id": "skill.menacing",
@@ -878,7 +1041,10 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Charisma"
+      ]
     },
     {
       "id": "skill.ninshou-research",
@@ -889,7 +1055,10 @@
       "description": "You have begun to deep dive into the lore, mechanics and purpose of Ninjutsu. You gain the following benefits:\n• Increase your Intelligence score by 1, to a maximum of 20.\n• You gain proficiency in the Ninshou skill. If you are already proficient, you instead gain Mastery.\n• When you would make an Identify Ninjutsu check, you reduce the DC by 5.\n• If you would attempt a Read the Enemy check on a creature casting a Ninjutsu, you no longer need to see a creature using handsigns to attempt this check, and you increase the AC bonus you would gain to +3.\n• You reduce the downtime needed to learn Ninjutsu using the self-taught method by an amount equal to the rank of the jutsu (D-Rank: 1, C-Rank: 2, B-Rank: 3, A-Rank: 4, S-Rank: 5).",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Intelligence"
+      ]
     },
     {
       "id": "skill.martial-arts-research",
@@ -900,7 +1069,11 @@
       "description": "You have begun to research the history of martial arts and how they have changed over the generations. You gain the following benefits:\n• Increase your Intelligence or Strength by 1, to a maximum of 20.\n• You gain proficiency in the Martial Arts skill. If you are already proficient, you instead gain Mastery.\n• When you would make an Identify Taijutsu/Bukijutsu check, you reduce the DC by 5.\n• If you would attempt a Read the Enemy check on a creature casting a Taijutsu or Bukijutsu, you gain 5 damage reduction to the Taijutsu or Bukijutsu cast.\n• Select one between Taijutsu or Bukijutsu. You reduce the downtime needed to learn the chosen type using the self-taught method by an amount equal to the rank of the jutsu (D-Rank: 1, C-Rank: 2, B-Rank: 3, A-Rank: 4, S-Rank: 5).",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Strength",
+        "Intelligence"
+      ]
     },
     {
       "id": "skill.illusionist-research",
@@ -911,7 +1084,11 @@
       "description": "You have begun to find some truth in the world of illusions and Genjutsu, finding its origins to be darker and more sinister than you once thought. You gain the following benefits:\n• Increase your Intelligence or Wisdom by 1, to a maximum of 20.\n• You gain proficiency in the Illusions skill. If you are already proficient, you instead gain Mastery.\n• When you would make an Identify Genjutsu check, you reduce the DC by 5.\n• If you would attempt a Read the Enemy check on a creature casting a Genjutsu, you no longer need to see a creature using handsigns to attempt this check, and you gain a +2 bonus to saving throws made against this Genjutsu's casting until the beginning of your next turn.\n• You reduce the downtime needed to learn Genjutsu using the self-taught method by an amount equal to the rank of the jutsu (D-Rank: 1, C-Rank: 2, B-Rank: 3, A-Rank: 4, S-Rank: 5).",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Intelligence",
+        "Wisdom"
+      ]
     },
     {
       "id": "chakra.chakra-construction",
@@ -922,7 +1099,11 @@
       "description": "You've learned to efficiently create constructs of chakra, maximizing their potential for less. You gain the following benefits:\n• Increase your Intelligence or Charisma score by 1, to a maximum of 20.\n• When you are concentrating on a jutsu with the Construct keyword, the first time you would make a concentration check as the result of damage per round, you automatically succeed the check.\n• When you cast a jutsu with the Construct keyword, you may apply two of the following benefits. You cannot select the same benefit more than once:\n  ◦ Damage rolls from these constructs pierce any passive DR a target possesses.\n  ◦ These constructs increase their attack rolls by +1, and impose a -1 penalty to saving throws they impose.\n  ◦ These constructs gain an amount of DR against all damage equal to your jutsu casting modifier.\n  ◦ These constructs increase their AC by half your jutsu casting modifier.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Intelligence",
+        "Charisma"
+      ]
     },
     {
       "id": "chakra.chakra-guidance",
@@ -933,7 +1114,11 @@
       "description": "You've learned to utilize your gift with chakra in a specific unique way. You gain the following benefits:\n• Increase your Wisdom or Charisma score by 1, to a maximum of 20.\n• Choose a skill in which you are proficient. When you make a skill check with the chosen skill, you can use your Wisdom or Charisma modifier in place of its original ability score.\n• Jutsu you encounter are far easier to deal with due to your unique quirks with chakra. When you would attempt to interrupt or dispel a jutsu another creature cast or are currently concentrating on, you gain a 1d4 bonus towards any checks you make towards interrupting or dispelling their jutsu.\n• Jutsu you cast are far more difficult to recognize, and therefore more difficult to plan against. When a creature would attempt to interrupt or dispel a jutsu you cast or are concentrating on, they take a 1d4 penalty to any checks made to do either of those.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Wisdom",
+        "Charisma"
+      ]
     },
     {
       "id": "chakra.chakra-pressure",
@@ -944,7 +1129,10 @@
       "description": "You have a very powerful chakra aura. You gain the following benefits:\n• Increase your Constitution score by 1, to a maximum of 20.\n• Select between: Ninjutsu, Genjutsu, Taijutsu or Bukijutsu. Jutsu you use that have one of the aforementioned keywords, that require a creature make a saving throw, cannot add jutsu-based bonuses to their save unless the jutsu granting the bonus is of a rank higher than the jutsu you originally cast.\n• Your chakra is heavy and carries a weight unlike any other. Jutsu you cast with the chakra molding (CM) component, that summons a creature, construct or object with hit points or temporary hit points — that creature, construct or object gains a number of additional hit points equal to twice your Constitution modifier (min 2).\n• Your chakra-based constructs are more difficult for enemies to disrupt or dispel. When a creature would attempt to interrupt or dispel a jutsu or feature you cast that would summon a creature, construct or object with hit points or temporary hit points, increase their DC to do so by +2.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Constitution"
+      ]
     },
     {
       "id": "chakra.endurance-latent",
@@ -961,7 +1149,10 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Constitution"
+      ]
     },
     {
       "id": "chakra.endurance-realized",
@@ -972,7 +1163,10 @@
       "description": "You have a much deeper pool of chakra reserves than previously thought. You gain the following benefits:\n• Increase your Constitution score by 1, to a maximum of 20.\n• You gain resistance to Chakra damage.\n• Your chakra point maximum increases by an amount equal to your level when you gain this feat. Whenever you gain a level thereafter, your chakra points maximum increases by an additional 1 chakra point.\n• Your chakra point maximum cannot be reduced by hostile effects.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Constitution"
+      ]
     },
     {
       "id": "chakra.improved-chakra-efficiency",
@@ -983,7 +1177,10 @@
       "description": "You have gained greater control over your chakra, gaining the following benefits:\n• Increase your Constitution score by 1, to a maximum of 20.\n• You may select 2 jutsu you currently have. That jutsu's cost is reduced by an amount equal to its rank. You can change this choice when you would complete a long rest. (D-Rank: 1, C-Rank: 2, B-Rank: 3, A-Rank: 4, S-Rank: 5)\n• You may select one class feature you currently have that costs chakra. You may use this feature at 0 cost, twice per long rest. If the feature selected can have its cost increased for a larger benefit, it cannot be selected as an option for this feat. If a feature has sub-features and/or multiple costs, pick one to apply this feat to.\n• If you do not have a class feature that costs chakra, you instead gain 1 additional use of a class feature that would normally refresh when you complete a short or long rest. You cannot switch the feature that this feat benefits.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Constitution"
+      ]
     },
     {
       "id": "chakra.medical-release",
@@ -994,7 +1191,10 @@
       "description": "You learn how to mold chakra in ways befitting of a bonafide Medical-Nin. You gain the following benefits:\n• Increase your Intelligence score by 1, to a maximum of 20.\n• You are now able to add jutsu with the Medical keyword.\n• You learn one jutsu with the Medical keyword.\n• Over the course of a long rest, you can remove any one condition or disease of C-Rank or lower currently affecting yourself or a single ally who you can reach for the duration of the long rest. At the end of the rest, they are healed of the disease or condition, gain the benefits of a long rest, and gain resistance to the disease or condition until their next rest.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Intelligence"
+      ]
     },
     {
       "id": "chakra.nature-release",
@@ -1007,7 +1207,10 @@
       "description": "You learn how to mold chakra into one of the 5 elements. You gain the following benefits:\n• Increase your Intelligence score by 1, to a maximum of 20.\n• You select one of the 5 following Nature Releases: Fire, Water, Lightning, Wind, Earth. You are now able to add jutsu with the corresponding keyword to your jutsu list.\n• You learn one jutsu with the corresponding Nature Release that you selected, that you qualify for.\n• You can take this feat more than once, each time selecting a different nature release.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Intelligence"
+      ]
     },
     {
       "id": "chakra.streamlined-chakra-efficiency",
@@ -1018,7 +1221,10 @@
       "description": "Your chakra network is unlike most others. You can get twice the results from your network in half the effort, granting you the following benefits:\n• Increase your Constitution score by 1, to a maximum of 20.\n• Select one category of jutsu between Ninjutsu, Genjutsu, Taijutsu or Bukijutsu. The cost to maintain concentration of a jutsu of the chosen type is reduced by 1, to a minimum of 1.\n• When you would successfully complete a short rest and spend 3 or more chakra die, you regain 1 chakra die at the conclusion of calculating how much chakra you regain.\n• You gain DR (damage reduction) vs Chakra damage equal to your proficiency bonus.\n• Hostile effects that would increase the base cost of jutsu you cast have their effects halved. This does not count for the Sealed condition. (Ex: If a hostile effect increases the base cost of a jutsu you cast by 4, it instead only increases it by 2.)",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Constitution"
+      ]
     },
     {
       "id": "chakra.seal-resistant",
@@ -1029,7 +1235,11 @@
       "description": "Your chakra is resilient to the effects of most sealing attempts. You gain the following benefits:\n• Increase your Constitution or Charisma score by 1, to a maximum of 20.\n• You gain a +2 bonus to Charisma saving throws vs jutsu with the Fuinjutsu keyword.\n• You make checks to remove the Sealed condition at advantage.\n• If a jutsu, effect, feature or trait would attempt to remove your ability to mold chakra without a saving throw, you instead make a Constitution saving throw vs the jutsu type's save DC. If the effect was not caused by a jutsu, you instead make a DC 20 Constitution saving throw, retaining your ability to mold chakra on a successful save.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Constitution",
+        "Charisma"
+      ]
     },
     {
       "id": "ninjutsu.clone-specialization",
@@ -1051,7 +1261,8 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "ninjutsu.earth-release-expert",
@@ -1062,7 +1273,10 @@
       "description": "Your mastery with earth-natured chakra is so great, you emanate gold, silver, and platinum chakra each time you mold earth chakra to cast a Ninjutsu with the earth release keyword. When casting a Ninjutsu with the earth release keyword, you gain the following benefits:\n• Increase your Intelligence score by 1, to a maximum of 20.\n• Constructs and structures you summon that would intercept damage gain additional hit points equal to the rank of the jutsu cast (D-Rank: +4, C-Rank: +8, B-Rank: +12, A-Rank: +16, S-Rank: +20).\n• Constructs, structures, and objects made as a result of jutsu cast with the earth release keyword are no longer vulnerable to Lightning damage.\n• A jutsu cannot benefit from more than one \"X\" Release Expert feat at a time.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Intelligence"
+      ]
     },
     {
       "id": "ninjutsu.elemental-chakra-penetration",
@@ -1075,7 +1289,8 @@
       "description": "When you gain this feat, choose one of the following damage types: Earth, Wind, Fire, Cold, Lightning. Ninjutsu you cast ignore resistance to damage of the chosen type.\nIn addition, when you roll damage for a jutsu you cast that deals damage of that type, you can reroll 1's and 2's, keeping the second result.\nYou can select this feat multiple times. Each time you do so, you must choose a different damage type.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "ninjutsu.elemental-specialization",
@@ -1088,7 +1303,8 @@
       "description": "You have begun to specialize in a particular element of your choice. You gain the following benefits:\n• Select one Nature Release keyword (Earth, Wind, Fire, Water, Lightning). You may ignore Hand Seal (HS) requirement for Ninjutsu of C-Rank or lower with your chosen nature release.\n• You deal additional damage with Ninjutsu with your chosen Nature Release keyword, equal to its rank (D-Rank: 1, C-Rank: 2, B-Rank: 3, A-Rank: 4, S-Rank: 5).\n• You reduce the chakra cost of Ninjutsu with your chosen Nature Release keyword by an amount equal to its rank (D-Rank: 1, C-Rank: 2, B-Rank: 3, A-Rank: 4, S-Rank: 5).\n• You can take this feat multiple times, each time selecting a different element.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "ninjutsu.empowered-ninjutsu",
@@ -1099,7 +1315,8 @@
       "description": "You learn to empower your Ninjutsu with more precise chakra, empowering its effects. You gain the following benefits:\n• When you cast a Ninjutsu you know, you can spend 10 chakra. If you do, you double the jutsu's potential impact granting it one of the following effects:\n  ◦ If your Ninjutsu requires an attack roll, when you roll damage dice, you treat all 1's and 2's as 3.\n  ◦ If your Ninjutsu forces a creature to make a saving throw, if they would take a reaction in response to your Ninjutsu, they double the chakra cost of the jutsu used. If the reaction they took does not cost chakra, they instead must spend 10 chakra to take the reaction.\n• Ninjutsu you cast cannot have its damage reduced by more than half as a result of jutsu, features or traits. Creatures with natural resistances or immunities still reduce damage as normal.\n• When you would make a Constitution (Chakra Control) check to maintain concentration on a Ninjutsu you cast, you may add a bonus to the check equal to the highest ranked Ninjutsu you are concentrating on (D-Rank: 1, C-Rank: 2, B-Rank: 3, A-Rank: 4, S-Rank: 5).",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "ninjutsu.fire-release-expert",
@@ -1110,7 +1327,10 @@
       "description": "Your mastery with fire-natured chakra is so great, flames you conjure burn twice as hot, with half the effort. When casting a Ninjutsu with the fire release keyword, you gain the following benefits:\n• Increase your Intelligence score by 1, to a maximum of 20.\n• For every fire damage die you roll, you pierce through 1 of a creature's DR (damage reduction), up to a max of 10.\n• When you would cast a Ninjutsu with the fire release keyword that creates a cone, sphere or line, you can increase the size of the area or length of the line by 10 feet.\n• A jutsu cannot benefit from more than one \"X\" Release Expert feat at a time.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Intelligence"
+      ]
     },
     {
       "id": "ninjutsu.lightning-release-expert",
@@ -1121,7 +1341,10 @@
       "description": "Your mastery with lightning-natured chakra is so great, you occasionally spark with residual energy. You can power most mundane technology passively. The lightning that you generate is so potent that it can pierce through even the greatest of defenses. When casting a Ninjutsu with the lightning release keyword, you gain the following benefits:\n• Increase your Intelligence score by 1, to a maximum of 20.\n• Creatures cannot have advantage on saving throws vs Ninjutsu you cast with the lightning release keyword.\n• Reduce the DC made to maintain concentration on Ninjutsu with the lightning release keyword by -2.\n• A jutsu cannot benefit from more than one \"X\" Release Expert feat at a time.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Intelligence"
+      ]
     },
     {
       "id": "ninjutsu.medical-chakra-penetration",
@@ -1134,7 +1357,8 @@
       "description": "When you gain this feat, choose one of the following damage types: Acid, Necrotic or Poison. Ninjutsu you cast ignore resistance to damage of the chosen type.\nIn addition, when you roll damage for a jutsu you cast that deals damage of that type, you can reroll 1's and 2's, keeping the second result.\nYou can select this feat multiple times. Each time you do so, you must choose a different damage type.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "ninjutsu.medical-release-expert",
@@ -1145,7 +1369,11 @@
       "description": "Every spark of life energy, corrupted dark chakra, or poisonous surge you manifest has a small piece of yourself within them. You can command the powers of life and death. When casting a Ninjutsu with the medical keyword, you gain the following benefits:\n• Increase your Intelligence or Wisdom score by 1, to a maximum of 20.\n• Acid, Poison or Necrotic damage you deal ignores resistance.\n• When you would restore a creature's hit points, other than yourself, you gain a number of temporary hit points equal to the number of healing dice rolled.\n• A jutsu cannot benefit from more than one \"X\" Release Expert feat at a time.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Intelligence",
+        "Wisdom"
+      ]
     },
     {
       "id": "ninjutsu.ninjutsu-archivist",
@@ -1156,7 +1384,10 @@
       "description": "Your focus in the heat of combat and mastery of handseals allow you to weave Ninjutsu with much greater efficiency. You gain the following benefits:\n• Increase your Intelligence score by 1, to a maximum of 20.\n• You learn an additional Ninjutsu that you qualify for. This does not count against your Jutsu Known.\n• The next time you would hit 5th, 9th, or 13th level, you learn one additional Ninjutsu of 1 rank lower than your highest known jutsu rank.\n• If you take this feat after you have passed the previously stated levels, you instead gain 1 additional D-Rank if past 5th level, 1 additional C-Rank if past 9th level, and 1 additional B-Rank if past 13th level.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Intelligence"
+      ]
     },
     {
       "id": "ninjutsu.ninshou-theorist",
@@ -1167,7 +1398,10 @@
       "description": "You study the Ninshou arts, gaining the following benefits:\n• Increase your Intelligence score by 1, to a maximum of 20.\n• Reduce the downtime required to Learn, Modify, and Create Ninjutsu by 1 week, to a minimum of 1 week.\n• Over the course of a short rest, you attempt to theorize and bend the chakra flow of Ninjutsu you know to be more effective. Select a number of Ninjutsu you know equal to your Intelligence modifier (Max 4) and make an Intelligence (Ninshou) check for each jutsu. The DC for each check is based on the rank of the jutsu (D-Rank: 16, C-Rank: 17, B-Rank: 18, A-Rank: 19, S-Rank: 20). On a success, until your next rest, each selected jutsu is always under one of the following Efficient Moldings from the Ninjutsu Specialist class at no additional chakra cost (you may choose a different Efficient Molding for each jutsu):\n  ◦ Careful Ninjutsu (Max of 3 creatures.)\n  ◦ Distant Ninjutsu\n  ◦ Piercing Ninjutsu\n  ◦ Subtle Ninjutsu\n  ◦ Tenacious Ninjutsu\n  ◦ Widened Ninjutsu",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Intelligence"
+      ]
     },
     {
       "id": "ninjutsu.non-elemental-specialization",
@@ -1178,7 +1412,8 @@
       "description": "You have begun to specialize in some form of non-elemental Ninjutsu, be it Fuinjutsu or Medical Ninjutsu. You gain the following benefits:\n• Select one: Fuinjutsu or Medical. You may ignore Hand Seal (HS) requirement for Ninjutsu with the chosen keyword of C-Rank or lower.\n• You deal additional damage with Ninjutsu with the chosen keyword, equal to its rank (D-Rank: 1, C-Rank: 2, B-Rank: 3, A-Rank: 4, S-Rank: 5).\n• You reduce the chakra cost of Ninjutsu with the chosen keyword by an amount equal to its rank (D-Rank: 1, C-Rank: 2, B-Rank: 3, A-Rank: 4, S-Rank: 5).",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "ninjutsu.water-release-expert",
@@ -1189,7 +1424,10 @@
       "description": "You can feel every droplet of water and every molecule of chakra flowing within each drop. You can squeeze efficiency out of every drop. When casting a Ninjutsu with the water release keyword, you gain the following benefits:\n• Increase your Intelligence score by 1, to a maximum of 20.\n• When you are near a sufficient source of water that can be used to reduce the cost of the given jutsu cast, reduce the cost by 3, instead of 2.\n• When a Ninjutsu you cast with the water release keyword deals damage to at least one creature, you can choose to leave behind a small source of water within 5 ft of one of the affected creature(s). The source of water can be used to activate effects that require a sufficient source of water no more than once, which then drains the water source.\n• A jutsu cannot benefit from more than one \"X\" Release Expert feat at a time.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Intelligence"
+      ]
     },
     {
       "id": "ninjutsu.wind-release-expert",
@@ -1200,7 +1438,10 @@
       "description": "Your mastery with wind-natured chakra is so great that with but a thought, you can create the sharpest blade made exclusively from wind. When casting a Ninjutsu with the wind release keyword, you gain the following benefits:\n• Increase your Intelligence score by 1, to a maximum of 20.\n• When you would trigger a Swirl effect, increase the radius by +5 feet.\n• Creatures cannot have advantage on saving throws vs Ninjutsu you cast with the wind release keyword.\n• A jutsu cannot benefit from more than one \"X\" Release Expert feat at a time.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Intelligence"
+      ]
     },
     {
       "id": "ninjutsu.storing-seal-soul",
@@ -1222,7 +1463,8 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "taijutsu.assassins-training",
@@ -1239,7 +1481,10 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Dexterity"
+      ]
     },
     {
       "id": "taijutsu.bukijutsu-archivist",
@@ -1250,7 +1495,11 @@
       "description": "Your focus in the heat of combat and mastery of bukijutsu allow you to weave weapon arts together with much greater skill. You gain the following benefits:\n• Increase your Strength or Dexterity score by 1, to a maximum of 20.\n• You learn an additional Bukijutsu that you qualify for. This does not count against your Jutsu Known.\n• The next time you would hit 5th, 9th, or 13th level, you learn one additional Bukijutsu of 1 rank lower than your highest known jutsu rank.\n• If you take this feat after you have passed the previously stated levels, you instead gain 1 additional D-Rank if past 5th level, 1 additional C-Rank if past 9th level, and 1 additional B-Rank if past 13th level.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Strength",
+        "Dexterity"
+      ]
     },
     {
       "id": "bukijutsu.bullseye-training",
@@ -1267,7 +1516,11 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Strength",
+        "Dexterity"
+      ]
     },
     {
       "id": "taijutsu.dragon-fist-expert",
@@ -1278,7 +1531,11 @@
       "description": "You have trained under the teachings of the land of Dragons either directly or by descension, gaining the following benefits:\n• Increase your Strength or Dexterity score by 1, to a maximum of 20.\n• While you are in the Dragon Fist Stance, your unarmed damage die becomes a d8.\n• Taijutsu you know that requires the Dragon Fist Stance to be cast, and up to two additional Taijutsu you know that requires you to make no more than two attacks, become Dragon Fist Taijutsu. Dragon Fist Taijutsu you cast gain the Hungry Dragon trait.\n  ◦ Hungry Dragon. Once per casting, when you deal your unarmed damage to a hostile creature, you steal a fraction of their chakra. You regain temporary chakra points equal to half the result of one of your unarmed damage die rolled (if more than 1). This temporary chakra lasts until the beginning of your next turn.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Strength",
+        "Dexterity"
+      ]
     },
     {
       "id": "taijutsu.drunken-fist-expert",
@@ -1289,7 +1546,11 @@
       "description": "You have trained under the teachings of the Monks of inebriation either directly or by descension, gaining the following benefits:\n• Increase your Strength or Dexterity score by 1, to a maximum of 20.\n• While you are in the Drunken Fist Stance, your unarmed damage die becomes a d8.\n• Taijutsu you know that requires the Drunken Fist Stance to be cast, and up to two additional Taijutsu that you know that requires you to make no more than two taijutsu attacks, become Drunken Fist Taijutsu. Drunken Fist Taijutsu you cast gain the Gin & Tonic trait.\n  ◦ Gin & Tonic. Once per casting, when you deal your unarmed damage to a hostile creature, you are able to slip a taste of a special drink enhancing the unpredictability of your attacks. Until the beginning of your next turn, creatures within 10 feet of you cannot gain feature, jutsu or trait-based bonuses to their melee attack rolls targeting you.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Strength",
+        "Dexterity"
+      ]
     },
     {
       "id": "taijutsu.efficient-breathing",
@@ -1300,7 +1561,8 @@
       "description": "You have begun to master the use of the Heavenly Breaths and have learned to manage the stress and strain it causes your body. You gain the following benefits:\n• You no longer need to pay chakra to maintain concentration of any Taijutsu with the Heavenly Breath name.\n• You reduce the cost of Taijutsu with the Heavenly Breath name by an amount equal to its rank (D-Rank: 1, C-Rank: 2, B-Rank: 3, A-Rank: 4, S-Rank: 5).\n• You can cast a Taijutsu with the Heavenly Breath name using either an Action, Bonus Action or Reaction on your turn, ignoring its listed casting time.\n• The benefits of Taijutsu with the Heavenly Breath can apply to your unarmed and weapon attacks, once per turn.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "taijutsu.empowered-bukijutsu",
@@ -1311,7 +1573,8 @@
       "description": "You learn to empower your Bukijutsu with technique and refined skill. You gain the following benefits:\n• When you cast a Bukijutsu you can increase your weapon damage die by 1 step (d4 → d6 → d8 → d10 → d12).\n• When a creature would make a saving throw to resist a Bukijutsu you cast; if they fail by 5 or more, they take additional damage equal to the rank it was cast at (D-Rank: 4, C-Rank: 6, B-Rank: 8, A-Rank: 10, S-Rank: 12).\n• When you would make a Constitution (Chakra Control) check to maintain concentration on a Bukijutsu you cast, you can add 1d4 to the result of the check.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "taijutsu.empowered-taijutsu",
@@ -1322,7 +1585,8 @@
       "description": "You learn to empower your Taijutsu with more elegant technique. You gain the following benefits:\n• When you cast a Taijutsu as an action, you can choose to also spend your bonus action. If you do, you deal additional damage equal to your proficiency bonus, up to three times.\n• When you cast a Taijutsu with the Combo or Finisher keyword, reduce the cost by an amount equal to its rank (D-Rank: 1, C-Rank: 2, B-Rank: 3, A-Rank: 4, S-Rank: 5). Multiple effects with rank-based reduction do not stack.\n• When you would make a Constitution (Chakra Control) check to maintain concentration on a Taijutsu you cast, you can make a Martial Arts check instead, using your Taijutsu ability modifier.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "taijutsu.fighting-stylist",
@@ -1335,7 +1599,11 @@
       "description": "You adopt a particular style of fighting as your specialty, gaining the following benefits:\n• Increase your Strength or Dexterity score by 1, to a maximum of 20.\n• Choose one of the Fighting Stances from Chapter 13.\n• If you possess a Fighting Stance from a Clan Feature you possess, you still count as being in this Clan Fighting Stance while using a different Fighting Stance, for the purpose of casting jutsu only (and vice versa). This does not allow you to qualify for features or feats that are dependent on you being in a specific stance.\n• You can select this feat multiple times. You can't take a Fighting Stance option more than once, even if you later get to choose again.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Strength",
+        "Dexterity"
+      ]
     },
     {
       "id": "taijutsu.frog-fist-expert",
@@ -1346,7 +1614,11 @@
       "description": "You have trained under the teachings of the Land of Swamps either directly or by descension, gaining the following benefits:\n• Increase your Strength or Dexterity score by 1, to a maximum of 20.\n• While you are in the Frog Fist Stance, your unarmed damage die becomes a d8.\n• Taijutsu you know that requires the Frog Fist Stance to be cast, and up to two additional Taijutsu that you know that requires you to make no more than two taijutsu attacks, become Frog Fist Taijutsu. Frog Fist Taijutsu you cast gain the Ribbit trait.\n  ◦ Ribbit. Once per casting, when your Taijutsu attack's damage is intercepted by a structure or construct, you ignore those structures and constructs dealing damage as normal to the original target.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Strength",
+        "Dexterity"
+      ]
     },
     {
       "id": "taijutsu.iron-fist-expert",
@@ -1357,7 +1629,11 @@
       "description": "You have trained under the teachings of the Masters of brawling and metal-bending fists, gaining the following benefits:\n• Increase your Strength or Dexterity score by 1, to a maximum of 20.\n• While you are in the Iron Fist Stance, your unarmed damage die becomes a d8. If you have Combat Bracers this instead becomes 1d10 if Strength is your Taijutsu ability score.\n• Taijutsu you know that requires the Iron Fist Stance to be cast, and up to two additional Taijutsu that you know that requires you to make no more than two taijutsu attacks, become Iron Fist Taijutsu. Iron Fist Taijutsu you cast gain the Metal trait.\n  ◦ Metal. Once per casting, when dealing damage to a creature with armor-based DR, you can punch through their armor. By spending your Bonus action as part of the jutsu's casting, you can reduce their armor-based DR by an amount equal to the result of one of your unarmed damage die. This armor reduction lasts until the affected creature spends an Action adjusting themselves.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Strength",
+        "Dexterity"
+      ]
     },
     {
       "id": "bukijutsu.lancer-training",
@@ -1374,7 +1650,11 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Strength",
+        "Constitution"
+      ]
     },
     {
       "id": "taijutsu.light-step-mastery",
@@ -1385,7 +1665,10 @@
       "description": "You've mastered the art of fighting while minimally armored, treating combat as an elegant dance. While you are wearing no armor, you gain the following benefits:\n• Increase your Dexterity score by 1, to a maximum of 20.\n• Whenever an attack roll misses you, you may move 5 feet without triggering attacks of opportunity.\n• Once per turn, when a creature misses you with an attack, your next attack against them deals an additional 1d8 damage.\n• When you take the Dash action, you may move an additional +10 feet.\n• When a creature misses you with an attack, you gain a +1 bonus to your AC, up to a maximum of +2, until the beginning of your next turn.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Dexterity"
+      ]
     },
     {
       "id": "taijutsu.lion-fist-expert",
@@ -1396,7 +1679,11 @@
       "description": "You have trained under the teachings of the Land of Kings, either directly or by descension, gaining the following benefits:\n• Increase your Strength or Dexterity score by 1, to a maximum of 20.\n• While you are in the Lion Fist Stance, your unarmed damage die becomes a d8. This becomes a d10 against a creature with ranks of Fear.\n• Taijutsu you know that requires the Lion Fist Stance to be cast, and up to two additional Taijutsu that you know that requires you to make no more than two taijutsu attacks, become Lion Fist Taijutsu. Lion Fist Taijutsu you cast gain the Regal trait.\n  ◦ Regal. Once per casting, when you would deal damage to a hostile creature with ranks of any Mental condition, you gain a +2 bonus to your next saving throw before the beginning of your next turn.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Strength",
+        "Dexterity"
+      ]
     },
     {
       "id": "taijutsu.ninja-slayer",
@@ -1413,7 +1700,8 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "taijutsu.rabbit-fist-expert",
@@ -1424,7 +1712,11 @@
       "description": "You have trained under the teachings of the Warrior priestesses from the Land of Hops either directly or by descension, gaining the following benefits:\n• Increase your Strength or Dexterity score by 1, to a maximum of 20.\n• While you are in the Rabbit Fist Stance, your unarmed damage die becomes a d8.\n• Taijutsu you know that requires the Rabbit Fist Stance to be cast, and up to two additional Taijutsu that you know that requires you to make no more than two taijutsu attacks, become Rabbit Fist Taijutsu. Rabbit Fist Taijutsu you cast gain the High Jump Kick trait.\n  ◦ High Jump Kick. Once per casting, you can move up to 20 feet in any direction. If you would end your movement within 5 feet of a creature who was not affected by this jutsu's casting, you immediately make 1 unarmed strike against them.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Strength",
+        "Dexterity"
+      ]
     },
     {
       "id": "bukijutsu.raider-training",
@@ -1441,7 +1733,11 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Strength",
+        "Constitution"
+      ]
     },
     {
       "id": "bukijutsu.reaper-training",
@@ -1458,7 +1754,11 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Strength",
+        "Dexterity"
+      ]
     },
     {
       "id": "bukijutsu.ronin-training",
@@ -1475,7 +1775,11 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Strength",
+        "Dexterity"
+      ]
     },
     {
       "id": "taijutsu.serpent-fist-expert",
@@ -1486,7 +1790,11 @@
       "description": "You have trained under the teachings of the serpent masters in the land of grass, gaining the following benefits:\n• Increase your Strength or Dexterity score by 1, to a maximum of 20.\n• While you are in the Serpent Fist Stance, your unarmed damage die becomes a d8.\n• Taijutsu you know that requires the Serpent Fist Stance to be cast, and up to two additional Taijutsu that you know that requires you to make no more than two taijutsu attacks, become Serpent Fist Taijutsu. Serpent Fist Taijutsu you cast gain the Rattling trait.\n  ◦ Rattling. When a hostile creature would trigger an attack of opportunity from you, cast a jutsu that requires handsigns within 5 ft of you, or stand up from prone while adjacent to you, you can cast this jutsu as a reaction.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Strength",
+        "Dexterity"
+      ]
     },
     {
       "id": "taijutsu.shinobi-sentinel",
@@ -1503,7 +1811,8 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "taijutsu.silent-fist-expert",
@@ -1514,7 +1823,11 @@
       "description": "You have trained under the teachings of the Land of Silence either directly or by descension, gaining the following benefits:\n• Increase your Strength or Dexterity score by 1, to a maximum of 20.\n• While you are in the Silent Fist Stance, your unarmed damage die becomes a d8. If you have Iron Claws this instead becomes 1d10 if Dexterity is your Taijutsu ability modifier.\n• Taijutsu you know that requires the Silent Fist Stance to be cast, and up to two additional Taijutsu that you know that requires you to make no more than two taijutsu attacks, become Silent Fist Taijutsu. Silent Fist Taijutsu you cast gain the Echo trait.\n  ◦ Echo. Once per casting, when you deal unarmed damage to a creature, you leave an Echo of your strike, recording the damage dice rolled. If the affected creature would attempt to attack or cast a jutsu that would be harmful to another creature before the beginning of your next turn, you can trigger this echo. Reroll the damage die of your echoed strike dealing the two highest dice results as damage.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Strength",
+        "Dexterity"
+      ]
     },
     {
       "id": "taijutsu.taijutsu-archivist",
@@ -1525,7 +1838,11 @@
       "description": "Your focus in the heat of combat and mastery of martial arts allow you to weave Taijutsu together with much greater skill. You gain the following benefits:\n• Increase your Strength or Dexterity score by 1, to a maximum of 20.\n• You learn an additional Taijutsu that you qualify for. This does not count against your Jutsu Known.\n• The next time you would hit 5th, 9th, or 13th level, you learn one additional Taijutsu of 1 rank lower than your highest known jutsu rank.\n• If you take this feat after you have passed the previously stated levels, you instead gain 1 additional D-Rank if past 5th level, 1 additional C-Rank if past 9th level, and 1 additional B-Rank if past 13th level.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Strength",
+        "Dexterity"
+      ]
     },
     {
       "id": "taijutsu.taijutsu-expertise",
@@ -1538,7 +1855,10 @@
       "description": "Your focus in the heat of combat and mastery of the martial arts allow you to fight with much greater efficiency. You gain the following benefits:\n• Increase your Dexterity score by 1, to a maximum of 20.\n• Select one between Taijutsu or Bukijutsu. You may use Dexterity instead of Strength as your Taijutsu modifier when casting the chosen jutsu type.\n• You may use Dexterity instead of Strength for your Unarmed Attack and damage rolls.\n• You may use Dexterity when making Martial Arts checks.\n• You may take this feat again, selecting the jutsu type you didn't select the first time.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Dexterity"
+      ]
     },
     {
       "id": "taijutsu.weapon-expert",
@@ -1549,7 +1869,11 @@
       "description": "You have practiced extensively with a variety of weapons, gaining the following benefits:\n• Increase your Strength or Dexterity score by 1, to a maximum of 20.\n• You gain proficiency with four weapons of your choice.\n• Select one weapon, with which you are proficient. Once per turn, when you roll damage for the chosen weapon, you can reroll its damage, using either total.\n• Once per turn, when you would cast a Bukijutsu using a weapon, your weapon increases its weapon damage die by +1.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Strength",
+        "Dexterity"
+      ]
     },
     {
       "id": "taijutsu.weapon-mastery",
@@ -1562,7 +1886,11 @@
       "description": "You have practiced extensively with a single weapon, expanding your capabilities with it greatly, gaining the following benefits:\n• Increase your Strength or Dexterity score by 1, to a maximum of 20.\n• Select one weapon, with which you are proficient. Then select one weapon property from the following list. The chosen weapon gains the chosen weapon property while you are wielding it, or increases the rank of the chosen weapon property by +1 while you are wielding it:\n  ◦ Critical (Max 3)\n  ◦ Deadly (Max 3)\n  ◦ Tactical\n  ◦ Winding\n• You can take this feat more than once, picking the same weapon and property, different weapon, different property, or different weapon and same property.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Strength",
+        "Dexterity"
+      ]
     },
     {
       "id": "taijutsu.wolf-fist-expert",
@@ -1573,7 +1901,11 @@
       "description": "You have trained under the teachings of the Land of Wolves either directly or by descension, gaining the following benefits:\n• Increase your Strength or Dexterity score by 1, to a maximum of 20.\n• While you are in the Wolf Fist Stance, your unarmed damage die becomes a d8.\n• Taijutsu you know that requires the Wolf Fist Stance to be cast, and up to two additional Taijutsu that you know that requires you to make no more than two taijutsu attacks, become Wolf Fist Taijutsu. Wolf Fist Taijutsu you cast gain the Howl trait.\n  ◦ Howl. Once per casting, when you deal unarmed damage to a creature, all allies within 15 feet of you, excluding yourself, are inspired by your aggressive assault, gaining a Xd4 bonus to the next instance of damage dealt to the same creature as the result of a Taijutsu attack, before the beginning of your next turn (X = your proficiency bonus).",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Strength",
+        "Dexterity"
+      ]
     },
     {
       "id": "taijutsu.eight-inner-gates-seimon",
@@ -1592,7 +1924,8 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "taijutsu.eight-inner-gates-keimon",
@@ -1611,7 +1944,8 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "taijutsu.eight-inner-gates-shimon",
@@ -1630,7 +1964,8 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "genjutsu.empowered-genjutsu",
@@ -1647,7 +1982,8 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "genjutsu.genjutsu-expertise",
@@ -1658,7 +1994,10 @@
       "description": "Your mastery of the Illusionary arts allow you to weave together Genjutsu with much greater efficiency. You gain the following benefits:\n• Increase your Charisma score by 1, to a maximum of 20.\n• You may instead use Charisma instead of Wisdom as your Genjutsu modifier.\n• You may instead use Charisma instead of Wisdom for Illusions checks.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Charisma"
+      ]
     },
     {
       "id": "genjutsu.genjutsu-archivist",
@@ -1669,7 +2008,10 @@
       "description": "Your encyclopedic knowledge of Genjutsu allows you to learn far more Genjutsu than normal. You gain the following benefits:\n• Increase your Wisdom score by 1, to a maximum of 20.\n• You learn an additional Genjutsu that you qualify for. This does not count against your Jutsu Known.\n• The next time you would hit 5th, 9th, or 13th level, you learn one additional Genjutsu of 1 rank lower than your highest known jutsu rank.\n• If you take this feat after you have passed the previously stated levels, you instead gain 1 additional D-Rank if past 5th level, 1 additional C-Rank if past 9th level, and 1 additional B-Rank if past 13th level.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Wisdom"
+      ]
     },
     {
       "id": "genjutsu.sensory-specialization",
@@ -1682,7 +2024,8 @@
       "description": "You have begun to specialize in a subset of illusions of your choice. You gain the following benefits:\n• Select one Sensory keyword (Auditory, Visual, Inhaled). You may ignore Hand Seal (HS) requirement for Genjutsu of C-Rank or lower with your chosen keyword.\n• You deal additional damage with Genjutsu with your chosen Sensory keyword, equal to its rank (D-Rank: 1, C-Rank: 2, B-Rank: 3, A-Rank: 4, S-Rank: 5).\n• You reduce the chakra cost of Genjutsu with your chosen Sensory keyword by an amount equal to its rank (D-Rank: 1, C-Rank: 2, B-Rank: 3, A-Rank: 4, S-Rank: 5). Multiple effects with rank-based reduction do not stack.\n• You can take this feat multiple times, each time selecting a different sensory keyword.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "genjutsu.psychic-penetration",
@@ -1693,7 +2036,8 @@
       "description": "You have learned to more easily damage your opponents' psyches. You gain the following benefits:\n• Genjutsu you cast ignore resistance to psychic damage.\n• When you would roll damage for a Genjutsu you cast that deals psychic damage, you can reroll 1's and 2's, keeping the second result.\n• When you deal psychic damage to a creature, the select creature gains disadvantage on ability checks and saving throws made to end any Sensory or Mental conditions until the end of their next turn.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "genjutsu.illusionary-theorist",
@@ -1704,7 +2048,11 @@
       "description": "You study the Illusionary arts, gaining the following benefits:\n• Increase your Wisdom or Charisma score by 1, to a maximum of 20.\n• Reduce the downtime required to Learn, Modify, and Create Genjutsu by 1 week, to a minimum of 1 week.\n• Over the course of a short rest, you attempt to theorize and bend the chakra flow of Genjutsu you know to be more effective. Select a number of Genjutsu you know equal to your Wisdom or Charisma modifier (Max 4) and make a Wisdom or Charisma (Illusions) check for each jutsu. The DC for each check is based on the rank of the jutsu (D-Rank: 16, C-Rank: 17, B-Rank: 18, A-Rank: 19, S-Rank: 20). On a success, until your next rest, each selected jutsu is always under one of the following Onijutsu from the Kurama Clan at no additional chakra cost (you may choose a different Onijutsu for each jutsu):\n  ◦ Careful Onijutsu (Max of 3 creatures.)\n  ◦ Overwhelming Onijutsu\n  ◦ Tenacious Onijutsu\n  ◦ Subtle Onijutsu",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Wisdom",
+        "Charisma"
+      ]
     },
     {
       "id": "genjutsu.empathic-expert",
@@ -1715,7 +2063,10 @@
       "description": "You can feel every thought. Every intent. Every passing idea. When casting a Genjutsu that does not deal damage, you gain the following benefits:\n• Increase your Wisdom score by 1, to a maximum of 20.\n• When you would cast a Genjutsu that targets a single creature, on a failed save, that creature's movement speed is reduced by 20 feet for the duration.\n• When you would cast a Genjutsu that can affect two or more creatures at once, on a failed save, once per turn, all affected creatures take psychic damage whenever one of the other affected creatures takes damage of any type, excluding the creature that triggers this effect. The number of psychic damage creatures take is an amount equal to the rank of the jutsu currently affecting them all (D-Rank: 2d4, C-Rank: 4d4, B-Rank: 6d4, A-Rank: 8d4, S-Rank: 10d4).",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Wisdom"
+      ]
     },
     {
       "id": "genjutsu.psychic-expert",
@@ -1726,7 +2077,11 @@
       "description": "You can feel every migraine. Every headache. Every painful thought. When casting a Genjutsu that deals damage, you gain the following benefits:\n• Increase your Wisdom or Charisma score by 1, to a maximum of 20.\n• Once per turn, when a creature under the effects of a Genjutsu you cast would remake a saving throw to end the Genjutsu's effects, they make their saving throw with a -1d4 penalty.\n• Once per turn, when a hostile creature would take damage, you can choose to Mentally Scar the creature. A creature who is mentally scarred suffers a -1d4 penalty to end any Mental condition they are under the effects of.\n• Genjutsu you cast that requires an attack roll has their range increased by 30 feet.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Wisdom",
+        "Charisma"
+      ]
     },
     {
       "id": "genjutsu.psychosis-adept",
@@ -1737,7 +2092,8 @@
       "description": "You've become adept at causing immense psychotic pain to others' minds. The advanced techniques you've learned while delving into this specialty has granted you the following benefits:\n• The prerequisite jutsu does not cost chakra to maintain concentration, if they do.\n• When the prerequisite jutsu deals damage, add your genjutsu ability modifier to the damage rolled.\n• If an affected creature would be reduced to 0 hit points as a result of the prerequisite jutsu, you can choose another creature within 10 feet of the original target to target, moving the jutsu to that new target.\n• Creatures cannot end the effects of the prerequisite genjutsu on themselves with a jutsu of equal level to it.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "genjutsu.psychosis-expert",
@@ -1748,7 +2104,8 @@
       "description": "You've become adept at causing unmatched psychotic trauma to others' minds. You gain the following benefits:\n• The Pain genjutsu no longer ends when its effect is first applied.\n• The Doubled Pain genjutsu increases its damage die by 1 step.\n• The Unlimited Pain genjutsu no longer needs a direct line of sight; instead so long as you know the target creature's name, they can hear you, and they are within range, they suffer its effects as normal.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "genjutsu.psychosis-master",
@@ -1759,7 +2116,8 @@
       "description": "You've become a master at breaking the minds of your adversaries. Enemies fall into mental comas when they do battle with you. You gain the following benefits:\n• The Pain genjutsu damage die becomes a d6.\n• The Doubled Pain genjutsu triggers whenever the target takes damage from a source other than you, once per turn.\n• The Unlimited Pain genjutsu can force the target to make an Intelligence or Wisdom saving throw to resist its effects. You decide the saving throw when the jutsu is cast.\n• You can concentrate on all 3 prerequisite genjutsu at once. If you would end the effect of Doubled Pain as a result of Unlimited Pain you instead maintain concentration on it, while also gaining the upgraded benefits of Unlimited Pain.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "genjutsu.lord-of-darkness",
@@ -1776,7 +2134,8 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "genjutsu.thought-provoker",
@@ -1787,7 +2146,11 @@
       "description": "Each illusion you manifest grants you insight into thoughts and feelings of those you mentally assault. You gain the following benefits:\n• Increase your Wisdom or Charisma score by 1, to a maximum of 20.\n• When a creature would fail the saving throw of a Genjutsu you cast that requires an Intelligence saving throw, you can ask one question telepathically that the target unconsciously answers with 5 words or less.\n• When a creature would fail the saving throw of a Genjutsu you cast that requires a Wisdom saving throw, you become aware if the target creature feels they are enjoying the combat or feels forced to by another creature, entity or force.\n• When a creature would fail the saving throw of a Genjutsu you cast that requires a Charisma saving throw, the target finds it difficult to lie or withhold its true feelings verbally until the end of its next turn.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Wisdom",
+        "Charisma"
+      ]
     },
     {
       "id": "genjutsu.intelligence-drain",
@@ -1798,7 +2161,11 @@
       "description": "Each illusion you manifest sucks the intelligence and knowledge from their target. You gain the following benefits:\n• Increase your Wisdom or Charisma score by 1, to a maximum of 20.\n• When a creature would fail the saving throw of a Genjutsu you cast or you score a successful hit with a Genjutsu attack, the target suffers a -1 penalty to their next Intelligence saving throw. This can stack up to -5.\n• When a creature would suffer a -1 penalty to their next Intelligence saving throw as a result of this feature, you gain a +1 bonus to your next Intelligence saving throw. This can stack up to +5.\n• When a creature would fail the saving throw of a Genjutsu you cast by 5 or more, you can select one piece of information that you wish to know. If the target knows anything in relation to this piece of information, you become aware of it.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Wisdom",
+        "Charisma"
+      ]
     },
     {
       "id": "genjutsu.wisdom-drain",
@@ -1809,7 +2176,11 @@
       "description": "Each illusion you manifest sucks the wit, cunning and wisdom from their target. You gain the following benefits:\n• Increase your Wisdom or Charisma score by 1, to a maximum of 20.\n• When a creature would fail the saving throw of a Genjutsu you cast or you score a successful hit with a Genjutsu attack, the target suffers a -1 penalty to their next Wisdom saving throw. This can stack up to -5.\n• When a creature would suffer a -1 penalty to their next Wisdom saving throw as a result of this feature, you gain a +1 bonus to your next Wisdom saving throw. This can stack up to +5.\n• When a creature would fail the saving throw of a Genjutsu you cast by 5 or more, you gain one special sense they have as they lose it. You retain this special sense for the remaining duration that the original target would have it. If there was no set duration, it defaults to 1 minute.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Wisdom",
+        "Charisma"
+      ]
     },
     {
       "id": "genjutsu.charisma-drain",
@@ -1820,7 +2191,11 @@
       "description": "Each illusion you manifest sucks the charisma, charm, or intimidating factors from their target. You gain the following benefits:\n• Increase your Wisdom or Charisma score by 1, to a maximum of 20.\n• When a creature would fail the saving throw of a Genjutsu you cast or you score a successful hit with a Genjutsu attack, the target suffers a -1 penalty to their next Charisma saving throw. This can stack up to -5.\n• When a creature would suffer a -1 penalty to their next Charisma saving throw as a result of this feature, you gain a +1 bonus to your next Charisma saving throw. This can stack up to +5.\n• When a creature would fail the saving throw of a Genjutsu you cast by 5 or more, they gain vulnerability to the next instance of psychic damage they take.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": [
+        "Wisdom",
+        "Charisma"
+      ]
     },
     {
       "id": "critical.bloodthirsty-critical",
@@ -1837,7 +2212,8 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "critical.cerebral-critical",
@@ -1850,7 +2226,8 @@
       "description": "You learn to bruise both your enemies' mind and body in a single strike. You gain the following benefits:\n• Select one of the following: Taijutsu attacks or Genjutsu attacks.\n• Once per turn, when you score a critical hit with the chosen attack type, the target creature gains 1 rank of Concussed.\n• You can take this feat more than once, each time selecting the same or different attack type.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "critical.combat-seal-weaver",
@@ -1861,7 +2238,8 @@
       "description": "You've practiced making your jutsu more difficult to avoid, learning techniques that grant you the following benefits:\n• When a creature would make a saving throw against damage from a Ninjutsu or Genjutsu you cast and they would fail the saving throw by 5 or more, increase the damage by the rank of jutsu cast (D-Rank: +5, C-Rank: +10, B-Rank: +15, A-Rank: +25, S-Rank: +25).\n• When a creature would make a saving throw against a Ninjutsu or Genjutsu you cast that inflicts a condition and they would fail by 5 or more, regardless of the jutsu's effect, the next time they would successfully remake the saving throw or succeed the check needed to remove the condition (if applicable), they instead do not remove the condition.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "critical.critical-defense-mastery",
@@ -1883,7 +2261,8 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "critical.disgusting-critical",
@@ -1896,7 +2275,8 @@
       "description": "When you score a critical hit, the environment and terrain bellows a sickening cry at your power. You gain the following benefits:\n• Select one damage type from the following: Acid, Poison, Necrotic.\n• You can take this feat more than once, each time selecting a different damage type.\n• Critical hits with the chosen damage type pierce passive damage reduction and up to half of a creature's active damage reduction from jutsu.\n• Once per round, when you score a critical hit, the affected creature gains 1 rank of the listed conditions based on the damage type of the attack:\n  ◦ Acid — Corroded.\n  ◦ Poison — Envenomed.\n  ◦ Necrotic — Bleeding.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "critical.elemental-critical",
@@ -1909,7 +2289,8 @@
       "description": "You learn to infuse your nature affinity into your powerful blows. You gain the following benefits:\n• Select one of the following: Ninjutsu attacks or Taijutsu attacks.\n• Once per round, when you score a critical hit with the chosen attack type, the target creature gains 1 rank of one of the listed conditions based on the Nature affinities you have if it is a Ninjutsu attack, or the affinities you have if it is a Taijutsu attack:\n  ◦ Earth — Bruised.\n  ◦ Wind — Bleed.\n  ◦ Fire — Burned.\n  ◦ Water — Chilled.\n  ◦ Lightning — Shocked.\n• You can take this feat more than once, each time selecting a different attack type.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "critical.enhanced-critical",
@@ -1922,7 +2303,8 @@
       "description": "Your ability to strike a place with zeal and efficacy grows. You gain the following benefits:\n• Select one of the following: Ninjutsu attacks, Taijutsu attacks, or Genjutsu attacks. Attacks made with the selected type have a +1 critical threat range.\n• You can take this feat more than once, each time selecting the same or different attack type.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "critical.fanatic",
@@ -1939,7 +2321,8 @@
         }
       ],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "critical.improved-critical",
@@ -1952,7 +2335,8 @@
       "description": "You learn how to capitalize on the faults in your opponent's guard and control the flow of combat. You gain the following benefits:\n• Select one of the following: Ninjutsu attacks, Taijutsu attacks, or Genjutsu attacks.\n• Once per turn, when you score a critical hit with the chosen attack type, you add three additional damage dice to the damage dealt.\n• You can take this feat more than once, each time selecting a different attack type.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "critical.powerful-critical",
@@ -1963,7 +2347,8 @@
       "description": "When you score a critical hit, the world recognizes who you are. You gain the following benefits:\n• Select one of the following: Ninjutsu attacks, Taijutsu attacks, or Genjutsu attacks.\n• Critical hits with the chosen attack type cannot be treated as a normal hit, ignore resistance, and treat immunity as resistance.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "critical.terrifying-critical",
@@ -1976,7 +2361,8 @@
       "description": "When you score a critical hit, you inflict terror into your foes. You gain the following benefits:\n• Select one of the following: Ninjutsu attacks or Genjutsu attacks.\n• Once per round, when you score a critical hit, the affected creature gains 1 rank of Fear.\n• You can take this feat more than once, each time selecting a different attack type.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     },
     {
       "id": "critical.shadow-critical",
@@ -1987,7 +2373,8 @@
       "description": "When you score a critical hit, you absorb the vitality of your fallen foes. You gain the following benefits:\n• When you score a critical hit with a melee attack against a hostile creature, that is not a Ninjutsu or Genjutsu attack, you may regain hit points equal to twice your Constitution modifier. You may gain this benefit three times per rest.\n• Once per combat, when you reduce a hostile creature to 0 hit points with a melee attack that is not a Ninjutsu or Genjutsu attack, you may regain hit points equal to your Constitution score.\n  ◦ If the attack was a critical hit, regain twice the amount of hit points and remove 1 failed Death Saving Throw you possess, if any.",
       "actions": [],
       "sourceKind": "none",
-      "source": ""
+      "source": "",
+      "abilityScoreIncrease": []
     }
   ]
 }
