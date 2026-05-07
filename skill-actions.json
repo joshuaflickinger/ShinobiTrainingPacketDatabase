@@ -13,6 +13,13 @@
     "special": "Takes longer than a single turn (one minute, several minutes, hours, or downtime). See the entry for the exact duration.",
     "action-or-reaction": "Either an Action or a Reaction at the player's discretion."
   },
+  "sourceKind": {
+    "none": "Core skill action — available to any character who meets the tier requirement.",
+    "class": "Granted by a specific class. The 'source' field names the class.",
+    "subclass": "Granted by a specific subclass. The 'source' field is 'ClassName.SubclassName'.",
+    "clan": "Granted by a specific clan. The 'source' field names the clan.",
+    "feat": "Granted by a specific feat. The 'source' field names the feat."
+  },
   "skillActions": [
     {
       "id": "acrobatics.maintain-balance",
@@ -21,7 +28,9 @@
       "name": "Maintain Balance",
       "tier": "any",
       "actionEconomy": "action",
-      "description": "When moving onto, or beginning your turn on, a surface that is slippery, narrow or otherwise difficult to stand on or walk across (this includes difficult terrain), make a Dexterity (Acrobatics) check vs a DC set by the DM (Skill Check DCs table) or the Jutsu save DC if a jutsu caused the effect. On a success, until the end of the current turn you move across the challenging surface as normal without penalty. On a failure, you fall prone."
+      "description": "When moving onto, or beginning your turn on, a surface that is slippery, narrow or otherwise difficult to stand on or walk across (this includes difficult terrain), make a Dexterity (Acrobatics) check vs a DC set by the DM (Skill Check DCs table) or the Jutsu save DC if a jutsu caused the effect. On a success, until the end of the current turn you move across the challenging surface as normal without penalty. On a failure, you fall prone.",
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "acrobatics.cat-fall",
@@ -34,15 +43,32 @@
       "tables": [
         {
           "title": "Cat Fall DC by Distance",
-          "columns": ["Fall Distance", "DC Tier"],
+          "columns": [
+            "Fall Distance",
+            "DC Tier"
+          ],
           "rows": [
-            ["10–30 feet", "Easy"],
-            ["30–50 feet", "Medium"],
-            ["50–70 feet", "Hard"],
-            ["70+ feet", "Very Hard"]
+            [
+              "10–30 feet",
+              "Easy"
+            ],
+            [
+              "30–50 feet",
+              "Medium"
+            ],
+            [
+              "50–70 feet",
+              "Hard"
+            ],
+            [
+              "70+ feet",
+              "Very Hard"
+            ]
           ]
         }
-      ]
+      ],
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "acrobatics.squeeze-through",
@@ -51,9 +77,10 @@
       "name": "Squeeze Through",
       "tier": "proficient",
       "actionEconomy": "action",
-      "description": "You contort yourself to squeeze through a space considered one size category smaller than you are. This action covers spaces that would be exceedingly difficult to fit through — a thin gap between walls, a small hold that takes time and focus to push through. Make a Dexterity (Acrobatics) check vs a DC set by the DM (Skill Check DCs table)."
+      "description": "You contort yourself to squeeze through a space considered one size category smaller than you are. This action covers spaces that would be exceedingly difficult to fit through — a thin gap between walls, a small hold that takes time and focus to push through. Make a Dexterity (Acrobatics) check vs a DC set by the DM (Skill Check DCs table).",
+      "sourceKind": "none",
+      "source": ""
     },
-
     {
       "id": "animal-handling.calm-animal",
       "skill": "Animal Handling",
@@ -61,7 +88,9 @@
       "name": "Calm Animal",
       "tier": "any",
       "actionEconomy": "reaction",
-      "description": "When encountering a hostile beast that can both see and hear you, before any attacks have been made or damage dealt, you can attempt to calm it down. Make a Wisdom (Animal Handling) check vs (DC 8 + the target's level). On a success, you calm it into a non-hostile state, potentially causing it to leave you and your immediate party alone. Any aggressive or hostile actions taken invalidate this action. Once a creature has initiated combat, dealt damage or caused harm to the beast in any way, this non-hostile disposition ends on the creature."
+      "description": "When encountering a hostile beast that can both see and hear you, before any attacks have been made or damage dealt, you can attempt to calm it down. Make a Wisdom (Animal Handling) check vs (DC 8 + the target's level). On a success, you calm it into a non-hostile state, potentially causing it to leave you and your immediate party alone. Any aggressive or hostile actions taken invalidate this action. Once a creature has initiated combat, dealt damage or caused harm to the beast in any way, this non-hostile disposition ends on the creature.",
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "animal-handling.tame-animal",
@@ -70,7 +99,9 @@
       "name": "Tame Animal",
       "tier": "proficient",
       "actionEconomy": "action",
-      "description": "While grappling with or interacting with a hostile or heavily damaged (less than 25% HP) beast, attempt a Wisdom (Animal Handling) check vs DC (12 + target's level). On a success, you tame the creature; it realizes your strength and respects you to a greater level. While tamed, it listens only to your commands as a Bonus action, but will not risk its life to protect you — it will choose to run to preserve itself. The beast leaves if you tame another creature."
+      "description": "While grappling with or interacting with a hostile or heavily damaged (less than 25% HP) beast, attempt a Wisdom (Animal Handling) check vs DC (12 + target's level). On a success, you tame the creature; it realizes your strength and respects you to a greater level. While tamed, it listens only to your commands as a Bonus action, but will not risk its life to protect you — it will choose to run to preserve itself. The beast leaves if you tame another creature.",
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "animal-handling.train-animal",
@@ -79,9 +110,10 @@
       "name": "Train Animal",
       "tier": "mastery",
       "actionEconomy": "special",
-      "description": "By spending 1 week of downtime and making a DC 25 Wisdom (Animal Handling) check, you can train an animal you currently have Tamed or Bonded with. On a success, the animal learns 1 Taijutsu or Bukijutsu using its natural weapons in place of a Bukijutsu's weapon Component requirement. An animal can only have 1 learned jutsu in this way from you. Additionally, a creature you have Trained will not leave unless you have more than two Tamed creatures at a time. A Trained creature who leaves due to having more than two Trained creatures can be called back to your side over the course of a Full Rest."
+      "description": "By spending 1 week of downtime and making a DC 25 Wisdom (Animal Handling) check, you can train an animal you currently have Tamed or Bonded with. On a success, the animal learns 1 Taijutsu or Bukijutsu using its natural weapons in place of a Bukijutsu's weapon Component requirement. An animal can only have 1 learned jutsu in this way from you. Additionally, a creature you have Trained will not leave unless you have more than two Tamed creatures at a time. A Trained creature who leaves due to having more than two Trained creatures can be called back to your side over the course of a Full Rest.",
+      "sourceKind": "none",
+      "source": ""
     },
-
     {
       "id": "athletics.trip",
       "skill": "Athletics",
@@ -89,7 +121,9 @@
       "name": "Trip",
       "tier": "any",
       "actionEconomy": "action",
-      "description": "As part of the same action used to make an unarmed weapon attack, on a hit you can choose to forgo your weapon/unarmed damage to instead trip a creature. Make a contested Strength (Athletics) check vs the target creature's Dexterity (Acrobatics) check. On a success, the target falls prone."
+      "description": "As part of the same action used to make an unarmed weapon attack, on a hit you can choose to forgo your weapon/unarmed damage to instead trip a creature. Make a contested Strength (Athletics) check vs the target creature's Dexterity (Acrobatics) check. On a success, the target falls prone.",
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "athletics.grapple",
@@ -101,7 +135,9 @@
       "description": "You attempt to Grapple a creature. The target makes a contested Strength (Athletics) or Dexterity (Acrobatics) check vs your Strength (Athletics). On a success (your result greater than theirs), the creature is Grappled. A grappled creature can spend an Action to remake the contested check vs you; on a success they immediately escape, ending the Grappled condition. A creature Grappled or Restrained by you can be shoved by you using the Shove skill action. If a grappled or restrained creature is moved more than 5 feet away from you, it immediately ends either condition.",
       "tieredBenefits": {
         "mastery": "If your Grapple check result beats the target's contested check by 10 or more, the creature is instead treated as Restrained by you. A Restrained creature can still attempt their escape attempts at disadvantage."
-      }
+      },
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "athletics.shove",
@@ -114,7 +150,9 @@
       "tieredBenefits": {
         "proficient": "On a success, you instead push the target 5 × your Strength ability modifier in feet. If you beat the target's check by 10 or more, you add an additional +5 feet for every 5-point difference between your check and the opposing check.",
         "mastery": "On a success, you instead push the target 10 × your Strength ability modifier in feet. If you beat the target's check by 10 or more, you add +10 feet for every 5-point difference between your check and the opposing check."
-      }
+      },
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "athletics.disarm",
@@ -123,9 +161,10 @@
       "name": "Disarm",
       "tier": "proficient",
       "actionEconomy": "action",
-      "description": "In place of one of the attacks granted by the Attack action, you can attempt to Disarm a creature. Make a contested Strength (Athletics) check vs the target's Strength (Athletics) or Dexterity (Sleight of Hand). On a success, you knock an item from one of their hands and it falls to the ground. If you beat their check by 10 or more, it is instead knocked 10 or more feet away."
+      "description": "In place of one of the attacks granted by the Attack action, you can attempt to Disarm a creature. Make a contested Strength (Athletics) check vs the target's Strength (Athletics) or Dexterity (Sleight of Hand). On a success, you knock an item from one of their hands and it falls to the ground. If you beat their check by 10 or more, it is instead knocked 10 or more feet away.",
+      "sourceKind": "none",
+      "source": ""
     },
-
     {
       "id": "chakra-control.maintain-focus",
       "skill": "Chakra Control",
@@ -133,7 +172,9 @@
       "name": "Maintain Focus",
       "tier": "proficient",
       "actionEconomy": "action",
-      "description": "You attempt to maintain focus on a jutsu you are currently concentrating on. Make a Constitution (Chakra Control) check vs your jutsu's Save DC. On a success, you do not need to make Chakra Control checks to maintain concentration until the beginning of your next turn."
+      "description": "You attempt to maintain focus on a jutsu you are currently concentrating on. Make a Constitution (Chakra Control) check vs your jutsu's Save DC. On a success, you do not need to make Chakra Control checks to maintain concentration until the beginning of your next turn.",
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "chakra-control.suppress-chakra",
@@ -142,7 +183,9 @@
       "name": "Suppress Chakra",
       "tier": "proficient",
       "actionEconomy": "special",
-      "description": "By spending 1 minute of focus, you suppress your chakra signature. Make a Constitution (Chakra Control) check and record the result. Creatures whose Passive Perception is lower than your result cannot see your chakra with Chakra Sight. Effects that would sense your chakra signature (Sensing Technique, Kagura's Mind Eye, etc.) do not automatically reveal or sense you without the target beating your recorded result via the Search skill action. The benefit lasts 10 minutes, or until you spend chakra or a chakra-like resource (White Chakra, Uzumaki Cells, Calories, Sage Chakra, etc.). After 10 minutes you may reattempt the Chakra Control check, with your result reduced by -2 each time, until you stop using the Suppress Chakra action."
+      "description": "By spending 1 minute of focus, you suppress your chakra signature. Make a Constitution (Chakra Control) check and record the result. Creatures whose Passive Perception is lower than your result cannot see your chakra with Chakra Sight. Effects that would sense your chakra signature (Sensing Technique, Kagura's Mind Eye, etc.) do not automatically reveal or sense you without the target beating your recorded result via the Search skill action. The benefit lasts 10 minutes, or until you spend chakra or a chakra-like resource (White Chakra, Uzumaki Cells, Calories, Sage Chakra, etc.). After 10 minutes you may reattempt the Chakra Control check, with your result reduced by -2 each time, until you stop using the Suppress Chakra action.",
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "chakra-control.draw-reserves",
@@ -151,9 +194,10 @@
       "name": "Draw Reserves",
       "tier": "mastery",
       "actionEconomy": "special",
-      "description": "By spending 10 minutes of focus, you draw out some of your reserve chakra. Make a Constitution (Chakra Control) check vs DC 20. On a success, and for every 5 above the DC you roll, you spend 1 Chakra die and regain the spent die as chakra."
+      "description": "By spending 10 minutes of focus, you draw out some of your reserve chakra. Make a Constitution (Chakra Control) check vs DC 20. On a success, and for every 5 above the DC you roll, you spend 1 Chakra die and regain the spent die as chakra.",
+      "sourceKind": "none",
+      "source": ""
     },
-
     {
       "id": "crafting.basic-repair",
       "skill": "Crafting",
@@ -161,7 +205,9 @@
       "name": "Basic Repair",
       "tier": "any",
       "actionEconomy": "special",
-      "description": "While you have access to a Weaponsmith's or Armorsmith's kit (proficiency not required), you can spend 10 minutes repairing damaged equipment. When an effect would permanently damage or impose a penalty on a weapon, make an Intelligence (Crafting) check vs a DC set by the DM (Skill Check DCs table). On a success, you remove the negative penalties."
+      "description": "While you have access to a Weaponsmith's or Armorsmith's kit (proficiency not required), you can spend 10 minutes repairing damaged equipment. When an effect would permanently damage or impose a penalty on a weapon, make an Intelligence (Crafting) check vs a DC set by the DM (Skill Check DCs table). On a success, you remove the negative penalties.",
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "crafting.craft-non-chakra-item",
@@ -170,7 +216,9 @@
       "name": "Craft a Non-Chakra Enhanced Item",
       "tier": "proficient",
       "actionEconomy": "special",
-      "description": "You can craft items using the Non-Chakra Enhanced item rules."
+      "description": "You can craft items using the Non-Chakra Enhanced item rules.",
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "crafting.craft-seals",
@@ -179,7 +227,9 @@
       "name": "Craft Armor or Weapon Seals",
       "tier": "proficient",
       "actionEconomy": "special",
-      "description": "You can craft armor or weapon seals using the Craft Armor or Weapon Seal rules."
+      "description": "You can craft armor or weapon seals using the Craft Armor or Weapon Seal rules.",
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "crafting.identify-seals",
@@ -192,16 +242,36 @@
       "tables": [
         {
           "title": "Identify Seals DC by Seal Rank",
-          "columns": ["Seal Rank", "DC"],
+          "columns": [
+            "Seal Rank",
+            "DC"
+          ],
           "rows": [
-            ["D-Rank", "13"],
-            ["C-Rank", "17"],
-            ["B-Rank", "21"],
-            ["A-Rank", "25"],
-            ["S-Rank", "29"]
+            [
+              "D-Rank",
+              "13"
+            ],
+            [
+              "C-Rank",
+              "17"
+            ],
+            [
+              "B-Rank",
+              "21"
+            ],
+            [
+              "A-Rank",
+              "25"
+            ],
+            [
+              "S-Rank",
+              "29"
+            ]
           ]
         }
-      ]
+      ],
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "crafting.superior-crafting",
@@ -210,7 +280,9 @@
       "name": "Superior Crafting",
       "tier": "mastery",
       "actionEconomy": "special",
-      "description": "You can craft higher-quality armor and weapons following the Non-Chakra Enhanced Item rules."
+      "description": "You can craft higher-quality armor and weapons following the Non-Chakra Enhanced Item rules.",
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "crafting.enhanced-value",
@@ -219,9 +291,10 @@
       "name": "Enhanced Value",
       "tier": "mastery",
       "actionEconomy": "special",
-      "description": "For every week of downtime spent crafting, increase the market value of items you can craft by an additional 150 ryo. This counts for items you craft following the Non-Chakra Enhanced Item rules."
+      "description": "For every week of downtime spent crafting, increase the market value of items you can craft by an additional 150 ryo. This counts for items you craft following the Non-Chakra Enhanced Item rules.",
+      "sourceKind": "none",
+      "source": ""
     },
-
     {
       "id": "deception.create-diversion",
       "skill": "Deception",
@@ -229,7 +302,9 @@
       "name": "Create Diversion",
       "tier": "any",
       "actionEconomy": "action",
-      "description": "With a gesture, trick or combination of words, you create a diversion intended to draw creatures' attention elsewhere. Make a Charisma (Deception) check vs the Passive Perception of all creatures whose attention you are trying to divert. On a success, all other allied creatures gain a 1d6 bonus to their Stealth checks."
+      "description": "With a gesture, trick or combination of words, you create a diversion intended to draw creatures' attention elsewhere. Make a Charisma (Deception) check vs the Passive Perception of all creatures whose attention you are trying to divert. On a success, all other allied creatures gain a 1d6 bonus to their Stealth checks.",
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "deception.lie",
@@ -238,7 +313,9 @@
       "name": "Lie",
       "tier": "any",
       "actionEconomy": "action",
-      "description": "You try to fool someone with a false truth. Make a Charisma (Deception) check vs the Passive Insight of every creature you are trying to lie to. On a success, the targets believe your lie. The DM may grant circumstance bonuses based on the nature of the lie — elaborate or highly unbelievable lies are much harder to pass, and large elaborate lies are much more difficult to maintain. At the DM's discretion, a creature that initially believes your lie might attempt a contested Wisdom (Insight) or Intelligence (History) check against your previous Charisma (Deception) result."
+      "description": "You try to fool someone with a false truth. Make a Charisma (Deception) check vs the Passive Insight of every creature you are trying to lie to. On a success, the targets believe your lie. The DM may grant circumstance bonuses based on the nature of the lie — elaborate or highly unbelievable lies are much harder to pass, and large elaborate lies are much more difficult to maintain. At the DM's discretion, a creature that initially believes your lie might attempt a contested Wisdom (Insight) or Intelligence (History) check against your previous Charisma (Deception) result.",
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "deception.impersonate",
@@ -247,7 +324,9 @@
       "name": "Impersonate",
       "tier": "proficient",
       "actionEconomy": "free",
-      "description": "You attempt to pass yourself off as someone or something you are not. You alter your voice and adjust your mannerisms to imitate the target of your impersonation. Make a Charisma (Deception) check; the result becomes the DC all other creatures must beat to see through your impersonation, unless you display obvious reasons that you are not the person you are impersonating. Creatures who are very familiar with the object of your impersonation have advantage on checks to see through it."
+      "description": "You attempt to pass yourself off as someone or something you are not. You alter your voice and adjust your mannerisms to imitate the target of your impersonation. Make a Charisma (Deception) check; the result becomes the DC all other creatures must beat to see through your impersonation, unless you display obvious reasons that you are not the person you are impersonating. Creatures who are very familiar with the object of your impersonation have advantage on checks to see through it.",
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "deception.feint",
@@ -256,9 +335,10 @@
       "name": "Feint",
       "tier": "mastery",
       "actionEconomy": "bonus",
-      "description": "While engaged with a hostile creature, you attempt a misleading flourish of fake attacks. Make a contested Charisma (Deception) check vs the target's Wisdom (Insight). On a success, your next melee attack is made with a d4 bonus. Once you Feint a creature, the next Feint you make is made at disadvantage, unless you spend 1 full round not attempting to Feint the creature."
+      "description": "While engaged with a hostile creature, you attempt a misleading flourish of fake attacks. Make a contested Charisma (Deception) check vs the target's Wisdom (Insight). On a success, your next melee attack is made with a d4 bonus. Once you Feint a creature, the next Feint you make is made at disadvantage, unless you spend 1 full round not attempting to Feint the creature.",
+      "sourceKind": "none",
+      "source": ""
     },
-
     {
       "id": "illusions.cast-genjutsu-scroll",
       "skill": "Illusions",
@@ -270,7 +350,9 @@
       "tieredBenefits": {
         "proficient": "You can cast Genjutsu from scrolls of B-Rank or less.",
         "mastery": "You can cast Genjutsu from scrolls of S-Rank or less."
-      }
+      },
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "illusions.read-enemy",
@@ -279,7 +361,9 @@
       "name": "Read The Enemy",
       "tier": "proficient",
       "actionEconomy": "reaction",
-      "description": "When you see an enemy performing any series of Hand Seals (HS) as part of the components needed to cast a Genjutsu, you can attempt to read their actions. Make a Wisdom or Intelligence (Illusions) check vs the target's Genjutsu save DC. On a success, you become aware of the jutsu being cast and gain +2 to AC or advantage on the saving throw made to resist it until the end of the current turn."
+      "description": "When you see an enemy performing any series of Hand Seals (HS) as part of the components needed to cast a Genjutsu, you can attempt to read their actions. Make a Wisdom or Intelligence (Illusions) check vs the target's Genjutsu save DC. On a success, you become aware of the jutsu being cast and gain +2 to AC or advantage on the saving throw made to resist it until the end of the current turn.",
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "illusions.identify-genjutsu",
@@ -288,9 +372,10 @@
       "name": "Identify Genjutsu",
       "tier": "proficient",
       "actionEconomy": "free",
-      "description": "You attempt to identify a Genjutsu currently affecting an object, area or creature. Make a Wisdom (Illusions) check vs the jutsu's save DC + 5. On a success, you become aware of the Genjutsu and its effects. If the Genjutsu is special and has a unique condition needed to be met to end its effects, you also become aware that it cannot be ended via normal means."
+      "description": "You attempt to identify a Genjutsu currently affecting an object, area or creature. Make a Wisdom (Illusions) check vs the jutsu's save DC + 5. On a success, you become aware of the Genjutsu and its effects. If the Genjutsu is special and has a unique condition needed to be met to end its effects, you also become aware that it cannot be ended via normal means.",
+      "sourceKind": "none",
+      "source": ""
     },
-
     {
       "id": "insight.see-through-lies",
       "skill": "Insight",
@@ -298,7 +383,9 @@
       "name": "See Through Lies",
       "tier": "any",
       "actionEconomy": "reaction",
-      "description": "When a creature tells you something, you can attempt a Wisdom (Insight) check. The DM should make the roll in secret even if the target is telling the truth, to avoid giving away campaign secrets by confirmation through omission. If the target is lying, the Insight check is opposed by the target's Charisma (Deception) check. On a success, you become aware the target is potentially telling a lie, though you may not be fully aware of the lie's context. If you have undeniable proof you do not need to make this check. You cannot make multiple Insight checks against the same statement or situation on a failure."
+      "description": "When a creature tells you something, you can attempt a Wisdom (Insight) check. The DM should make the roll in secret even if the target is telling the truth, to avoid giving away campaign secrets by confirmation through omission. If the target is lying, the Insight check is opposed by the target's Charisma (Deception) check. On a success, you become aware the target is potentially telling a lie, though you may not be fully aware of the lie's context. If you have undeniable proof you do not need to make this check. You cannot make multiple Insight checks against the same statement or situation on a failure.",
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "insight.sense-motive",
@@ -307,9 +394,10 @@
       "name": "Sense Motive",
       "tier": "proficient",
       "actionEconomy": "action",
-      "description": "You try to tell if a creature's behavior is abnormal. Choose one creature you can see and assess it for odd body language, nervousness or other indicators that it might be trying to deceive someone. The DM should make the roll in secret. If the target is lying, the Insight check is opposed by the target's Charisma (Deception) check. On a success, you become aware of the target's potential true intentions and get a solid idea of any chakra-based effect affecting it, if any. You cannot attempt to Sense Motive the same creature again until the situation changes significantly (DM's discretion)."
+      "description": "You try to tell if a creature's behavior is abnormal. Choose one creature you can see and assess it for odd body language, nervousness or other indicators that it might be trying to deceive someone. The DM should make the roll in secret. If the target is lying, the Insight check is opposed by the target's Charisma (Deception) check. On a success, you become aware of the target's potential true intentions and get a solid idea of any chakra-based effect affecting it, if any. You cannot attempt to Sense Motive the same creature again until the situation changes significantly (DM's discretion).",
+      "sourceKind": "none",
+      "source": ""
     },
-
     {
       "id": "history.recall-knowledge",
       "skill": "History",
@@ -317,9 +405,10 @@
       "name": "Recall Knowledge",
       "tier": "any",
       "actionEconomy": "action-or-reaction",
-      "description": "You attempt to remember something regarding a specific topic related to your current situation. Make an Intelligence (History) check vs a DC set by the DM (Skill Check DCs table). On a success, you remember specific details of a certain scenario or event."
+      "description": "You attempt to remember something regarding a specific topic related to your current situation. Make an Intelligence (History) check vs a DC set by the DM (Skill Check DCs table). On a success, you remember specific details of a certain scenario or event.",
+      "sourceKind": "none",
+      "source": ""
     },
-
     {
       "id": "intimidation.coerce",
       "skill": "Intimidation",
@@ -327,7 +416,9 @@
       "name": "Coerce",
       "tier": "any",
       "actionEconomy": "special",
-      "description": "Using veiled or overt threats, you bully a creature into doing what you want. You can only perform this action while not in combat. Spend at least 1 minute of conversation with a creature you can see, then make a contested Intimidation check vs the target's Wisdom saving throw. The DM may grant circumstance bonuses based on the situation or environment. On a success, the target performs the act you want them to perform but will most likely retaliate against you in some way. If you beat the DC by 10 or more, the target may decide against retaliating in the short term."
+      "description": "Using veiled or overt threats, you bully a creature into doing what you want. You can only perform this action while not in combat. Spend at least 1 minute of conversation with a creature you can see, then make a contested Intimidation check vs the target's Wisdom saving throw. The DM may grant circumstance bonuses based on the situation or environment. On a success, the target performs the act you want them to perform but will most likely retaliate against you in some way. If you beat the DC by 10 or more, the target may decide against retaliating in the short term.",
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "intimidation.demoralize",
@@ -339,9 +430,10 @@
       "description": "With a powerful taunt, insult or aggressive flex, you shake an enemy's resolve. Choose a creature you can see within 30 feet of yourself. Make a contested Charisma (Intimidation) check vs the target's Wisdom or Charisma (Insight). On a success, the target gains 1 rank of Fear against you. Once you use this skill action against a creature twice, you cannot attempt it again against that creature for 1 hour as they become accustomed to your antics.",
       "tieredBenefits": {
         "mastery": "If you have 2 ranks of Mastery in Intimidation, and you beat the DC by 10 or more, the target instead gains 2 ranks of Fear."
-      }
+      },
+      "sourceKind": "none",
+      "source": ""
     },
-
     {
       "id": "investigation.study",
       "skill": "Investigation",
@@ -349,7 +441,9 @@
       "name": "Study",
       "tier": "any",
       "actionEconomy": "special",
-      "description": "You begin to study your memories, an object, creature, book, clue or another source of focus. While looking it over, you attempt to glean important information such as items it's holding, what has harmed it, its clan, background, affiliation, disposition towards you or others, race (if non-Human), composition or any other detail you could gather by studying it. Spend 1 minute studying your target, then make an Intelligence (Investigation) check vs a DC set by the DM (Skill Check DCs table). On a success, you gather one specific piece of information you may have been looking for or something the DM is willing to provide."
+      "description": "You begin to study your memories, an object, creature, book, clue or another source of focus. While looking it over, you attempt to glean important information such as items it's holding, what has harmed it, its clan, background, affiliation, disposition towards you or others, race (if non-Human), composition or any other detail you could gather by studying it. Spend 1 minute studying your target, then make an Intelligence (Investigation) check vs a DC set by the DM (Skill Check DCs table). On a success, you gather one specific piece of information you may have been looking for or something the DM is willing to provide.",
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "investigation.research",
@@ -358,9 +452,10 @@
       "name": "Research",
       "tier": "proficient",
       "actionEconomy": "special",
-      "description": "By spending any amount of time between 10 minutes and 8 hours, you perform a deep dive into a topic you are focused on. For each multiple of 10 minutes (up to 1 hour) you gain a +1 bonus to this check. For every hour after the first, you instead gain a +1d4 bonus to this check. While researching you are looking for lost or deep secrets. Make an Intelligence (Investigation) check vs a DC set by the DM (Skill Check DCs table). On a success, you gain an important piece of Lore. The DM is encouraged to make the DC challenging to avoid anti-climactic realizations."
+      "description": "By spending any amount of time between 10 minutes and 8 hours, you perform a deep dive into a topic you are focused on. For each multiple of 10 minutes (up to 1 hour) you gain a +1 bonus to this check. For every hour after the first, you instead gain a +1d4 bonus to this check. While researching you are looking for lost or deep secrets. Make an Intelligence (Investigation) check vs a DC set by the DM (Skill Check DCs table). On a success, you gain an important piece of Lore. The DM is encouraged to make the DC challenging to avoid anti-climactic realizations.",
+      "sourceKind": "none",
+      "source": ""
     },
-
     {
       "id": "medicine.administer-aid",
       "skill": "Medicine",
@@ -368,7 +463,9 @@
       "name": "Administer Aid",
       "tier": "any",
       "actionEconomy": "action",
-      "description": "You perform basic first aid on another creature that is bleeding, bruised or concussed. Select which condition you want to address and make a Wisdom (Medicine) check vs DC 15. On a success, and for every 5 over the DC, you remove 1 rank of either Bleeding, Bruised or Concussed. You cannot administer aid to the same creature more than once per rest."
+      "description": "You perform basic first aid on another creature that is bleeding, bruised or concussed. Select which condition you want to address and make a Wisdom (Medicine) check vs DC 15. On a success, and for every 5 over the DC, you remove 1 rank of either Bleeding, Bruised or Concussed. You cannot administer aid to the same creature more than once per rest.",
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "medicine.treat-wounds",
@@ -384,19 +481,56 @@
       "tables": [
         {
           "title": "Treat Wounds Table",
-          "columns": ["Target Condition", "Success Healing DC", "Critical Success Healing DC", "Success Healing", "Critical Healing"],
+          "columns": [
+            "Target Condition",
+            "Success Healing DC",
+            "Critical Success Healing DC",
+            "Success Healing",
+            "Critical Healing"
+          ],
           "rows": [
-            ["80%+",  "14", "18", "2d8+5",   "4d8+5"],
-            ["60%+",  "18", "22", "2d8+10",  "4d8+10"],
-            ["40%+",  "22", "26", "3d8+15",  "6d8+15"],
-            ["20%+",  "26", "30", "3d10+20", "6d10+20"],
-            ["10%+",  "30", "34", "4d10+25", "8d10+25"]
+            [
+              "80%+",
+              "14",
+              "18",
+              "2d8+5",
+              "4d8+5"
+            ],
+            [
+              "60%+",
+              "18",
+              "22",
+              "2d8+10",
+              "4d8+10"
+            ],
+            [
+              "40%+",
+              "22",
+              "26",
+              "3d8+15",
+              "6d8+15"
+            ],
+            [
+              "20%+",
+              "26",
+              "30",
+              "3d10+20",
+              "6d10+20"
+            ],
+            [
+              "10%+",
+              "30",
+              "34",
+              "4d10+25",
+              "8d10+25"
+            ]
           ],
           "notes": "How to read/use this chart: when you would attempt a Treat Wounds action, calculate the target's approximate hit point value by dividing their current HP by their maximum. Make your Medicine check and compare the result with the Success Healing DC. You can select any healing value that your target qualifies for, based on your check result. For example, if your target has 45% of their remaining HP but your check result is 20, you can choose either 2d8+5 or 2d8+10 healing, but not 3d8+15 (you did not beat DC 22)."
         }
-      ]
+      ],
+      "sourceKind": "none",
+      "source": ""
     },
-
     {
       "id": "ninshou.cast-ninjutsu-scroll",
       "skill": "Ninshou",
@@ -408,7 +542,9 @@
       "tieredBenefits": {
         "proficient": "You can cast Ninjutsu from scrolls of B-Rank or less.",
         "mastery": "You can cast Ninjutsu from scrolls of S-Rank or less."
-      }
+      },
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "ninshou.read-enemy",
@@ -417,7 +553,9 @@
       "name": "Read The Enemy",
       "tier": "proficient",
       "actionEconomy": "reaction",
-      "description": "When you see an enemy performing any series of Hand Seals (HS) as part of the components needed to cast a Ninjutsu, you can attempt to read their actions. Make an Intelligence (Ninshou) check vs the target's Ninjutsu save DC. On a success, you become aware of the jutsu being cast and gain +2 to AC or advantage on the saving throw made to resist it until the end of the current turn."
+      "description": "When you see an enemy performing any series of Hand Seals (HS) as part of the components needed to cast a Ninjutsu, you can attempt to read their actions. Make an Intelligence (Ninshou) check vs the target's Ninjutsu save DC. On a success, you become aware of the jutsu being cast and gain +2 to AC or advantage on the saving throw made to resist it until the end of the current turn.",
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "ninshou.identify-ninjutsu",
@@ -426,9 +564,10 @@
       "name": "Identify Ninjutsu",
       "tier": "proficient",
       "actionEconomy": "free",
-      "description": "You attempt to identify a Ninjutsu currently affecting an object, area or creature. Make an Intelligence (Ninshou) check vs the jutsu's save DC + 5. On a success, you become aware of the Ninjutsu and its effects. If the Ninjutsu is special and has a unique condition needed to be met to end its effects, you also become aware that it cannot be ended via normal means."
+      "description": "You attempt to identify a Ninjutsu currently affecting an object, area or creature. Make an Intelligence (Ninshou) check vs the jutsu's save DC + 5. On a success, you become aware of the Ninjutsu and its effects. If the Ninjutsu is special and has a unique condition needed to be met to end its effects, you also become aware that it cannot be ended via normal means.",
+      "sourceKind": "none",
+      "source": ""
     },
-
     {
       "id": "perception.search",
       "skill": "Perception",
@@ -436,9 +575,10 @@
       "name": "Search",
       "tier": "any",
       "actionEconomy": "action",
-      "description": "Make a Wisdom (Perception) check vs the target's Stealth or Notice DC, intended to discern something that isn't obvious — such as noticing something concealed."
+      "description": "Make a Wisdom (Perception) check vs the target's Stealth or Notice DC, intended to discern something that isn't obvious — such as noticing something concealed.",
+      "sourceKind": "none",
+      "source": ""
     },
-
     {
       "id": "performance.perform",
       "skill": "Performance",
@@ -450,9 +590,10 @@
       "tieredBenefits": {
         "proficient": "Trained — you can gain the attention of Merchants, Minor Nobles, and Chunin.",
         "mastery": "At least 1 rank of Mastery — you can gain the attention of High Nobility, Royalty, and Jonin."
-      }
+      },
+      "sourceKind": "none",
+      "source": ""
     },
-
     {
       "id": "persuasion.gather-information",
       "skill": "Persuasion",
@@ -460,7 +601,9 @@
       "name": "Gather Information",
       "tier": "any",
       "actionEconomy": "special",
-      "description": "You canvass local communities, bars, markets and gathering places in an attempt to learn about a specific individual or topic. Make a Charisma (Persuasion) check vs a DC set by the DM (Skill Check DCs table). On a success, you gather one specific piece of information you may have been looking for or something the DM is willing to provide. This process normally takes 2–3 hours."
+      "description": "You canvass local communities, bars, markets and gathering places in an attempt to learn about a specific individual or topic. Make a Charisma (Persuasion) check vs a DC set by the DM (Skill Check DCs table). On a success, you gather one specific piece of information you may have been looking for or something the DM is willing to provide. This process normally takes 2–3 hours.",
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "persuasion.make-impression",
@@ -469,7 +612,9 @@
       "name": "Make an Impression / Request",
       "tier": "any",
       "actionEconomy": "special",
-      "description": "With at least 1 minute of conversation, during which you engage in charismatic flattery and other acts of goodwill, you seek to make a good impression on someone in order to make a formal request of them. Make a Charisma (Persuasion) check vs the target's Wisdom save bonus + 10. On a success, the target agrees to your request, but also requires something in return. If you beat the DC by 10 or more, they do not request anything in return. On a failure, the target refuses but may offer an alternative more beneficial to themselves."
+      "description": "With at least 1 minute of conversation, during which you engage in charismatic flattery and other acts of goodwill, you seek to make a good impression on someone in order to make a formal request of them. Make a Charisma (Persuasion) check vs the target's Wisdom save bonus + 10. On a success, the target agrees to your request, but also requires something in return. If you beat the DC by 10 or more, they do not request anything in return. On a failure, the target refuses but may offer an alternative more beneficial to themselves.",
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "persuasion.haggle",
@@ -478,7 +623,9 @@
       "name": "Haggle",
       "tier": "proficient",
       "actionEconomy": "free",
-      "description": "When attempting to purchase an item from a seller, you may make a Charisma (Persuasion) check vs the seller's Passive Insight. On a success, the seller agrees to give you a discount equal to 2d4+5 percent. If you succeed by 10 or more, the seller agrees to a 2d4+10 percent discount. Depending on the rarity of the item, your DM may grant advantage or disadvantage. If you fail, you cannot attempt this skill action on the seller for the next 24 hours. If you fail by 5 or more, the seller increases the cost of the item by 2d4+5 percent. Each time you succeed with this skill action, the DC increases by +5 for the next 24 hours."
+      "description": "When attempting to purchase an item from a seller, you may make a Charisma (Persuasion) check vs the seller's Passive Insight. On a success, the seller agrees to give you a discount equal to 2d4+5 percent. If you succeed by 10 or more, the seller agrees to a 2d4+10 percent discount. Depending on the rarity of the item, your DM may grant advantage or disadvantage. If you fail, you cannot attempt this skill action on the seller for the next 24 hours. If you fail by 5 or more, the seller increases the cost of the item by 2d4+5 percent. Each time you succeed with this skill action, the DC increases by +5 for the next 24 hours.",
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "persuasion.upsell",
@@ -487,9 +634,10 @@
       "name": "Upsell",
       "tier": "mastery",
       "actionEconomy": "free",
-      "description": "You attempt to use your marketing skills when selling an item to convince the buyer to pay you more money than its worth (see Selling rules in Chapter 7: Adventuring and Missions). Make a Charisma (Persuasion) check vs a DC set by the DM (Skill Check DCs table). On a success, the buyer agrees to give you 50% more ryo. If you fail, the buyer doesn't see your angle and pays the base price. If you fail by 10 or more, the buyer may lose interest, and if you succeeded with this skill action within the past hour against them, they will demand the money they overpaid back."
+      "description": "You attempt to use your marketing skills when selling an item to convince the buyer to pay you more money than its worth (see Selling rules in Chapter 7: Adventuring and Missions). Make a Charisma (Persuasion) check vs a DC set by the DM (Skill Check DCs table). On a success, the buyer agrees to give you 50% more ryo. If you fail, the buyer doesn't see your angle and pays the base price. If you fail by 10 or more, the buyer may lose interest, and if you succeeded with this skill action within the past hour against them, they will demand the money they overpaid back.",
+      "sourceKind": "none",
+      "source": ""
     },
-
     {
       "id": "sleight-of-hand.palm-object",
       "skill": "Sleight of Hand",
@@ -497,7 +645,9 @@
       "name": "Palm an Object",
       "tier": "any",
       "actionEconomy": "free",
-      "description": "You can palm or hide a small unattended object without being noticed. Make a single Dexterity (Sleight of Hand) check vs the Passive Perception of creatures who are not directly looking at you. A creature watching you makes a contested Wisdom (Perception) check; if they beat your Sleight of Hand, they perceive your attempt to hide the object."
+      "description": "You can palm or hide a small unattended object without being noticed. Make a single Dexterity (Sleight of Hand) check vs the Passive Perception of creatures who are not directly looking at you. A creature watching you makes a contested Wisdom (Perception) check; if they beat your Sleight of Hand, they perceive your attempt to hide the object.",
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "sleight-of-hand.steal",
@@ -506,7 +656,9 @@
       "name": "Steal",
       "tier": "any",
       "actionEconomy": "free",
-      "description": "You can try to take a small object from another creature without being noticed. Typically, you can only steal an object small enough to fit in one hand (a coin purse, small object or similar) and you automatically fail if the creature with the object is in combat or on guard. Make a Dexterity (Sleight of Hand) check vs the target's Passive Perception. If the object is inside the target's pockets or clothing in any way, you suffer a -5 penalty. The DM may apply additional penalties if the nature of the object makes it harder to steal (a small item in a larger bag, a single sheet of parchment mixed in with other documents, etc.). On a success, you grab the object and claim it in a single hand. If there are other creatures within the same room and any of their Passive Perceptions beat your check, they notice your act."
+      "description": "You can try to take a small object from another creature without being noticed. Typically, you can only steal an object small enough to fit in one hand (a coin purse, small object or similar) and you automatically fail if the creature with the object is in combat or on guard. Make a Dexterity (Sleight of Hand) check vs the target's Passive Perception. If the object is inside the target's pockets or clothing in any way, you suffer a -5 penalty. The DM may apply additional penalties if the nature of the object makes it harder to steal (a small item in a larger bag, a single sheet of parchment mixed in with other documents, etc.). On a success, you grab the object and claim it in a single hand. If there are other creatures within the same room and any of their Passive Perceptions beat your check, they notice your act.",
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "sleight-of-hand.disable-device",
@@ -515,7 +667,9 @@
       "name": "Disable a Device / Trap",
       "tier": "proficient",
       "actionEconomy": "free",
-      "description": "While you have access to either a Trapper's Kit or another toolkit needed to disable the specific device, you disarm a trap or another mechanical device. Make a Dexterity (Sleight of Hand) check vs the Disable DC found with the individual device or trap. If a device or trap does not have a DC associated with it, the DM can set one based on the Skill Check DCs table. On a success, you disable the device or trap."
+      "description": "While you have access to either a Trapper's Kit or another toolkit needed to disable the specific device, you disarm a trap or another mechanical device. Make a Dexterity (Sleight of Hand) check vs the Disable DC found with the individual device or trap. If a device or trap does not have a DC associated with it, the DM can set one based on the Skill Check DCs table. On a success, you disable the device or trap.",
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "sleight-of-hand.pick-lock",
@@ -524,9 +678,10 @@
       "name": "Pick a Lock",
       "tier": "proficient",
       "actionEconomy": "free",
-      "description": "Pick a lock using the Security Kit, following the rules found under the Security Toolkit section."
+      "description": "Pick a lock using the Security Kit, following the rules found under the Security Toolkit section.",
+      "sourceKind": "none",
+      "source": ""
     },
-
     {
       "id": "stealth.hide",
       "skill": "Stealth",
@@ -538,14 +693,28 @@
       "tables": [
         {
           "title": "Stealth Chart",
-          "columns": ["Stealth Status", "Effect / Definition"],
+          "columns": [
+            "Stealth Status",
+            "Effect / Definition"
+          ],
           "rows": [
-            ["Observed / Seen", "Creatures can see you. You are not Hidden or Undetected and cannot gain the benefit of either."],
-            ["Hidden / Unseen / Aware", "Creatures are aware of your presence but they cannot see you and do not know your location. Creatures who are aware of your presence can take the Search action to attempt to find you."],
-            ["Unaware / Undetected", "Creatures are unaware of your presence and do not know of your location. While you are undetected you can gain the benefit of surprising a creature, triggering a surprise round."]
+            [
+              "Observed / Seen",
+              "Creatures can see you. You are not Hidden or Undetected and cannot gain the benefit of either."
+            ],
+            [
+              "Hidden / Unseen / Aware",
+              "Creatures are aware of your presence but they cannot see you and do not know your location. Creatures who are aware of your presence can take the Search action to attempt to find you."
+            ],
+            [
+              "Unaware / Undetected",
+              "Creatures are unaware of your presence and do not know of your location. While you are undetected you can gain the benefit of surprising a creature, triggering a surprise round."
+            ]
           ]
         }
-      ]
+      ],
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "stealth.sneak",
@@ -554,9 +723,10 @@
       "name": "Sneak",
       "tier": "any",
       "actionEconomy": "free",
-      "description": "You can only attempt to sneak while you are hidden or undetected. When you attempt to move while hidden it is also called sneaking. While sneaking you can only move up to half your speed. Make a Dexterity (Stealth) check, which cannot be remade unless by another effect dictating it (you can sneak while burrowing, climbing, flying or swimming). The result is compared to the Passive Perception of all creatures within 30 feet of you. On a failure they become aware of your presence but you are not immediately seen — they instead may begin to actively look for you. If they do, you must make another Dexterity (Stealth) check vs their Wisdom (Perception) check. If you pass, you remain unseen. On a failure they become aware of your location and you become observed."
+      "description": "You can only attempt to sneak while you are hidden or undetected. When you attempt to move while hidden it is also called sneaking. While sneaking you can only move up to half your speed. Make a Dexterity (Stealth) check, which cannot be remade unless by another effect dictating it (you can sneak while burrowing, climbing, flying or swimming). The result is compared to the Passive Perception of all creatures within 30 feet of you. On a failure they become aware of your presence but you are not immediately seen — they instead may begin to actively look for you. If they do, you must make another Dexterity (Stealth) check vs their Wisdom (Perception) check. If you pass, you remain unseen. On a failure they become aware of your location and you become observed.",
+      "sourceKind": "none",
+      "source": ""
     },
-
     {
       "id": "survival.sense-direction",
       "skill": "Survival",
@@ -568,7 +738,9 @@
       "tieredBenefits": {
         "proficient": "Trained — you can navigate a featureless desert, hedge maze, or foreign country's environment.",
         "mastery": "At least 2 ranks of Mastery — you can navigate an alien world, ever-changing dream realm, alternative reality or different dimension."
-      }
+      },
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "survival.cover-tracks",
@@ -577,7 +749,9 @@
       "name": "Cover Tracks",
       "tier": "proficient",
       "actionEconomy": "special",
-      "description": "You cover your tracks. Reduce your travel speed by half. You do not need to attempt a Survival check to cover your tracks, but anyone attempting to track you must make a Survival check vs your Passive Survival (10 + Survival bonus)."
+      "description": "You cover your tracks. Reduce your travel speed by half. You do not need to attempt a Survival check to cover your tracks, but anyone attempting to track you must make a Survival check vs your Passive Survival (10 + Survival bonus).",
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "survival.track",
@@ -586,9 +760,10 @@
       "name": "Track",
       "tier": "proficient",
       "actionEconomy": "special",
-      "description": "You attempt to follow tracks, moving up to half your travel speed. Make a Wisdom (Survival) check vs the target's Passive Survival, Stealth check result, or a DC set by the DM (Skill Check DCs table). On a success, you can track a single creature for up to 1 hour before needing to remake this check."
+      "description": "You attempt to follow tracks, moving up to half your travel speed. Make a Wisdom (Survival) check vs the target's Passive Survival, Stealth check result, or a DC set by the DM (Skill Check DCs table). On a success, you can track a single creature for up to 1 hour before needing to remake this check.",
+      "sourceKind": "none",
+      "source": ""
     },
-
     {
       "id": "martial-arts.read-enemy",
       "skill": "Martial Arts",
@@ -596,7 +771,9 @@
       "name": "Read The Enemy",
       "tier": "proficient",
       "actionEconomy": "reaction",
-      "description": "When you see an enemy performing any series of complex body movements (M) as part of the components needed to cast a Taijutsu or Bukijutsu, you can attempt to read their actions. Make an Athletics or Intelligence (Martial Arts) check vs the target's Taijutsu save DC. On a success, you become aware of the jutsu being cast and gain +2 to AC or advantage on the saving throw made to resist it until the end of the current turn."
+      "description": "When you see an enemy performing any series of complex body movements (M) as part of the components needed to cast a Taijutsu or Bukijutsu, you can attempt to read their actions. Make an Athletics or Intelligence (Martial Arts) check vs the target's Taijutsu save DC. On a success, you become aware of the jutsu being cast and gain +2 to AC or advantage on the saving throw made to resist it until the end of the current turn.",
+      "sourceKind": "none",
+      "source": ""
     },
     {
       "id": "martial-arts.identify-taijutsu",
@@ -605,7 +782,9 @@
       "name": "Identify Taijutsu / Bukijutsu",
       "tier": "proficient",
       "actionEconomy": "free",
-      "description": "You attempt to identify a Taijutsu or Bukijutsu currently affecting an object, area or creature. Make a Strength or Intelligence (Martial Arts) check vs the jutsu's save DC + 5. On a success, you become aware of the jutsu and its effects. If the Taijutsu or Bukijutsu is special and has a unique condition needed to be met to end its effects, you also become aware that it cannot be ended via normal means."
+      "description": "You attempt to identify a Taijutsu or Bukijutsu currently affecting an object, area or creature. Make a Strength or Intelligence (Martial Arts) check vs the jutsu's save DC + 5. On a success, you become aware of the jutsu and its effects. If the Taijutsu or Bukijutsu is special and has a unique condition needed to be met to end its effects, you also become aware that it cannot be ended via normal means.",
+      "sourceKind": "none",
+      "source": ""
     }
   ]
 }
