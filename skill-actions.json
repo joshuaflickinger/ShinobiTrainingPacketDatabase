@@ -7,6 +7,7 @@
   },
   "actionEconomy": {
     "action": "Costs an Action.",
+    "attack": "Replaces one of the attacks granted by the Attack action (or piggybacks on a hit of one). Surfaces under the Attack-action group on the actions tab rather than as a standalone Action.",
     "bonus": "Costs a Bonus Action.",
     "reaction": "Costs a Reaction.",
     "free": "Free Action — used when the source text simply says the character can do the thing without specifying a time cost.",
@@ -120,7 +121,7 @@
       "ability": "Strength",
       "name": "Trip",
       "tier": "any",
-      "actionEconomy": "action",
+      "actionEconomy": "attack",
       "description": "As part of the same action used to make an unarmed weapon attack, on a hit you can choose to forgo your weapon/unarmed damage to instead trip a creature. Make a contested Strength (Athletics) check vs the target creature's Dexterity (Acrobatics) check. On a success, the target falls prone.",
       "sourceKind": "none",
       "source": ""
@@ -145,7 +146,7 @@
       "ability": "Strength",
       "name": "Shove",
       "tier": "any",
-      "actionEconomy": "action",
+      "actionEconomy": "attack",
       "description": "In place of one of the attacks granted by the Attack action, you can attempt to Shove a creature. Make a contested Strength (Athletics) check vs the target's Strength (Athletics), Strength (Martial Arts) or Dexterity (Acrobatics). On a success, you push the target 5 feet in any direction. If you beat the target's check by 10 or more, you instead push them 10 feet. If the target is grappled or restrained by you prior to the shove, they cannot use Acrobatics for the contested check.",
       "tieredBenefits": {
         "proficient": "On a success, you instead push the target 5 × your Strength ability modifier in feet. If you beat the target's check by 10 or more, you add an additional +5 feet for every 5-point difference between your check and the opposing check.",
@@ -160,7 +161,7 @@
       "ability": "Strength",
       "name": "Disarm",
       "tier": "proficient",
-      "actionEconomy": "action",
+      "actionEconomy": "attack",
       "description": "In place of one of the attacks granted by the Attack action, you can attempt to Disarm a creature. Make a contested Strength (Athletics) check vs the target's Strength (Athletics) or Dexterity (Sleight of Hand). On a success, you knock an item from one of their hands and it falls to the ground. If you beat their check by 10 or more, it is instead knocked 10 or more feet away.",
       "sourceKind": "none",
       "source": ""
