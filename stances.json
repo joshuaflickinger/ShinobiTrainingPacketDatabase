@@ -1,0 +1,551 @@
+{
+  "schemaVersion": 1,
+  "rules": {
+    "global": "You can only gain the benefit of one stance at a time. Switching stances requires a bonus action. This counts for all Taijutsu and Weapon stances and stances granted by Clan Features such as the Gentle Fist Stance and the Shikotsumyaku Stance. If a stance grants an ability or special action that would deal unarmed damage, you must use the stance's provided damage die.",
+    "chakra": "You can only gain the benefit of a Chakra Stance while wielding a weapon with the Evocation weapon property. You can only benefit from one Chakra Stance at a time, unless otherwise specified. You cannot benefit from a Chakra Stance while benefiting from a Taijutsu or Bukijutsu Stance. By spending a Bonus Action, you can switch stances if you have more than one."
+  },
+  "stances": [
+    {
+      "id": "taijutsu.titan-fist",
+      "category": "taijutsu",
+      "name": "Titan Fist Stance",
+      "expert": false,
+      "prerequisite": "",
+      "description": "You have learned to enter a highly defensive stance, becoming more guarded and focused on avoiding and blocking damage.",
+      "effects": [
+        "Your unarmed damage die becomes a d6.",
+        "While in this stance, you gain the Reinforced armor property if you weren't already benefiting from it. Your Reinforced value is equal to your Taijutsu ability modifier.",
+        "If you are wearing armor with a Reinforced property, you instead increase the armor's Reinforced value by +2."
+      ]
+    },
+    {
+      "id": "taijutsu.drunken-fist",
+      "category": "taijutsu",
+      "name": "Drunken Fist Stance",
+      "expert": false,
+      "prerequisite": "",
+      "description": "You have learned to enter an irregular and erratic fighting style, attacking with no warning and defending with unconventional motions.",
+      "effects": [
+        "Your unarmed damage die becomes a d6.",
+        "As a reaction to being targeted with a melee or ranged attack, you can impose disadvantage on the triggering creature's attacks targeting you until the end of the current turn."
+      ]
+    },
+    {
+      "id": "taijutsu.frog-fist",
+      "category": "taijutsu",
+      "name": "Frog Fist Stance",
+      "expert": false,
+      "prerequisite": "",
+      "description": "You have learned to fight with chakra and fists in a combination of leaping kicks and lunging punches, hitting creatures who are far outside of your attack's range.",
+      "effects": [
+        "Your unarmed damage die becomes a d6.",
+        "Once per turn, when an unarmed or Taijutsu attack has its damage intercepted by a structure or construct, you ignore those structures and constructs, dealing damage as normal to the original target."
+      ]
+    },
+    {
+      "id": "taijutsu.iron-fist",
+      "category": "taijutsu",
+      "name": "Iron Fist Stance",
+      "expert": false,
+      "prerequisite": "",
+      "description": "You have studied in the Iron Fist fighting style: a closed-fist style designed to break bone and directly injure opponents.",
+      "effects": [
+        "Your unarmed damage becomes a d6. If wearing Combat Bracers this instead becomes 1d8 if Strength is your Taijutsu ability score.",
+        "While in this stance, your unarmed attacks gain the Heavy weapon property, but ignore the ability score requirement."
+      ]
+    },
+    {
+      "id": "taijutsu.lion-fist",
+      "category": "taijutsu",
+      "name": "Lion Fist Stance",
+      "expert": false,
+      "prerequisite": "",
+      "description": "You have learned to enter a powerful and intimidating fighting stance. You fight with one hand as a claw and the other as a fist to emulate the ferocity of a lion or lioness.",
+      "effects": [
+        "Your unarmed damage becomes a d6. Your unarmed damage becomes a d8 when used against a creature with ranks of Fear.",
+        "In place of one of your attacks granted by the Attack action, you can attempt the Demoralize skill action."
+      ]
+    },
+    {
+      "id": "taijutsu.rabbit-fist",
+      "category": "taijutsu",
+      "name": "Rabbit Fist Stance",
+      "expert": false,
+      "prerequisite": "",
+      "description": "You have learned how to fight with the rapid-fire speed of a rabbit, striking multiple times with light kicks.",
+      "effects": [
+        "Your unarmed damage becomes a d6.",
+        "Your unarmed attacks gain the Multiattack weapon property."
+      ]
+    },
+    {
+      "id": "taijutsu.serpent-fist",
+      "category": "taijutsu",
+      "name": "Serpent Fist Stance",
+      "expert": false,
+      "prerequisite": "",
+      "description": "You have learned how to fight with the precision and ferociousness of a serpent. You fight with your fingers held to a point as you stab into an opponent's pressure points like needles during acupuncture.",
+      "effects": [
+        "Your unarmed damage becomes a d6 and piercing.",
+        "Your unarmed attacks gain the Disarm weapon property."
+      ]
+    },
+    {
+      "id": "taijutsu.silent-fist",
+      "category": "taijutsu",
+      "name": "Silent Fist Stance",
+      "expert": false,
+      "prerequisite": "",
+      "description": "You have learned how to fight unpredictably. You fight with your palms open and swing your hands as if they were bladed weapons.",
+      "effects": [
+        "Your unarmed damage becomes a d6 and slashing. If wearing Iron Claws this instead becomes 1d8.",
+        "Your unarmed attacks gain the Deadly 2 weapon property."
+      ]
+    },
+    {
+      "id": "taijutsu.wolf-fist",
+      "category": "taijutsu",
+      "name": "Wolf Fist Stance",
+      "expert": false,
+      "prerequisite": "",
+      "description": "You have learned to enter the aggressive and fast-paced Wolf Fang fighting stance. You fight with both hands as claws, each strike aiming for a creature's sensitive organs to cause bludgeoning damage.",
+      "effects": [
+        "Your unarmed damage becomes a d6.",
+        "As an action, you perform the Wolf Fang Fist: make two unarmed attacks, increasing your unarmed damage die by +1."
+      ]
+    },
+
+    {
+      "id": "bukijutsu.blade",
+      "category": "bukijutsu",
+      "name": "Blade Stance",
+      "expert": false,
+      "prerequisite": "Melee, Blade Weapon Group",
+      "description": "You master the blade. All bladed weapons become extensions of your body, their attacks flowing into your very movement.",
+      "effects": [
+        "When you make an opportunity attack with a weapon, you have advantage on the attack roll.",
+        "When you score a critical hit with a weapon attack, the target gains 1 rank of Bleeding."
+      ]
+    },
+    {
+      "id": "bukijutsu.flailing",
+      "category": "bukijutsu",
+      "name": "Flailing Stance",
+      "expert": false,
+      "prerequisite": "Melee, Flail Weapon Group",
+      "description": "You master the unpredictable arcs and entangling chains of flail weapons, making every swing a threat from unexpected angles.",
+      "effects": [
+        "Weapon attacks with a Flail weapon ignore bonuses to AC or DR as a result of weapon properties or traits.",
+        "When a creature within your weapon's range misses you with an attack, you can spend 1 reaction to make a melee weapon attack against them."
+      ]
+    },
+    {
+      "id": "bukijutsu.great-weapon",
+      "category": "bukijutsu",
+      "name": "Great Weapon Stance",
+      "expert": false,
+      "prerequisite": "Melee, Heavy Weapon Property",
+      "description": "You are skilled at putting the weight of a weapon to your advantage. All large or unwieldy weapons are just additional tools to add to your toolbelt.",
+      "effects": [
+        "When you roll a 1 or 2 on your weapon damage die, you can reroll the die, keeping the second result.",
+        "When you make a successful weapon attack against a hostile creature, you deal half of the damage dealt to other hostile creatures whom you are adjacent to as you cleave through in an arc."
+      ]
+    },
+    {
+      "id": "bukijutsu.polearm",
+      "category": "bukijutsu",
+      "name": "Polearm Stance",
+      "expert": false,
+      "prerequisite": "Melee, Polearm Weapon Group",
+      "description": "You master the use of weapons with a long reach, capable of striking enemies at a slight distance from you.",
+      "effects": [
+        "When you take the Attack action, you can use a bonus action to make one melee weapon attack with the opposite end of the weapon. The weapon's damage die for this attack is one step lower than the current damage die of the weapon (D12/2d6 → D10 → D8 → D6 → D4).",
+        "Other creatures provoke an opportunity attack from you when they enter or exit your reach."
+      ]
+    },
+    {
+      "id": "bukijutsu.power",
+      "category": "bukijutsu",
+      "name": "Power Stance",
+      "expert": false,
+      "prerequisite": "Melee, Power Weapon Group",
+      "description": "You master the art of Power attacks. All weapons with the ability to shatter bones and crack stone are treated as extensions of your fists and feet.",
+      "effects": [
+        "When you take the Ready action, you can make a weapon attack as part of that action. On a hit, the target is knocked prone. Standing from being knocked prone in this way costs an Action, not movement, until the end of the affected creature's next turn.",
+        "When you score a critical hit with a weapon attack, the target gains 1 rank of Bruised."
+      ]
+    },
+    {
+      "id": "bukijutsu.sharpshooter",
+      "category": "bukijutsu",
+      "name": "Sharpshooter Stance",
+      "expert": false,
+      "prerequisite": "Ranged, Ammunition or Thrown Weapon Group",
+      "description": "You can make shots that others find difficult.",
+      "effects": [
+        "When you are targeted with a ranged weapon attack that you can see, you may, as a reaction, make a ranged weapon attack vs the triggering creature's ranged weapon attack result. If your result is higher than theirs, you divert their attack by knocking it out of the sky or off course.",
+        "Your weapon's long range increment becomes its base range. Attacks within this range increment are not made at disadvantage."
+      ]
+    },
+    {
+      "id": "bukijutsu.two-weapon",
+      "category": "bukijutsu",
+      "name": "Two-Weapon Stance",
+      "expert": false,
+      "prerequisite": "Two weapons with the Light or Multiattack weapon property in each hand",
+      "description": "You are skilled at fighting with two weapons in a flurry of swings, strikes and attacks.",
+      "effects": [
+        "Attacks made with the Multiattack property add your ability modifier to the damage if it didn't already.",
+        "When you make an opportunity attack, you can attack with both of your weapons."
+      ]
+    },
+    {
+      "id": "bukijutsu.guardian",
+      "category": "bukijutsu",
+      "name": "Guardian Stance",
+      "expert": false,
+      "prerequisite": "Melee, Blocking Weapon Property",
+      "description": "You are skilled in the art of defense, protecting yourself and your nearby allies.",
+      "effects": [
+        "When you take the Dodge action on your turn, you also gain advantage on Strength saving throws.",
+        "When an allied creature within 5 feet of you would take damage as the result of an attack, you can spend your reaction to interpose and intercept it. The triggering attack is now compared to your AC as you become its target. The allied creature cannot be targeted by the same creature until the end of the current turn, with you instead becoming the target each time an attempted attack would happen."
+      ]
+    },
+    {
+      "id": "bukijutsu.silent-killing",
+      "category": "bukijutsu",
+      "name": "Silent Killing",
+      "expert": false,
+      "prerequisite": "Deadly, Hidden or Lethal Weapon Property",
+      "description": "You have learned how to strike with ruthless efficiency while producing no sound when you bring about death. You gain these benefits while you are heavily obscured or hidden from a creature.",
+      "effects": [
+        "Weapon attacks you make against a creature you are heavily obscured or hidden from ignore half of the target's DR (damage reduction).",
+        "The first weapon attack you make against a creature you are hidden from grants you 1 rank of Mastery to the attack."
+      ]
+    },
+
+    {
+      "id": "chakra.sensory",
+      "category": "chakra",
+      "name": "Sensory Stance",
+      "expert": false,
+      "prerequisite": "Have a Ninjutsu or Genjutsu with the Sensory keyword on your known list",
+      "description": "You are a Sensory-Nin with the skills to track, analyze and intuit chakra, techniques and even strategies.",
+      "effects": [
+        "Attacks from a hidden creature cannot surprise you.",
+        "Attacks from a hidden creature cannot be made at advantage vs you or allied creatures within 5 feet of you.",
+        "You gain the Sense Minor Chakra skill action: as a bonus action, make a Perception check using either Constitution or Wisdom vs the Passive Chakra Control (Chakra Control bonus + 10) of all creatures within 15 feet of you. On a success, you gain the benefit of the Chakra Sensing special sense against them until they have 0 chakra or succeed on a Suppress Chakra skill action."
+      ]
+    },
+    {
+      "id": "chakra.bombardment",
+      "category": "chakra",
+      "name": "Bombardment Stance",
+      "expert": false,
+      "prerequisite": "Have a Ninjutsu or Genjutsu whose area of effect is in the shape of a Sphere, Cube, Cone, Cylinder or Line on your known list",
+      "description": "When casting jutsu that bombards an area with their effects, you are able to modify their shapes slightly.",
+      "effects": [
+        "Ninjutsu or Genjutsu you cast that affects an area, has a duration, and normally cannot be moved, can be moved as a bonus action. A jutsu can only be moved once in this way per casting. Creatures in the newly affected area make their saves as if they were in the original affected area.",
+        "Ninjutsu or Genjutsu you cast that affects an area that normally does not allow you to choose creatures to affect, allows you to select one creature to make immune to the jutsu's effects."
+      ]
+    },
+    {
+      "id": "chakra.scroll-fist",
+      "category": "chakra",
+      "name": "Scroll Fist Stance",
+      "expert": false,
+      "prerequisite": "Have a Giant Combat Scroll",
+      "description": "Unlike other casters, you fight with your fist and your mind. You wrap your arms and legs in your combat scroll, providing you with a very different fighting style.",
+      "effects": [
+        "You can now make melee attacks with your Combat Scroll as you strike with chakra-covered fists and feet.",
+        "In place of increasing the scroll's damage pool, you instead make a number of attacks equal to the number of dice you would roll, dealing 1d12 damage for each successful hit.",
+        "Ninjutsu or Genjutsu you cast that requires an attack, with a range greater than 5 feet, can be cast with a range of 5 feet. If they are, on a hit, they add 1d12 to their damage dealt once per turn, as you deliver the jutsu's effect with a scroll-covered strike."
+      ]
+    },
+    {
+      "id": "chakra.construct",
+      "category": "chakra",
+      "name": "Construct Stance",
+      "expert": false,
+      "prerequisite": "Have a Ninjutsu that creates or summons constructs or structures on your known list",
+      "description": "When casting a Ninjutsu that summons or creates a construct or structure, your control allows you far more flexibility.",
+      "effects": [
+        "When you cast a Ninjutsu you know that creates a construct weapon, you can downcast it, reducing its cost by 3 and reducing the number of damage dice it rolls by 2 for each rank it is downcast, down to a minimum of D-Rank. If cast in this way, it does not cost chakra to maintain concentration on.",
+        "Ninjutsu you cast that summons a wall or structure increases the height and length of the wall or structure by 10 feet."
+      ]
+    },
+    {
+      "id": "chakra.conduit",
+      "category": "chakra",
+      "name": "Conduit Stance",
+      "expert": false,
+      "prerequisite": "Have a Ninjutsu with a nature release keyword on your known list",
+      "description": "You refine your chakra flow to allow for elemental kneading through your combat scrolls.",
+      "effects": [
+        "When you would take Earth, Wind, Fire, Cold or Lightning damage, you can spend your reaction to make a Chakra Control Check vs the damaging creature's Ninjutsu save DC. On a success, until the end of your next turn, attack and damage rolls made with your Combat Scroll are made with advantage.",
+        "While concentrating on a Ninjutsu with a nature release keyword, reduce your concentration cost by 1."
+      ]
+    },
+    {
+      "id": "chakra.psion",
+      "category": "chakra",
+      "name": "Psion Stance",
+      "expert": false,
+      "prerequisite": "Have a Genjutsu that forces a saving throw on your known list",
+      "description": "Genjutsu you cast don't just affect the mind; they also leave behind effects on the real world.",
+      "effects": [
+        "Genjutsu you cast that force Intelligence saves can instead require a Strength save if you spend a bonus action as part of its casting.",
+        "Once per turn, when a creature under the effects of a Genjutsu you are concentrating on makes an attack targeting you, roll a d6. On a roll of 1, they miss, regardless of their attack roll. Once they miss in this way, they cannot be affected by this stance again until you complete a rest."
+      ]
+    },
+    {
+      "id": "chakra.neurologist",
+      "category": "chakra",
+      "name": "Neurologist Stance",
+      "expert": false,
+      "prerequisite": "Have a Genjutsu that requires an attack roll on your known list",
+      "description": "Genjutsu you cast strike the precise cluster of nerves in your opponent's brain, forcing them to experience exactly what you want.",
+      "effects": [
+        "When you cast a Genjutsu that requires an attack roll and miss, you can spend your bonus action to remake the attack roll with advantage. Once you use this effect, you cannot do so again until you spend a bonus action resetting your Combat Scroll.",
+        "When you score a critical hit with a Genjutsu attack made as a result of your Combat Scroll, you can make a second attack as part of the same action."
+      ]
+    },
+
+    {
+      "id": "taijutsu.titan-fist-expert",
+      "category": "taijutsu",
+      "name": "Titan Fist Expert",
+      "expert": true,
+      "expertOf": "taijutsu.titan-fist",
+      "prerequisite": "Titan Fist Stance",
+      "description": "You have trained under the teachings of the land of Titans either directly or by descension.",
+      "effects": [
+        "DR granted by the Reinforced property cannot be reduced by hostile effects.",
+        "When you take damage you can spend your reaction to perform Titan Guard: you raise your guard, granting yourself a +2 bonus to your AC and your Reinforced value. This bonus lasts until the beginning of your next turn."
+      ]
+    },
+    {
+      "id": "taijutsu.drunken-fist-expert",
+      "category": "taijutsu",
+      "name": "Drunken Fist Expert",
+      "expert": true,
+      "expertOf": "taijutsu.drunken-fist",
+      "prerequisite": "Drunken Fist Stance",
+      "description": "You have trained under the teachings of the Monks of inebriation either directly or by descension.",
+      "effects": [
+        "When a creature adjacent to you deals damage with a weapon or unarmed strike, you can use your reaction to make an attack of opportunity. On a hit, you deal your damage as normal and reduce the damage you took by the same amount.",
+        "Once per turn, when you deal unarmed damage to a hostile creature, creatures within 10 feet of you cannot gain jutsu-based bonuses to their melee attack rolls targeting you until the beginning of your next turn."
+      ]
+    },
+    {
+      "id": "taijutsu.frog-fist-expert",
+      "category": "taijutsu",
+      "name": "Frog Fist Expert",
+      "expert": true,
+      "expertOf": "taijutsu.frog-fist",
+      "prerequisite": "Frog Fist Stance",
+      "description": "You have trained under the teachings of the Land of Swamps either directly or by descension.",
+      "effects": [
+        "Unarmed and Taijutsu attacks you make increase their range by +10 feet.",
+        "Once per turn, when you deal unarmed damage to a creature, you can leap into a space you can see within 15 feet of you. This movement does not provoke attacks of opportunity and creatures cannot react to it."
+      ]
+    },
+    {
+      "id": "taijutsu.iron-fist-expert",
+      "category": "taijutsu",
+      "name": "Iron Fist Expert",
+      "expert": true,
+      "expertOf": "taijutsu.iron-fist",
+      "prerequisite": "Iron Fist Stance",
+      "description": "You have trained under the teachings of the Masters of brawling and metal-bending fists.",
+      "effects": [
+        "Double your unarmed damage die when dealing damage to a structure or construct.",
+        "Once per turn, when dealing unarmed damage to a creature, you can punch through their defenses, reducing their AC by 1. This penalty lasts until the beginning of your next turn."
+      ]
+    },
+    {
+      "id": "taijutsu.lion-fist-expert",
+      "category": "taijutsu",
+      "name": "Lion Fist Expert",
+      "expert": true,
+      "expertOf": "taijutsu.lion-fist",
+      "prerequisite": "Lion Fist Stance",
+      "description": "You have trained under the teachings of the Land of Kings either directly or by descension.",
+      "effects": [
+        "While in this stance, you gain the Threatening armor property if you weren't already benefiting from it.",
+        "Once per turn, when you deal unarmed damage to a hostile creature with ranks of any Mental condition, you gain a +2 bonus to your next saving throw before the beginning of your next turn."
+      ]
+    },
+    {
+      "id": "taijutsu.rabbit-fist-expert",
+      "category": "taijutsu",
+      "name": "Rabbit Fist Expert",
+      "expert": true,
+      "expertOf": "taijutsu.rabbit-fist",
+      "prerequisite": "Rabbit Fist Stance",
+      "description": "You have trained under the teachings of the Warrior priestesses from the Land of Hops either directly or by descension.",
+      "effects": [
+        "When a creature falls prone within 5 feet of you, they provoke an opportunity attack from you. Opportunity attacks made in this way do not cost a reaction.",
+        "Once per turn, as a bonus action, you select one space you can see within 20 feet of you and leap towards this space, ending your movement in it. If you would end this movement within 5 feet of a creature you can make 1 unarmed attack against them."
+      ]
+    },
+    {
+      "id": "taijutsu.serpent-fist-expert",
+      "category": "taijutsu",
+      "name": "Serpent Fist Expert",
+      "expert": true,
+      "expertOf": "taijutsu.serpent-fist",
+      "prerequisite": "Serpent Fist Stance",
+      "description": "You have trained under the teachings of the serpent masters in the land of grass.",
+      "effects": [
+        "Creatures who enter your unarmed attack range provoke opportunity attacks from you. Opportunity attacks made in this way do not cost a reaction.",
+        "Once per turn, when you deal unarmed damage to a creature, their next melee attack is made with a 1d4 penalty."
+      ]
+    },
+    {
+      "id": "taijutsu.silent-fist-expert",
+      "category": "taijutsu",
+      "name": "Silent Fist Expert",
+      "expert": true,
+      "expertOf": "taijutsu.silent-fist",
+      "prerequisite": "Silent Fist Stance",
+      "description": "You have trained under the teachings of the Land of Silence either directly or by descension.",
+      "effects": [
+        "Your unarmed attacks produce no sound and you cannot be sensed with Tremorsense or Blindsight.",
+        "Once per turn, when you deal unarmed damage to a creature, you leave an echo of your strike. If the damaged creature would attack or cast a jutsu before the beginning of your next turn, roll your unarmed damage die; they take damage equal to the result."
+      ]
+    },
+    {
+      "id": "taijutsu.wolf-fist-expert",
+      "category": "taijutsu",
+      "name": "Wolf Fist Expert",
+      "expert": true,
+      "expertOf": "taijutsu.wolf-fist",
+      "prerequisite": "Wolf Fist Stance",
+      "description": "You have trained under the teachings of the Land of Wolves either directly or by descension.",
+      "effects": [
+        "Once per turn, when you deal unarmed damage to a creature, all allies within 15 feet of you, excluding yourself, are inspired by your aggressive assault, gaining a +1 bonus to their next attack roll, before the beginning of your next turn.",
+        "When you reduce a creature's hit points to 0 with unarmed damage, you gain the Wolves Assault special action until the end of your turn. Wolves Assault can only be used to perform the Wolf Fang Fist ability from the Wolf Fist Stance."
+      ]
+    },
+
+    {
+      "id": "bukijutsu.sharpshooter-expert",
+      "category": "bukijutsu",
+      "name": "Sharpshooter Expert",
+      "expert": true,
+      "expertOf": "bukijutsu.sharpshooter",
+      "prerequisite": "Sharpshooter Stance",
+      "description": "You have trained under the teachings of the land of Bows either directly or by descension.",
+      "effects": [
+        "Weapons that qualify for the Sharpshooter Stance become known as Bullseye Weapons.",
+        "Once per turn, when you take the Attack action using a Bullseye weapon, in place of one of the attacks you would make, you can knock 2 shots instead of one. The next ranged weapon attack you make with your Bullseye Weapon increases its weapon damage die and Deadly property rank by +1. Reduce your ammunition die by one step, instead of rolling."
+      ]
+    },
+    {
+      "id": "bukijutsu.silent-killing-expert",
+      "category": "bukijutsu",
+      "name": "Silent Killing Expert",
+      "expert": true,
+      "expertOf": "bukijutsu.silent-killing",
+      "prerequisite": "Silent Killing",
+      "description": "You have trained under the teachings of the land of Shadows either directly or by descension.",
+      "effects": [
+        "Weapons that qualify for the Silent Killing stance become known as Assassin Weapons.",
+        "Once per turn, when you take the Attack action using an Assassin weapon, in place of attacks made with said action, make an Assassination Attack. Assassination Attacks are weapon attacks that maximize their weapon damage die."
+      ]
+    },
+    {
+      "id": "bukijutsu.polearm-expert",
+      "category": "bukijutsu",
+      "name": "Polearm Expert",
+      "expert": true,
+      "expertOf": "bukijutsu.polearm",
+      "prerequisite": "Polearm Stance",
+      "description": "You have trained under the teachings of the land of Reeds either directly or by descension.",
+      "effects": [
+        "Weapons that qualify for the Polearm Stance become known as Lance Weapons.",
+        "Once per turn, when you take the Attack action using a Lance weapon, in place of one of the attacks made with said action, make a Lance Attack. Lance Attacks are weapon attacks that target all creatures in a cone directly in front of you with a length equal to your weapon's range as you stab forward repeatedly, comparing the single attack roll with all targets' AC, dealing weapon damage as normal."
+      ]
+    },
+    {
+      "id": "bukijutsu.power-expert",
+      "category": "bukijutsu",
+      "name": "Power Expert",
+      "expert": true,
+      "expertOf": "bukijutsu.power",
+      "prerequisite": "Power Stance",
+      "description": "You have trained under the teachings of the land of War either directly or by descension.",
+      "effects": [
+        "Weapons that qualify for the Power Stance become known as Raid Weapons.",
+        "Raid Weapons with the Heavy property ignore the Strength ability score requirement of the property.",
+        "Once per turn, when you take the Attack action using a Raid weapon, in place of one of the attacks made with said action, make a Raiding Attack. Raiding Attacks are weapon attacks that, when you deal damage to a creature wearing armor, reduce their AC by 1 and their armor's damage reduction by 2 until the beginning of your next turn."
+      ]
+    },
+    {
+      "id": "bukijutsu.flail-expert",
+      "category": "bukijutsu",
+      "name": "Flail Expert",
+      "expert": true,
+      "expertOf": "bukijutsu.flailing",
+      "prerequisite": "Flail Stance",
+      "description": "You have trained under the teachings of the land of Graves either directly or by descension.",
+      "effects": [
+        "Weapons that qualify for the Flail Stance become known as Reaper Weapons.",
+        "Once per turn, when you take the Attack action using a Reaper weapon, in place of one attack made with your attack action, you can make a Reaping Attack. Reaping Attacks are weapon attacks that deal +1 weapon damage die to creatures with ranks of a Physical, Mental or Sensory condition."
+      ]
+    },
+    {
+      "id": "bukijutsu.blade-expert",
+      "category": "bukijutsu",
+      "name": "Blade Expert",
+      "expert": true,
+      "expertOf": "bukijutsu.blade",
+      "prerequisite": "Blade Stance",
+      "description": "You have trained under the teachings of the land of Iron either directly or by descension.",
+      "effects": [
+        "Weapons that qualify for the Blade Stance become known as Ronin Weapons.",
+        "Once per turn, when you take the Attack action using a Ronin Weapon, in place of one attack made with your attack action, you can make a Ronin Attack. Ronin Attacks are weapon attacks that deal more damage the less armor a creature has. On a hit against a creature, check their armor type and deal bonus damage of the same type as the weapon based on its armor type: Heavy Armor — no bonus damage; Medium Armor — +1d4; Light Armor — +1d6; Chakra Skin or No Armor — +1d8."
+      ]
+    },
+    {
+      "id": "bukijutsu.great-weapon-expert",
+      "category": "bukijutsu",
+      "name": "Great Weapon Expert",
+      "expert": true,
+      "expertOf": "bukijutsu.great-weapon",
+      "prerequisite": "Great Weapon Stance",
+      "description": "You have trained under the teachings of the land of Berserkers either directly or by descension.",
+      "effects": [
+        "Weapons that qualify for the Great Weapon Stance become known as Berserker Weapons.",
+        "Once per turn, when you take the Attack action using a Berserker weapon, in place of one attack made with your attack action, you can make a Savage Attack. Savage Attacks are weapon attacks made with advantage."
+      ]
+    },
+    {
+      "id": "bukijutsu.two-weapon-expert",
+      "category": "bukijutsu",
+      "name": "Two-Weapon Expert",
+      "expert": true,
+      "expertOf": "bukijutsu.two-weapon",
+      "prerequisite": "Two-Weapon Stance",
+      "description": "You have trained under the teachings of the land of Dancers either directly or by descension.",
+      "effects": [
+        "Weapons that qualify for the Two-Weapon Stance become known as Dancer Weapons.",
+        "Once per turn, when you take the Attack action using a Dancer weapon, in place of one attack made with your attack action, you can make a Flutter Attack. Flutter Attacks are weapon attacks that target all creatures within your weapon's range, comparing your attack result to the AC of all hostile creatures in range."
+      ]
+    },
+    {
+      "id": "bukijutsu.guardian-expert",
+      "category": "bukijutsu",
+      "name": "Guardian Stance Expert",
+      "expert": true,
+      "expertOf": "bukijutsu.guardian",
+      "prerequisite": "Guardian Stance",
+      "description": "You have trained under the teachings of the land of Shields either directly or by descension.",
+      "effects": [
+        "Weapons that qualify for the Guardian Stance become known as Stalwart Weapons.",
+        "Once per turn, when you take the Attack action using a Stalwart weapon, in place of one attack made with your attack action, you can make a Guardian Attack. Guardian Attacks are weapon attacks that can be made to target an allied creature that doesn't deal damage. On a hit, the affected allied creature gains the benefit of the Dodge action."
+      ]
+    }
+  ]
+}
