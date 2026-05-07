@@ -1603,7 +1603,8 @@
       "abilityScoreIncrease": [
         "Strength",
         "Dexterity"
-      ]
+      ],
+      "grantsStancePick": "any"
     },
     {
       "id": "taijutsu.frog-fist-expert",

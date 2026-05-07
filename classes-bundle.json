@@ -1726,7 +1726,8 @@
           "level": 1,
           "description": "Choose one Chakra Stance from Chapter 13: Customization Options (track the chosen stance in Notes).",
           "source": "Ninjutsu Specialist",
-          "effects": []
+          "effects": [],
+          "grantsStancePick": "chakra"
         },
         {
           "id": "ninjutsu-specialist.l2.ninjutsu-tradition",
@@ -3304,7 +3305,8 @@
           "level": 1,
           "description": "Choose one Fighting Stance (Taijutsu Stance, Weapon Stance, or Chakra Mode) from Chapter 13. You select an additional Stance of a type you have not chosen at 7th and 11th level. You can't take a Stance more than once.\n\nWhen fighting with basic Shinobi implements (Kunai, Shuriken, Senbon), you can attack twice instead of once with the Attack action (but cannot bonus-attack with them that turn). You can also use Chili Pepper Bombs, Paper Bombs, Flash Tags, or Smoke Bombs in place of an attack made with your Attack action.",
           "source": "Scout-Nin",
-          "effects": []
+          "effects": [],
+          "grantsStancePick": "any"
         },
         {
           "id": "scout-nin.l1.adaptive-initiative",
@@ -3406,7 +3408,8 @@
           "level": 7,
           "description": "Select an additional Fighting Stance of a type you have not selected yet.",
           "source": "Scout-Nin",
-          "effects": []
+          "effects": [],
+          "grantsStancePick": "any"
         },
         {
           "id": "scout-nin.l8.ability-score-improvement-feat",
@@ -3433,7 +3436,8 @@
           "level": 11,
           "description": "Select an additional Fighting Stance of a type you have not selected yet.",
           "source": "Scout-Nin",
-          "effects": []
+          "effects": [],
+          "grantsStancePick": "any"
         },
         {
           "id": "scout-nin.l11.shinobis-path-2",
@@ -5519,7 +5523,8 @@
           "level": 1,
           "description": "While wearing no armor, your AC equals 10 + Proficiency + Dexterity Modifier. Choose one Taijutsu stance from Chapter 13, and while in a stance (or wielding a proficient weapon) you gain:\n  • Martial Strength — unarmed damage die is d6 (→ d8 at 7th, d10 at 13th, d12 at 19th). The Unarmed Strike attack on your character sheet updates automatically with your level.\n  • Agile Combat — use STR or DEX for unarmed/Taijutsu attack & save-DC calcs. Bonus-action unarmed attack available. Your sheet gets a second 'Unarmed Strike (Agile)' attack using DEX.\n  • Unwasted Movements — your Taijutsu cost becomes Special per rank: D=3, C=5, B=9, A=14, S=20.",
           "source": "Taijutsu Specialist",
-          "effects": []
+          "effects": [],
+          "grantsStancePick": "taijutsu"
         },
         {
           "id": "taijutsu-specialist.l1.enhanced-movement",
@@ -6024,7 +6029,8 @@
               "level": 3,
               "description": "Learn an additional Taijutsu Stance you don't know and its associated Expert feat (feat doesn't raise ability score). At the end of an unarmed/melee Taijutsu attack, you may switch stances in place of a bonus action.\n\nOnce/turn when you swap stances, pick a Stance Shift (lasts until your next turn):\n  • Impact Switch — push 5 ft on unarmed damage.\n  • Defensive Switch — temp HP = 1 Martial Die per unarmed-damage instance.\n  • Retaliatory Switch — adjacent HS-jutsu casts trigger a free AoO once/turn (if hit, STR save vs Taijutsu DC — fail prone).\n  • Deflective Switch — first damage/turn: reduce by 1 Martial Die.",
               "source": "Stancer",
-              "effects": []
+              "effects": [],
+              "grantsStancePick": "taijutsu"
             },
             {
               "id": "taijutsu-specialist.stancer.l3.fluid-stance",
@@ -6060,7 +6066,8 @@
               "level": 10,
               "description": "Learn another Taijutsu Stance you don't know. New Stance Shift options:\n  • Momentum Switch — gain Dash.\n  • Anchored Switch — -10 ft speed on unarmed damage.\n  • Distracting Switch — hostile damage grants allies advantage on their next attack until your next turn.\n  • Resilient Switch — select a damage type, gain resistance until your next turn.",
               "source": "Stancer",
-              "effects": []
+              "effects": [],
+              "grantsStancePick": "taijutsu"
             },
             {
               "id": "taijutsu-specialist.stancer.l14.ancient-scrolls",
@@ -9080,7 +9087,8 @@
               "level": 2,
               "description": "Gain proficiency with Unarmed-property weapons and heavy armor. Bonus-action unarmed attack available. Use WIS in place of DEX for AC. Choose one Taijutsu Stance from Chapter 13.",
               "source": "Combat Medic",
-              "effects": []
+              "effects": [],
+              "grantsStancePick": "taijutsu"
             },
             {
               "id": "medical-nin.combat-medic.l2.yin-seal-storage",
@@ -9193,7 +9201,8 @@
               "level": 2,
               "description": "Proficiency with Martial Weapons from Power/Polearm groups + Kama/Kusarigama/Scythe/Triple-Bladed Scythe (these lose Blade grouping; count as both Power & Polearm). Pick a Bukijutsu Stance (Power, Great Weapon, Polearm, or Two-Weapon).\n\nCurse of the Reaper — on damage to a creature with a weapon attack or a Grim jutsu, mark them as Cursed for 1 min. One curse active at a time. Pick a Hex effect (see the Curse writeup).",
               "source": "Reaper",
-              "effects": []
+              "effects": [],
+              "grantsStancePick": "bukijutsu"
             },
             {
               "id": "medical-nin.reaper.l6.entropic-combatant",
@@ -9495,7 +9504,8 @@
           "level": 1,
           "description": "Choose one Bukijutsu Stance from Chapter 13 and gain its associated Bukijutsu Stance Expertise.",
           "source": "Weapon Specialist",
-          "effects": []
+          "effects": [],
+          "grantsStancePick": "bukijutsu"
         },
         {
           "id": "weapon-specialist.l2.katas",
