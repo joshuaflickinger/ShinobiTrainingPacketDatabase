@@ -1754,7 +1754,8 @@
           "level": 3,
           "description": "In combat, once per turn as a bonus action, enter one of two heightened battle states (you can't be in both at once): Crash or Flow. You can remain in a state for up to 1 minute combined; once you leave both states you can't re-enter for 10 minutes of uninterrupted rest or meditation.\n\nCRASH (Will Amp)\nCrash symbolizes you releasing the limits on your chakra coils, empowering the jutsu you cast.\n  • Once per casting, you gain a +1d10 bonus to damage you deal with Ninjutsu you cast. Increases to +2d10 at 7th, 3d10 at 11th, 4d10 at 15th, and 5d10 at 19th level. Reduce the dice rolled by half (rounded up) if the jutsu affects an area.\n  • You can use two or more Moldings at once as part of the same casting.\n  • You can use the Draw Reserves skill action as an Action.\n  • You cannot benefit from any source of cost reduction. Casting a Jutsu at 0 Cost does not count as cost reduction.\n\nFLOW (Will Amp)\nFlow symbolizes you controlling and refining your chakra, making slight adjustments to it as the battle progresses.\n  • You gain a +1 bonus to your Ninjutsu Save DC. Increases to +2 at 11th level and +3 at 19th level.\n  • When you begin your turn in this state, you regain 1 Focus.\n  • You make Concentration checks to maintain Ninjutsu at advantage.\n  • You cannot benefit from jutsu or features that boost the damage you deal with Ninjutsu.",
           "source": "Ninjutsu Specialist",
-          "effects": []
+          "effects": [],
+          "equippable": true
         },
         {
           "id": "ninjutsu-specialist.l4.ability-score-improvement-feat",
@@ -1808,7 +1809,8 @@
           "level": 9,
           "description": "Pick one Crash Evolution and one Flow Evolution (or a single Neutral Evolution that counts as either) — this grants the 9th-level benefit of the chosen evolution. At 15th level, pick one more evolution; it only grants its 15th-level benefit.\n\nCRASH (Perfected) (Will Amp)\n  • Once per casting, you gain a +5d10 bonus to damage you deal with Ninjutsu you cast.\n  • You can use three or more Moldings at once as part of the same casting.\n  • Your Ninjutsu treats immunity to their damage type like resistance.\n\nFLOW (Perfected) (Will Amp)\n  • You gain a +3 bonus to your Ninjutsu Save DC.\n  • You regain 1 Focus at the start and end of each of your turns.\n  • You can maintain concentration on up to 3 Ninjutsu at once.",
           "source": "Ninjutsu Specialist",
-          "effects": []
+          "effects": [],
+          "equippable": true
         },
         {
           "id": "ninjutsu-specialist.l10.ninjutsu-tradition-3",
@@ -2321,7 +2323,8 @@
               "level": 6,
               "description": "Enter Crash/Flow with 1 Focus — you and Bonded enter opposite states, with role-specific benefits. Bonded loses 2 slots/turn.\n\nCRASH DUALITY (Will Amp)\n  • Once per casting, you gain a +1d10 bonus to damage you deal with Ninjutsu you cast. Increases to +2d10 at 11th and +3d10 at 19th level.\n  • You can use two or more Moldings at once as part of the same casting.\n  • You can use the Draw Reserves skill action as an Action.\n  • You do not benefit from cost reduction from any source. Casting a Jutsu at 0 Cost does not count as cost reduction.\n\nFLOW DUALITY (Will Amp)\n  • You gain a +1 bonus to your Ninjutsu Save DC. Increases to +2 at 15th level.\n  • When you begin your turn in this state, you regain 1 Focus.\n  • If you are a Bonded creature, you instead regain 1 Jutsu Slot.\n  • You make Concentration checks to maintain Ninjutsu at advantage.\n  • You cannot benefit from jutsu, features or traits that boost the damage you deal with Ninjutsu.",
               "source": "Summoner",
-              "effects": []
+              "effects": [],
+              "equippable": true
             },
             {
               "id": "ninjutsu-specialist.summoner.l6.combination-technique",
@@ -5848,7 +5851,8 @@
               "level": 3,
               "description": "Focus your innate element. If you don't have a nature release, select one (Earth, Wind, Fire, Water, or Lightning Release). Your Taijutsu gain your chosen nature-release keyword if they don't already have one.\n\nBonus action + 1 Martial Die: enter Elemental Cloak state for 1 minute (or until you end early). Once ended, requires 10 minutes of meditation to re-enter.\n\nELEMENTAL CLOAK (Fortitude Amp)\nTaijutsu you cast deals its nature release's associated damage type, and your chosen nature release grants your cloak different benefits:\n  • Earth Release. You gain +4 DR. This DR cannot be reduced by any means. This becomes +6 at 10th and +8 at 17th level.\n  • Wind Release. You gain a +1 bonus to AC, and damage you deal with Taijutsu penetrates 2 of a creature's DR. When you reach 10th level, you gain immunity to the Grappled and Restrained conditions. Finally, when you reach 17th level, your bonuses become +2 to AC and penetrate 4 DR.\n  • Fire Release. You gain a rank of Mastery to [Unarmed Damage]. This becomes two ranks of Mastery at 10th and three ranks at 17th level.\n  • Water Release. Your unarmed attacks gain the Reach 1 and Trip weapon properties. Beginning at 10th level, the first time each turn you deal [Unarmed Damage] to a creature you can move them up to 10 feet in any direction of your choice. Finally, at 17th level, creatures cannot gain jutsu-based bonuses to their saving throws vs Taijutsu you cast.\n  • Lightning Release. Your unarmed and Taijutsu attacks gain a +1 bonus to their critical threat range and a +10 to speed. Beginning at 10th level, when you score a critical with an unarmed attack, you may add 1 unarmed damage die to the result. Finally, at 17th level, [Unarmed Damage] you deal cannot have its damage intercepted, always affecting its original target.",
               "source": "Nin-Tai",
-              "effects": []
+              "effects": [],
+              "equippable": true
             },
             {
               "id": "taijutsu-specialist.nin-tai.l3.burst-techniques",
@@ -9097,7 +9101,8 @@
               "level": 2,
               "description": "4 Yin Seals (d12); regain 1 on a melee unarmed/Taijutsu crit (once/turn); regain all on 10-min meditation. Bonus Action (in combat): enter Battle Medic for 1 min (10-min cooldown). While in Battle Medic, spend Yin Seals:\n  • Crimson Lotus Missile — on a single-attack Taijutsu: 1 Yin Seal adds die to damage; target + creatures within 5 ft (excl. you) STR save vs Taijutsu/Ninjutsu DC — fail = prone + Dazed.\n  • Cherry Blossom Rush — Reaction to damage: 1 Yin Seal, roll × 5 ft of movement, then cast a 1-Action Taijutsu at the end.\n\nBATTLE MEDIC (Fortitude Amp)\nWhile in Battle Medic, you gain the following benefits:\n  • Your [Unarmed Damage] die becomes a d12.\n  • Your unarmed and Taijutsu attacks gain a +1 bonus to their critical threat range. Becomes +2 at 10th level.\n  • Taijutsu you cast of D-Rank or lower gain the Medical keyword. Becomes C-Rank at 6th and B-Rank at 10th level.\n  • If you begin your turn with half or fewer hit points, you regain hit points equal to your Channeled Healing bonus.",
               "source": "Combat Medic",
-              "effects": []
+              "effects": [],
+              "equippable": true
             },
             {
               "id": "medical-nin.combat-medic.l6.chakra-enhanced-combat",
@@ -9115,7 +9120,8 @@
               "level": 6,
               "description": "When entering Battle Medic, spend 1 Domain Charge to enter Strength of 100 — overrides/augments Battle Medic's Yin Seal abilities (see the Tenet Training Doc for the full enhancement list). Default Battle Medic effects apply to anything not replaced.\n\nSTRENGTH OF 100 ENHANCEMENT\nReplaces / augments the default Battle Medic effects with:\n  • Your [Unarmed Damage] die becomes 2d12.\n  • You gain a rank of Mastery with Strength based checks and saves.\n  • Constructs and Structures are Vulnerable to your [Unarmed Damage].\n  • Once per turn, when you hit a creature with an attack that deals [Unarmed Damage], you can push the target 10 feet in any direction except upwards.",
               "source": "Combat Medic",
-              "effects": []
+              "effects": [],
+              "equippable": true
             },
             {
               "id": "medical-nin.combat-medic.l10.expert-combatant",
@@ -9142,7 +9148,8 @@
               "level": 14,
               "description": "Entering Battle Medic: 1 Domain Charge + 2 Yin Seals to enter Strength of 1000. Augments Battle Medic further (see Tenet Training Doc). Default Battle Medic effects apply to anything not replaced.\n\nSTRENGTH OF 1000 ENHANCEMENT\nReplaces / augments the previous Battle Medic / Strength of 100 effects with:\n  • Your [Unarmed Damage] die becomes 2d12.\n  • You gain 2 ranks of Mastery with Strength based checks and saves.\n  • Constructs and Structures are Vulnerable to your [Unarmed Damage].\n  • Once per turn, when you hit a creature with an attack that deals [Unarmed Damage] you can push the target 10 feet in any direction except upwards.\n  • You gain DR (damage reduction) vs all Damage equal to your Channeled Healing bonus.",
               "source": "Combat Medic",
-              "effects": []
+              "effects": [],
+              "equippable": true
             },
             {
               "id": "medical-nin.combat-medic.l18.yin-seal-release",
@@ -9276,7 +9283,8 @@
               "level": 2,
               "description": "Bonus Action, touch: apply Transfiguration.\n  • Willing ally — 1 min (only one ally Transfigured at a time; new application replaces the oldest).\n  • Hostile — CON save vs Ninjutsu DC; fail = Transfigured until end of your next turn. Re-applying extends the duration by 1 round.\n\nPick a biological designation on apply; effects run for the duration or until you re-apply Transfiguration to the target.\n\nTRANSFIGURATION (Special Amp — Fortitude)\nYou are temporally Transfigured, having your cells, organs and biological makeup slightly adjusted to better match one of the following designations chosen by the allied Medical-Nin that applied this effect:\n  • Avian. You gain a flying speed equal to your movement speed, but must land at the end of your turn. You gain immunity to fall damage and cannot be knocked prone.\n  • Carnivoran. You gain a bonus to your [Unarmed Damage] and [Weapon Damage] equal to the Medical-Nin's Channeled Healing bonus.\n  • Herbivore. You gain DR equal to the Medical-Nin's Channeled Healing bonus.\n  • Insectoid. You gain Darkvision and Chakra Sight out to 60 ft and resistance to Chakra Damage.",
               "source": "Transmuter",
-              "effects": []
+              "effects": [],
+              "equippable": true
             },
             {
               "id": "medical-nin.transmuter.l2.condition-override",
@@ -9726,7 +9734,8 @@
               "level": 3,
               "description": "Bonus Action in combat: enter Samba or Waltz. Dance for the duration of combat (end early no action). Bonus Action to switch.\n\nSAMBA (Battle Amp)\nYou move rhythmically, with a swift and decisive dance, making it hard to foresee your next move. While in this dance:\n  • Whisk. As part of dealing damage with a Bukijutsu, you can spend 1 Discipline. You can reroll the damage dealt, taking the highest result.\n  • Spin Step. As part of a weapon attack, you can spend 2 Discipline to make the attack target all hostile creatures within your weapon's range. If your weapon is a ranged weapon or has the Thrown property, you instead target all hostile creatures within 15 feet of you. Compare your attack result to the AC of all targeted creatures, scoring a hit on a success.\n  • Technical Step. Once per turn, as a bonus action you can spend 2 Discipline to perform a special sequence while dancing. The next attack you make is at advantage. If this attack scores a critical hit you gain an additional action this turn.\n\nWALTZ (Battle Amp)\nYou perform a smooth dance filled with elegant steps, but you can't do it alone. You require a Partner. At the beginning of your turn you select a Partner — a willing creature whom you can see who remains your Partner until the beginning of your next turn. You can only have 1 Partner at a time. When you begin your turn within 10 feet of your willing Partner, you both gain the following benefits:\n  • Move in Tandem. If you or your Partner goes first in the turn order, either of you can spend 1 Discipline to allow the other to take their turn at the same time, on the same initiative count this round. When their turn comes up in the initiative count, it is skipped until the next round. If a Partner without access to Discipline uses this ability, they can spend 1 of the Weapon Specialist's Discipline to use this ability.\n  • Battle Step. In place of your movement, you and your partner select two spaces adjacent to each other that either of you can reach with your movement and perform an aggressive maneuver, moving to the chosen spaces. This spends all of the user's movement.\n  • Cascade Step. When you take the Attack action or cast a jutsu that requires an attack, you can spend 1 Discipline to force the affected creature to make a Dexterity saving throw vs the Weapon Specialist's Taijutsu Save DC. On a failure, they suffer a -2 penalty to their AC until the beginning of your next turn. If a Partner without access to Discipline uses this ability, they can spend 1 of the Weapon Specialist's Discipline to use this ability.\n  • Defensive Dance. When you or your Partner take damage you can spend your Reaction and 2 Discipline to gain resistance to the triggering damage. If a Partner without access to Discipline uses this, they can instead spend their reaction and 1 of the Weapon Specialist's Discipline to use this ability.",
               "source": "Battle Dancer",
-              "effects": []
+              "effects": [],
+              "equippable": true
             },
             {
               "id": "weapon-specialist.battle-dancer.l3.flourish",
@@ -9800,7 +9809,8 @@
               "level": 3,
               "description": "Bonus Action, 1 Discipline: enter Battle Trance (1 min or until unconscious). 10-min meditation cooldown; re-enter early costs +1 Discipline per prior use.\n\nBATTLE TRANCE (Battle Amp)\nWhile in Battle Trance you gain the following benefits:\n  • Furious Advantage. You have advantage on checks and saving throws using your Taijutsu ability score.\n  • Furious Resilience. You have resistance to one damage type of your choice (chosen when you enter Battle Trance). Increases to two choices at 10th level and three choices at 17th level.\n  • Furious Focus. You cannot maintain concentration on non-Taijutsu or Bukijutsu based effects for the duration of your Battle Trance.",
               "source": "Fang Breaker",
-              "effects": []
+              "effects": [],
+              "equippable": true
             },
             {
               "id": "weapon-specialist.fang-breaker.l3.savage-assault",
@@ -9992,7 +10002,8 @@
               "level": 6,
               "description": "On C-rank-or-lower Ninjutsu as Action, 3 Discipline: cast a same-rank Bukijutsu at no additional action cost. Enter Chained Cascade state until end of next turn (extend by 1 round on re-trigger). → B-rank at 14.\n\nCHAINED CASCADE (Battle Amp)\nYour chakra surges outward in a relentless cascade. While in Chained Cascade:\n  • Chained Empowerment. You gain a number of temporary Chakra equal to twice the Chain rank you benefitted from as part of the Bukijutsu cast with your Chained Cascade feature. These temporary chakra points dissipate when this state ends.\n  • Cascading Chakra. You gain a rank of Mastery to your Ninjutsu attacks and a +1 bonus to your Ninjutsu save DC.\n  • Protective Barrier. As a reaction to an allied creature within 10 feet of you taking damage you can transfer all remaining temporary hit points granted by Chained Cascade to them, allowing the transferred temporary hit points to be applied to the triggering damage.",
               "source": "Primal Weapon",
-              "effects": []
+              "effects": [],
+              "equippable": true
             },
             {
               "id": "weapon-specialist.primal-weapon.l6.resonant-jaunt",
