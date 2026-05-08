@@ -446,7 +446,20 @@
             }
           ],
           "natureReleaseGrants": [],
-          "resources": []
+          "resources": [
+            {
+              "name": "Black Medicine Array",
+              "autoKey": "hunter-nin:black-medicine-array",
+              "source": "Decaying Compound",
+              "minLevel": 3,
+              "maxFormulaDescription": "4 ampoules",
+              "maxFormula": {
+                "base": 4,
+                "steps": []
+              },
+              "replenishOn": "short"
+            }
+          ]
         },
         {
           "id": "hunter-nin.grave-stalker",
@@ -537,7 +550,8 @@
               "maxFormula": {
                 "perProf": 1,
                 "steps": []
-              }
+              },
+              "replenishOn": "long"
             }
           ]
         },
@@ -3503,7 +3517,8 @@
             "base": 1,
             "perProf": 1,
             "steps": []
-          }
+          },
+          "replenishOn": "long"
         }
       ],
       "levelTracks": {
@@ -5813,7 +5828,8 @@
                 "add": 1
               }
             ]
-          }
+          },
+          "replenishOn": "short"
         }
       ],
       "levelTracks": {
@@ -9205,7 +9221,8 @@
             "base": 1,
             "perProf": 1,
             "steps": []
-          }
+          },
+          "replenishOn": "long"
         }
       ],
       "hasSecondarySubclasses": true,
@@ -9789,7 +9806,8 @@
                     "add": 2
                   }
                 ]
-              }
+              },
+              "replenishOn": "short"
             }
           ]
         },
@@ -10089,7 +10107,8 @@
                 "add": 1
               }
             ]
-          }
+          },
+          "replenishOn": "short"
         }
       ],
       "levelTracks": {
@@ -10698,7 +10717,8 @@
                     "add": 1
                   }
                 ]
-              }
+              },
+              "replenishOn": "short"
             }
           ]
         },
@@ -11754,7 +11774,8 @@
                 "add": 1
               }
             ]
-          }
+          },
+          "replenishOn": "short"
         }
       ],
       "levelTracks": {
