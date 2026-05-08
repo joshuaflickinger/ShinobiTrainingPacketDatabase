@@ -21,6 +21,47 @@
       "secondarySubclasses": [],
       "features": [
         {
+          "id": "hunter-nin.l1.proficiencies",
+          "sourceId": "hunter-nin",
+          "name": "Proficiencies",
+          "level": 1,
+          "description": "You begin your career with the proficiencies expected of a Hunter-Nin: Light armor; all Simple Weapons plus the Broadsword, Iron Claw, Jitte, Katana, Odachi, Scythe, Battle Wire, Knuckle Blades, Chakram, Longbow and Fuma-Shuriken; and the Disguise, Forensics and Forgery toolkits.",
+          "source": "Hunter-Nin",
+          "effects": [
+            {
+              "kind": "profModEntry",
+              "type": "Armor",
+              "value": "Light"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Weapon",
+              "value": "Simple"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Weapon",
+              "value": "Broadsword, Iron Claw, Jitte, Katana, Odachi, Scythe, Battle Wire, Knuckle Blades, Chakram, Longbow, Fuma-Shuriken"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Toolkit",
+              "value": "Disguise Kit"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Toolkit",
+              "value": "Forensics Kit"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Toolkit",
+              "value": "Forgery Kit"
+            }
+          ],
+          "actionEconomy": "none"
+        },
+        {
           "id": "hunter-nin.l1.swift-response",
           "sourceId": "hunter-nin",
           "name": "Swift Response",
@@ -300,7 +341,13 @@
               "level": 3,
               "description": "Beginning at 3rd Level, you gain proficiency in the Athletics and Intimidation Skills. You can make any checks with the aforementioned skill using Strength or Dexterity. You also gain proficiency in all Weapons from the Blade group.\nAlso, you have learned to fully invest into a singular weapon designed to best capitalize on your free-flowing form of combat. Select one weapon type that you have proficiency in, that does not have the Two-Handed or Heavy properties. This weapon is hereby treated as your Warden Weapon. A Warden Weapon gains a new weapon property unique to it from the Warden Weapon Property Table. You can switch your Warden Weapon Property when you complete a rest of any type. You can select a second property when you reach 10th level;",
               "source": "Blade Warden",
-              "effects": [],
+              "effects": [
+                {
+                  "kind": "profModEntry",
+                  "type": "Weapon",
+                  "value": "Blade group"
+                }
+              ],
               "actionEconomy": "none"
             },
             {
@@ -381,7 +428,13 @@
               "level": 3,
               "description": "At 3rd level, you gain proficiency in Medicine and Medicine Kits. You can make any checks using the aforementioned skill and Toolkit with Intelligence or Wisdom.\nYou take the teachings of your village's medical corps, your direct master or found medical documents and blend it into your techniques. You can learn and add Jutsu with the Medical Keyword to your known jutsu list.\nYour unique fighting style has taught you to trigger your Lethal Attack feature against creatures with ranks of Envenomed or Corroded.\nAdditionally, you gain the Festering Siphonage Hunter Exploit. This does not count against your Exploit Limit.",
               "source": "Necrotic Hand",
-              "effects": [],
+              "effects": [
+                {
+                  "kind": "profModEntry",
+                  "type": "Toolkit",
+                  "value": "Medicine Kit"
+                }
+              ],
               "actionEconomy": "none"
             },
             {
@@ -573,6 +626,11 @@
                 {
                   "kind": "bonusSpeed",
                   "count": 10
+                },
+                {
+                  "kind": "profModEntry",
+                  "type": "Toolkit",
+                  "value": "Demolitions Kit"
                 }
               ],
               "actionEconomy": "none",
@@ -1870,6 +1928,42 @@
       "secondarySubclasses": [],
       "features": [
         {
+          "id": "ninjutsu-specialist.l1.proficiencies",
+          "sourceId": "ninjutsu-specialist",
+          "name": "Proficiencies",
+          "level": 1,
+          "description": "You begin your career with the proficiencies expected of a Ninjutsu Specialist: Light armor; all Simple Weapons plus Combat Scrolls and Giant Combat Scrolls; and the Alchemist and Hackers toolkits.",
+          "source": "Ninjutsu Specialist",
+          "effects": [
+            {
+              "kind": "profModEntry",
+              "type": "Armor",
+              "value": "Light"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Weapon",
+              "value": "Simple"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Weapon",
+              "value": "Combat Scrolls, Giant Combat Scrolls"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Toolkit",
+              "value": "Alchemist Kit"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Toolkit",
+              "value": "Hackers Kit"
+            }
+          ],
+          "actionEconomy": "none"
+        },
+        {
           "id": "ninjutsu-specialist.l1.refined-focus",
           "sourceId": "ninjutsu-specialist",
           "name": "Refined Focus",
@@ -2450,6 +2544,11 @@
                 {
                   "kind": "grantNatureRelease",
                   "value": "Wind Release"
+                },
+                {
+                  "kind": "profModEntry",
+                  "type": "Weapon",
+                  "value": "Gunbai Fan, Giant Iron Fan"
                 }
               ],
               "actionEconomy": "none",
@@ -3584,6 +3683,42 @@
       "secondarySubclassPluralLabel": "",
       "secondarySubclasses": [],
       "features": [
+        {
+          "id": "scout-nin.l1.proficiencies",
+          "sourceId": "scout-nin",
+          "name": "Proficiencies",
+          "level": 1,
+          "description": "You begin your career with the proficiencies expected of a Scout-Nin: Light, Medium and Heavy armor; all Simple and Martial Weapons; and any two toolkits of your choice (add those manually below).",
+          "source": "Scout-Nin",
+          "effects": [
+            {
+              "kind": "profModEntry",
+              "type": "Armor",
+              "value": "Light"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Armor",
+              "value": "Medium"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Armor",
+              "value": "Heavy"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Weapon",
+              "value": "Simple"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Weapon",
+              "value": "Martial"
+            }
+          ],
+          "actionEconomy": "none"
+        },
         {
           "id": "scout-nin.l1.shinobis-path",
           "sourceId": "scout-nin",
@@ -5917,6 +6052,47 @@
       "secondarySubclasses": [],
       "features": [
         {
+          "id": "taijutsu-specialist.l1.proficiencies",
+          "sourceId": "taijutsu-specialist",
+          "name": "Proficiencies",
+          "level": 1,
+          "description": "You begin your career with the proficiencies expected of a Taijutsu Specialist: Light and Medium armor; all Simple Weapons plus Combat Bracers, Iron Claws, Nunchaku, Tonfa, Knuckle Blades and Battle Wire; and the Disguise and Trappers toolkits.",
+          "source": "Taijutsu Specialist",
+          "effects": [
+            {
+              "kind": "profModEntry",
+              "type": "Armor",
+              "value": "Light"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Armor",
+              "value": "Medium"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Weapon",
+              "value": "Simple"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Weapon",
+              "value": "Combat Bracers, Iron Claws, Nunchaku, Tonfa, Knuckle Blades, Battle Wire"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Toolkit",
+              "value": "Disguise Kit"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Toolkit",
+              "value": "Trappers Kit"
+            }
+          ],
+          "actionEconomy": "none"
+        },
+        {
           "id": "taijutsu-specialist.l1.martial-technique",
           "sourceId": "taijutsu-specialist",
           "name": "Martial Technique",
@@ -7580,6 +7756,37 @@
       ],
       "features": [
         {
+          "id": "genjutsu-specialist.l1.proficiencies",
+          "sourceId": "genjutsu-specialist",
+          "name": "Proficiencies",
+          "level": 1,
+          "description": "You begin your career with the proficiencies expected of a Genjutsu Specialist: Light armor; all Simple Weapons; and the Disguise and Poison toolkits.",
+          "source": "Genjutsu Specialist",
+          "effects": [
+            {
+              "kind": "profModEntry",
+              "type": "Armor",
+              "value": "Light"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Weapon",
+              "value": "Simple"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Toolkit",
+              "value": "Disguise Kit"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Toolkit",
+              "value": "Poison Kit"
+            }
+          ],
+          "actionEconomy": "none"
+        },
+        {
           "id": "genjutsu-specialist.l1.actualization",
           "sourceId": "genjutsu-specialist",
           "name": "Actualization",
@@ -8159,7 +8366,13 @@
               "level": 2,
               "description": "When you choose this path at 2nd level, you learn to mix poisons with your Genjutsu\u2014specialized, chakra-infused inhalants that manifest potent illusions and induce psychedelic fits, collectively known as Phantom Vapors.\nYou gain proficiency with Alchemist Kits. If you are already proficient, you instead gain a Rank of Mastery with checks and actions that use it.\nWhen you complete a rest of any kind, you can convert a Poison or Alchemist kit into a special tool known as a Phantom Vapors Kit, a custom item only you know how to create and handle that holds a number of Phantom Vapor Charges equal to 1 + your Proficiency bonus. You can recharge this kit in the following ways;\n\u2022 Spending 1 Actualization Die.\n\u2022 Or spending 10 minutes recreating your Phantom Vapor.\nAs a Bonus Action on your turn, you can expend 1 Phantom Vapor Charge to throw a vial to a point within 30 feet, creating a thin cloud of vapor that fills a 10-foot cube called a Phantom Cloud that lasts for 1 minute or until dispersed. Genjutsu you cast targeting a creature inside the Phantom Cloud gains the Inhaled keyword. You can have 1 Phantom Cloud active as a time. Creating a different cloud will disperse any active clouds.\nThis Phantom cloud can be improved at higher levels. Beginning at 10th level, you can spend 1 additional charge making the Phantom Cloud fill a 20-foot cube and at 18th level, you can spend 2 additional charges to make the Phantom Cloud heavily obscure vision and even block Chakra Sight and Chakra Sensing within its area.",
               "source": "Misty Distortionist",
-              "effects": [],
+              "effects": [
+                {
+                  "kind": "profModEntry",
+                  "type": "Toolkit",
+                  "value": "Alchemist Kit"
+                }
+              ],
               "actionEconomy": "bonus"
             },
             {
@@ -9317,6 +9530,42 @@
       "secondarySubclasses": [],
       "features": [
         {
+          "id": "medical-nin.l1.proficiencies",
+          "sourceId": "medical-nin",
+          "name": "Proficiencies",
+          "level": 1,
+          "description": "You begin your career with the proficiencies expected of a Medical-Nin: Light and Medium armor; all Simple Weapons; and the Medicine and Poison toolkits.",
+          "source": "Medical-Nin",
+          "effects": [
+            {
+              "kind": "profModEntry",
+              "type": "Armor",
+              "value": "Light"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Armor",
+              "value": "Medium"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Weapon",
+              "value": "Simple"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Toolkit",
+              "value": "Medicine Kit"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Toolkit",
+              "value": "Poison Kit"
+            }
+          ],
+          "actionEconomy": "none"
+        },
+        {
           "id": "medical-nin.l1.medical-ninjutsu",
           "sourceId": "medical-nin",
           "name": "Medical Ninjutsu",
@@ -9741,7 +9990,18 @@
               "level": 2,
               "description": "Beginning at 2nd Level, you learn how to fight with the best of them. You gain proficiency with weapons with the Unarmed property and heavy armor. You can also make one unarmed attack as a bonus action. You may use your Wisdom in place of Dexterity when calculating Armor Class. You also adopt a particular fighting stance. Choose one of the Taijutsu Stance located in Chapter 13: Customization Options.",
               "source": "Combat Medic",
-              "effects": [],
+              "effects": [
+                {
+                  "kind": "profModEntry",
+                  "type": "Armor",
+                  "value": "Heavy"
+                },
+                {
+                  "kind": "profModEntry",
+                  "type": "Weapon",
+                  "value": "Unarmed-property weapons"
+                }
+              ],
               "grantsStancePick": "taijutsu",
               "actionEconomy": "none"
             },
@@ -9877,7 +10137,18 @@
               "level": 2,
               "description": "Also, at 2nd level, your one-sided pact with the Reaper manifests in your martial form an unnatural grip on vitality. You gain proficiency with Martials Weapons from the Power and Polearm Groups, as well as the Kama, Kusarigama, Scythe, and Triple-Bladed Scythe. The Kama, Kusarigama, Scythe, and Triple-Bladed Scythe lose their Blade grouping and instead count as both a Power and Polearm Weapon. You also gain one of the following Bukijutsu Stances located in Chapter 13: Customization Options (Power Stance, Great Weapon Stance, Polearm Stance or Two-Weapon Stance.).\nAdditionally, when you damage a creature with a weapon attack or with a Jutsu with the Grim prefix, you may choose to mark them with the Curse of the Reaper for the next minute. A creatures marked with this is treated as Cursed. You can only have one creature cursed at a time, and cursing a new creature removes the curse from a previous one. A creature cursed by you suffers one of the hex effects found within the Curse itself.",
               "source": "Reaper",
-              "effects": [],
+              "effects": [
+                {
+                  "kind": "profModEntry",
+                  "type": "Weapon",
+                  "value": "Power group, Polearm group"
+                },
+                {
+                  "kind": "profModEntry",
+                  "type": "Weapon",
+                  "value": "Kama, Kusarigama, Scythe, Triple-Bladed Scythe"
+                }
+              ],
               "grantsStancePick": "bukijutsu",
               "actionEconomy": "none"
             },
@@ -10222,6 +10493,62 @@
       "secondarySubclassPluralLabel": "",
       "secondarySubclasses": [],
       "features": [
+        {
+          "id": "weapon-specialist.l1.proficiencies",
+          "sourceId": "weapon-specialist",
+          "name": "Proficiencies",
+          "level": 1,
+          "description": "You begin your career with the proficiencies expected of a Weapon Specialist: Light, Medium and Heavy armor; all Simple and Martial Weapons plus one Exotic Weapon of your choice (add it manually below); and the Trappers, Poison, Weaponsmith and Armorsmith toolkits.",
+          "source": "Weapon Specialist",
+          "effects": [
+            {
+              "kind": "profModEntry",
+              "type": "Armor",
+              "value": "Light"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Armor",
+              "value": "Medium"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Armor",
+              "value": "Heavy"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Weapon",
+              "value": "Simple"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Weapon",
+              "value": "Martial"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Toolkit",
+              "value": "Trappers Kit"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Toolkit",
+              "value": "Poison Kit"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Toolkit",
+              "value": "Weaponsmith Kit"
+            },
+            {
+              "kind": "profModEntry",
+              "type": "Toolkit",
+              "value": "Armorsmith Kit"
+            }
+          ],
+          "actionEconomy": "none"
+        },
         {
           "id": "weapon-specialist.l1.weapon-focus",
           "sourceId": "weapon-specialist",
