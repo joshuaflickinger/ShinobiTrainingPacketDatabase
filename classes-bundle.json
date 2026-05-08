@@ -569,8 +569,14 @@
               "level": 3,
               "description": "At 3rd level, you are not just a hunter trained for assassination or elegance. You are a warrior bred for brutality and mercilessness. You gain proficiency in Athletics and Demolitions Kits. You can make checks using the aforementioned kits and skills with Strength or Dexterity.\nYou learn to take the teachings of the Corps Hunters, The Black Root and Golden Horn Forces and apply them to your combat technique. This teaching has enabled you to move faster gaining a +10 bonus to your movement speed and the Great Weapon Stance Bukijutsu Stance. The core of this fighting style has taught you to trigger your Lethal Attack against creatures with ranks of Bruised or Weakened.\nFinally, you gain the Savage Attack Hunter Exploit. This does not count against your Exploit Lim",
               "source": "Undertaker",
-              "effects": [],
-              "actionEconomy": "none"
+              "effects": [
+                {
+                  "kind": "bonusSpeed",
+                  "count": 10
+                }
+              ],
+              "actionEconomy": "none",
+              "effectsAuthored": false
             },
             {
               "id": "hunter-nin.undertaker.l3.carnage",
@@ -2120,8 +2126,14 @@
               "level": 2,
               "description": "When you choose this tradition at 2nd Level, you gain the ability to learn ninjutsu with the Fire Release Keyword. If you already have access to this nature release, you learn 2 Fire Release Ninjutsu that you qualify for, one of which can be C-Rank or lower. You can also learn and create Ninjutsu with the Fire Release Keyword in half the required time.",
               "source": "Blaze Walker",
-              "effects": [],
-              "actionEconomy": "none"
+              "effects": [
+                {
+                  "kind": "grantNatureRelease",
+                  "value": "Fire Release"
+                }
+              ],
+              "actionEconomy": "none",
+              "effectsAuthored": false
             },
             {
               "id": "ninjutsu-specialist.blaze-walker.l2.pyroclasm",
@@ -2223,8 +2235,14 @@
               "level": 2,
               "description": "When you choose this tradition at 2nd Level, you gain the ability to learn ninjutsu with the Lightning Release Keyword. If you already have access to this nature release, you learn 2 Lightning Release Ninjutsu that you qualify for, one of which can be C-Rank or lower. You can also learn and create Ninjutsu with the Lightning Release Keyword in half the required time.",
               "source": "Lightning Breaker",
-              "effects": [],
-              "actionEconomy": "none"
+              "effects": [
+                {
+                  "kind": "grantNatureRelease",
+                  "value": "Lightning Release"
+                }
+              ],
+              "actionEconomy": "none",
+              "effectsAuthored": false
             },
             {
               "id": "ninjutsu-specialist.lightning-breaker.l2.stormcircuit",
@@ -2314,8 +2332,14 @@
               "level": 2,
               "description": "When you choose this tradition at 2nd Level, you gain the ability to learn ninjutsu with the Earth Release Keyword. If you already have access to this nature release, you learn 2 Earth Release Ninjutsu that you qualify for, one of which can be C-Rank or lower. You can also learn and create Ninjutsu with the Earth Release Keyword in half the required time.\nAlso, Earthen Artifacts you conjure can have an AC of 10, and 10 Hit Points if you choose, if neither statistic is established in its method of summoning, being destroyed/dispelled when it reached 0 hit points.",
               "source": "Stone Crusher",
-              "effects": [],
-              "actionEconomy": "none"
+              "effects": [
+                {
+                  "kind": "grantNatureRelease",
+                  "value": "Earth Release"
+                }
+              ],
+              "actionEconomy": "none",
+              "effectsAuthored": false
             },
             {
               "id": "ninjutsu-specialist.stone-crusher.l2.seismic-tether",
@@ -2422,8 +2446,14 @@
               "level": 2,
               "description": "When you choose this tradition at 2nd Level, you gain the ability to learn ninjutsu with the Wind Release Keyword. If you already have access to this nature release, you learn 2 Wind Release Ninjutsu that you qualify for, one of which can be C-Rank or lower. You can also learn and create Ninjutsu with the Wind Release Keyword in half the required time.\nAlso, you gain proficiency with the Gunbai Fan and Giant Iron Fan if you were not already. The Gunsen, Gunbai Fan, and Giant Iron Fan all gain the Evocation weapon property with a Ninjutsu Echo and Wind Damage with a range of 60 feet. This cannot be changed.",
               "source": "Storm Terror",
-              "effects": [],
-              "actionEconomy": "none"
+              "effects": [
+                {
+                  "kind": "grantNatureRelease",
+                  "value": "Wind Release"
+                }
+              ],
+              "actionEconomy": "none",
+              "effectsAuthored": false
             },
             {
               "id": "ninjutsu-specialist.storm-terror.l2.tempest-pressure",
@@ -2629,8 +2659,14 @@
               "level": 2,
               "description": "When you choose this tradition at 2nd Level, you gain the ability to learn ninjutsu with the Water Release Keyword. If you already have access to this nature release, you learn 2 Water Release Ninjutsu that you qualify for, one of which can be C-Rank or lower. You can also learn and create Ninjutsu with the Water Release Keyword in half the required time.",
               "source": "Tsunami",
-              "effects": [],
-              "actionEconomy": "none"
+              "effects": [
+                {
+                  "kind": "grantNatureRelease",
+                  "value": "Water Release"
+                }
+              ],
+              "actionEconomy": "none",
+              "effectsAuthored": false
             },
             {
               "id": "ninjutsu-specialist.tsunami.l2.shifting-tides",
@@ -5898,8 +5934,14 @@
           "level": 1,
           "description": "Also, at 1st level, you can take the Dash action as a bonus action and your speed is increased by +10. This bonus increases to +15 and your jump distance is doubled when you take the Dash action at 5th level. The bonus to speed increases to +20 at 11th level, +25 at 15 level, and +30 at 20th level.",
           "source": "Taijutsu Specialist",
-          "effects": [],
-          "actionEconomy": "bonus"
+          "effects": [
+            {
+              "kind": "bonusSpeed",
+              "count": 10
+            }
+          ],
+          "actionEconomy": "bonus",
+          "effectsAuthored": false
         },
         {
           "id": "taijutsu-specialist.l1.martial-adept",
