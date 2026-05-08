@@ -1756,7 +1756,79 @@
           "description": "Select another proficient skill or tool kit and gain a rank of Mastery in it."
         }
       ],
-      "resources": []
+      "resources": [],
+      "levelTracks": {
+        "lethalAttack": {
+          "base": 1,
+          "steps": [
+            {
+              "atLevel": 4,
+              "add": 1
+            },
+            {
+              "atLevel": 7,
+              "add": 1
+            },
+            {
+              "atLevel": 10,
+              "add": 1
+            },
+            {
+              "atLevel": 13,
+              "add": 1
+            },
+            {
+              "atLevel": 16,
+              "add": 1
+            },
+            {
+              "atLevel": 19,
+              "add": 1
+            }
+          ]
+        },
+        "jutsuKnown": {
+          "base": 6,
+          "steps": [
+            {
+              "atLevel": 3,
+              "add": 1
+            },
+            {
+              "atLevel": 5,
+              "add": 1
+            },
+            {
+              "atLevel": 7,
+              "add": 1
+            },
+            {
+              "atLevel": 9,
+              "add": 1
+            },
+            {
+              "atLevel": 11,
+              "add": 1
+            },
+            {
+              "atLevel": 13,
+              "add": 1
+            },
+            {
+              "atLevel": 15,
+              "add": 1
+            },
+            {
+              "atLevel": 17,
+              "add": 1
+            },
+            {
+              "atLevel": 19,
+              "add": 1
+            }
+          ]
+        }
+      }
     },
     {
       "id": "ninjutsu-specialist",
@@ -1821,7 +1893,7 @@
         {
           "id": "ninjutsu-specialist.l2.genius",
           "sourceId": "ninjutsu-specialist",
-          "name": "Genius",
+          "name": "Scholar",
           "level": 2,
           "description": "Also, at 2nd Level your study of Ninshou, chakra and other theoretical and practical applications of ninjutsu gives you a leg up in scholastic use of this knowledge. You gain a rank of Mastery in the Ninshou skill. You gain an additional rank in Mastery for Ninshou at 7th and 13th levels.",
           "source": "Ninjutsu Specialist",
@@ -3433,7 +3505,14 @@
             "steps": []
           }
         }
-      ]
+      ],
+      "levelTracks": {
+        "jutsuKnown": {
+          "base": 5,
+          "perLevel": 1,
+          "steps": []
+        }
+      }
     },
     {
       "id": "scout-nin",
@@ -5588,13 +5667,18 @@
           }
         ],
         "expectedPickedCountFormula": {
+          "base": 0,
           "steps": [
             {
               "atLevel": 3,
               "add": 2
             },
             {
-              "atLevel": 7,
+              "atLevel": 5,
+              "add": 1
+            },
+            {
+              "atLevel": 8,
               "add": 1
             },
             {
@@ -5602,11 +5686,15 @@
               "add": 1
             },
             {
-              "atLevel": 15,
+              "atLevel": 14,
               "add": 1
             },
             {
-              "atLevel": 19,
+              "atLevel": 17,
+              "add": 1
+            },
+            {
+              "atLevel": 20,
               "add": 1
             }
           ]
@@ -5700,8 +5788,9 @@
           "autoKey": "scout-nin:superiority-die",
           "source": "Superior Technique",
           "minLevel": 2,
-          "maxFormulaDescription": "3 at L2, +1 at 5 / 9 / 13 / 17",
+          "maxFormulaDescription": "3 at L2, +1 at 5 / 9 / 14 / 18",
           "maxFormula": {
+            "base": 0,
             "steps": [
               {
                 "atLevel": 2,
@@ -5716,17 +5805,45 @@
                 "add": 1
               },
               {
-                "atLevel": 13,
+                "atLevel": 14,
                 "add": 1
               },
               {
-                "atLevel": 17,
+                "atLevel": 18,
                 "add": 1
               }
             ]
           }
         }
-      ]
+      ],
+      "levelTracks": {
+        "jutsuKnown": {
+          "base": 5,
+          "perLevel": 1,
+          "steps": [
+            {
+              "atLevel": 4,
+              "add": -1
+            },
+            {
+              "atLevel": 8,
+              "add": -1
+            },
+            {
+              "atLevel": 12,
+              "add": -1
+            },
+            {
+              "atLevel": 16,
+              "add": -1
+            },
+            {
+              "atLevel": 20,
+              "add": -1
+            }
+          ]
+        }
+      }
     },
     {
       "id": "taijutsu-specialist",
@@ -6981,33 +7098,22 @@
           }
         ],
         "expectedPickedCountFormula": {
+          "base": 0,
           "steps": [
             {
               "atLevel": 1,
               "add": 2
             },
             {
-              "atLevel": 4,
+              "atLevel": 6,
               "add": 1
             },
             {
-              "atLevel": 7,
-              "add": 1
-            },
-            {
-              "atLevel": 10,
-              "add": 1
-            },
-            {
-              "atLevel": 13,
+              "atLevel": 11,
               "add": 1
             },
             {
               "atLevel": 16,
-              "add": 1
-            },
-            {
-              "atLevel": 19,
               "add": 1
             }
           ]
@@ -7159,7 +7265,79 @@
           "description": "Gain a rank of Mastery in one skill or toolkit of your choice."
         }
       ],
-      "resources": []
+      "resources": [
+        {
+          "name": "Martial Die",
+          "autoKey": "taijutsu-specialist:martial-die",
+          "source": "Martial Adept",
+          "minLevel": 1,
+          "maxFormulaDescription": "1 at L1, +1 at L5/L9/L13/L17",
+          "maxFormula": {
+            "base": 1,
+            "steps": [
+              {
+                "atLevel": 5,
+                "add": 1
+              },
+              {
+                "atLevel": 9,
+                "add": 1
+              },
+              {
+                "atLevel": 13,
+                "add": 1
+              },
+              {
+                "atLevel": 17,
+                "add": 1
+              }
+            ]
+          }
+        }
+      ],
+      "levelTracks": {
+        "jutsuKnown": {
+          "base": 6,
+          "steps": [
+            {
+              "atLevel": 3,
+              "add": 1
+            },
+            {
+              "atLevel": 5,
+              "add": 1
+            },
+            {
+              "atLevel": 7,
+              "add": 1
+            },
+            {
+              "atLevel": 9,
+              "add": 1
+            },
+            {
+              "atLevel": 11,
+              "add": 1
+            },
+            {
+              "atLevel": 13,
+              "add": 1
+            },
+            {
+              "atLevel": 15,
+              "add": 1
+            },
+            {
+              "atLevel": 17,
+              "add": 1
+            },
+            {
+              "atLevel": 19,
+              "add": 1
+            }
+          ]
+        }
+      }
     },
     {
       "id": "genjutsu-specialist",
@@ -9030,7 +9208,35 @@
           }
         }
       ],
-      "hasSecondarySubclasses": true
+      "hasSecondarySubclasses": true,
+      "levelTracks": {
+        "jutsuKnown": {
+          "base": 5,
+          "perLevel": 1,
+          "steps": [
+            {
+              "atLevel": 4,
+              "add": -1
+            },
+            {
+              "atLevel": 8,
+              "add": -1
+            },
+            {
+              "atLevel": 12,
+              "add": -1
+            },
+            {
+              "atLevel": 16,
+              "add": -1
+            },
+            {
+              "atLevel": 20,
+              "add": -1
+            }
+          ]
+        }
+      }
     },
     {
       "id": "medical-nin",
@@ -9885,7 +10091,56 @@
             ]
           }
         }
-      ]
+      ],
+      "levelTracks": {
+        "channeledHealing": {
+          "base": 2,
+          "steps": [
+            {
+              "atLevel": 5,
+              "add": 2
+            },
+            {
+              "atLevel": 9,
+              "add": 2
+            },
+            {
+              "atLevel": 13,
+              "add": 2
+            },
+            {
+              "atLevel": 17,
+              "add": 2
+            }
+          ]
+        },
+        "jutsuKnown": {
+          "base": 5,
+          "perLevel": 1,
+          "steps": [
+            {
+              "atLevel": 4,
+              "add": -1
+            },
+            {
+              "atLevel": 8,
+              "add": -1
+            },
+            {
+              "atLevel": 12,
+              "add": -1
+            },
+            {
+              "atLevel": 16,
+              "add": -1
+            },
+            {
+              "atLevel": 20,
+              "add": -1
+            }
+          ]
+        }
+      }
     },
     {
       "id": "weapon-specialist",
@@ -11370,6 +11625,7 @@
           }
         ],
         "expectedPickedCountFormula": {
+          "base": 0,
           "steps": [
             {
               "atLevel": 2,
@@ -11380,19 +11636,19 @@
               "add": 1
             },
             {
-              "atLevel": 8,
+              "atLevel": 9,
               "add": 1
             },
             {
-              "atLevel": 11,
+              "atLevel": 12,
               "add": 1
             },
             {
-              "atLevel": 14,
+              "atLevel": 15,
               "add": 1
             },
             {
-              "atLevel": 17,
+              "atLevel": 18,
               "add": 1
             }
           ]
@@ -11500,7 +11756,35 @@
             ]
           }
         }
-      ]
+      ],
+      "levelTracks": {
+        "jutsuKnown": {
+          "base": 5,
+          "perLevel": 1,
+          "steps": [
+            {
+              "atLevel": 4,
+              "add": -1
+            },
+            {
+              "atLevel": 8,
+              "add": -1
+            },
+            {
+              "atLevel": 12,
+              "add": -1
+            },
+            {
+              "atLevel": 16,
+              "add": -1
+            },
+            {
+              "atLevel": 20,
+              "add": -1
+            }
+          ]
+        }
+      }
     }
   ]
 }
