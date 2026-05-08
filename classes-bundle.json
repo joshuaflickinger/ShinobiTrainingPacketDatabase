@@ -1891,7 +1891,7 @@
           "actionEconomy": "none"
         },
         {
-          "id": "ninjutsu-specialist.l2.genius",
+          "id": "ninjutsu-specialist.l2.scholar",
           "sourceId": "ninjutsu-specialist",
           "name": "Scholar",
           "level": 2,
@@ -3422,8 +3422,8 @@
             "Ninshou"
           ],
           "fromSkills": [],
-          "source": "Genius",
-          "sourceId": "genius",
+          "source": "Scholar",
+          "sourceId": "scholar",
           "description": "Gain a rank of Mastery in Ninshou."
         },
         {
@@ -3432,8 +3432,8 @@
             "Ninshou"
           ],
           "fromSkills": [],
-          "source": "Genius (2)",
-          "sourceId": "genius-2",
+          "source": "Scholar (2)",
+          "sourceId": "scholar-2",
           "description": "Gain an additional rank of Mastery in Ninshou."
         },
         {
@@ -3442,8 +3442,8 @@
             "Ninshou"
           ],
           "fromSkills": [],
-          "source": "Genius (3)",
-          "sourceId": "genius-3",
+          "source": "Scholar (3)",
+          "sourceId": "scholar-3",
           "description": "Gain an additional rank of Mastery in Ninshou."
         },
         {
