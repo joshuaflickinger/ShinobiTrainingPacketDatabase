@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "armor": [
+    "Light",
+    "Medium",
+    "Heavy"
+  ],
+  "weapon": [
+    "Simple",
+    "Martial",
+    "Exotic"
+  ],
+  "language": [
+    "Common",
+    "Fire",
+    "Earth",
+    "Water",
+    "Wind",
+    "Lightning"
+  ]
+}

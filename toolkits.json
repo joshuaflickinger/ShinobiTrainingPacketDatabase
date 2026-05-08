@@ -1,0 +1,352 @@
+{
+  "schemaVersion": 1,
+  "toolkits": [
+    {
+      "id": "alchemist-kit",
+      "name": "Alchemist Kit",
+      "description": "This Kit contains all the necessary implements to create and test the properties of different chemicals solutions and concoctions. These implements would include a variety of different stable elements, mixing solutions, and stabilizing tablets. Proficiency with this kit allows you to add your proficiency bonus to all checks involving this kit and also allows you to do the following; Test Chemical Properties, Create Compounds, Create Concoctions and Create Chemical bombs.",
+      "abilityChecks": "Intelligence or Wisdom",
+      "actions": [
+        {
+          "name": "Create Chemical Bombs",
+          "chargeCost": "1-2",
+          "description": "By spending 1 hour or over the course of a short rest and up to 2 charges, you spend time mixing a collection of different solutions together. When you do you can create a number of the following up to the number of charges spent of a quality equal to the quality of this kit; Smoke Bombs, Ice Bombs, Shock Bombs or Chili Pepper Bombs."
+        },
+        {
+          "name": "Create Chemical Compounds",
+          "chargeCost": "1-2",
+          "description": "By spending at up to 2 charges, you spend 1 hour of leisure time or the duration of a short rest mixing and maintaining a stable compound meant to reinvigorate a user's Chakra network, known as a Chakra Pill. When you do, you create a number of single use Chakra pills of a quality equal to the quality of this Kit, equal to the number of charges spent."
+        },
+        {
+          "name": "Test Chemical Properties",
+          "chargeCost": "1",
+          "description": "By spending 4 hours or over the course of a long rest, you can take any object or consumable comprised of a liquid or solid matter and do alchemical analysis on it. When you do, you become aware of its benefits, risks, limitations, and what kit can be used to recreate it, if any."
+        }
+      ],
+      "tiers": [
+        { "tier": "base",     "name": "Alchemist Kit",          "charges": 5,  "cost": 200,  "bonus": "Up to 2 items created at once." },
+        { "tier": "greater",  "name": "Greater Alchemist Kit",  "charges": 7,  "cost": 500,  "bonus": "Up to 4 items created at once." },
+        { "tier": "superior", "name": "Superior Alchemist Kit", "charges": 9,  "cost": 750,  "bonus": "Up to 6 items created at once." },
+        { "tier": "supreme",  "name": "Supreme Alchemist Kit",  "charges": 12, "cost": 1200, "bonus": "Up to 8 items created at once." }
+      ]
+    },
+    {
+      "id": "armorsmith-kit",
+      "name": "Armorsmith Kit",
+      "description": "This Kit contains all the necessary implements to create armor of varying types. Proficiency with this kit allows you to add your proficiency bonus to all checks involving this kit and also allows you to do the following; Craft Armor and Armor Seals.\nWhile you have access to this kit, each time you would attempt to Craft armor or an Armor Seal, you spend a charge of your Armorsmith kit as some tools break, become brittle or have wear and tear on them.\nThis kit grants a creature the ability to create up to C-Rank Armor Seals. Higher quality Armorsmith Kits, will allow a creature to create higher ranked armor seals at reduced ryo OR downtime costs as seen on the Armorsmith Chart on the following page. If this would reduce the total downtime cost of an item to 0, you would instead only spend 1 week.",
+      "abilityChecks": "Intelligence or Strength",
+      "actions": [
+        {
+          "name": "Craft Armor",
+          "chargeCost": "1",
+          "description": "Craft mundane armor; spend a charge per attempt."
+        },
+        {
+          "name": "Craft Armor Seal",
+          "chargeCost": "1",
+          "description": "Craft an Armor Seal up to the rank allowed by this kit's quality."
+        }
+      ],
+      "tiers": [
+        { "tier": "base",     "name": "Armorsmith Kit",          "charges": 5,  "cost": 200,  "bonus": "Crafts up to C-Rank Armor Seals." },
+        { "tier": "greater",  "name": "Greater Armorsmith Kit",  "charges": 7,  "cost": 450,  "bonus": "Crafts up to B-Rank Armor Seals at reduced ryo or downtime cost." },
+        { "tier": "superior", "name": "Superior Armorsmith Kit", "charges": 9,  "cost": 750,  "bonus": "Crafts up to A-Rank Armor Seals at further reduced ryo or downtime cost." },
+        { "tier": "supreme",  "name": "Supreme Armorsmith Kit",  "charges": 12, "cost": 1000, "bonus": "Crafts up to S-Rank Armor Seals at the lowest ryo or downtime cost." }
+      ]
+    },
+    {
+      "id": "cooking-kit",
+      "name": "Cooking Kit",
+      "description": "This kit includes all of the necessary implements to prepare and serve food for up to six people at any single time. Proficiency with this kit lets you add your proficiency bonus to any skill checks you make to identify or create food or involved with using this kit. While you have proficiency with this kit you can also use it to do the following; Cook meals with beneficial effects, Create cooked food rations and Military Ration Pills.",
+      "abilityChecks": "Intelligence or Wisdom",
+      "actions": [
+        {
+          "name": "Cooking Meal",
+          "chargeCost": "1",
+          "description": "By spending 1 charge, you can spend one hour of leisure time or the duration of a short rest cooking a reinvigorating meal for up to six creatures. A creature who would benefit from this meal gains a number of temporary hit points equal to the Quality of this cooking kit. (Base: 15, Greater: 20, Superior: 30, Supreme: 45)."
+        },
+        {
+          "name": "Creating Cooked Food Rations",
+          "chargeCost": "1",
+          "description": "By spending 1 charge, you can spend 1 hour of leisure time or the duration of a short rest creating and maintaining dried meats, veggies and herbs condensed into an edible block of foodstuff similar in texture to a cookie, known as a Cooked Food Ration. Creatures who eat this Food Ration are satiated and do not need to eat for the next 24 hours. At the conclusion of this period of time spend doing this, you create 5 food rations."
+        },
+        {
+          "name": "Military Ration Pills",
+          "chargeCost": "1+",
+          "description": "By spending at least 1 charge, you can spend 1 hour of leisure time or the duration of a short rest creating and maintaining special herbs, minerals and other nutrient rich foods condensed into an edible ball of foodstuff similar in texture to a cookie, known as a Military Ration Pill. When you do, you create a number of single use Military Ration pills of a quality equal to the quality of this Kit, equal to the number of charges spent."
+        }
+      ],
+      "tiers": [
+        { "tier": "base",     "name": "Cooking Kit",          "charges": 5,  "cost": 200,  "bonus": "5 basic rations / cook." },
+        { "tier": "greater",  "name": "Greater Cooking Kit",  "charges": 7,  "cost": 500,  "bonus": "7 basic rations / cook. Consuming 3 Cooked Food Rations at once, as an action, can remove 1 Rank of Dazed, Envenomed, Exhaustion or Weakened from a creature with no more than 2 Ranks of said condition, once per long rest." },
+        { "tier": "superior", "name": "Superior Cooking Kit", "charges": 9,  "cost": 750,  "bonus": "9 basic rations / cook. Consuming 5 Cooked Food Rations at once, as an action, can remove 1 Rank of Dazed, Envenomed, Exhaustion or Weakened from a creature with no more than 3 Ranks of said condition, once per long rest." },
+        { "tier": "supreme",  "name": "Supreme Cooking Kit",  "charges": 12, "cost": 1200, "bonus": "11 basic rations / cook. Consuming 7 Cooked Food Rations at once, as an action, can remove 1 Rank of Dazed, Envenomed, Exhaustion or Weakened from a creature with no more than 5 Ranks of said condition, once per long rest." }
+      ]
+    },
+    {
+      "id": "demolitions-kit",
+      "name": "Demolitions Kit",
+      "description": "This kit contains the appropriate equipment for disarming and setting explosives. It contains a plastic face guard and heavy-duty gloves, as well as precision cutting and gripping tools, and various common components of explosives and mines. Proficiency with this kit lets you add your proficiency bonus to any skill checks you make to disarm or set an explosive. While you have access to this kit, you can also use it to do the following; Craft Breaching Tags, Paper bombs, Explosive Tag balls and Fire Bombs.",
+      "abilityChecks": "Intelligence or Wisdom",
+      "actions": [
+        {
+          "name": "Craft Explosives",
+          "chargeCost": "1+",
+          "description": "By spending 1 charge of this kit, over the course of a short rest, you create a number of the explosives listed, up to the number of charges spent of a quality equal to the quality of this kit when used."
+        },
+        {
+          "name": "Disarm Explosive",
+          "chargeCost": "1",
+          "description": "As an action spending 1 Charge of this kit, you can attempt to disarm any set explosive tool within reach or its snaring range. Make an Intelligence or Wisdom (Demolitions Kit) check vs a DC 15 + the quality of the explosive (Base: +2, Greater: +4, Superior: +6, Supreme: +8). On a failed check, the explosive detonates regardless."
+        }
+      ],
+      "tiers": [
+        { "tier": "base",     "name": "Demolitions Kit",          "charges": 5,  "cost": 200,  "bonus": "Up to 2 explosives created at once." },
+        { "tier": "greater",  "name": "Greater Demolitions Kit",  "charges": 7,  "cost": 450,  "bonus": "Up to 4 explosives created at once. Reduce DC to disarm Explosives by -2." },
+        { "tier": "superior", "name": "Superior Demolitions Kit", "charges": 9,  "cost": 750,  "bonus": "Up to 6 explosives created at once. Reduce DC to disarm Explosives by -2 and cannot make this check at disadvantage." },
+        { "tier": "supreme",  "name": "Supreme Demolitions Kit",  "charges": 12, "cost": 1000, "bonus": "Up to 8 explosives created at once. Reduce DC to disarm Explosives by -2, cannot make this check at disadvantage and can attempt to remake a failed check, once per attempt without the explosive detonating." }
+      ]
+    },
+    {
+      "id": "disguise-kit",
+      "name": "Disguise Kit",
+      "description": "This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance without the use of the Transformation Jutsu. Proficiency with this kit lets you add your proficiency bonus to any skill checks you make to create a disguise. While you have proficiency and access to this Kit you can do the following; Create a Disguise of varying complexity. When creating a disguise of any type, you spend one charge of this kit and create a small satchel or collection of clothing, materials and whatever else needed to don the disguise. This satchel has a Bulk of 1. You cannot don your disguise and your armor, unless armor is a part of the disguise. When you would don any disguise you've previously made, it takes 30 minutes of preparation and work to apply the disguise.\nCreating a disguise will place its wearer into a variety of situations where their identity can be compromised. A creature suspicious of a disguised individual or group of individuals can make a Wisdom (Insight) vs the creator of the Disguises Intelligence or Charisma (Disguise Kit) to see through the disguise. A creature who fails their insight check may lower their suspicions for the moment, but it does not make those wearing the disguise immune to any further checks.",
+      "abilityChecks": "Intelligence or Charisma",
+      "actions": [
+        {
+          "name": "Plain Disguise",
+          "chargeCost": "1",
+          "description": "A simple change like a superficial scar, a costume change or applying a small temporary tattoo. These are quick to make and only take 10 minutes to develop the disguise."
+        },
+        {
+          "name": "Elaborate Disguise",
+          "chargeCost": "2",
+          "description": "Somewhere between being very fast and time consuming to assemble. In 1 hour or over the course of a short rest, you can create a large tattoo, dye your hair, or put on complex dresses like those huge ballroom gowns or craft extremely convincing copies of seemingly exclusive articles of clothing. Doubling the time it takes to make this type of disguise gives all Insight checks made to see through this disguise disadvantage."
+        },
+        {
+          "name": "Exquisite Disguise",
+          "chargeCost": "3",
+          "description": "Requiring the most work, taking its creator a minimum of 4 hours to create. These disguises include things like using makeup to give yourself an entirely new face, creating entirely new costumes, or creating a new persona for a performance. Doubling the time it takes to make this type of disguise gives all Insight checks made to see through this disguise disadvantage."
+        }
+      ],
+      "tiers": [
+        { "tier": "base",     "name": "Disguise Kit",          "charges": 5,  "cost": 200,  "bonus": "" },
+        { "tier": "greater",  "name": "Greater Disguise Kit",  "charges": 7,  "cost": 450,  "bonus": "Gain a +1d4 bonus to Charisma checks while disguised." },
+        { "tier": "superior", "name": "Superior Disguise Kit", "charges": 9,  "cost": 750,  "bonus": "Gain a +1d4 bonus to Charisma checks while disguised and reduce the time to don a disguise to 1 minute." },
+        { "tier": "supreme",  "name": "Supreme Disguise Kit",  "charges": 12, "cost": 1000, "bonus": "Gain a +1d4 bonus to Charisma checks while disguised, reduce the time to don a disguise to 1 minute and reduce the time needed to create a disguise by half." }
+      ]
+    },
+    {
+      "id": "forensics-kit",
+      "name": "Forensics Kit",
+      "description": "This kit includes all of the necessary implements to collect evidence, DNA, and other remains from any location that you investigate. Proficiency with this kit lets you add your proficiency bonus to any skill checks you make to identify DNA, Finger prints, drugs, pills, chemicals, poisons and diseases. While you have proficiency and access to this Kit you can do the following; Analyze Drugs, Chemicals, Poisons and Diseases, collect DNA & Fingerprints and compare findings.",
+      "abilityChecks": "Intelligence",
+      "actions": [
+        {
+          "name": "Analyze",
+          "chargeCost": "1",
+          "description": "By spending 1 hour canvassing an area no larger than 10 x 10 feet, you are able to attempt to find and collect all material evidence in an area. First, make a DC 15 Intelligence (Investigation) check. On a success, you are able to find a single piece of evidence. For every +5 you get over the listed DC you find an additional piece of material evidence (if any). Evidence found in this manner is counted as whole or partial drug residue, chemicals or chemical residue, poisons or even mysterious biological substances. Next, you spend another hour analyzing the evidence. When you are analyzing something you must make a DC 10 + 1 for every day that has passed since the piece of evidence you are looking over was left behind Intelligence (Forensics) check. This DC Can never be greater than 30. If you would attempt to Analyze something that has been left in any hostile environment, you instead increase the DC by +1 for every hour that passes, instead of every day. If you would attempt to analyze something that was left in a contained, pressurized or sterilized environment, you instead increase the DC by +1 for every week that passes. If you pass the second check, you become aware of the makeup, composition, age of, and purpose for the evidence. You record this data into a book of your choice found within the forensic kit. Moving forward, when you would see, interact with or come across the source of the evidence or something similar (a similar drug or chemical), as a part of becoming aware of this new source make an Intelligence (Forensics) check vs a DC 15. On a success, you are able to link the previous evidence found and this new source and form a connection (if any)."
+        }
+      ],
+      "tiers": [
+        { "tier": "base",     "name": "Forensics Kit",          "charges": 5,  "cost": 200,  "bonus": "" },
+        { "tier": "greater",  "name": "Greater Forensics Kit",  "charges": 7,  "cost": 450,  "bonus": "Gain a +1d4 bonus to Intelligence checks made with this kit." },
+        { "tier": "superior", "name": "Superior Forensics Kit", "charges": 9,  "cost": 750,  "bonus": "Gain a +1d4 bonus to Intelligence checks made with this kit and by spending an additional charge, you can reduce the DC of the check by -1 for every charge spent." },
+        { "tier": "supreme",  "name": "Supreme Forensics Kit",  "charges": 12, "cost": 1000, "bonus": "Gain a +1d4 bonus to Intelligence checks made with this kit, by spending an additional charge, you can reduce the DC of the check by -1 for every charge spent and on a success you become aware of the gender, size, shape and any other physical properties of the physical source of your evidence (if any)." }
+      ]
+    },
+    {
+      "id": "forgery-kit",
+      "name": "Forgery Kit",
+      "description": "This small box contains a variety of papers and parchments, pens and inks, seals and sealing wax, gold and silver leaf, and other supplies necessary to create convincing forgeries of physical documents. Proficiency with this kit lets you add your proficiency bonus to any skill checks you make to do the following; create a physical forgery of a document, Badges, ID's, and signatures.\nA creature who interacts with your forgeries may attempt to see through it if they are unsure of its validity. If they do, they make an Intelligence (Investigation) check vs an Intelligence, Dexterity, or Wisdom (Forgery Kit) check (DM's choice based on the type of forgery.) A creature who fails cannot find any issues or faults with the forgery.",
+      "abilityChecks": "Intelligence, Dexterity or Wisdom",
+      "actions": [
+        {
+          "name": "Simple Forgery",
+          "chargeCost": "1",
+          "description": "A simple forgery is a quick and typically uninvolved forging of a signature, creating a simple letterhead or copying the handwriting of another individual. Simple forgeries take no more than 10 minutes and require an example of what is being forged."
+        },
+        {
+          "name": "Complicated Forgery",
+          "chargeCost": "2",
+          "description": "A complicated forgery is a forgery that requires more involvement from the preparer. This includes perfectly copying or rewriting an entire handwritten document of no more than one page, while adding or removing text, words or sentences. Creating new letterheads with gold or silver foil. Copying a complex drawing or sketch. Or recreating the frame of a wax seal. A complicated forgery requires no more than 1 hour and an example of what is being forged."
+        },
+        {
+          "name": "Exquisite Forgery",
+          "chargeCost": "3",
+          "description": "Exquisite Forgeries involve expert skill and insight, along with vast amounts of time and patience. Over the course of 8 hours or a long rest, you can recreate any multiple page document regardless of length, create old and new wax seals, create impossible to distinguish ID cards for a single creature, recreate portraits. Some tasks may require more than 8 hours of uninterrupted work and instead may require multiple days of work (DM's discretion)."
+        }
+      ],
+      "tiers": [
+        { "tier": "base",     "name": "Forgery Kit",          "charges": 5,  "cost": 200,  "bonus": "" },
+        { "tier": "greater",  "name": "Greater Forgery Kit",  "charges": 7,  "cost": 450,  "bonus": "Gain a +1d4 bonus to Intelligence checks made with this kit." },
+        { "tier": "superior", "name": "Superior Forgery Kit", "charges": 9,  "cost": 750,  "bonus": "Gain a +1d4 bonus to Intelligence checks made with this kit and by spending an additional charge, you can reduce the DC of the check by -1 for every charge spent." },
+        { "tier": "supreme",  "name": "Supreme Forgery Kit",  "charges": 12, "cost": 1000, "bonus": "Gain a +1d4 bonus to Intelligence checks made with this kit, by spending an additional charge, you can reduce the DC of the check by -1 for every charge spent." }
+      ]
+    },
+    {
+      "id": "hackers-kit",
+      "name": "Hackers Kit",
+      "description": "Hackers are a new profession in the world of Naruto, using specialized computer Scrolls, built by the hackers themselves, to eke out a living in the emerging digital world. These computer scrolls were carefully guarded and constantly modified and upgraded by the hacker, who rarely discussed its specs except with like-minded individuals. Complex access codes are often used to prevent a hacker's scroll from falling into the wrong hands. Proficiency with this kit lets you add your proficiency bonus to any skill checks you make to hack into computers, disable computer networks, find security systems, or even set cyber trap's on a network.",
+      "abilityChecks": "Intelligence",
+      "actions": [
+        {
+          "name": "Quick Hack",
+          "chargeCost": "1+",
+          "description": "As a Full-turn-action, by spending at least 1 charge, you can attempt to make an Intelligence (Hackers Kit) check vs the Security DC of the computer or system you are interacting with. On a success you gain temporary access into a system lasting no more than 1 minute, after which you must exit the network to avoid being noticed and activating any security measures. For every charge spent when completing this task, you gain a +2 bonus to the check."
+        },
+        {
+          "name": "Full Hack",
+          "chargeCost": "3+",
+          "description": "Over the course of 1 hour of leisure time or a short rest, while within 120 feet of a security or computer network, you are able to attempt a Full Hack, costing you a minimum of 3 Charges. When you do, you make an Intelligence (Hackers Kit) check vs the Security DC of the computer system. You can spend additional charges, gaining a +2 bonus to your check. On a success you are able to gain access to the system for the next hour as you have taken your time to invade and gain certain credentials. While accessing the network, every ten minutes you can attempt to gain access to any files available on the network. If you would be challenged by a Counter Hack, you make an Intelligence (Hackers Kit) check vs the DC. On a success you maintain access to the system and can steal the chosen data file. On a failure you lose access to the system and your Hacking Kit's location is compromised. Stolen files can then be stored on a Data Scroll, taking the file off network."
+        },
+        {
+          "name": "Cyber Trap",
+          "chargeCost": "1",
+          "description": "While on a friendly network, you can choose to spend one charge to set a Cyber trap, which is represented by a d6. A cyber trap while on a network only triggers when a hostile or foreign entity access the network. When such an event occurs whenever the hostile entity would make a Counter Hack check as a result of this network, you roll a d6 adding the result the DC. When this happens, the hostile entity becomes aware and can choose to spend 2 charges of their Hackers Kit to nullify the Trap."
+        }
+      ],
+      "tiers": [
+        { "tier": "base",     "name": "Hackers Kit",          "charges": 5,  "cost": 200,  "bonus": "" },
+        { "tier": "greater",  "name": "Greater Hackers Kit",  "charges": 7,  "cost": 500,  "bonus": "Gain a +1d4 bonus to Intelligence checks made with this kit." },
+        { "tier": "superior", "name": "Superior Hackers Kit", "charges": 9,  "cost": 750,  "bonus": "Gain a +1d4 bonus to Intelligence checks made with this kit and by spending an additional charge, you can reduce the DC of the check by -2 for every charge spent." },
+        { "tier": "supreme",  "name": "Supreme Hackers Kit",  "charges": 12, "cost": 1000, "bonus": "Gain a +1d4 bonus to Intelligence checks made with this kit, by spending an additional charge, you can reduce the DC of the check by -2 for every charge spent and you reduce the number of charges needed to negate a cyber trap to 1." }
+      ]
+    },
+    {
+      "id": "medicine-kit",
+      "name": "Medicine Kit",
+      "description": "This kit includes all of the necessary implements to perform complex medical inquiries and procedures while not in a medical facility supported by sterilized environments, allowing you to diagnose and even treat issues such as broken bones, open wounds and even providing immediate care to people who are on death's door making death saving throws. Proficiency with this kit lets you add your proficiency bonus to any skill checks you make to perform medical tasks, light healing, condition treatment, stabilization and create Blood Pills.",
+      "abilityChecks": "Intelligence or Wisdom",
+      "actions": [
+        {
+          "name": "Medical Check Up",
+          "chargeCost": "1",
+          "description": "By spending 1 charge over the course of 10 minutes, you are able to assess the current status of up to 6 creatures informing them of all conditions, diseases, poisons or effects, affecting them at the moment, and how to cure/remove it."
+        },
+        {
+          "name": "Light Patch up",
+          "chargeCost": "1+",
+          "description": "You select one creature within 5 feet of you. For the next 10 minutes, you spend time patching them up. Spend any number of charges. For each charge spent, the creature regains 2d4 hit points."
+        },
+        {
+          "name": "Full Fix up",
+          "chargeCost": "2",
+          "description": "You select one creature within 5 feet of you. As an action, you stab them with an adrenal fluid meant to stave off death. Remove one failed death save from them."
+        },
+        {
+          "name": "Stabilization",
+          "chargeCost": "3",
+          "description": "Select one creature who is dying or making death saving throws within 5 feet of you. By spending 3 charge, you are able to stabilize them at 0 hit points. Doing this removes up to 2 failed death saves."
+        },
+        {
+          "name": "Condition Treatment",
+          "chargeCost": "3",
+          "description": "Select one creature who is within 5 Feet of you. Over the course of 10 minutes to 1 hour you are able to treat a creature curing them of a number of conditions they are currently under the effects of. Roll 1d6. The result is the number of minutes spent performing such a treatment times 10."
+        },
+        {
+          "name": "Blood Pill Creation",
+          "chargeCost": "2+",
+          "description": "By spending at least 2 charge, you can spend 1 hour of leisure time or the duration of a short rest creating blood increasing stimulants in the form of a pill, known as a Blood Pill. When you do, you create a number of single use Blood pills of a quality equal to the quality of this Kit, for every 2 Charges spent, you create one single use Blood Pill."
+        }
+      ],
+      "tiers": [
+        { "tier": "base",     "name": "Medicine Kit",          "charges": 5,  "cost": 200,  "bonus": "Patch Up: 2d4. Removes C-Rank conditions." },
+        { "tier": "greater",  "name": "Greater Medicine Kit",  "charges": 7,  "cost": 575,  "bonus": "Patch Up: 2d4. Removes B-Rank conditions. Can use this Kit to gain the benefit of an equal Quality Antidote Kit." },
+        { "tier": "superior", "name": "Superior Medicine Kit", "charges": 9,  "cost": 850,  "bonus": "Patch Up: 2d6. Removes A-Rank conditions. Can use this Kit to gain the benefit of an equal Quality Antidote Kit and Medkit." },
+        { "tier": "supreme",  "name": "Supreme Medicine Kit",  "charges": 12, "cost": 1250, "bonus": "Patch Up: 2d8. Removes S-Rank conditions. Can use this Kit to gain the benefit of an equal Quality Antidote Kit and Medkit, and can spend 3 Charges to gain the benefits of a short rest, as a Full-Turn-Action, once per Long Rest." }
+      ]
+    },
+    {
+      "id": "poison-kit",
+      "name": "Poison Kit",
+      "description": "A poisoner's kit includes the vials, chemicals, and other equipment necessary for the creation of poisons and have 5 Charges. Proficiency with this kit lets you add your proficiency bonus to any skill checks you make to craft or use poisons. The following Poisons cannot be purchased by normal means, meaning they must be created or purchased from black market salesmen. These Poisons are generally applied either being ingested or applied via a weapons attack. Poison applied to weapons require a bonus action, and are only expended when striking a creature and must be applied to the weapon again to be administered again the same way.",
+      "abilityChecks": "Intelligence or Wisdom",
+      "actions": [
+        {
+          "name": "Craft Poison",
+          "chargeCost": "1+",
+          "description": "Over the course of a short rest, when you would attempt to make a Poison, spend a Charge equal to the effective Rank of the Poison being made, and make an Intelligence or Wisdom (Poison Kit) check vs the poison Craft DC. On a success you create the poison, on a failure, you waste whatever resources were used to attempt to make the poison."
+        }
+      ],
+      "tiers": [
+        { "tier": "base",     "name": "Poison Kit",          "charges": 5,  "cost": 200,  "bonus": "" },
+        { "tier": "greater",  "name": "Greater Poison Kit",  "charges": 7,  "cost": 450,  "bonus": "Gain a +1d4 bonus to checks made with this kit." },
+        { "tier": "superior", "name": "Superior Poison Kit", "charges": 9,  "cost": 750,  "bonus": "Gain a +1d4 bonus to checks made with this kit and reduce poison Craft DC by -1 per additional charge spent." },
+        { "tier": "supreme",  "name": "Supreme Poison Kit",  "charges": 12, "cost": 1000, "bonus": "Gain a +1d4 bonus to checks made with this kit, reduce poison Craft DC by -1 per additional charge spent." }
+      ]
+    },
+    {
+      "id": "security-kit",
+      "name": "Security Kit",
+      "description": "A security kit includes the tools and mechanical components necessary to bypass electronic and mechanical locks. It includes sensor devices, a specialized Radio link designed to detect silent alarms, a small file, a set of lockpicks, a small mirror mounted to an elongated handle, a set of narrow-bladed scissors, and a pair of pliers.",
+      "abilityChecks": "Dexterity, Intelligence or Wisdom",
+      "actions": [
+        {
+          "name": "Pick Locks",
+          "chargeCost": "1+",
+          "description": "By spending a minimum of 1 Action based on Lock Quality as shown on the Locks Table. Make five Dexterity, Intelligence or Wisdom (Security Kit) check vs the Lock DC, you can choose to roll all at once or one at a time. By spending additional charges, you gain a +2 bonus to your Security Kit check results for each charge spent. You must spend the charges prior to making the check. If you chose to roll all five checks at once you can pre-spend as many charges as you desire, then apply each +2 bonus to each die then add your Dexterity, Intelligence or Wisdom (Security Kit) bonus to each result to speed things up. Based on the amount of failures you have vs the quality of the lock, you either pass and successfully unlock the lock or fail and break the locks inner workings jamming it."
+        },
+        {
+          "name": "Disarm Trap",
+          "chargeCost": "2+",
+          "description": "As an action you begin to attempt to disarm a live trap. Make a single Dexterity, Intelligence or Wisdom (Security Kit) check vs the Disarm DC of the target trap. On a success you disarm the trap. On a failure the trap triggers making you the triggering creature. By spending additional charges, you gain a +2 bonus to your Security Kit check results."
+        }
+      ],
+      "tiers": [
+        { "tier": "base",     "name": "Security Kit",          "charges": 5,  "cost": 200,  "bonus": "" },
+        { "tier": "greater",  "name": "Greater Security Kit",  "charges": 7,  "cost": 450,  "bonus": "Gain a +1d4 bonus to one check made to pick a lock or disarm a trap." },
+        { "tier": "superior", "name": "Superior Security Kit", "charges": 9,  "cost": 750,  "bonus": "Gain a +1d4 bonus to two checks made to pick a lock or one check to disarm a trap and reduce the DC of Disarming trap's by 2." },
+        { "tier": "supreme",  "name": "Supreme Security Kit",  "charges": 12, "cost": 1000, "bonus": "Gain a +1d4 bonus to two checks made to pick a lock or one check to disarm a trap and reduce the DC of Disarming trap's by 2 and reduce the time to pick a lock by 1d10 minutes (Min of 1 Round)." }
+      ]
+    },
+    {
+      "id": "trappers-kit",
+      "name": "Trappers Kit",
+      "description": "This kit includes all of the necessary implements to prepare and set trap's to snare and capture creatures who set them off. Proficiency with this kit lets you add your proficiency bonus to any skill checks you make to create a trap of any kind. Also, proficiency with this kit is required to create Trap's.",
+      "abilityChecks": "Intelligence or Wisdom",
+      "actions": [
+        {
+          "name": "Create a Trap",
+          "chargeCost": "1",
+          "description": "You attempt to create a trap. By spending 1 (one) charge of this kit, you begin the process to manufacturing a special trap found in the Trap's section of this chapter. All Trap's begin at D-Rank and increases in stature by 1 degree every rank up until S-Rank. For every Rank a builder would attempt to increase a Trap's Rank by, they increase the DC required to build the trap (Build DC) by +4 and the Save and Notice/Disable DC of the trap by +2. If a creature beats the Build DC by 5 or more, the Trap's Save DC is increased by +1 and the Notice/Disable DC is increased by +2, for every 5 the creature beat the Build DC by. Additionally for every Rank, beyond D-Rank a trap is, it's damage, if any is increased by +2 damage die. Finally, the constructor of a Trap can make a trap either a Snare or Trigger based trap."
+        },
+        {
+          "name": "Enhance a Trap",
+          "chargeCost": "2+",
+          "description": "When you are creating a trap, by spending an additional 2 charges, you are able to enhance it, making it more difficult to avoid or more lethal. For every 2 charges you spend enhancing a trap, increase the save DC to avoid the effects of the trap by +1 or the skill check DC to notice the Trap by +2 or the damage a trap does by +1 damage die."
+        }
+      ],
+      "tiers": [
+        { "tier": "base",     "name": "Trappers Kit",          "charges": 5,  "cost": 200,  "bonus": "" },
+        { "tier": "greater",  "name": "Greater Trappers Kit",  "charges": 7,  "cost": 450,  "bonus": "Gain a +1d4 bonus to all checks made to create a trap." },
+        { "tier": "superior", "name": "Superior Trappers Kit", "charges": 9,  "cost": 750,  "bonus": "Gain a +1d4 bonus to all checks made to create a trap and increase the notice DC by +2." },
+        { "tier": "supreme",  "name": "Supreme Trappers Kit",  "charges": 12, "cost": 1000, "bonus": "Gain a +1d4 bonus to all checks made to create a trap, increase the notice DC by +2 and the Disarm DC by 1d4." }
+      ]
+    },
+    {
+      "id": "weaponsmith-kit",
+      "name": "Weaponsmith Kit",
+      "description": "This kit includes all of the necessary implements to prepare and create mundane weapons while in the presence or access of extreme heat and cooling capabilities. Proficiency with this kit lets you add your proficiency bonus to any skill checks you make to make weapons. Also, proficiency with this kit is required to create Chakra Enhanced Weapons of any type.",
+      "abilityChecks": "Intelligence or Strength",
+      "actions": [
+        {
+          "name": "Craft Weapon",
+          "chargeCost": "1",
+          "description": "Craft a mundane weapon; spend a charge per crafting attempt."
+        },
+        {
+          "name": "Craft Chakra-Enhanced Weapon",
+          "chargeCost": "1+",
+          "description": "Required for crafting Chakra Enhanced Weapons of any type."
+        }
+      ],
+      "tiers": [
+        { "tier": "base",     "name": "Weaponsmith Kit",          "charges": 5,  "cost": 200,  "bonus": "" },
+        { "tier": "greater",  "name": "Greater Weaponsmith Kit",  "charges": 7,  "cost": 450,  "bonus": "Crafts higher-quality weapons at reduced ryo or downtime cost." },
+        { "tier": "superior", "name": "Superior Weaponsmith Kit", "charges": 9,  "cost": 750,  "bonus": "Crafts higher-quality weapons at further reduced ryo or downtime cost." },
+        { "tier": "supreme",  "name": "Supreme Weaponsmith Kit",  "charges": 12, "cost": 1000, "bonus": "Crafts the highest-quality weapons at the lowest ryo or downtime cost." }
+      ]
+    }
+  ]
+}
