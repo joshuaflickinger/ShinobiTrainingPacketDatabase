@@ -247,17 +247,6 @@
       "source": ""
     },
     {
-      "id": "mental.compelled",
-      "category": "mental",
-      "name": "Compelled",
-      "description": "Will is steered off-course at the behest of another. The inflicting creature is the compeller. Compelled is a parent condition with three specific forms: Berserk, Charmed, and Confused. A creature resistant or immune to being Compelled is resistant or immune to all of the listed forms.",
-      "tags": [
-        "mental"
-      ],
-      "sourceKind": "none",
-      "source": ""
-    },
-    {
       "id": "mental.berserk",
       "category": "mental",
       "name": "Berserk",
