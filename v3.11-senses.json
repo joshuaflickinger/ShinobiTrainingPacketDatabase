@@ -10,6 +10,7 @@
     {
       "id": "chakra-sense",
       "name": "Chakra Sense",
+      "aliases": ["Chakra Sensing"],
       "description": "A creature capable of Chakra sensing is often aided by a Jutsu or feature with the Sensory trait. This sense allows a creature aided by it to become aware of creatures, objects and structures aided, affected or even capable of molding, Chakra.\n\nA creature with this sense can sense chakra through walls up to 5ft thick. Walls that have been reinforced by chakra prevents this sense from perceiving chakra signatures through it. A creature with this sense who is aware of such creatures, objects or structures can identify creatures and jutsu by their chakra signature alone even without sight, so long as they have sensed a creature or a jutsu being cast before, but are not able to pinpoint their location only becoming aware of their general direction, unless that creature, object or structure is within 15ft of them, at which time they can pinpoint their exact space with certainty.\n\nA creature with this sense gains a +2 bonus to all skill checks made to find or search for creatures within your Chakra sensing range, and a +2 bonus to Read the Enemy checks against a creature whom you can sense and see."
     },
     {
