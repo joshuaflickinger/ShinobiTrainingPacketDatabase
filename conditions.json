@@ -125,6 +125,17 @@
       "source": ""
     },
     {
+      "id": "physical.encumbered",
+      "category": "physical",
+      "name": "Encumbered",
+      "description": "• Your Speed is Halved.\n• You have disadvantage on all checks, attack rolls and saving throws, that use Strength, Dexterity, or Constitution.",
+      "tags": [
+        "physical"
+      ],
+      "sourceKind": "none",
+      "source": ""
+    },
+    {
       "id": "physical.staggered",
       "category": "physical",
       "name": "Staggered",
@@ -544,9 +555,9 @@
       "source": "Taijutsu Specialist.Talented Genius"
     },
     {
-      "id": "physical.shaken-fang-breaker",
+      "id": "physical.shaken-okuri-inu-fang",
       "category": "physical",
-      "name": "Shaken (Fang Breaker)",
+      "name": "Shaken (Okuri-Inu Fang)",
       "description": "The inflicting strike left your body with jitters and shakes from its impact. (Class-specific version inflicted by the Weapon Specialist's Okuri-Inu Fang feature.)\n  \u2022 A Shaken creature can only make one attack on their turn.\n  \u2022 A Shaken creature that casts a Jutsu on their turn as an Action increases its cost by 1 Flurry Die. This increases to 2 Flurry Die at 10th and 3 Flurry Die at 17th level.\n  \u2022 This condition ends at the end of an affected creature's turn.",
       "tags": [
         "physical"
