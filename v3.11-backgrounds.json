@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "version": "v3.11",
+  "backgrounds": [
+    {
+      "id": "entertainer",
+      "name": "Entertainer",
+      "description": "You thrived in front of an audience, knowing how to entrance them, entertain them, and even inspire them. Your poetics can stir the hearts of those who hear you, awakening grief or joy, laughter or anger. Your music raises their spirits or captures their sorrow. Your dance steps captivate, your humor cuts to the quick. Whatever techniques you used; your art is your life.",
+      "skillProficiencies": {
+        "fixed": ["Acrobatics", "Performance"],
+        "choices": []
+      },
+      "toolProficiencies": {
+        "fixed": ["Disguise Kit"],
+        "choices": []
+      },
+      "equipment": [
+        "A Love letter from someone you used to be close to",
+        "A Costume from an event prior",
+        "Wallet containing 100 Ryo"
+      ],
+      "equipmentPack": {
+        "choose": 1,
+        "from": ["Infiltrator's Pack", "Captain's Pack"]
+      },
+      "feature": {
+        "name": "Back By Popular Demand",
+        "description": "You can always find a place to perform, usually in an inn or town square but possibly with a circus, at a theater, or even in a noble's court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you, while you easily blend in to the local population."
+      }
+    },
+    {
+      "id": "genius",
+      "name": "Genius",
+      "description": "You are someone who was raised with a notion of greatness about you. Always placed on a pedestal above your peers for your intelligence, skills or natural born ability. Before Coming to the academy, you had such an aptitude for success that strangers, parents, and teachers alike all placed you in a league of your own. You have proven that to be the case up until this point and you will most likely continue to prove it moving forward. Whether you choose to continue the path people have assumed you would, or shift focus is your own choice. You have memories of both good and bad experiences with this assumption of genius about you. Memories like these are something you may cherish or despise, regardless, you are a Genius through and through.",
+      "skillProficiencies": {
+        "fixed": [],
+        "choices": [
+          { "count": 2, "from": ["Ninshou", "Martial Arts", "Illusions"] }
+        ]
+      },
+      "toolProficiencies": {
+        "fixed": [],
+        "choices": [
+          { "count": 1, "fromAny": true }
+        ]
+      },
+      "equipment": [
+        "One Bingo Book Passed down to you from someone of importance",
+        "1 Blank Jutsu Scrolls",
+        "A Wallet Containing 100 Ryo"
+      ],
+      "equipmentPack": {
+        "choose": 1,
+        "from": ["Traveler's Pack", "Captain's Pack"]
+      },
+      "feature": {
+        "name": "Meeting Expectations",
+        "description": "You always seem to rise to the expectations of others when a challenge arises. Whenever you are confronted with a challenge or difficult situation, you seem to be able to gain some sliver of insight on it after just one attempt, passing or failing it. This insight is a hint at how this particular challenge works or doesn't work, that others around you may not understand, but you now do."
+      }
+    },
+    {
+      "id": "hard-worker",
+      "name": "Hard Worker",
+      "description": "You were someone who always had to prove to themselves and others that you are worth your weight and space. You always had to work twice as hard and twice as long to see results, but the results are beginning to show. You never had the natural talent of your peers, no, you had peerless determination and persistence to push through all of the challenges you were faced with to make it to this point, while also looking forward to the next day to get better. You have reached a level of discipline that your peers can't imagine, so you can keep up you're training on your own time while not lagging behind when you do decide to take a break.",
+      "skillProficiencies": {
+        "fixed": ["Acrobatics", "Athletics"],
+        "choices": []
+      },
+      "toolProficiencies": {
+        "fixed": ["Weaponsmith Kit"],
+        "choices": []
+      },
+      "equipment": [
+        "Set of Body weights that weigh 50+ lbs. for each part of your body",
+        "3 Books containing training strategies",
+        "Training Gi",
+        "A Wallet Containing 100 Ryo"
+      ],
+      "equipmentPack": {
+        "choose": 1,
+        "from": ["Crafter's Pack", "Traveler's Pack"]
+      },
+      "feature": {
+        "name": "Focus and Grit",
+        "description": "You have trained yourself in such a way that you have absorbed multiple tomes of knowledge in whatever you worked your butt off to excel in. You are able to quickly bond with people who have the same drive and determination as you, and even garner immediate audiences and conversations with those people. You are also able to reference and call out different books, strategies, and texts to catch the attention of those who have read those texts or follow those strategies."
+      }
+    },
+    {
+      "id": "hermit",
+      "name": "Hermit",
+      "description": "You lived in seclusion-either in a community or alone-for a formative part of your life. In your time apart from society, you found quiet, solitude, and perhaps some of the answers you or your family were looking for.",
+      "skillProficiencies": {
+        "fixed": ["Animal Handling", "History"],
+        "choices": []
+      },
+      "toolProficiencies": {
+        "fixed": [],
+        "choices": [
+          { "count": 1, "from": ["Poison Kit", "Medicine Kit", "Trappers Kit"] }
+        ]
+      },
+      "equipment": [
+        "A diary of your experiences",
+        "A winter blanket",
+        "A set of common clothes",
+        "A Poison Kit",
+        "100 Ryo"
+      ],
+      "equipmentPack": {
+        "choose": 1,
+        "from": ["Explorer's Pack", "Crafter's Pack"]
+      },
+      "feature": {
+        "name": "Discovery",
+        "description": "The seclusion of your hermitage gave you access to a unique and powerful discovery. The nature of this revelation depends on the nature of your seclusion. You might have discovered a great truth about the world or the nature of Chakra, a fact that has long been forgotten, a relic of the past that could rewrite history, or a place unseen for ages. It might be information that would be damaging to the people who or consigned you to exile, and hence the reason for your return to society. Work with your GM to determine the details of your discovery and its impact on the campaign."
+      }
+    },
+    {
+      "id": "leader",
+      "name": "Leader",
+      "description": "You are a person looking to change the society around you by playing in the arena of politics, people and personalities. Leading your allies, friends, and rivals based on your whims. You have a very sociable personality and words come easy to you. Inside, your mind is filled with strategies and dialectics. Maybe you have the silver tongue or bottomless guile and can lead your team to victory, or your enemies to defeat. Maybe you can defend your allies with the strategies that you develop. Perhaps you have the potential to lead more than a team and lead an army.",
+      "skillProficiencies": {
+        "fixed": ["History"],
+        "choices": [
+          { "count": 1, "from": ["Deception", "Persuasion"] }
+        ]
+      },
+      "toolProficiencies": {
+        "fixed": ["Forgery Kit"],
+        "choices": []
+      },
+      "equipment": [
+        "Fine Clothing",
+        "An heirloom passed down to you from someone who taught you your leadership skills",
+        "A manifesto you are currently writing",
+        "A wallet containing 100 Ryo"
+      ],
+      "equipmentPack": {
+        "choose": 1,
+        "from": ["Captain's Pack", "Explorer's Pack"]
+      },
+      "feature": {
+        "name": "Leadership Presence",
+        "description": "People find you have a noticeable presence. They may stop you frequently and ask you where they have seen you. You are seen as a very approachable person in general and random passerby will be drawn to speak with you if they see you. If someone is in need of something or in distress, they will likely open up to you about their problems very easily. You are commonly taken for face value as a person of great standing. People will likely treat you like a noble or assume you of that lineage. You can attain audiences with nobles or officials easily, as they may often see you as one of their circles."
+      }
+    },
+    {
+      "id": "noble",
+      "name": "Noble",
+      "description": "You understand wealth, power, and privilege. You carry a noble title within your family or the village, and your family wields significant political influence. You might be a pampered aristocrat's child unfamiliar with manual labor, a former merchant's child just elevated to the nobility, or an honest, hard-working clansman who cares deeply about the people who live and work in your clan's district.\n\nWork with your GM to come up with an appropriate title and determine how much authority the clan carries, as well as their influence on you. Is your family old and established, or was its title only recently bestowed? How much influence do they wield, how do people regard them?",
+      "skillProficiencies": {
+        "fixed": ["Persuasion", "Insight"],
+        "choices": []
+      },
+      "toolProficiencies": {
+        "fixed": ["Security Kit"],
+        "choices": []
+      },
+      "equipment": [
+        "A set of fine clothes",
+        "A signet ring",
+        "Your clan's emblem",
+        "A wallet containing 100 Ryo"
+      ],
+      "equipmentPack": {
+        "choose": 1,
+        "from": ["Captain's Pack", "Crafter's Pack"]
+      },
+      "feature": {
+        "name": "Position of Privilege",
+        "description": "Thanks to your noble birth, people are inclined to think the best of you. You are welcome in high society, and people assume you have the right to be wherever you are. The common folk make every effort to accommodate you and avoid your displeasure, and other people of high birth treat you as a member of the same social sphere. You can secure an audience with a local noble if you need to, when you announce your clan or family."
+      }
+    },
+    {
+      "id": "student",
+      "name": "Student",
+      "description": "You were identified as someone with untapped potential at a very young age and were taken in as an apprentice. You were taken from your home to be trained either by the Master who found you. You seldom ever see your biological family, and were raised and educated surrounded by the trappings of the shinobi code taught to you by your master. Now, you have set out into the greater world, seeking to use what you have learned.",
+      "skillProficiencies": {
+        "fixed": ["Acrobatics"],
+        "choices": [
+          { "count": 1, "from": ["Ninshou", "Martial Arts", "Illusions"] }
+        ]
+      },
+      "toolProficiencies": {
+        "fixed": ["Forensics Kit"],
+        "choices": []
+      },
+      "equipment": [
+        "A set of Common clothes",
+        "A Book full of teachings from your master",
+        "1 Blank Jutsu Scroll",
+        "The last Letter you received from your master",
+        "A wallet containing 100 Ryo"
+      ],
+      "equipmentPack": {
+        "choose": 1,
+        "from": ["Explorer's Pack", "Infiltrator's Pack"]
+      },
+      "feature": {
+        "name": "The Master's Name",
+        "description": "You were formally trained in the art of shinobi, and the name of those that trained you can open doors. You can usually gain an audience with another Shinobi Leader, simply by dropping the name of your Master or Masters School. Furthermore, you can usually find a place to stay among Monks or Shinobi Temples, unless you show yourself to be a danger to them. You may also have access to resources from those who taught you, whether that is access to your school's libraries and facilities, or simply the ability to correspond with your Master and ask him or her for advice."
+      }
+    },
+    {
+      "id": "traveler",
+      "name": "Traveler",
+      "description": "Almost all of the common people that one might encounter in the Shinobi world have one thing in common: they live out their lives without ever traveling more than a few miles from where they were born. You aren't one of those common folks. You are from a distant place, one so remote that few people even realize that it exists, and chances are good that even if some people you meet have heard of your homeland, they know merely the name and perhaps a few outrageous stories. You have come to one of the Great Shinobi Villages for your own reasons, which you might or might not choose to share. Although you will undoubtedly find some of this land's ways to be strange and discomfiting, you can also be sure that some things its people take for granted will be to you knew wonders that you've never laid eyes on before.",
+      "skillProficiencies": {
+        "fixed": ["Insight", "Perception"],
+        "choices": []
+      },
+      "toolProficiencies": {
+        "fixed": ["Poison Kit"],
+        "choices": []
+      },
+      "equipment": [
+        "One set of traveler's clothes",
+        "Any one gaming set from your homeland",
+        "A poorly written map from your homeland that depict where you are in the world",
+        "A small piece of jewelry worth 10 Ryo in the style of your homeland's craftsmanship",
+        "A pouch containing 100 Ryo"
+      ],
+      "equipmentPack": {
+        "choose": 1,
+        "from": ["Traveler's Pack", "Explorer's Pack"]
+      },
+      "feature": {
+        "name": "The Exotic Individual",
+        "description": "Your accent, mannerisms, figures of speech, and perhaps even your appearance all mark you as foreign. Curious glances are directed your way wherever you go, which can be a nuisance, but you also gain the friendly interest of scholars and others intrigued by far-off lands, to say nothing of everyday folk who are eager to hear stories of your homeland. You can parley this attention into access to people and places you might not otherwise have, for you and your traveling companions. Noble lords, scholars, and merchant princes, to name a few, might be interested in hearing about your distant homeland and people."
+      }
+    },
+    {
+      "id": "trouble-maker",
+      "name": "Trouble Maker",
+      "description": "You may come from privilege where you can do no wrong, or from poverty where you can do nothing right. Perhaps your parents' busy social schedule means that they pay you little attention or you have no parents and have no solid foundation from the get go and no one would spare you a moment's glance to see what potential might lie undiscovered inside you. Regardless, you do not appreciate or accept the gifts of your circumstance, or you reject the curses of your circumstances and you lash out with ostentatious behavior as a means to attract attention to yourself. You have always had a way with people. You know what makes them tick and you can twist their words into your advantage. It's a useful talent, and one that you're perfectly willing to use to get yourself out of trouble.",
+      "skillProficiencies": {
+        "fixed": ["Deception", "Sleight of Hand"],
+        "choices": []
+      },
+      "toolProficiencies": {
+        "fixed": ["Forgery Kit"],
+        "choices": []
+      },
+      "equipment": [
+        "One set of commoners' clothes",
+        "A Forgery Kit",
+        "A wallet containing 100 Ryo"
+      ],
+      "equipmentPack": {
+        "choose": 1,
+        "from": ["Infiltrator's Pack", "Traveler's Pack"]
+      },
+      "feature": {
+        "name": "Pitiable",
+        "description": "People will typically let you get away with social faux pas that might otherwise sour a business deal or incite an aggressive reaction - but they do this out of sheer pity, not because as you suspect, they are beguiled by your wit."
+      }
+    },
+    {
+      "id": "urchin",
+      "name": "Urchin",
+      "description": "You grew up on the streets alone, orphaned, and poor. You had no one to watch over you or to provide for you, so you learned to provide for yourself. You fought fiercely over food and kept a constant watch out for other desperate souls who might steal from you. You slept on rooftops and in alleyways, exposed to the elements, and endured sickness without the advantage of medicine or a place to recuperate. You've survived despite all odds, and did so through cunning, strength, speed, or some combination of each.",
+      "skillProficiencies": {
+        "fixed": ["Sleight of Hand", "Stealth"],
+        "choices": []
+      },
+      "toolProficiencies": {
+        "fixed": ["Disguise Kit"],
+        "choices": []
+      },
+      "equipment": [
+        "A Map of the Village you grew up in",
+        "A Token of intimate value to you",
+        "Set of Basic Clothing",
+        "Wallet containing 100 Ryo"
+      ],
+      "equipmentPack": {
+        "choose": 1,
+        "from": ["Infiltrator's Pack", "Crafter's Pack"]
+      },
+      "feature": {
+        "name": "Village of Secrets",
+        "description": "You know the secret patterns and flows to cities and can find passages through the urban sprawl that others would miss. When you are not in combat, you (and companions you lead) can travel between any two locations in the city twice as fast as your speed would normally allow."
+      }
+    }
+  ]
+}
