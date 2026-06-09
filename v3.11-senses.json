@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "version": "v3.11",
+  "senses": [
+    {
+      "id": "blindsight",
+      "name": "Blindsight",
+      "description": "A creature with blindsight can perceive its surroundings without relying on sight, within a specific radius. Creatures without eyes and creatures with echolocation or heightened senses have this sense. A creature with Blindsight can attempt the Search Action without needing to have a direct line of sight to the creature."
+    },
+    {
+      "id": "chakra-sense",
+      "name": "Chakra Sense",
+      "description": "A creature capable of Chakra sensing is often aided by a Jutsu or feature with the Sensory trait. This sense allows a creature aided by it to become aware of creatures, objects and structures aided, affected or even capable of molding, Chakra.\n\nA creature with this sense can sense chakra through walls up to 5ft thick. Walls that have been reinforced by chakra prevents this sense from perceiving chakra signatures through it. A creature with this sense who is aware of such creatures, objects or structures can identify creatures and jutsu by their chakra signature alone even without sight, so long as they have sensed a creature or a jutsu being cast before, but are not able to pinpoint their location only becoming aware of their general direction, unless that creature, object or structure is within 15ft of them, at which time they can pinpoint their exact space with certainty.\n\nA creature with this sense gains a +2 bonus to all skill checks made to find or search for creatures within your Chakra sensing range, and a +2 bonus to Read the Enemy checks against a creature whom you can sense and see."
+    },
+    {
+      "id": "chakra-sight",
+      "name": "Chakra Sight",
+      "description": "A creature with Chakra sight can see Chakra in its pure form. Viewing chakra in this way allows the user to see chakra as a wavy blue aura. Most creatures chakra are blue but there are some creatures whose chakra are distinctly different colors either due to the nature of their chakra or the technique they are using.\n\nYou can see the chakra of creatures even if they are obscured by fog, smoke, mist, darkness or even invisibility. A creature counts as being seen by you in these conditions and do not gain advantage to make skill checks or attack rolls against you in any way. A creature with chakra sight, cannot see another creatures chakra if, said creature is behind total cover or cannot be seen by normal or special means (Ex. Unable to see through solid material).\n\nA creature with chakra sight gains advantage against Genjutsu with the Visual Keyword."
+    },
+    {
+      "id": "darkvision",
+      "name": "Darkvision",
+      "description": "Many creatures within the Naruto Universe, especially those that dwell underground, have Darkvision. Within a specified range, a creature with Darkvision can see in darkness as if the darkness were dim light, so areas of darkness are only lightly obscured as far as that creature is concerned. However, the creature can't discern color in darkness, only shades of gray. A creature cannot attempt the Hide action against a creature with Darkvision using only Darkness."
+    },
+    {
+      "id": "tremorsense",
+      "name": "Tremorsense",
+      "description": "A creature with tremorsense can detect and pinpoint the origin of vibrations within a specific radius, provided that the source of the vibrations are in contact with the same ground or substance. A creature using Tremor sense in a volatile and non-solid substance such as within water, makes any perception checks to find the source of a specific vibration at disadvantage. A creature with Tremor sense automatically senses and observes any creature moving into or out of their tremor sense range.\n\nTremorsense cannot be used to detect flying or incorporeal creatures. Any burrowing creatures, such as moles, have this special sense."
+    },
+    {
+      "id": "true-sight",
+      "name": "True Sight",
+      "description": "A creature with true sight can, out to a specific range, see in normal and enhanced darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceives the original form of a shape changer or a creature that is transformed by a power."
+    },
+    {
+      "id": "lightly-obscured",
+      "name": "Lightly Obscured",
+      "description": "In areas such as dim light, patchy fog, or moderate foliage, creatures have disadvantage on Wisdom (Perception) checks that rely on sight."
+    },
+    {
+      "id": "heavily-obscured",
+      "name": "Heavily Obscured",
+      "description": "Areas such as darkness, opaque fog, or dense foliage-blocks vision entirely. A creature in a heavily obscured area effectively suffers from the blinded condition. The presence or absence of light in an environment creates three categories of illumination: bright light, dim light, and darkness."
+    }
+  ]
+}
