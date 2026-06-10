@@ -12571,6 +12571,6 @@
       "keywords": "Bukijutsu, Chain",
       "description": "You load all your ammo into a single attack, looking to cause as fide spread destruction as possible. All creatures in a range of this jutsu, must make a Dexterity Saving Throw taking [Weapons damage] + 6dx on a failure and half as much on a success. This Justus damage die is equal in size to the ammunition die spent as part of its casting. Chain 3: Instead of spending the full stack, you reduce its size by 1 step.",
       "higherLevels": ""
-    },
+    }
   ]
 }
