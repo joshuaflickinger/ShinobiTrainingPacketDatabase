@@ -136,7 +136,25 @@
             "description": "You can learn and cast Jutsu with the Medical keyword.\n\nWhile your Swarm is active, use the enhanced effects of the Infested condition."
           }
         ],
-        "sourceFeatureId": "aburame.l1.symbiotic-hive"
+        "sourceFeatureId": "aburame.l1.symbiotic-hive",
+        "pickGrants": [
+          {
+            "level": 1,
+            "picks": 1
+          },
+          {
+            "level": 7,
+            "picks": 1
+          },
+          {
+            "level": 11,
+            "picks": 1
+          },
+          {
+            "level": 15,
+            "picks": 1
+          }
+        ]
       },
       "natureReleaseGrants": []
     },
@@ -275,7 +293,17 @@
             "description": "While moving, you can spend 2 Calories and 10 feet of your remaining movement to push through an enemies space. If you do, they must make a Dexterity saving throw vs your highest Jutsu save DC, being pushed 10 feet and knocked prone. You can only affect a creature with this effect once per turn."
           }
         ],
-        "sourceFeatureId": "akimichi.l3.caloric-arts"
+        "sourceFeatureId": "akimichi.l3.caloric-arts",
+        "pickGrants": [
+          {
+            "level": 3,
+            "picks": 2
+          },
+          {
+            "level": 11,
+            "picks": 2
+          }
+        ]
       },
       "natureReleaseGrants": []
     },
@@ -428,7 +456,21 @@
             "description": "You are able to focus chakra into your perceptive organs, allowing you to perceive and understand things on a level only those with a Dojutsu could comprehend. When a hostile creature casts a Jutsu, and you attempt a Read the Enemy or Identify (Ninjutsu, Genjutsu, Taijutsu/Bukijutsu) skill-based reaction, you can spend 1 White Chakra to use it at no reaction cost. You can do this once, before the beginning of your next turn."
           }
         ],
-        "sourceFeatureId": "hatake.l1.white-chakra"
+        "sourceFeatureId": "hatake.l1.white-chakra",
+        "pickGrants": [
+          {
+            "level": 1,
+            "picks": 1
+          },
+          {
+            "level": 7,
+            "picks": 1
+          },
+          {
+            "level": 15,
+            "picks": 1
+          }
+        ]
       },
       "additionalPickables": [
         {
@@ -468,7 +510,21 @@
               "description": "When an allied creature takes damage, you can spend your Reaction and 1 Command Dice. When you do, you can order allied creatures, including yourself, that can reach an adjacent space next to the damaged creature, to move into that space.\n\nDivide the damage evenly as possible amongst all creatures that end their movement adjacent to the damaged ally, as part of this ability."
             }
           ],
-          "sourceFeatureId": "hatake.l1.pack-leader"
+          "sourceFeatureId": "hatake.l1.pack-leader",
+          "pickGrants": [
+            {
+              "level": 1,
+              "picks": 1
+            },
+            {
+              "level": 7,
+              "picks": 1
+            },
+            {
+              "level": 15,
+              "picks": 1
+            }
+          ]
         }
       ],
       "natureReleaseGrants": [
@@ -662,7 +718,17 @@
             "description": "Once per turn, when you deal chakra damage to a creature with ranks of Sealed or Network Distortion, increase the chakra damage dealt by +2. This increases to +4 at 11th level."
           }
         ],
-        "sourceFeatureId": "hyuga.l3.bloodline-of-the-elite"
+        "sourceFeatureId": "hyuga.l3.bloodline-of-the-elite",
+        "pickGrants": [
+          {
+            "level": 3,
+            "picks": 2
+          },
+          {
+            "level": 11,
+            "picks": 1
+          }
+        ]
       },
       "natureReleaseGrants": []
     }
