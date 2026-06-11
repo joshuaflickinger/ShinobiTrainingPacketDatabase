@@ -163,7 +163,7 @@
       "id": "physical.dazed",
       "category": "physical",
       "name": "Dazed",
-      "description": "Recovering from a powerful physical or mental blow. Can only either move or take an action \u2014 not both. Cannot take a bonus action. Lasts until the end of the affected creature's next turn.",
+      "description": "Recovering from a powerful physical or mental blow. Can only either move or take an action — not both. Cannot take a bonus action. Lasts until the end of the affected creature's next turn.",
       "tags": [
         "physical",
         "mental"
@@ -187,7 +187,7 @@
       "id": "physical.grappled",
       "category": "physical",
       "name": "Grappled",
-      "description": "Usually partially restrained \u2014 typically by another creature or a trap. Speed becomes 0 and cannot benefit from any speed bonus. Attacks at disadvantage. Ends if the grappler is Incapacitated or if an effect moves the grappled creature out of the grappler's reach or the original grappling space.",
+      "description": "Usually partially restrained — typically by another creature or a trap. Speed becomes 0 and cannot benefit from any speed bonus. Attacks at disadvantage. Ends if the grappler is Incapacitated or if an effect moves the grappled creature out of the grappler's reach or the original grappling space.",
       "tags": [
         "physical"
       ],
@@ -310,7 +310,7 @@
       "id": "mental.sealed",
       "category": "mental",
       "name": "Sealed",
-      "description": "Has a limiter on its chakra network \u2014 usually the result of a Fuinjutsu. Increases the base chakra cost of Ninjutsu and Genjutsu by +4 per rank. A creature with 3+ ranks cannot teleport by any means. As an action, a creature can make a DC 20 Ninshou check to remove 1 rank; on a failure, the DC increases by +4.",
+      "description": "Has a limiter on its chakra network — usually the result of a Fuinjutsu. Increases the base chakra cost of Ninjutsu and Genjutsu by +4 per rank. A creature with 3+ ranks cannot teleport by any means. As an action, a creature can make a DC 20 Ninshou check to remove 1 rank; on a failure, the DC increases by +4.",
       "maxRank": 5,
       "tags": [
         "mental",
@@ -393,7 +393,7 @@
       "id": "mental.psychosis",
       "category": "mental",
       "name": "Psychosis",
-      "description": "Creatures with Psychosis suffer warped perception, hallucinations and emotional instability, suffering the following effects:\n  \u2022 Disadvantage on Insight and Perception Checks.\n  \u2022 Disadvantage on Attack Rolls.\n  \u2022 When casting a Jutsu that requires HS (Hand Signs), they must first make an Illusions Check vs your Genjutsu Save DC. On a failure they increase the cost of the jutsu being cast by +12.\n  \u2022 This condition ends at the end of an affected creature's turn.",
+      "description": "Creatures with Psychosis suffer warped perception, hallucinations and emotional instability, suffering the following effects:\n  • Disadvantage on Insight and Perception Checks.\n  • Disadvantage on Attack Rolls.\n  • When casting a Jutsu that requires HS (Hand Signs), they must first make an Illusions Check vs your Genjutsu Save DC. On a failure they increase the cost of the jutsu being cast by +12.\n  • This condition ends at the end of an affected creature's turn.",
       "tags": [
         "mental"
       ],
@@ -404,7 +404,7 @@
       "id": "physical.suppressed",
       "category": "physical",
       "name": "Suppressed",
-      "description": "A Suppressed creature suffers reduced capability as the poison flows through them, suffering the following effects:\n  \u2022 Cannot Cast Jutsu that cost more than 10 Chakra.\n  \u2022 Reduce the number of Damage die rolled by 1, starting from the largest damage dice rolled.\n  \u2022 This condition ends at the end of an affected creature's turn.",
+      "description": "A Suppressed creature suffers reduced capability as the poison flows through them, suffering the following effects:\n  • Cannot Cast Jutsu that cost more than 10 Chakra.\n  • Reduce the number of Damage die rolled by 1, starting from the largest damage dice rolled.\n  • This condition ends at the end of an affected creature's turn.",
       "tags": [
         "physical"
       ],
@@ -415,7 +415,7 @@
       "id": "elemental.blighted",
       "category": "elemental",
       "name": "Blighted",
-      "description": "A Blighted creature suffers the following effects:\n  \u2022 A Blighted creature cannot gain Jutsu based bonuses to its AC or Damage.\n  \u2022 An Envenomed creature cannot take its Bonus Action as it is suffering from severe poisoning.\n  \u2022 A Corroded creature takes bonus poison damage equal to your Channeled Healing bonus from melee and ranged attacks, once per turn.\n  \u2022 A Blighted creature can spend their Action retching to expel the toxins in their body, ending this condition.",
+      "description": "A Blighted creature suffers the following effects:\n  • A Blighted creature cannot gain Jutsu based bonuses to its AC or Damage.\n  • An Envenomed creature cannot take its Bonus Action as it is suffering from severe poisoning.\n  • A Corroded creature takes bonus poison damage equal to your Channeled Healing bonus from melee and ranged attacks, once per turn.\n  • A Blighted creature can spend their Action retching to expel the toxins in their body, ending this condition.",
       "tags": [
         "elemental"
       ],
@@ -426,7 +426,7 @@
       "id": "physical.hemorrhage-vitality",
       "category": "physical",
       "name": "Hemorrhage Vitality",
-      "description": "Creatures with Hemorrhage Vitality suffer their body's blood vessels and chakra network hemorrhaging, with the following effects while they have this condition:\n  \u2022 They take 6d6 Necrotic and 6d6 Chakra damage at the beginning of each of their turns.\n  \u2022 Cannot regain hit points.\n  \u2022 Physical Conditions except this one cannot be removed.\n\nA creature with this condition makes a Constitution saving throw vs your Ninjutsu save DC at the end of each of their turns to end this condition.",
+      "description": "Creatures with Hemorrhage Vitality suffer their body's blood vessels and chakra network hemorrhaging, with the following effects while they have this condition:\n  • They take 6d6 Necrotic and 6d6 Chakra damage at the beginning of each of their turns.\n  • Cannot regain hit points.\n  • Physical Conditions except this one cannot be removed.\n\nA creature with this condition makes a Constitution saving throw vs your Ninjutsu save DC at the end of each of their turns to end this condition.",
       "tags": [
         "physical"
       ],
@@ -437,7 +437,7 @@
       "id": "physical.life-pulse",
       "category": "physical",
       "name": "Life Pulse",
-      "description": "A creature with Life Pulse has their wounds close, blood replenished when lost, and their sense of pain dulled. They gain the following benefits:\n  \u2022 They regain 4d6 Hit points and 2d6 Chakra Points at the beginning of each of their turns.\n  \u2022 They make saving throws and checks to end conditions at advantage.",
+      "description": "A creature with Life Pulse has their wounds close, blood replenished when lost, and their sense of pain dulled. They gain the following benefits:\n  • They regain 4d6 Hit points and 2d6 Chakra Points at the beginning of each of their turns.\n  • They make saving throws and checks to end conditions at advantage.",
       "tags": [
         "physical"
       ],
@@ -459,7 +459,7 @@
       "id": "physical.transfiguration",
       "category": "physical",
       "name": "Transfiguration",
-      "description": "A Transfigured creature suffers one of the following effects based on the chosen designation. This cannot be changed for its duration unless the creature is Transfigured again.\n\nAvian: A transfigured (Avian) creature loses bone density and weight. They make saving throws and checks to resist being moved against their will, knocked prone, or Dazed with a -2 penalty.\n\nCarnivoran: A transfigured (Carnivoran) creature loses their ability to defend themselves effectively, suffering a -2 penalty to their Dexterity and Constitution saving throws.\n\nHerbivore: A transfigured (Herbivore) creature loses their ability to fight effectively, suffering a penalty to the damage they deal \u2014 reducing the number of dice they roll for damage by 1.\n\nInsectoid: A transfigured (Insectoid) creature loses their ability to avoid encounters. They cannot cast jutsu with a Casting time of Reaction that grants a bonus to their Saving throws or AC.",
+      "description": "A Transfigured creature suffers one of the following effects based on the chosen designation. This cannot be changed for its duration unless the creature is Transfigured again.\n\nAvian: A transfigured (Avian) creature loses bone density and weight. They make saving throws and checks to resist being moved against their will, knocked prone, or Dazed with a -2 penalty.\n\nCarnivoran: A transfigured (Carnivoran) creature loses their ability to defend themselves effectively, suffering a -2 penalty to their Dexterity and Constitution saving throws.\n\nHerbivore: A transfigured (Herbivore) creature loses their ability to fight effectively, suffering a penalty to the damage they deal — reducing the number of dice they roll for damage by 1.\n\nInsectoid: A transfigured (Insectoid) creature loses their ability to avoid encounters. They cannot cast jutsu with a Casting time of Reaction that grants a bonus to their Saving throws or AC.",
       "tags": [
         "physical"
       ],
@@ -481,7 +481,7 @@
       "id": "mental.disoriented",
       "category": "mental",
       "name": "Disoriented",
-      "description": "Creatures with Disoriented are dizzy, off guard, and seeing double, triple, or however many of you there are. They suffer the following effects:\n  \u2022 Disadvantage on Perception Checks.\n  \u2022 Cannot make attacks of opportunity or trigger reactions that would make an attack.\n  \u2022 When attempting to target a creature, roll a d20. On a roll of 11 or higher, they target the closest Bunshin instead \u2014 even if it is out of the attack, jutsu, or feature's range \u2014 causing the attack/jutsu/feature to miss.\n  \u2022 This condition ends at the end of an affected creature's turn.",
+      "description": "Creatures with Disoriented are dizzy, off guard, and seeing double, triple, or however many of you there are. They suffer the following effects:\n  • Disadvantage on Perception Checks.\n  • Cannot make attacks of opportunity or trigger reactions that would make an attack.\n  • When attempting to target a creature, roll a d20. On a roll of 11 or higher, they target the closest Bunshin instead — even if it is out of the attack, jutsu, or feature's range — causing the attack/jutsu/feature to miss.\n  • This condition ends at the end of an affected creature's turn.",
       "tags": [
         "mental"
       ],
@@ -492,7 +492,7 @@
       "id": "elemental.momentary-flaw",
       "category": "elemental",
       "name": "Momentary Flaw",
-      "description": "Creatures with Momentary Flaw have a weakness that only the Scout that identified it can exploit. They suffer the following effects:\n  \u2022 Increase the damage they take from the inflicting Scout-Nin by +2. This increases to +4 at 10th and +6 at 17th level.\n  \u2022 Increase the chakra cost to cast jutsu with a casting time of 1 Reaction by +6. This increases to +12 at 10th and +18 at 17th level.\n  \u2022 Jutsu the Scout casts with the Barrier keyword that summons a structure or construct that intercepts damage reduces the amount of hit points it has \u2014 or damage it intercepts \u2014 by half.",
+      "description": "Creatures with Momentary Flaw have a weakness that only the Scout that identified it can exploit. They suffer the following effects:\n  • Increase the damage they take from the inflicting Scout-Nin by +2. This increases to +4 at 10th and +6 at 17th level.\n  • Increase the chakra cost to cast jutsu with a casting time of 1 Reaction by +6. This increases to +12 at 10th and +18 at 17th level.\n  • Jutsu the Scout casts with the Barrier keyword that summons a structure or construct that intercepts damage reduces the amount of hit points it has — or damage it intercepts — by half.",
       "tags": [
         "elemental"
       ],
@@ -503,7 +503,7 @@
       "id": "mental.ghostburn",
       "category": "mental",
       "name": "Ghostburn",
-      "description": "Creatures with Ghostburn have had their chakra network overloaded by Ghostfire, suffering the following effects:\n  \u2022 A Ghostburned creature reduces the damage or healing dice they roll from jutsu they cast by half.\n  \u2022 A Ghostburned creature that makes a chakra control check to maintain concentration on a jutsu takes 6d6 chakra damage, once per turn.\n  \u2022 A Ghostburned creature remakes their saving throw to end this condition at the end of each of their turns. They cannot make this saving throw at advantage.",
+      "description": "Creatures with Ghostburn have had their chakra network overloaded by Ghostfire, suffering the following effects:\n  • A Ghostburned creature reduces the damage or healing dice they roll from jutsu they cast by half.\n  • A Ghostburned creature that makes a chakra control check to maintain concentration on a jutsu takes 6d6 chakra damage, once per turn.\n  • A Ghostburned creature remakes their saving throw to end this condition at the end of each of their turns. They cannot make this saving throw at advantage.",
       "tags": [
         "mental"
       ],
@@ -514,7 +514,7 @@
       "id": "physical.bone-broken",
       "category": "physical",
       "name": "Bone Broken",
-      "description": "Creatures with Bone Broken have had their skeletal structure rattled and injured. They suffer the following effects:\n  \u2022 Disadvantage on Constitution Saving Throws.\n  \u2022 Cannot Dash, Disengage, or Dodge.\n  \u2022 Reduce affected creature's DR to 0.\n  \u2022 Disarms all weapons or items it is holding and cannot hold weapons or items in their hands.\n  \u2022 This condition ends at the end of an affected creature's turn.",
+      "description": "Creatures with Bone Broken have had their skeletal structure rattled and injured. They suffer the following effects:\n  • Disadvantage on Constitution Saving Throws.\n  • Cannot Dash, Disengage, or Dodge.\n  • Reduce affected creature's DR to 0.\n  • Disarms all weapons or items it is holding and cannot hold weapons or items in their hands.\n  • This condition ends at the end of an affected creature's turn.",
       "tags": [
         "physical"
       ],
@@ -525,7 +525,7 @@
       "id": "physical.balance-broken",
       "category": "physical",
       "name": "Balance Broken",
-      "description": "Creatures with Balance Broken have had their balance thrown off, finding it difficult to recover. They suffer the following effects:\n  \u2022 Disadvantage on Strength Saving Throws.\n  \u2022 Cannot gain bonuses to AC or DR as a result of Jutsu.\n  \u2022 If an affected creature would willingly move more than 5 feet or cast a Jutsu with the Mobility (M) component, they must spend their Reaction to maintain balance \u2014 otherwise they fall prone, unable to stand until the beginning of their next turn.\n  \u2022 This condition ends at the end of an affected creature's turn.",
+      "description": "Creatures with Balance Broken have had their balance thrown off, finding it difficult to recover. They suffer the following effects:\n  • Disadvantage on Strength Saving Throws.\n  • Cannot gain bonuses to AC or DR as a result of Jutsu.\n  • If an affected creature would willingly move more than 5 feet or cast a Jutsu with the Mobility (M) component, they must spend their Reaction to maintain balance — otherwise they fall prone, unable to stand until the beginning of their next turn.\n  • This condition ends at the end of an affected creature's turn.",
       "tags": [
         "physical"
       ],
@@ -536,7 +536,7 @@
       "id": "physical.flow-broken",
       "category": "physical",
       "name": "Flow Broken",
-      "description": "Creatures with Flow Broken have had their combat flow broken. They have functionally stopped in their tracks as they recover. They suffer the following effects:\n  \u2022 Disadvantage on Dexterity Saving throws.\n  \u2022 An affected creature cannot cast jutsu that share keywords with jutsu they've casted since the beginning of their last turn.\n  \u2022 Affected creature's initiative count is reduced by 4. If this would cause them to shift position in initiative, they move positions at the beginning of the next round.\n  \u2022 This condition ends at the end of an affected creature's turn.",
+      "description": "Creatures with Flow Broken have had their combat flow broken. They have functionally stopped in their tracks as they recover. They suffer the following effects:\n  • Disadvantage on Dexterity Saving throws.\n  • An affected creature cannot cast jutsu that share keywords with jutsu they've casted since the beginning of their last turn.\n  • Affected creature's initiative count is reduced by 4. If this would cause them to shift position in initiative, they move positions at the beginning of the next round.\n  • This condition ends at the end of an affected creature's turn.",
       "tags": [
         "physical"
       ],
@@ -547,7 +547,7 @@
       "id": "physical.shattered",
       "category": "physical",
       "name": "Shattered",
-      "description": "Your defenses have been sundered and exposed.\n  \u2022 Attacks targeting a Shattered creature gain a +1 bonus to their critical threat range.\n  \u2022 A Shattered creature that suffers a critical hit takes bonus damage equal to 2 Martial Die. This increases to 3 Martial Die at 10th and 4 Martial Die at 17th level.\n  \u2022 A Shattered creature increases damage taken by +2. This increases to +4 if the inflictor is 10th level and +6 at 17th level.\n  \u2022 The first time you succeed a Strength, Dexterity or Constitution saving throw while you are Shattered, you must remake your saving throw, subtracting the result of 1 Martial Die, taking the lower result. This condition ends immediately.\n  \u2022 A Shattered creature can spend their action making a DC 20 Strength check to end this condition on a success.",
+      "description": "Your defenses have been sundered and exposed.\n  • Attacks targeting a Shattered creature gain a +1 bonus to their critical threat range.\n  • A Shattered creature that suffers a critical hit takes bonus damage equal to 2 Martial Die. This increases to 3 Martial Die at 10th and 4 Martial Die at 17th level.\n  • A Shattered creature increases damage taken by +2. This increases to +4 if the inflictor is 10th level and +6 at 17th level.\n  • The first time you succeed a Strength, Dexterity or Constitution saving throw while you are Shattered, you must remake your saving throw, subtracting the result of 1 Martial Die, taking the lower result. This condition ends immediately.\n  • A Shattered creature can spend their action making a DC 20 Strength check to end this condition on a success.",
       "tags": [
         "physical"
       ],
@@ -558,7 +558,7 @@
       "id": "physical.shaken-okuri-inu-fang",
       "category": "physical",
       "name": "Shaken (Okuri-Inu Fang)",
-      "description": "The inflicting strike left your body with jitters and shakes from its impact. (Class-specific version inflicted by the Weapon Specialist's Okuri-Inu Fang feature.)\n  \u2022 A Shaken creature can only make one attack on their turn.\n  \u2022 A Shaken creature that casts a Jutsu on their turn as an Action increases its cost by 1 Flurry Die. This increases to 2 Flurry Die at 10th and 3 Flurry Die at 17th level.\n  \u2022 This condition ends at the end of an affected creature's turn.",
+      "description": "The inflicting strike left your body with jitters and shakes from its impact. (Class-specific version inflicted by the Weapon Specialist's Okuri-Inu Fang feature.)\n  • A Shaken creature can only make one attack on their turn.\n  • A Shaken creature that casts a Jutsu on their turn as an Action increases its cost by 1 Flurry Die. This increases to 2 Flurry Die at 10th and 3 Flurry Die at 17th level.\n  • This condition ends at the end of an affected creature's turn.",
       "tags": [
         "physical"
       ],
@@ -569,7 +569,7 @@
       "id": "physical.hobbled",
       "category": "physical",
       "name": "Hobbled",
-      "description": "The inflicting strike disabled your defense and agility, making you a sitting duck.\n  \u2022 A Hobbled creature cannot move further than 5 feet on their turn.\n  \u2022 A Hobbled creature makes saving throws to resist being moved at disadvantage.\n  \u2022 A Hobbled creature makes melee weapon and Taijutsu attacks at disadvantage.\n  \u2022 This condition ends at the end of an affected creature's turn.",
+      "description": "The inflicting strike disabled your defense and agility, making you a sitting duck.\n  • A Hobbled creature cannot move further than 5 feet on their turn.\n  • A Hobbled creature makes saving throws to resist being moved at disadvantage.\n  • A Hobbled creature makes melee weapon and Taijutsu attacks at disadvantage.\n  • This condition ends at the end of an affected creature's turn.",
       "tags": [
         "physical"
       ],
@@ -580,7 +580,7 @@
       "id": "mental.provoked",
       "category": "mental",
       "name": "Provoked",
-      "description": "You are provoked, finding it difficult to ignore the provoker, with an instinctual desire to bring harm to them.\n  \u2022 While Provoked, if you attack or cast a jutsu targeting or affecting a creature other than the one that provoked you, you suffer a -2 penalty to your attack rolls against those creatures. The penalty increases to -3 at 10th and -4 at 17th level.\n  \u2022 While Provoked, if you attack or cast a jutsu targeting or affecting a creature other than the one that provoked you, you suffer a -1 to your Jutsu save DCs against those creatures. The penalty increases to -2 at 10th and -3 at 17th level.\n  \u2022 While Provoked, if you attack or cast a jutsu targeting or affecting a creature other than the one that provoked you, the attack made or jutsu cast can also trigger opportunity attacks from the Provoker.",
+      "description": "You are provoked, finding it difficult to ignore the provoker, with an instinctual desire to bring harm to them.\n  • While Provoked, if you attack or cast a jutsu targeting or affecting a creature other than the one that provoked you, you suffer a -2 penalty to your attack rolls against those creatures. The penalty increases to -3 at 10th and -4 at 17th level.\n  • While Provoked, if you attack or cast a jutsu targeting or affecting a creature other than the one that provoked you, you suffer a -1 to your Jutsu save DCs against those creatures. The penalty increases to -2 at 10th and -3 at 17th level.\n  • While Provoked, if you attack or cast a jutsu targeting or affecting a creature other than the one that provoked you, the attack made or jutsu cast can also trigger opportunity attacks from the Provoker.",
       "tags": [
         "mental"
       ],
@@ -591,12 +591,34 @@
       "id": "physical.reaver-echo",
       "category": "physical",
       "name": "Reaver Echo",
-      "description": "You have been struck, but the damage seems to have been delayed. When it triggers, it detonates like a bomb with deep gashes, slashes, puncture wounds and kinetic impacts that seem to manifest as a punishment.\n  \u2022 Reaver Echoes detonate if one of the following occurs:\n      \u25e6 You move 10 or more feet on a turn.\n      \u25e6 You make one or more attacks.\n      \u25e6 You would force two or more creatures to make a saving throw as a result of jutsu you cast or feature/trait you use.\n  \u2022 When Reaver Echoes are detonated, you take 1d12 Piercing or Slashing damage (the Reaver's choice) for every Reaver Echo detonated.\n  \u2022 When Reaver Echoes are detonated, you lose all generated stacks of them, and they cannot be reapplied again until the end of the current turn.",
+      "description": "You have been struck, but the damage seems to have been delayed. When it triggers, it detonates like a bomb with deep gashes, slashes, puncture wounds and kinetic impacts that seem to manifest as a punishment.\n  • Reaver Echoes detonate if one of the following occurs:\n      ◦ You move 10 or more feet on a turn.\n      ◦ You make one or more attacks.\n      ◦ You would force two or more creatures to make a saving throw as a result of jutsu you cast or feature/trait you use.\n  • When Reaver Echoes are detonated, you take 1d12 Piercing or Slashing damage (the Reaver's choice) for every Reaver Echo detonated.\n  • When Reaver Echoes are detonated, you lose all generated stacks of them, and they cannot be reapplied again until the end of the current turn.",
       "tags": [
         "physical"
       ],
       "sourceKind": "subclass",
       "source": "Weapon Specialist.Reaver"
+    },
+    {
+      "id": "physical.infested",
+      "category": "physical",
+      "name": "Infested",
+      "description": "Your body has been infiltrated by a small colony of carnivorous insects. Infested is treated as a physical condition.\n\n• While Infested, Increase the cost of jutsu you cast by +4 for each rank of infested you have.\n  ○ If enhanced, instead, increase the chakra cost by +6 for each rank.\n• While Infested, you gain a -2 penalty to Strength and Dexterity saving throws.\n  ○ If enhanced, the affected creature suffers the same penalty to their jutsu save DC’s.\n• An Infested creature can make a Constitution saving throw vs your highest jutsu save DC at the end of each of their turns to remove the infestation on a success.",
+      "tags": [
+        "physical"
+      ],
+      "sourceKind": "clan",
+      "source": "Aburame"
+    },
+    {
+      "id": "physical.network-distortion",
+      "category": "physical",
+      "name": "Network Distortion",
+      "description": "Max Ranks: 5. Your chakra network has been damaged, making it difficult to control your chakra.\n\n• While Network Distorted, Increase the cost of jutsu cast by +4 for each rank.\n• While Network Distorted, you suffer a -2 penalty to chakra control checks for each rank.\n• You lose 1 rank of Network Distortion at the end of each of your turns.",
+      "tags": [
+        "physical"
+      ],
+      "sourceKind": "clan",
+      "source": "Hyūga"
     }
   ]
 }

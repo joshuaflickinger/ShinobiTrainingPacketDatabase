@@ -1,0 +1,645 @@
+{
+  "schemaVersion": 1,
+  "clans": [
+    {
+      "id": "aburame",
+      "name": "Aburame",
+      "introQuote": "“She doesn’t look like much, I can do this alone.” came the mercenary's voice as he joked with his allies, while looking at the frail young girl whose face was mostly obscured by her oddly tall collar. “You look lost girl, you sure you’re in the right place? Maybe we can help you out” he says in a crude tone. The lone girl points with a single hand outstretched “Your allies look like they could use your help more than me.” she says in a monotone manner causing the mercenary to look back at his two allies who look drained and almost mummified from the way their skin sits on almost exposed bone. He shrieks out in confusion before he notices that insects of different shapes and sizes are slowly covering his body. He tries to run but falls before being covered in the swarm of insects not even able to yell out in retaliation. “People always underestimate the little ones, it's always the little ones you overestimate. Isn’t that right slim?” The girl says while looking at a centipede on her finger.",
+      "introAttribution": "—Tatsunami Aburame. The Long Road, Ch. 11 excerpt.",
+      "subheading": "CREEPY CRAWLY",
+      "loreDescription": "A Forest sectioned off exclusively for them in the leaf village, with homes built exclusively in the tree’s and partially in the Earth itself. The sounds of insects moving and the smells of moist Earth and rotting trees. And the defining characteristic of insects living inside them, are the threads that tie all Aburame together.\n\nThe Aburame Clan is one of the four noble clans of the leaf village. At birth, members of this clan are offered to several special breeds of insects as a nest, residing just under their host's skin. These insects will then live-in symbiosis with their host from that point on. Because of this, its members are characterized by their use of insects as weapons through use of their Insect based Ninjutsu.\n\nThe insects can leave and enter their host's body through various pores. They feed on Chakra as a food source, making them quite deadly. The relationship between the shinobi and the insects is mutually beneficial.\n\nA major defining trait of the Aburame clan is that all of its known members' eyes are obscured usually by glasses, as well as they wear clothing that usually cover up most of their body.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Intelligence, +1 Wisdom",
+        "speed": "30 feet",
+        "skillProficiencies": [
+          "Nature",
+          "Animal Handling"
+        ],
+        "extraLanguages": [
+          "Insect-Speak"
+        ],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Aburame Hijutsu",
+            "description": "The Aburame Clan has access to a separate list of jutsu unique to their clan. You can add these Jutsu to your jutsu list instead of selecting jutsu from the normal jutsu list(s)."
+          },
+          {
+            "name": "Hijutsu Flexibility",
+            "description": "Aburame Clan Hijutsu can use either Intelligence or Wisdom as its casting ability score."
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "aburame.l1.symbiotic-hive",
+          "name": "Symbiotic Hive",
+          "level": 1,
+          "description": "You are never alone. Beneath the skin, a quiet colony drinks from your chakra and answers your will. You can release or recall a swarm of symbiotic insects as a Bonus action entering your Swarm Chakra stance.\n\nWhile released you gain the benefits of the chosen Swarm types below. If you fall unconscious or take fire damage the swarm automatically recalls back to you.\n\nSelect one of the following Swarm types at character creation. You gain one additional selection at 7th, 11th and 15th levels. Your chosen swarm types provide you benefits while the swarm is inactive, and boosted benefits while it is active.",
+          "source": "Aburame",
+          "kind": "feature",
+          "effects": []
+        },
+        {
+          "id": "aburame.l3.kikaichu-swarm",
+          "name": "Kikaichu Swarm",
+          "level": 3,
+          "description": "Your swarm can now act as a primary or secondary attack option when you will it.\n\nWhen you take the Attack action, you can make a Kikaichu Swarm attack in place of any number of attacks made as part of that action. When you reach 7th level, if you do not have the Extra Attack feature, you can attack twice with this attack, instead of once. If you score a critical hit with this attack the affected creature gains 1 rank of Infested.\n\nKikaichu Swarm. Make a melee or ranged Jutsu attack (you can choose which Jutsu attack this uses; Ninjutsu, Genjutsu or Taijutsu) against a creature you can see. On a hit, you deal the listed damage based on if the attack was melee or ranged. If you roll a 6 or higher on the damage die of this attack, you gain temporary chakra equal to the damage dealt. This is treated as casting a D-Rank Jutsu with the Hijutsu keyword. This attacks damage die increases in size as you grow in level: 1d8 at 7th, 1d10 at 11th and 1d12 at 15th.\n• Melee: 2d6 + your Jutsu ability modifier in Poison (or Chakra, your choice) damage.\n• Ranged: 60 feet, 1d6 + your Jutsu ability modifier in Poison (or Chakra, your choice) damage.",
+          "source": "Aburame",
+          "kind": "feature",
+          "effects": []
+        },
+        {
+          "id": "aburame.l7.festering-brood",
+          "name": "Festering Brood",
+          "level": 7,
+          "description": "Your army of insects are at your command, draining the life from your foes.\n\nOnce per turn, when you deal damage to a creature as a result of a Jutsu you cast, you can attempt to have your insects infiltrate their body, forcing them to make a Constitution saving throw vs the jutsu’s save DC (If the jutsu forces a saving throw, use their result on the jutsu’s saving throw to determine this features effects. On a failed save, they become Infested if it didn’t already.",
+          "source": "Aburame",
+          "kind": "feature",
+          "effects": []
+        },
+        {
+          "id": "aburame.l11.deceptive-swarm",
+          "name": "Deceptive Swarm",
+          "level": 11,
+          "description": "Your swarm has memorized the human anatomy and can now deceive even trained sensory types when needed.\n\nCreatures that would attempt to sense or see you with Chakra Sense or Chakra Sight, cannot tell you apart from that of an insects chakra.\n\nIf you have your Hive out, willing creatures within 10 feet of you benefit from this effect as well.",
+          "source": "Aburame",
+          "kind": "feature",
+          "effects": []
+        },
+        {
+          "id": "aburame.l15.grand-veil",
+          "name": "Grand Veil",
+          "level": 15,
+          "description": "You have learned to release your collective hive in full. Buzzing thickens the air; sight becomes a luxury and every step through the cloud feels like a mistake.\n\nYou can release your Swarm at the beginning of your turn, at no action cost. While your swarm is out, you can perform either of the following special abilities, once per rest.\n\nPlague Swarm. As an action, you generate a 20-foot radius cloud centered on a point you can see within 60 feet for the duration of your Swarm. Creatures of your choice that are inside or entering the cloud treat the area as obscured and difficult terrain. Yourself and allies you can see are not hindered by your own cloud. Creatures of your choice who begin or end their turn in the cloud or enter it for the first time on a turn, gain 2 ranks of Infested. Creature with ranks of Infested cannot make a saving throw to end it if they begin or end their turn in the cloud until the end of their next turn. You can move your cloud 20 feet as a bonus action on your turn.\n\nQueen’s Call. As an Action, you select one creature you can see within 60 feet of you and mark them with the queens decree as they are swarmed by your horde of insects. For the next minute, the marked creature suffers a -2 penalty to their AC and a -2 penalty to their saving throws from Aburame Hijutsu you cast. The penalty is treated as -1 for each for all non Aburame Hijutsu you cast.",
+          "source": "Aburame",
+          "kind": "feature",
+          "effects": []
+        }
+      ],
+      "pickable": {
+        "pluralLabel": "Swarm Types",
+        "singularLabel": "Swarm Type",
+        "editorDescription": "Choose a Swarm Type for your Symbiotic Hive.",
+        "pickerDescription": "Select one Swarm Type at character creation. You gain one additional selection at 7th, 11th, and 15th levels.",
+        "options": [
+          {
+            "id": "aburame.swarm.ants",
+            "owningClanId": "aburame",
+            "name": "Ants",
+            "description": "You can transmit whispered messages through your insects to one willing creature you can see within 60 feet of you. Only that creature can hear you.\n\nWhile your Swarm is active, when you deal damage to a creature with a Hijutsu you can mark them with a messenger ant, which remains until the end of your next turn. While marked in this way, the ant releases a pheromone for your allies, granting the next creature of your choice that targets them, a rank of Mastery on their next attack. The ant falls off afterwards ending this effect."
+          },
+          {
+            "id": "aburame.swarm.beetles",
+            "owningClanId": "aburame",
+            "name": "Beetles",
+            "description": "As a reaction to taking damage, your beetles coalesce around you forming a chitin shield, granting you DR equal to 1d4 + your highest casting ability modifier. This increases to 1d6 at 7th and 1d8 at 15th levels.\n\nWhile your Swarm is active, you can take this reaction in response to an allied creature within 20 feet of you that takes damage. When you do, you apply the effects to them."
+          },
+          {
+            "id": "aburame.swarm.flies",
+            "owningClanId": "aburame",
+            "name": "Flies",
+            "description": "You gain a rank of Mastery when using the Search or Track skill-based actions while in a forest, swamp or urban terrain.\n\nWhile your Swarm is active, you can generate a 20-foot cube of swarming flies that acts like a cloud as part of releasing your swarm, centered on a point your space is touching that moves with you. Spaces inside the affected area is lightly obscured and attacks against creatures of your choice within the area from creatures outside the area is made at disadvantage. You can dismiss the cloud on your turn, at no action cost. But remanifesting it costs a bonus action."
+          },
+          {
+            "id": "aburame.swarm.larva",
+            "owningClanId": "aburame",
+            "name": "Larva",
+            "description": "You can rest inside of a human sized cocoons and can be used as a Sleeping bag allowing you to rest like a rejuvenating insect during a Short Rest. Increase the hit and chakra points regained for each Hit and Chakra die spent by +4."
+          },
+          {
+            "id": "aburame.swarm.mosquitoes",
+            "owningClanId": "aburame",
+            "name": "Mosquitoes",
+            "description": "When a creature within 15 feet of you takes damage from an attack you make or a jutsu you cast, you deal an additional +2 necrotic damage. This increases to 30 feet at 7th and +4 necrotic damage at 15th level.\n\nWhile your Swarm is active when your attack result is 5 or higher than a targets AC or an affected creature fails by 5 or more, you regain 1d6 hit points. This increases to 2d6 at 7th and 3d6 at 15th level."
+          },
+          {
+            "id": "aburame.swarm.moths",
+            "owningClanId": "aburame",
+            "name": "Moths",
+            "description": "You are always hovering roughly 1 foot off the ground when moving. If you take the Dash action, you gain a fly speed equal to the speed granted by the Dash action.\n\nWhile your Swarm is active, you gain a fly speed equal to half of your movement speed. While flying, if you would fall, you can spend your reaction to slow your decent, taking no falling damage when you reach the ground."
+          },
+          {
+            "id": "aburame.swarm.worms",
+            "owningClanId": "aburame",
+            "name": "Worms",
+            "description": "While you are on solid ground, you gain 15 feet of Tremor sense.\n\nWhile your Swarm is active, you gain a Burrowing speed equal to half of your movement speed. While burrowing, you leave behind a tunnel large enough for one creature to fit through."
+          },
+          {
+            "id": "aburame.swarm.parasites",
+            "owningClanId": "aburame",
+            "name": "Parasites",
+            "description": "You can learn and cast Jutsu with the Medical keyword.\n\nWhile your Swarm is active, use the enhanced effects of the Infested condition."
+          }
+        ]
+      }
+    },
+    {
+      "id": "akimichi",
+      "name": "Akimichi",
+      "introQuote": "“...Are you sure you’ve got this big guy?” The nervous kunoichi in blue asks her ally, a stocky but seemingly focused boy in a green jacket. “Are you still nervous, I GOT THIS!” he yells as he grows almost three times his original size and begins charging into a group of bandits as he leaps and allows his full body weight to come crashing down on top of them. His massive size also creates a large hole in the ground revealing the underground cave system he was looking for, from the beginning.",
+      "introAttribution": "—Tatsunami Aburame The Long Road, Ch. 6 excerpt.",
+      "subheading": "BIG APPETITE",
+      "loreDescription": "A large restaurant newly opened on the edge of the village. The sign on the door says they open in 10 minutes, but the line is already wrapped around the building by people wearing similar clothing, and all sporting markings on their plump cheeks. The doors open and this place is full of hungry patrons, waiting to try this new meal. Able to taste the slightest difference in texture, salt and herbs. The defining characteristic of consuming all that lie before them and enjoying the spice of life are what tie all Akimichi together.\n\nThe Akimichi Clan is one of the four noble clans of Konohagakure. Many of their clan's techniques revolve around the manipulation of their body weight and size through the use of Yang Release. Members of the clan possess great physical strength and are able to quickly convert calories into Chakra, which they then use in their various secret techniques. Most of these techniques rapidly consume the user's Chakra during use, and maintaining them during a prolonged battle can be tiring. For this reason, the Akimichi have high Chakra levels and eat a lot in order to build up or replenish their Chakra reserves. As a tribute, members of the clan wear the kanji for \"food\" on their clothing. If standard calories aren't enough for a battle, Akimichi can use the clan's three colored pills to convert excess fat into Chakra, at the cost of one's health.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Con, +1 Str",
+        "speed": "30 feet",
+        "skillProficiencies": [
+          "Athletics",
+          "Survival"
+        ],
+        "extraLanguages": [],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Akimichi Hijutsu",
+            "description": "The Akimichi Clan has access to a separate list of jutsu unique to their clan. You can add these Jutsu to your jutsu list instead of selecting jutsu from the normal jutsu list(s)."
+          },
+          {
+            "name": "Hijutsu Flexibility",
+            "description": "Akimichi Clan Hijutsu can use either Strength or Constitution as its casting ability score."
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "akimichi.l1.expansion-technique",
+          "name": "Expansion Technique",
+          "level": 1,
+          "description": "Your clans unique fighting style of magnified size and weight taken hold in the heat of combat. While in combat, you can throw your snacks away and enter the Expansion Technique stance. A unique fighting style honed and taught by the Akimichi clan.\n\nAs a Bonus action, you can enter your Expansion Technique stance. This is treated as a Taijutsu stance for you. While in this stance you gain the following benefits:\n• Your [Unarmed Damage] die becomes a d8.\n• You gain the Expansion Crash benefit from Akimichi clan Hijutsu you cast.\n• Your melee attacks gain the Reach property if it didn’t already. If it did, increase the ranks of Reach by +1. This increases to +2 at 7th and +3 at 15th levels.\n• When you deal damage with an opportunity attack, the affected creature must make a Strength saving throw vs your highest save DC, being knocked prone and Dazed on a failed save.\n• Beginning at 7th level, if you do not have the Extra Attack class feature, you can attack twice while in this stance when you take the Attack action.",
+          "source": "Akimichi",
+          "kind": "feature",
+          "effects": []
+        },
+        {
+          "id": "akimichi.l3.caloric-arts",
+          "name": "Caloric Arts",
+          "level": 3,
+          "description": "Beginning at 3rd level you gain access to a reserve of energy called Calories that when spent enable you to perform a series of special abilities and techniques unique to you and your clansmen. You have a number of Calories equal to 1 + your proficiency bonus. As you spend calories, you become thinner and less plump, losing fat from around your body. You regain spent calories when you complete a rest.\n\nYou can spend these Calories on your chosen Caloric Arts or Hijutsu you know. You gain 2 Caloric Arts when you gain this feature and an additional 2 at 11th level.",
+          "source": "Akimichi",
+          "kind": "feature",
+          "effects": []
+        },
+        {
+          "id": "akimichi.l7.lunch-breaks",
+          "name": "Lunch Breaks",
+          "level": 7,
+          "description": "Your clans laid back life style bleeds into your procedure during missions. Once per rest, you and all of your allies can partake in a short lunch break. By spending 10 minutes sharing your secret stash, you and all allies that participated, regains 3d6 hit points. This increases to 4d6 at 11th and 5d6 at 15th level.",
+          "source": "Akimichi",
+          "kind": "feature",
+          "effects": []
+        },
+        {
+          "id": "akimichi.l11.butterfly-mode",
+          "name": "Butterfly Mode",
+          "level": 11,
+          "description": "You open the furnace. Calories become colorful, yet beautiful chakra wings that crackle at the edges. Your weight now momentum, allowing your strikes to create shockwaves. As a Bonus action, or as part of the same bonus action used to enter your Expansion Technique stance or your Caloric Ignition state, you also enter Butterfly Mode. When you enter this state, select two of the listed benefits and gain them for the next minute. Once you use this state, you cannot do so again until you complete a rest.\n• Everburn Engine. For the duration, you regain 1 Calorie at the beginning of each of your turns.\n• Unfurled Strength. For the duration, your [Unarmed Damage] die becomes 2dX (Where X equals your current die size).\n• Hulking Beauty. For the duration, when you Shove, Grapple or Trip a creature, you also deal either your [Unarmed Damage] + [Unarmed Damage] or your [Weapon Damage] + [Unarmed Damage], your choice.\n• Overstimulated Network. For the duration, you can spend Calories to cast Jutsu you know that aren’t Akimichi Hijutsu. They cost a number of Calories equal to their rank. (D-Rank: 2, C-Rank: 3, B-Rank: 4, A-Rank: 5, S-Rank: 6)",
+          "source": "Akimichi",
+          "kind": "feature",
+          "effects": []
+        },
+        {
+          "id": "akimichi.l15.seismic-bounce",
+          "name": "Seismic Bounce",
+          "level": 15,
+          "description": "As your mother or father always told you, for an Akimichi, size matters. Your weight is a weapon.\n\nWhen you move 5 or more feet as part of casting an Akimichi Hijutsu, while you are in your Expansion Technique stance, you can choose to spend 10 feet of your movement to perform a short bounce and come crashing down into the ground. All creatures within 10 feet of you, must make a Strength saving throw vs your highest jutsu save DC. On a failed save, they are knocked prone, take bludgeoning damage equal to one of the listed damage pools or none on a successful save.\n\nYou can spend your Bonus action to warn all of your allies to Jump when you land, allowing them to be immune to this features effects. Once you use Seismic step you cannot do so again until the end of your next turn.\n• Three times your [Unarmed Damage]\n• Three times your [Weapon Damage]",
+          "source": "Akimichi",
+          "kind": "feature",
+          "effects": []
+        }
+      ],
+      "pickable": {
+        "pluralLabel": "Caloric Arts",
+        "singularLabel": "Caloric Art",
+        "editorDescription": "Select Caloric Arts at 3rd and 11th levels.",
+        "pickerDescription": "Gain 2 Caloric Arts at 3rd level, and 2 more at 11th level.",
+        "options": [
+          {
+            "id": "akimichi.caloric-art.fat-burner",
+            "owningClanId": "akimichi",
+            "name": "Fat Burner",
+            "description": "When you cast a jutsu as an Action, that requires hand signs, you can spend Calories to augment that jutsu, allowing you to cast it faster than normal, allowing you to cast it as a Bonus action based on its rank. (D-Rank/C-Rank: 2, B-Rank/A-Rank: 3, S-Rank: 4)"
+          },
+          {
+            "id": "akimichi.caloric-art.caloric-burst",
+            "owningClanId": "akimichi",
+            "name": "Caloric Burst",
+            "description": "As a bonus action, you can spend up to 3 Calories to roll a number of Hit die, equal to the number of calories spent. You regain hit points equal to the result + your constitution modifier. This does not spend your rolled hit die."
+          },
+          {
+            "id": "akimichi.caloric-art.caloric-ignition",
+            "owningClanId": "akimichi",
+            "name": "Caloric Ignition",
+            "description": "As a Bonus action, you can spend 2 Calories and consume an Akimichi food pill to enter your Caloric Ignition state. You remain in this state for 1 minute after which, you require 10 minutes to recover before you can reuse it.\n\nWhile in this state, you gain the following benefits;\n• Your Unarmed Damage die increase in size by 1 step to a max of d12.\n• You have a rank of Mastery on Strength based skill and ability checks.\n• While standing on the ground, you have advantage on checks and saves to resist being moved, knocked prone, grappled, restrained or Exhausted.",
+            "kind": "amp",
+            "ampType": "Battle"
+          },
+          {
+            "id": "akimichi.caloric-art.fat-rolls",
+            "owningClanId": "akimichi",
+            "name": "Fat Rolls",
+            "description": "As a reaction, when you take damage, you can spend up to 4 Calories to redirect your fat to the impacted area, gaining +4 temporary hit points for each calorie spent."
+          },
+          {
+            "id": "akimichi.caloric-art.insular-fat",
+            "owningClanId": "akimichi",
+            "name": "Insular Fat",
+            "description": "Elemental conditions are treated as Physical conditions for you. Also, when you would make a saving throw to resist gaining a Physical condition, you can spend 2 Calories to make the saving throw at advantage."
+          },
+          {
+            "id": "akimichi.caloric-art.metabolic-manipulation",
+            "owningClanId": "akimichi",
+            "name": "Metabolic Manipulation",
+            "description": "At the beginning of your turns, you can spend 2 Calories to reduce the rank of one Physical condition you have by one, that doesn’t have the [Persist] tag."
+          },
+          {
+            "id": "akimichi.caloric-art.retaliating-knuckle-sandwich",
+            "owningClanId": "akimichi",
+            "name": "Retaliating Knuckle Sandwich",
+            "description": "While you are within melee range of a hostile creature and they deal damage to an allied creature you can spend 1 Calorie to make an attack of opportunity against them at no reaction cost."
+          },
+          {
+            "id": "akimichi.caloric-art.rolling-shoulders",
+            "owningClanId": "akimichi",
+            "name": "Rolling Shoulders",
+            "description": "While moving, you can spend 2 Calories and 10 feet of your remaining movement to push through an enemies space. If you do, they must make a Dexterity saving throw vs your highest Jutsu save DC, being pushed 10 feet and knocked prone. You can only affect a creature with this effect once per turn."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hatake",
+      "name": "Hatake",
+      "introQuote": "Kakato stands in the center of the training field as his teammate glares at him. “You sure you want me to do this? You haven’t perfected it and you could break your hand” His teammate asks while looking concerned as he gets into position. “Yeah, for the last time, I need to master this Jutsu one way or another Just go with it!” Kakato responds calmly while making the hand seals needed for the jutsu. His ally sigh as he then conjures 4 walls of earth one after another in front of Kakato. Kakato quickly dashes in a straight line as his hand erupts into a bright, but loud chirping sound as lightning covers it. His speed increases until he is but a blur, he then crashes through one wall, then two, then…",
+      "introAttribution": "—Tatsunami Aburame, The Long Road, Ch. 9 excerpt.",
+      "subheading": "BARING WHITE FANGS",
+      "loreDescription": "The Hatake Clan is an iconic clan from Konoha. It has produced several renowned members who have held positions of high authority, including the Sixth Hokage; All known members have also been extremely skilled users of Lightning release jutsu.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Intelligence, +1 Charisma",
+        "speed": "35 feet",
+        "skillProficiencies": [
+          "Ninshou",
+          "Perception"
+        ],
+        "extraLanguages": [],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Passive Affinity",
+            "description": "Select one Nature release between Earth, Wind, Fire, Water, Lightning or Medical. You are now able to add jutsu with the corresponding Keyword to your jutsu list. (Suggestion: Lightning Release)"
+          },
+          {
+            "name": "Adaptive Genius",
+            "description": "You reduce downtime cost to learn Jutsu you qualify for by an amount equal to their rank, to a minimum of 1. (D-Rank: 1, C-Rank: 2, B-Rank: 3, A-Rank: 4, S-Rank: 5)"
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "hatake.l1.white-chakra",
+          "name": "White Chakra",
+          "level": 1,
+          "description": "The Hatake Clan are extremely proficient Chakra molders. They innately have the ability to call upon a unique source of Chakra called White Chakra.\n\nBeginning at 1st level, you have a number of White Chakra equal to 1 + your proficiency bonus.\n\nYou can spend White Chakra on any feature or ability that calls for it. You regain spent White Chakra when you finish a rest.\n\nThe first of such things you can spend White Chakra on are your White Wolf Arts. Special abilities that derive their strength and flexibility from your unique chakra. You gain 1 White Wolf Arts at character creation and an additional choice at 7th and 15th levels.",
+          "source": "Hatake",
+          "kind": "feature",
+          "effects": []
+        },
+        {
+          "id": "hatake.l1.pack-leader",
+          "name": "Pack Leader",
+          "level": 1,
+          "description": "The Hatake Clan are known for being prestigious leaders and teachers. They have brought up multiple generations of leaders and prominent shinobi. This tutelage seems to be almost hereditary as you embody some of these core concepts.\n\nWhen you complete a long rest, you gain a number of d20 equal to your highest ability modifier. This pool of dice becomes known as your Command Dice. You can spend Command Dice on any feature or ability that calls for it. You regain spent Command Dice when you complete a long rest. The first of such things you can spend Command Dice on are your Pack Tactics. Special team-oriented tactics that derive their strength from your force of personality and comradery with your team. You gain 1 Pack Tactic at character creation and an additional choice at 7th and 15th levels.",
+          "source": "Hatake",
+          "kind": "feature",
+          "effects": []
+        },
+        {
+          "id": "hatake.l3.tactical-skill",
+          "name": "Tactical Skill",
+          "level": 3,
+          "description": "The Hatake are known for taking the mundane and making it extraordinary.\n\nWhen you make a skill check while not in combat, you can approach in different ways.\n\nWhite Chakra. By spending 1 White Chakra, you add 1d4 to the check. This increases to 1d6 at 11th level.\n\nCommand Dice. You set up a team workshop. For every allied creature that can aid you, you gain a rank of Mastery ignoring its normal level limits up to a max of 3 allies.",
+          "source": "Hatake",
+          "kind": "feature",
+          "effects": []
+        },
+        {
+          "id": "hatake.l3.enigma",
+          "name": "Enigma",
+          "level": 3,
+          "description": "Just as extraordinary as the Hatake are, they are also an enigma. Able to get in and out of places with very little set up.\n\nWhile outside of combat, you can designate a location you want to be, whose location you know, that is normally inaccessible to you or others. By spending 1 Hour and 5 charges of a Toolkit you have access to, you appear in the chosen location and must describe how you achieved this using the toolkit chosen. The GM has final say if it works or not based on the description",
+          "source": "Hatake",
+          "kind": "feature",
+          "effects": []
+        },
+        {
+          "id": "hatake.l7.last-to-move-loses",
+          "name": "Last to Move, Loses",
+          "level": 7,
+          "description": "You take the opportunity to move swiftly when combat breaks out. When initiative is rolled, you can enhance your combat readiness in different ways.\n\nWhite Chakra. By spending 1 White Chakra, you add your full proficiency bonus to your initiative, instead of half.\n\nCommand Dice. By spending 1 Command Dice You and your team rolls your initiatives and records the results. You and your allies who recorded the results can now choose who gets what result based on the need of the combat.",
+          "source": "Hatake",
+          "kind": "feature",
+          "effects": []
+        },
+        {
+          "id": "hatake.l7.master-of-the-mundane",
+          "name": "Master of the Mundane",
+          "level": 7,
+          "description": "You can make use of Toolkits even if you are unfamiliar with them. You gain proficiency in two Toolkits of your choice. Additionally, when you would use a Toolkit to perform an activity that takes 1 minute or longer, reduce the time it takes to complete by 1 stage. (1 Day > 8 Hours > 1 Hour > 10 Minutes >1 Minute> 1 Action)",
+          "source": "Hatake",
+          "kind": "feature",
+          "effects": []
+        },
+        {
+          "id": "hatake.l11.captain-hatake",
+          "name": "Captain, Hatake",
+          "level": 11,
+          "description": "You stop Reacting to dangers and threats and start coordinating against them.\n\nAt the beginning of each of your turns, you can spend 1 White Chakra or Command Dice to initiate one of the associated effects of your choice.\n\nAdvance. You and one ally of your choice within 30 feet of you, move in tandem, based on the resource spent.\n• White Chakra. When you deal damage to a hostile creature, the allied creature gains a bonus to their next attack or saving throw DC based on how well you did. If your attack was 5 or greater than their AC or they failed by 5 or more vs your save DC, the select ally gains a rank of mastery to their next attack or Save DC.\n• Command Dice. When you spend movement, the chosen ally can move the same distance as you. When you take the attack action or cast a jutsu, they can spend their Reaction to perform the same action as you.\n\nEvade. You and one allied creature of your choice within 30 feet of you coordinate a defensive maneuver based on the resource spent.\n• White Chakra. If you or the allied creature takes damage, either of you can choose to swap places, intercepting the triggering damage in place of the other. If you do, you remake the saving throw or the initiating hostile creature remakes their attack.\n• Command Dice. If either of you spend your reaction, the other gains the same effect/benefit.",
+          "source": "Hatake",
+          "kind": "feature",
+          "effects": []
+        },
+        {
+          "id": "hatake.l15.white-wolf",
+          "name": "White Wolf",
+          "level": 15,
+          "description": "You are an elite. Your blood is pristine and you have embodied everything your ancestors set out to establish.\n\nAs a bonus action, you can enter your White Wolf state for the next minute gaining the following benefits. You can only enter this state once per long rest.\n\nTwo Steps Ahead. At the beginning of each of your turns, you regain either 1 White Chakra or 1 Command Dice.\n\nLethal Fang. Once per turn, when you land an attack that deals damage of a type associated with your Passive Affinity, you can remove 1 rank of the conditions associated condition to reinforce the attack, granting it a rank of mastery to its critical threat range. (Earth: Bruised/Dazed, Wind: Blind/Weakened, Fire: Burned, Cold: Chilled, Lightning: Shocked)\n\nLimit Break. Once per turn, You can spend 3 White Chakra or 2 Command Dice to gain an additional action. Once you do, you cannot do so again until the end of your next turn.\n\nNo Casualties. When an allied creature other than yourself within 30 feet of you would take damage, you can spend your reaction to deflect some of the damage, throwing your weapon to intercept and reducing the damage they would take by an amount equal to your [Weapon Damage] + your level. You throw your weapon and it lands on the ground in a space next to damaged ally.",
+          "source": "Hatake",
+          "kind": "amp",
+          "ampType": "Battle",
+          "effects": []
+        }
+      ],
+      "pickable": {
+        "pluralLabel": "White Wolf Arts",
+        "singularLabel": "White Wolf Art",
+        "editorDescription": "Choose a White Wolf Art.",
+        "pickerDescription": "Gain 1 at character creation; another at 7th and 15th levels.",
+        "options": [
+          {
+            "id": "hatake.white-wolf-art.area-scanning",
+            "owningClanId": "hatake",
+            "name": "Area Scanning",
+            "description": "You reach out and touch a physical surface with your hands and channel chakra through this surface, allowing you to function an individual echo-location machine.\n\nBy spending 1 minute focusing you become aware of the current location of all creatures currently on a shared surface within 120 feet of you.\n\nBy spending 1 White Chakra, this instead happens as an Action."
+          },
+          {
+            "id": "hatake.white-wolf-art.jutsu-overcharge",
+            "owningClanId": "hatake",
+            "name": "Jutsu Overcharge",
+            "description": "When casting jutsu with the Chakra Molding (CM) component, you are able to express your elite efficiency. By spending 2 White Chakra as part of casting a Jutsu, you gain the following enhanced benefits of the jutsu you cast based on its associated keywords as listed. If a jutsu has more than one of the listed keywords, you only one of its effects:\n\nEarth Release: If the jutsu you cast summons a construct or structure that intercepts damage, you increase its hits points by an amount equal to its rank (D-Rank: 4, C-Rank: 8, B-Rank: 12, A-Rank: 16, S-Rank: 20)\n\nWind Release: You trigger Swirl and spread any Physical or Elemental conditions as part of it.\n\nFire Release: Increase the damage dealt by +1 for every dice rolled, up to a maximum of +10.\n\nWater Release: You gain the benefit of having a source of water.\n\nLightning Release: You gain the Overcharge effect.\n\nMedical: You or an allied creature within 10 feet of you gains a number of temporary hit points equal to the rank of the jutsu cast, that last until the beginning of your next turn. (D-Rank: 4, C-Rank: 8, B-Rank: 12, A-Rank: 16, S-Rank: 20)\n\nTaijutsu: The jutsu gains the Combo or Finisher keyword following its standard benefit if it didn’t already. If it gains the Finisher Keyword, increase the number of dice you roll by +2.\n\nBukijutsu: You gain the benefit of any one chain rank effect of your choice, even if you are not at that chain rank. This does not set you at that chain rank.\n\nGenjutsu: Reduce the difference needed for a creature to critically fail by -2, and increase the difference needed for a creature to critically succeed by +2."
+          },
+          {
+            "id": "hatake.white-wolf-art.silver-weapon",
+            "owningClanId": "hatake",
+            "name": "Silver Weapon",
+            "description": "You touch a weapon you are proficient in and infuse it with 2 White Chakra and it becomes your Silver Weapon. Your Silver weapon gains the following benefits for the next minute:\n\nChakra Edge. Your weapon deals the damage type associated with your passive affinity chosen at character creation. (If Medical then Poison).\n\nFlashing Parry. When a melee attack hits you, you can spend your reaction to reduce the damage taken by your [Weapon Damage] + [Weapon Damage] and then move up to 10 feet without provoking opportunity attacks.\n\nWolves Prey. When you deal [Weapon Damage] to a creature, they become marked by you until the end of your next turn. While marked, you gain a rank of mastery to damage dealt to them. This increases to two ranks at 11th level."
+          },
+          {
+            "id": "hatake.white-wolf-art.martial-reversal",
+            "owningClanId": "hatake",
+            "name": "Martial Reversal",
+            "description": "When you take damage from a creature as a result of a Taijutsu or Bukijutsu, you can respond with a devastating counter. By spending your Reaction and 2 White Chakra you can cast a Taijutsu or Bukijutsu of the same rank or lower than the triggering Bukijutsu against the triggering creature at no reaction cost."
+          },
+          {
+            "id": "hatake.white-wolf-art.swift-cast",
+            "owningClanId": "hatake",
+            "name": "Swift Cast",
+            "description": "You’ve memorized complex hand and can push yourself to cast them faster than anyone else. When casting a jutsu that require Hand Signs (HS) as an Action, you can spend 3 White Chakra to cast it as a Bonus action instead. Once you’ve casted a jutsu in this way, you cannot do so again with the same jutsu until you complete a rest."
+          },
+          {
+            "id": "hatake.white-wolf-art.pale-perception",
+            "owningClanId": "hatake",
+            "name": "Pale Perception",
+            "description": "You are able to focus chakra into your perceptive organs, allowing you to perceive and understand things on a level only those with a Dojutsu could comprehend. When a hostile creature casts a Jutsu, and you attempt a Read the Enemy or Identify (Ninjutsu, Genjutsu, Taijutsu/Bukijutsu) skill-based reaction, you can spend 1 White Chakra to use it at no reaction cost. You can do this once, before the beginning of your next turn."
+          }
+        ]
+      },
+      "additionalPickables": [
+        {
+          "pluralLabel": "Pack Tactics",
+          "singularLabel": "Pack Tactic",
+          "editorDescription": "Choose a Pack Tactic.",
+          "pickerDescription": "Gain 1 at character creation; another at 7th and 15th levels.",
+          "options": [
+            {
+              "id": "hatake.pack-tactic.leaders-aura",
+              "owningClanId": "hatake",
+              "name": "Leaders Aura",
+              "description": "You call out to your team, barking orders or issuing commands in tandem with each other in hopes of coming out on top. By spending 1 Command Dice you radiate an aura of leadership in a 15-foot radius around you. The first time an allied creature, excluding yourself, rolls a d20 and fails their attack, check or save, you can lead them, allowing them to remake their d20 roll, taking the second result. Once you lead someone in this way, you cannot do so again until the beginning of your next turn.\n\nYour Leaders Aura lasts for 1 minute and increases in size when you reach 7th and 15th levels by +5 feet."
+            },
+            {
+              "id": "hatake.pack-tactic.in-famous",
+              "owningClanId": "hatake",
+              "name": "In/Famous",
+              "description": "Your fame or infamy creates a level of uncertainty or certainty, depending on who is aware of your exploits. When you roll initiative, you can attempt to invoke your Fame or Infamy. By spending 1 Command Dice, you roll it, adding your level and highest ability modifier contested by hostile creatures making a History check. On a success, hostile creatures become aware of you and gain 2 ranks of Demoralized until the beginning of their following turn, as your presence shakes them. This increases to 3 ranks at 11th level."
+            },
+            {
+              "id": "hatake.pack-tactic.shared-burden",
+              "owningClanId": "hatake",
+              "name": "Shared Burden",
+              "description": "You see how your allies are trying to put forth their best effort, so you put some weight behind their efforts. When an allied creature is casting a Jutsu as an Action, you can spend 1 Command Dice, giving their attacks advantage.\n\nYou can also share in their jutsu cost. By spending up to 3 White Chakra, you reduce the jutsu’s cost by -2, for every White chakra spent this way."
+            },
+            {
+              "id": "hatake.pack-tactic.team-coordination",
+              "owningClanId": "hatake",
+              "name": "Team Coordination",
+              "description": "You organize your team in order to set up a big play. By spending 2 Command Dice, you are able to designate one allied creature as the Assault Leader. All other willing allied creatures, including yourself can choose to spend their Reaction. Summoned creatures do not count. Count the number of reactions spent this way. For every 2 Reactions spent this way, the Assault Leader gains 1 additional Action on their turn. If an odd number of Reactions were spent, the Assault Leader also gains 1 additional Bonus Action on their turn.\n\nA creature can be designated the Assault Leader once per long rest."
+            },
+            {
+              "id": "hatake.pack-tactic.defensive-formation",
+              "owningClanId": "hatake",
+              "name": "Defensive Formation",
+              "description": "When an allied creature takes damage, you can spend your Reaction and 1 Command Dice. When you do, you can order allied creatures, including yourself, that can reach an adjacent space next to the damaged creature, to move into that space.\n\nDivide the damage evenly as possible amongst all creatures that end their movement adjacent to the damaged ally, as part of this ability."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hyuga",
+      "name": "Hyūga",
+      "introQuote": "“You don’t quite understand the situation you're in...do you boy?” Haizo bellowed out from the darkness he created with his Ninjutsu. “The Darkness is my ally, while you skulk through it, I was born of it. I have made it my partner in battle.” He speaks in a tone of assured victory, guaranteed of his success, his acute senses allow him to feel where his target is, a boy of average height who looks remarkably slim with long dark hair. Haizo begins to make his assault final as he rushes towards the boy who has been standing remarkably still the entire time. As Haizo enters striking range the boy reacts with monstrous precision striking Haizo in multiple points across his torso in the blink of an eye dispersing the Jutsu he had up, allowing light to shower the two. “But how!? It was total Darkness how did you know where I would strike!?” Haizo cried out. The boy stared at him, eyes pale white with veins running across his face leading both too and from his eyes as they stare almost through Haizo. “You overestimated yourself and underestimated my Byakugan, that was your fatal mistake” the boy said with a grin that would infuriate even the most composed of men.",
+      "introAttribution": "—Tatsunami Aburame, The Long Road, Ch. 3 excerpt.",
+      "subheading": "THE VILLAGES STRONGEST",
+      "loreDescription": "The Hyūga Clan is one of the four noble clans of Konoha as well as the strongest clan in the village. All members born into this clan possess the Byakugan, a bloodline trait that gives them extended fields of vision and the ability to see through solid objects and even the Chakra circulatory system, amongst other things. Members of this clan also possess an innate ability which allows them to excel Chakra from any of the Tenketsu in their body. They are considered to be one of, if not currently, the most powerful clan in Konoha. Their fame and prowess stretch far and wide, leading others to both praise and covet their abilities.\n\nThe clan is separated into two parts: the main house and the branch house, a system that protects the secrets of the Byakugan from outsiders. The main house runs the family while the branch house protects it.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Wis, +1 Dex",
+        "speed": "30 feet",
+        "skillProficiencies": [
+          "Perception",
+          "Martial Arts"
+        ],
+        "extraLanguages": [],
+        "darkvision": "30 feet",
+        "extraTraits": [
+          {
+            "name": "Hyūga Hijutsu",
+            "description": "The Hyūga Clan has access to a separate list of jutsu unique to their clan. You can add these Jutsu to your jutsu list instead of selecting jutsu from the normal jutsu list(s)."
+          },
+          {
+            "name": "Hijutsu Flexibility",
+            "description": "Hyūga Clan Hijutsu can use either Strength or Wisdom as its casting ability score."
+          },
+          {
+            "name": "Branch Family",
+            "description": "The Hyuga are split between two different branches, the [Main Branch] and the [Side Branch]. The [Main Branch] acts as the nobles of the clan while the [Side Branch], the warriors or guardians. Select which branch your character is a part of. This determines some clan features or which Hijutsu you gain/have access to. This cannot be changed later."
+          }
+        ]
+      },
+      "branchLabel": "Branch",
+      "branchPluralLabel": "Branches",
+      "branchPickLevel": 1,
+      "branches": [
+        {
+          "id": "hyuga.main-branch",
+          "name": "Main Branch",
+          "description": "The nobles of the Hyūga clan, who run the family and safeguard the secrets of the Byakugan.",
+          "features": [
+            {
+              "id": "hyuga.l7.eight-trigrams-sealing-technique",
+              "name": "Eight Trigrams – Sealing Technique",
+              "level": 7,
+              "description": "The iconic fighting style of the Hyuga, doesn’t stop at just your martial arts, but in all forms of chakra-based warfare. When you cast a Jutsu that deals Chakra damage or has the Fuinjutsu keyword, you manifest the mythical Eight Trigrams sigil as part of its casting. Once per casting, one of the affected creatures that would attempt to cast a jutsu that requires chakra molding (CM) must make a Constitution saving throw vs your highest save DC. On a failure, their jutsu’s casting is Interrupted and gains a rank of Network Distortion.",
+              "source": "Hyūga",
+              "kind": "feature",
+              "effects": []
+            },
+            {
+              "id": "hyuga.l11.eight-trigrams-palm-bottom",
+              "name": "Eight Trigrams – Palm Bottom",
+              "level": 11,
+              "description": "Your strikes are refined by the focus instilled into you by the main branch. Your strikes reaches deep into your foe, bludgeoning their internal organs. When you deal [Unarmed Damage] to a creature as a result of the Attack action with ranks of Sealed or Network Distortion you can dispel all ranks they have forcing them to make a Constitution saving throw vs your highest jutsu save DC. On a failed save the affected creature is Staggered. They suffer a -1 penalty to their save for every 2 ranks of either condition dispelled in total. Once your use this feature you cannot do so again until the end of your next turn.",
+              "source": "Hyūga",
+              "kind": "feature",
+              "effects": []
+            }
+          ]
+        },
+        {
+          "id": "hyuga.side-branch",
+          "name": "Side Branch",
+          "description": "The warriors and guardians of the Hyūga clan, who protect the main house and the secrets of the Byakugan.",
+          "features": [
+            {
+              "id": "hyuga.l7.eight-trigrams-internal-assault",
+              "name": "Eight Trigrams – Internal Assault",
+              "level": 7,
+              "description": "The iconic fighting style of the Hyuga, doesn’t stop at just your martial arts, but in all forms of chakra-based warfare. When you cast a Jutsu that deals necrotic damage or has the Medical keyword, you manifest the mythical Eight Trigrams sigil as part of its casting. Once per casting, one of the affected creatures that would attempt to cast a jutsu that requires chakra molding (CM) must make a Constitution saving throw vs your highest save DC. On a failure, they trigger the seal you placed as they gain 3 ranks of Network Distortion.",
+              "source": "Hyūga",
+              "kind": "feature",
+              "effects": []
+            },
+            {
+              "id": "hyuga.l11.eight-trigrams-gentle-end",
+              "name": "Eight Trigrams – Gentle End",
+              "level": 11,
+              "description": "Your strike are efficient brutal, refined by the aggression instilled into you by the side branch. Your strike reaches deep into your foe, causing server internal damage. When you deal [Unarmed Damage] to a creature as a result of the Attack action with ranks of Sealed or Network Distortion you can dispel all ranks they have forcing them to make a Constitution saving throw vs your highest save DC. On a failed save the affected creature takes 1d6 necrotic and chakra damage for every rank dispelled in this way. They suffer a -1 penalty to their save for every 2 ranks of either condition dispelled in total. Once your use this feature you cannot do so again until the end of your next turn.",
+              "source": "Hyūga",
+              "kind": "feature",
+              "effects": []
+            }
+          ]
+        }
+      ],
+      "features": [
+        {
+          "id": "hyuga.l1.byakugan",
+          "name": "Byakugan",
+          "level": 1,
+          "description": "[Dojutsu]\n\nOne of the hidden Leaf village’s 2 great Dojutsu. The Byakugan is the All-seeing white eye. You may, as a bonus action you can activate this Dojutsu, which remains active for up to 10 minutes at a time, after which you require at least 10 minutes of non-use before you can activate it again. While active the Byakugan gains the following benefits:\n\nAll Seeing White Eye: You have 120 feet of Chakra Sight while out of combat and 60 feet while in combat. You can see through material up to 1 feet thick when taking the Search action. This perceptive strength grows at 7th level when you can see through material up to 5 feet thick within your chakra sight range. Your vision increases again at 11th level, granting you 500 feet of chakra sight outside of combat and 120 feet while in combat.\n\n360° Vision: You can see in a 360-degree field around you without having to turn your head or avert your gaze. Creatures cannot be hidden from you without being Heavily obscured or behind total cover.",
+          "source": "Hyūga",
+          "kind": "feature",
+          "effects": []
+        },
+        {
+          "id": "hyuga.l1.gentle-fist",
+          "name": "Gentle Fist",
+          "level": 1,
+          "description": "In addition to the Byakugan, the Hyuga are known for their Gentle Fist stance. The Gentle Fist is the premiere fighting style for the Hyūga clan.\n\nAlso at 1st level, you learn the Taijutsu Stance of the Hyuga Clan, allowing you to use your clans Hijutsu ability modifier as defined by Hijutsu Flexibility while in this stance to make unarmed attacks. While in this stance you gain the following benefits.\n• Your [Unarmed Damage] die becomes a d8. This becomes 2d8 at 11th level.\n• Your [Unarmed Damage] becomes Chakra or Necrotic which you choose when you roll damage.\n• Your Hijutsu gain their Eight Trigram effect.\n• Beginning at 7th level, when you deal chakra damage to a creature with 0 chakra, you instead deal double the result as force damage to their hit points.\n• Beginning at 7th level, if you do not have the Extra Attack class feature, you can attack twice while in this stance when you take the Attack action.",
+          "source": "Hyūga",
+          "kind": "feature",
+          "effects": []
+        },
+        {
+          "id": "hyuga.l3.bloodline-of-the-elite",
+          "name": "Bloodline of the Elite",
+          "level": 3,
+          "description": "Your training with the secrets of the Hyuga has allotted you a plethora of abilities that help shape your technique and fighting style. Select 2 Hyuga Dogma’s which exemplify your skill within the clan. You gain one additional choice at 11th level.",
+          "source": "Hyūga",
+          "kind": "feature",
+          "effects": []
+        },
+        {
+          "id": "hyuga.l15.heavenly-technique",
+          "name": "Heavenly Technique",
+          "level": 15,
+          "description": "You take a single breath sharpening your Gentle Fist stance making each strike more precise and lethal than the last, making each strike accurately bludgeon the internal organs of your foes. You can assume this enhanced battle stance for one minute, after which you require a rest before you can use it again. For the duration you gain the following benefits:\n• Chakra damage you deal ignore DR (Damage reduction.)\n• When you make an unarmed attack that deals chakra damage, you deal an equal amount of damage to the target as Necrotic damage. If you would deal Force damage as a result of the target having 0 chakra, you instead simply double the necrotic damage you deal.\n• Each successful attack you make in the same turn, that deals Chakra or Necrotic damage increases the cost of the next Jutsu the affected creature casts by +2.",
+          "source": "Hyūga",
+          "kind": "feature",
+          "effects": []
+        }
+      ],
+      "pickable": {
+        "pluralLabel": "Hyuga Dogmas",
+        "singularLabel": "Hyuga Dogma",
+        "editorDescription": "Pick a Hyuga Dogma that exemplifies your skill within the clan.",
+        "pickerDescription": "Select 2 Hyuga Dogmas at 3rd level. Gain one additional at 11th level.",
+        "options": [
+          {
+            "id": "hyuga.dogma.combat-insight",
+            "owningClanId": "hyuga",
+            "name": "Combat Insight",
+            "description": "You gain amazing combat senses with or without your Byakugan. As a bonus action, while observing a creature, you can make an Identify (Ninjutsu, Genjutsu or Taijutsu/Bukijutsu, pick one) check against a creature you can see, vs their Level DC. On a success, you are able to learn of any one special action or ability they have that would qualify as or is similar to, the associated check."
+          },
+          {
+            "id": "hyuga.dogma.wisdom-of-the-court",
+            "owningClanId": "hyuga",
+            "name": "Wisdom of the Court",
+            "description": "The Hyuga are not jutsu warriors or martial artists. They are the Land of Fires most premier shinobi royalty. With this status comes the wisdom of managing such social circles. You can use Wisdom in place of Charisma for Persuasion and Intimidation checks."
+          },
+          {
+            "id": "hyuga.dogma.predictive-perception",
+            "owningClanId": "hyuga",
+            "name": "Predictive Perception",
+            "description": "Your ability to intuit danger, has been honed to near perfection. When a creature would make an attack against you at advantage, you can spend your reaction making them instead roll at disadvantage and gaining a rank of Mastery to your AC for the attack."
+          },
+          {
+            "id": "hyuga.dogma.sensory-type",
+            "owningClanId": "hyuga",
+            "name": "Sensory Type",
+            "description": "As an Action, while exploring with your Byakugan active, you can perform a Perimeter Sweep ability. When you do, for the next 10 minutes, you and allied creatures with you, gain a rank of mastery to the next saving throw made against a triggered trap."
+          },
+          {
+            "id": "hyuga.dogma.cold-calculations",
+            "owningClanId": "hyuga",
+            "name": "Cold Calculations",
+            "description": "The clan has taught you to be practical, cold and calculative in all things. When you complete a long rest, you gain the Cold Calculus special action.\n\nCold Calculus. This special action can be used in place of your normal action or reaction for any Hyuga Hijutsu that requires it. Once this special action has been used, you cannot regain it until you complete a long rest."
+          },
+          {
+            "id": "hyuga.dogma.illusion-fist",
+            "owningClanId": "hyuga",
+            "name": "Illusion Fist",
+            "description": "A little-known secret of the Byakugan is that, when Genjutsu is focused through it, it becomes more focused, light sunlight though a magnifying glass. While in the Gentle Fist Stance, you can choose to make melee Genjutsu attacks, in place of unarmed attacks. These attacks, deal psychic damage when made this way. Additionally, if you cast a Hyuga Hijutsu with Wisdom, you can change its damage type to Psychic, but counts as chakra or necrotic for other Hyuga clan features."
+          },
+          {
+            "id": "hyuga.dogma.tenketsu-needle",
+            "owningClanId": "hyuga",
+            "name": "Tenketsu Needle",
+            "description": "Once per turn, when you deal chakra damage to a creature with ranks of Sealed or Network Distortion, increase the chakra damage dealt by +2. This increases to +4 at 11th level."
+          }
+        ]
+      }
+    }
+  ]
+}
