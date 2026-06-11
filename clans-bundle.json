@@ -156,7 +156,8 @@
           }
         ]
       },
-      "natureReleaseGrants": []
+      "natureReleaseGrants": [],
+      "resources": []
     },
     {
       "id": "akimichi",
@@ -305,7 +306,21 @@
           }
         ]
       },
-      "natureReleaseGrants": []
+      "natureReleaseGrants": [],
+      "resources": [
+        {
+          "name": "Calories",
+          "autoKey": "clan:akimichi:calories",
+          "source": "Caloric Arts",
+          "minLevel": 3,
+          "maxFormulaDescription": "1 + Proficiency Bonus",
+          "maxFormula": {
+            "base": 1,
+            "perProf": 1
+          },
+          "replenishOn": "short"
+        }
+      ]
     },
     {
       "id": "hatake",
@@ -543,6 +558,31 @@
           "source": "Passive Affinity",
           "description": "Select one Nature release between Earth, Wind, Fire, Water, Lightning or Medical. You are now able to add jutsu with the corresponding Keyword to your jutsu list. (Suggestion: Lightning Release)"
         }
+      ],
+      "resources": [
+        {
+          "name": "White Chakra",
+          "autoKey": "clan:hatake:white-chakra",
+          "source": "White Chakra",
+          "minLevel": 1,
+          "maxFormulaDescription": "1 + Proficiency Bonus",
+          "maxFormula": {
+            "base": 1,
+            "perProf": 1
+          },
+          "replenishOn": "short"
+        },
+        {
+          "name": "Command Dice",
+          "autoKey": "clan:hatake:command-dice",
+          "source": "Pack Leader",
+          "minLevel": 1,
+          "maxFormulaDescription": "Highest ability modifier",
+          "maxFormula": {
+            "perHighest": 1
+          },
+          "replenishOn": "long"
+        }
       ]
     },
     {
@@ -603,7 +643,8 @@
               "kind": "feature",
               "effects": []
             }
-          ]
+          ],
+          "resources": []
         },
         {
           "id": "hyuga.side-branch",
@@ -628,7 +669,8 @@
               "kind": "feature",
               "effects": []
             }
-          ]
+          ],
+          "resources": []
         }
       ],
       "features": [
@@ -730,7 +772,8 @@
           }
         ]
       },
-      "natureReleaseGrants": []
+      "natureReleaseGrants": [],
+      "resources": []
     }
   ]
 }
