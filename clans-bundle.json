@@ -1895,6 +1895,1493 @@
         }
       ],
       "creatureGrants": []
+    },
+    {
+      "id": "sarutobi",
+      "name": "Sarutobi",
+      "introQuote": "Altina stands in the center of the training field as her teammates circle her. … She quickly leaps into the air dodging them both while weaving hand seals and firing multiple motes of Lightning at both her allies as she quickly weaves a second jutsu together firing jets of Water into the motes of Lightning as they combine and beam towards her training partners…",
+      "introAttribution": "— Tatsunami Aburame, The Long Road, Ch. 4 excerpt.",
+      "subheading": "BOUND BY A CODE OF HONOR",
+      "loreDescription": "The Sarutobi Clan is an influential clan from Konoha. It has produced several renowned members who have held positions of high authority, including the Third Hokage; whose son, Asuma, held membership in the Twelve Guardian Ninja, while his other children served directly under the Hokage along with their spouse as Anbu. All known members have also been devout observers of the Will of Fire. This clan has the strength and influence to tie other clans together and create long lasting bonds.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Strength or Intelligence, +1 Constitution",
+        "speed": "30 feet",
+        "skillProficiencies": [],
+        "extraLanguages": [],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Skill Proficiencies (Pick 2)",
+            "description": "Pick any two skills between: Ninshou, Martial Arts, Illusions."
+          },
+          {
+            "name": "Advanced Nature Affinity",
+            "description": "Select one Nature release between Earth, Wind, Fire, Water, Lightning or Medical. You can now add jutsu with the corresponding keyword to your jutsu list. (Suggestion: Fire Release)"
+          },
+          {
+            "name": "The Will of Fire",
+            "description": "You gain a Will of Fire when you complete a long rest if you didn't already have one."
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "sarutobi.l1.legacy-of-the-past",
+          "name": "The Legacy of the Past",
+          "level": 1,
+          "description": "As a Sarutobi, you have inherited the Will of Fire from your forefathers. You embody it more than most. Will is pooled within you, available at a moment's notice. Starting from character creation, you have a number of Will equal to 1 + your proficiency bonus.\n\nYou can spend Will on Legacy Techniques and other features that call for it. You regain spent Will when you complete a rest. You gain 2 Legacy Techniques at character creation, and 1 additional at 7th and 15th levels.",
+          "source": "Sarutobi",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "sarutobi.l1.blessing-of-the-flame",
+          "name": "Blessing of the Flame",
+          "level": 1,
+          "description": "Sarutobi are trained and skilled in a variety of tools and weapons. When you take a long rest, you can perform a family ritual, calling on the blessings of the Will of Fire to grant you the mastery needed to use these tools of war to maintain the fires of will.\n\nSelect one Weapon Group or one Weapon Property. All weapons part of the chosen group or that share the chosen property that you wield become Flame Blessed until you complete a long rest.\n  • You cannot be disarmed of Flame Blessed weapons unless you are incapacitated.\n  • Weapon attacks with Flame Blessed weapons can use your Taijutsu, Ninjutsu or Genjutsu ability modifier.\n  • You gain a rank of Mastery to [Weapon Damage] (or [Unarmed Damage] if a Flame Blessed weapon with the Unarmed property) that you deal.",
+          "source": "Sarutobi",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "sarutobi.l3.cross-style",
+          "name": "Cross-Style",
+          "level": 3,
+          "description": "As a Sarutobi, you are a versatile Swiss army knife of skill and options. You enter the Cross-Style stance — a Chakra, Taijutsu AND Bukijutsu stance simultaneously — as a Bonus Action. While in this stance: Chakra Powered Strikes give your unarmed die 1d6 and your damage types become the Advanced Nature Affinity type (Medical → Poison). Unified Form lets you spend Will to chain a second jutsu of a different discipline as part of the same Action — with order-specific bonuses (Any > Ninjutsu = -1 save on conditioned creatures; Any > Taijutsu = initial gains Combo + push; Any > Bukijutsu = initial gains Chain + -1 AC; Any > Genjutsu = swap places with ally).",
+          "source": "Sarutobi",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "sarutobi.l3.embers-guardian",
+          "name": "Ember's Guardian",
+          "level": 3,
+          "description": "Your clan is charged with the protection of the wills of the people. The will of fire.\n\nGuardians Will. When an allied creature within 10 ft of you takes damage from an attack, spend your reaction to swap spaces. The attack now hits you. You reduce the damage by [Unarmed Damage] or [Weapon Damage].\n\nBonded Resolve. When an ally within 10 ft would take damage, spend your reaction to interpose, reducing their damage by half. You take damage equal to the reduced damage of the same type.",
+          "source": "Sarutobi",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "reaction",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "sarutobi.l7.advanced-release-manifestation",
+          "name": "Advanced Release Manifestation",
+          "level": 7,
+          "description": "Select one:\n  • Gain another Nature release you didn't select from your Advanced Nature Affinity clan trait.\n  • Select a Taijutsu or Bukijutsu Expert stance, even if you don't qualify. Gain the benefits while in Cross-Style.\n  • While in Cross-Style, creatures that critically succeed a save vs a Genjutsu you cast suffer the effects of a success if you spend 2 Will.",
+          "source": "Sarutobi",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "sarutobi.l7.inspiring-presence",
+          "name": "Inspiring Presence",
+          "level": 7,
+          "description": "Even when all seems lost, your presence is enough to instill hope. Creatures of your choice that begin their turn within 10 ft of you reduce ranks of Demoralized and Shaken by -1.",
+          "source": "Sarutobi",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "sarutobi.l11.rekindling-pulse",
+          "name": "Rekindling Pulse",
+          "level": 11,
+          "description": "As an Action, all allies within 20 ft who are Incapacitated, Stunned, Dying or Unconscious make a DC 20 Constitution save (+1 per Will spent). On success: 0 HP → spend all remaining hit dice, regain the result, gain Exhaustion equal to half hit dice spent; > 0 HP → lose listed conditions and stand from prone. Once per long rest per creature.",
+          "source": "Sarutobi",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "action",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "sarutobi.l15.will-of-fire-incarnate",
+          "name": "Will of Fire Incarnate",
+          "level": 15,
+          "description": "You embody the Will of Fire. As a Bonus Action, ignite the Will of Fire within you for the next minute — your Will Blazes (Battle Amp: Kindling — regain 1 Will at start of each turn; Apotheosis — -1 Unified Form Will cost; Blazing Limits — +1 to Weapon/Taijutsu attacks with Flame Blessed weapons). Once per long rest.",
+          "source": "Sarutobi",
+          "kind": "amp",
+          "ampType": "Battle",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        }
+      ],
+      "pickable": {
+        "pluralLabel": "Legacy Techniques",
+        "singularLabel": "Legacy Technique",
+        "editorDescription": "Choose a Legacy Technique (Will spend ability).",
+        "pickerDescription": "Gain 2 at character creation; +1 at 7th and 15th levels.",
+        "options": [
+          {
+            "id": "sarutobi.legacy.kindled-will",
+            "owningClanId": "sarutobi",
+            "name": "Kindled Will",
+            "description": "Spend 1 Will to gain a rank of Mastery on your next d20 roll. At 7th — spend 3 Will for 2 ranks. At 15th — spend 5 Will for 3 ranks."
+          },
+          {
+            "id": "sarutobi.legacy.swift-reaction",
+            "owningClanId": "sarutobi",
+            "name": "Swift Reaction",
+            "description": "Once per turn, spend 3 Will to gain an additional reaction (lost at end of current turn if unused). Each additional use beyond the first increases Will cost by +1 until you complete a short rest. Max 1 additional reaction per round."
+          },
+          {
+            "id": "sarutobi.legacy.aggressive-response",
+            "owningClanId": "sarutobi",
+            "name": "Aggressive Response",
+            "description": "Once per turn, spend 2 Will to spend your reaction to cast a jutsu or use a feature with a cost of 1 Action."
+          },
+          {
+            "id": "sarutobi.legacy.determination",
+            "owningClanId": "sarutobi",
+            "name": "Determination",
+            "description": "At the beginning of your turn when you need to make a Death save, spend 2 Will before rolling — immediately gain a success."
+          },
+          {
+            "id": "sarutobi.legacy.inspiring-will",
+            "owningClanId": "sarutobi",
+            "name": "Inspiring Will",
+            "description": "When an ally would make a d20 roll, spend 2 Will to grant a rank of Mastery (4 Will → 2 ranks at 7th; 6 Will → 3 ranks at 15th)."
+          },
+          {
+            "id": "sarutobi.legacy.enduring",
+            "owningClanId": "sarutobi",
+            "name": "Enduring",
+            "description": "When you or an ally fail a saving throw, spend 2 Will and a reaction to remake it."
+          },
+          {
+            "id": "sarutobi.legacy.limit-break",
+            "owningClanId": "sarutobi",
+            "name": "Limit Break",
+            "description": "As part of casting a jutsu with a casting time of 1 Action, spend 3 Will to upcast by 1 rank, ignoring rank limitations, at no additional chakra cost."
+          },
+          {
+            "id": "sarutobi.legacy.second-wind",
+            "owningClanId": "sarutobi",
+            "name": "Second Wind",
+            "description": "As a Bonus Action, spend any number of Will up to your remaining. For the first Will spent, roll a die the same size as your Hit or Chakra die; regain HP or CP based on the die rolled + your Con modifier. Each subsequent Will spent adds 1d6 to the result. 10-minute recharge; combat only."
+          }
+        ],
+        "sourceFeatureId": "sarutobi.l1.legacy-of-the-past",
+        "pickGrants": [
+          { "level": 1, "picks": 2 },
+          { "level": 7, "picks": 1 },
+          { "level": 15, "picks": 1 }
+        ]
+      },
+      "additionalPickables": [],
+      "natureReleaseGrants": [
+        {
+          "level": 1,
+          "picks": 1,
+          "autoReleases": [],
+          "fromReleases": [
+            "Earth",
+            "Wind",
+            "Fire",
+            "Water",
+            "Lightning",
+            "Medical"
+          ],
+          "source": "Advanced Nature Affinity",
+          "description": "Pick one Nature release (Suggestion: Fire Release)."
+        }
+      ],
+      "resources": [
+        {
+          "name": "Will",
+          "autoKey": "clan:sarutobi:will",
+          "source": "The Legacy of the Past",
+          "minLevel": 1,
+          "maxFormulaDescription": "1 + Proficiency Bonus",
+          "maxFormula": { "base": 1, "perProf": 1 },
+          "replenishOn": "short"
+        }
+      ],
+      "stanceGrants": [
+        { "level": 3, "stanceId": "clan.sarutobi.cross-style", "source": "Cross-Style" }
+      ],
+      "creatureGrants": []
+    },
+    {
+      "id": "senju",
+      "name": "Senju",
+      "introQuote": "The Genin stands on top of one of the tallest trees just outside of the Leaf village. She claps her hands together focusing. The tree begins to shake, as it grows, slightly. … “Just this morning, this tree was only to my ankle. Now Look at it — tallest tree in this part of the forest. Sooner or later, I'm going to make this the tallest tree in the world!”",
+      "introAttribution": "— Yuki Hyūga, At Worlds End, Ch. 13 excerpt.",
+      "subheading": "THE LEAF'S PATRIARCHS",
+      "loreDescription": "The Senju Clan hails proudly from the Land of Fire and is one of its founders. Three of the Leaf Villages Hokage have been Senju, bringing about a new era of prosperity. Using Mokuton (or Wood release), a user is extremely versatile and able to control, restrict and even seal away an opponent's Chakra. The power of Wood Release, and by extension the Senju, are widely known — so much so that they were heralded as the strongest clan during the Warring states era.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Constitution, +1 Strength",
+        "speed": "30 feet",
+        "skillProficiencies": [
+          "Chakra Control",
+          "Ninshou"
+        ],
+        "extraLanguages": [],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Wood Release Affinity",
+            "description": "You begin with either Earth or Water Release Affinity (pick one)."
+          },
+          {
+            "name": "Mokuton Release Techniques",
+            "description": "The Senju Clan has access to a separate list of jutsu unique to their clan. You can add these Jutsu to your jutsu list instead of selecting jutsu from the normal jutsu list(s)."
+          },
+          {
+            "name": "Hijutsu Flexibility",
+            "description": "Senju Clan Hijutsu can use either Constitution or Intelligence as its casting ability score."
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "senju.l1.built-different",
+          "name": "Built Different",
+          "level": 1,
+          "description": "The Senju are known for their inhuman stamina. Increase your Hit Point total by 2. Every level thereafter, increase your hit point total by 2.\n\nAdditionally, this well of vitality coalesces as Senju Cells (start with 2). Once per turn at the beginning of your turn, while not incapacitated, spend 1 Senju Cell — roll 1d6 + half your level (min 1), regain HP equal to the result. Regain spent Senju Cells on rest.\n\nAt 7th — total becomes 4; you can also spend 1 Senju Cell at the start of your turn to end any one Physical or Elemental condition you have.\n\nAt 15th — total becomes 6; if you begin your turn at 0 HP, you can spend any number of Senju Cells to spend an equal number of Hit Dice, regaining HP equal to the result.",
+          "source": "Senju",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "senju.l1.mokuton-infusion",
+          "name": "Mokuton Infusion",
+          "level": 1,
+          "description": "The Mokuton Kekkei Genkai suffuses your combat. Enter the Mokuton Infusion Chakra stance as a Bonus Action — uniquely, you can simultaneously benefit from either a Taijutsu or Bukijutsu stance. Pick a variant on entry; swap on subsequent Bonus Actions.\n\nWill of the Buddha — when wielding a Combat Scroll, replace each Attack-action attack with a Verdant Lash attack.\n\nFist of Hevajra — your [Unarmed Damage] becomes Cold/Earth/Chakra (chosen on damage); unarmed attacks can use your Hijutsu Flexibility ability mod; unarmed attacks gain Reach 1 (Reach 2 at 7th).",
+          "source": "Senju",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "senju.l3.verdant-bloodline",
+          "name": "Verdant Bloodline",
+          "level": 3,
+          "description": "Your chakra grows, sprouts and reveals its strength. Once per turn as part of an Attack-action attack while in Mokuton Infusion or when casting a Senju Hijutsu, use the New Growth ability.\n\nNew Growth. Select a point you can see on the ground within 60 ft. Manifest a 10-foot radius patch of sentient foliage. Creatures other than you that move through spend 4 ft per 1 ft. Lasts 1 minute or until cleared by a damaging effect crossing affected spaces.",
+          "source": "Senju",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "senju.l7.wood-release",
+          "name": "Wood Release",
+          "level": 7,
+          "description": "The Senju have a unique talent for manifesting Wood Release. Gain the second Nature release you didn't select from Wood Release Affinity, and when casting an Earth or Water Release jutsu, you can change the damage type to Earth or Cold respectively.\n\nAdditionally, once per turn, as a Bonus Action, select a creature within 30 ft that is Grappled / Restrained by a Senju Hijutsu or has ranks of Drained. They make a Strength save, being pulled 20 ft closer or pushed 20 ft away on a failed save.",
+          "source": "Senju",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "senju.l11.blood-of-the-leaf",
+          "name": "Blood of the Leaf",
+          "level": 11,
+          "description": "The Senju have a unique talent for communication and negotiating hostile terms. While in communication with a non-allied creature making a request of you, attempting to intimidate them in response gains 2 ranks of Mastery to the check.",
+          "source": "Senju",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "senju.l15.verdant-domain",
+          "name": "Verdant Domain",
+          "level": 15,
+          "description": "You are one with the wood. Hostile creatures of your choice that are Grappled / Restrained by a Senju Hijutsu or standing in New Growth have their chakra network impeded. When such a creature casts a jutsu that requires CM of a rank higher than the listed rank (by tier: Standard D, Elite C, Solo B), they gain ranks of Drained for every rank above the listed rank.",
+          "source": "Senju",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        }
+      ],
+      "pickable": null,
+      "additionalPickables": [],
+      "natureReleaseGrants": [
+        {
+          "level": 1,
+          "picks": 1,
+          "autoReleases": [],
+          "fromReleases": [
+            "Earth",
+            "Water"
+          ],
+          "source": "Wood Release Affinity",
+          "description": "Pick Earth or Water Release."
+        },
+        {
+          "level": 7,
+          "picks": 0,
+          "autoReleases": [],
+          "fromReleases": [
+            "Earth",
+            "Water"
+          ],
+          "source": "Wood Release",
+          "description": "Gain the other of Earth / Water at 7th level."
+        }
+      ],
+      "resources": [
+        {
+          "name": "Senju Cells",
+          "autoKey": "clan:senju:senju-cells",
+          "source": "Built Different",
+          "minLevel": 1,
+          "maxFormulaDescription": "2 (4 at L7, 6 at L15)",
+          "maxFormula": { "base": 2 },
+          "replenishOn": "short"
+        }
+      ],
+      "stanceGrants": [
+        { "level": 1, "stanceId": "clan.senju.mokuton-infusion", "source": "Mokuton Infusion" }
+      ],
+      "creatureGrants": []
+    },
+    {
+      "id": "senju-mutation",
+      "name": "Senju (Mutation)",
+      "introQuote": "Some Senju are born outside the Mokuton lineage — without Wood Release, but with the determination and skill to fight on equal ground with any of the Elite.",
+      "introAttribution": "",
+      "subheading": "THE ELITE BLOODLINE",
+      "loreDescription": "The mutation variant of the Senju clan. You lack the Mokuton Kekkei Genkai but compensate with a different Prime Nature Release and the grit, skill, and tricks of an Elite shinobi. You must take the Prime Nature Release trait swap and any one feature mutation at each level a mutation exists.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Constitution, +1 Strength",
+        "speed": "30 feet",
+        "skillProficiencies": [
+          "Chakra Control",
+          "Ninshou"
+        ],
+        "extraLanguages": [],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Prime Nature Release (Mutated Trait — replaces Wood Release Affinity + Mokuton Release Techniques)",
+            "description": "Select one Nature release between Earth, Wind, Fire, Water, Lightning or Medical. You can add jutsu with the corresponding keyword to your jutsu list. At 1st, 3rd, 7th, 11th and 15th levels, you can add 2 jutsu you qualify for with the chosen keyword. (Suggestion: Water Release)"
+          },
+          {
+            "name": "Hijutsu Flexibility",
+            "description": "Senju Clan Hijutsu can use either Constitution or Intelligence as its casting ability score."
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "senju-mutation.l1.built-different",
+          "name": "Built Different",
+          "level": 1,
+          "description": "(Identical to base Senju) Increase HP by 2; +2 HP per level. Senju Cells start at 2 (4 at 7th, 6 at 15th). Once per turn at start of turn, spend 1 Senju Cell — roll 1d6 + half level (min 1), regain HP. At 7th, also end a Physical or Elemental condition. At 15th, if at 0 HP at turn start, spend Senju Cells to spend Hit Dice.",
+          "source": "Senju Mutation",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "senju-mutation.l1.history-of-the-elite",
+          "name": "History of the Elite (Mutated Feature — replaces Mokuton Infusion)",
+          "level": 1,
+          "description": "You become a shinobi capable of fighting with an Uchiha with nothing more than grit, skill and a bit of clever tricks. You gain access to a selection of Elite Tactics — select two at L1, gain another at 7th and 15th levels.",
+          "source": "Senju Mutation",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "senju-mutation.l3.elite-bloodline",
+          "name": "Elite Bloodline (Mutated Feature — replaces Verdant Bloodline)",
+          "level": 3,
+          "description": "You are both strong and wise. You have resistance to Physical and Elemental conditions. Additionally, gain +2 additional Senju Cells. Gain another +2 Senju Cells at 11th level.",
+          "source": "Senju Mutation",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "senju-mutation.l7.strongest-bloodline",
+          "name": "The Strongest Bloodline (Mutated Feature — replaces Wood Release)",
+          "level": 7,
+          "description": "Add your highest jutsu ability modifier to your Jutsu's damage if you don't already. Once per rest, designate a different clan as your Rival Clan — when you encounter a hostile from your Rival Clan you gain +1 to attacks and Jutsu Save DC against these creatures.",
+          "source": "Senju Mutation",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "senju-mutation.l11.blood-of-the-leaf",
+          "name": "Blood of the Leaf",
+          "level": 11,
+          "description": "(Identical to base Senju) When in communication with a non-allied creature making a request of you, attempting to intimidate them in response gains 2 ranks of Mastery to the check.",
+          "source": "Senju Mutation",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "senju-mutation.l15.quickened-regeneration",
+          "name": "Quickened Regeneration (Mutated Feature — replaces Verdant Domain)",
+          "level": 15,
+          "description": "Once per turn while in combat, when you take damage from a hostile creature that wouldn't reduce you to 0 HP, regain HP equal to half your level. Additionally, conditions with the [Persist] tag now end after 1 minute.",
+          "source": "Senju Mutation",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        }
+      ],
+      "pickable": {
+        "pluralLabel": "Elite Tactics",
+        "singularLabel": "Elite Tactic",
+        "editorDescription": "Choose an Elite Tactic (Senju Mutation).",
+        "pickerDescription": "Gain 2 at character creation; +1 at 7th and 15th levels.",
+        "options": [
+          {
+            "id": "senju-mutation.tactic.unbreakable",
+            "owningClanId": "senju-mutation",
+            "name": "Unbreakable",
+            "description": "Select an ability score. You gain a Rank of Mastery to saving throws with the chosen save. Can be selected a second time, repeating the effect."
+          },
+          {
+            "id": "senju-mutation.tactic.energizing",
+            "owningClanId": "senju-mutation",
+            "name": "Energizing",
+            "description": "Once per turn, as a Bonus Action, passively activate a willing creature's healing — they roll 1 hit die without spending it, regaining HP equal to result + their Con mod (2 dice at 7th, 3 at 15th). Or, as a Bonus Action, attempt the check associated with a Physical or Elemental condition (DC 12 Con if none); each +2 over DC removes +1 rank. Each option twice per rest."
+          },
+          {
+            "id": "senju-mutation.tactic.unfaltering",
+            "owningClanId": "senju-mutation",
+            "name": "Unfaltering",
+            "description": "Select two conditions from: Burned, Chilled, Corroded, Shocked, Envenomed, Bruised, Staggered, Bleed, Dazed, Shaken, Weakened, Concussed, Exhausted. Gain resistance to the chosen conditions. Can be selected a second time."
+          },
+          {
+            "id": "senju-mutation.tactic.rallying-figure",
+            "owningClanId": "senju-mutation",
+            "name": "Rallying Figure",
+            "description": "When you or an ally fails a save, spend your reaction to force them to remake it. If they succeed, regain 1 Senju Cell."
+          },
+          {
+            "id": "senju-mutation.tactic.legacy-of-the-second",
+            "owningClanId": "senju-mutation",
+            "name": "Legacy of the Second",
+            "description": "You can learn jutsu with the Water keyword. Water-keyword jutsu you cast that inflicts a condition can instead inflict an equal number of ranks of Drained."
+          },
+          {
+            "id": "senju-mutation.tactic.legacy-of-the-fifth",
+            "owningClanId": "senju-mutation",
+            "name": "Legacy of the Fifth",
+            "description": "You can learn jutsu with the Medical keyword. Medical-keyword jutsu you cast that inflicts a condition can instead inflict an equal number of ranks of Drained."
+          }
+        ],
+        "sourceFeatureId": "senju-mutation.l1.history-of-the-elite",
+        "pickGrants": [
+          { "level": 1, "picks": 2 },
+          { "level": 7, "picks": 1 },
+          { "level": 15, "picks": 1 }
+        ]
+      },
+      "additionalPickables": [],
+      "natureReleaseGrants": [
+        {
+          "level": 1,
+          "picks": 1,
+          "autoReleases": [],
+          "fromReleases": [
+            "Earth",
+            "Wind",
+            "Fire",
+            "Water",
+            "Lightning",
+            "Medical"
+          ],
+          "source": "Prime Nature Release",
+          "description": "Pick one Nature release. (Suggestion: Water Release)"
+        }
+      ],
+      "resources": [
+        {
+          "name": "Senju Cells",
+          "autoKey": "clan:senju-mutation:senju-cells",
+          "source": "Built Different",
+          "minLevel": 1,
+          "maxFormulaDescription": "2 (4 at L7, 6 at L15)",
+          "maxFormula": { "base": 2 },
+          "replenishOn": "short"
+        }
+      ],
+      "stanceGrants": [],
+      "creatureGrants": []
+    },
+    {
+      "id": "uchiha",
+      "name": "Uchiha",
+      "introQuote": "Vale sits holding her fallen ally in her arms. … Her eyes are red with additional tomoe in them. The rogue shinobi attack her but misses; she moves like she was a phantom, a ghost. She sees all of their movements before they even make them and will get vengeance for her fallen allies. She feels her weakness being the sole reason for their defeat and she will rectify it, if it's the last thing she does.",
+      "introAttribution": "— Tatsunami Aburame, The Long Road, Ch. 15 excerpt.",
+      "subheading": "THE CURSE OF HATRED",
+      "loreDescription": "The Uchiha clan is one of the four noble clans of Konohagakure, reputed to be one of the village's strongest because of their Sharingan and natural battle prowess. After helping found Konoha decades ago, the Uchiha grew increasingly isolated from the village's affairs, culminating in most of their deaths during the Uchiha clan downfall. After the 4th great ninja war, they began to find footing and regrow.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Dexterity or Intelligence, +1 Wisdom",
+        "speed": "30 feet",
+        "skillProficiencies": [
+          "Insight"
+        ],
+        "extraLanguages": [],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Skill Proficiency (Pick 1)",
+            "description": "Pick one between: Ninshou, Martial Arts, Illusions."
+          },
+          {
+            "name": "Fire Release Affinity",
+            "description": "You have Fire Release affinity."
+          },
+          {
+            "name": "Uchiha Techniques",
+            "description": "The Uchiha Clan has access to a separate list of jutsu unique to their clan. You can add these Jutsu to your jutsu list instead of selecting jutsu from the normal jutsu list(s)."
+          },
+          {
+            "name": "Hijutsu Flexibility",
+            "description": "Uchiha Clan Hijutsu can use either Intelligence or Wisdom as its casting ability score."
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "uchiha.l1.advanced-adaptation",
+          "name": "Advanced Adaptation",
+          "level": 1,
+          "description": "Uchiha are known for extreme adaptation on the battlefield. Select 2 Adaptations at L1; another at 7th and 15th levels.",
+          "source": "Uchiha",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "uchiha.l3.sharingan",
+          "name": "Sharingan",
+          "level": 3,
+          "description": "[Dojutsu] One of the Hidden Leaf's 2 great dojutsu. When you enter initiative, activate your Sharingan (lasts until end of combat), or activate as a Bonus Action for 1 minute. Sharingan grants the Sharingan Reflex Amp passively (Chakra Sight 30 ft / 60 ft at 11th; rank of Mastery on See Through Lies / Sense Motive / Search, usable as Bonus Action; Eye of Insight +4 to Read the Enemy).\n\nOcular Charges = 1 + proficiency bonus (regain on rest). You gain 1 Ocular Evolution at L3; additional at 7th, 11th and 15th levels.",
+          "source": "Uchiha",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "uchiha.l7.blood-of-the-fan",
+          "name": "Blood of the Fan",
+          "level": 7,
+          "description": "Uchiha are well known for stern, cool, commanding presences. When a non-allied creature attempts to make an Intimidation or Persuasion check against another creature while you are present, spend a reaction to impose disadvantage on their check. 10-minute recharge (or recharges on successful Intimidation check).",
+          "source": "Uchiha",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "reaction",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "uchiha.l11.fanning-the-flame",
+          "name": "Fanning the Flame",
+          "level": 11,
+          "description": "When you activate your Sharingan, select 2 abilities (Blazing Set Up, After-Image Assault, Ricochet Technique, Critical Refocus, Commanding Gaze) — gain them for the duration of combat. Each is once-per-turn; cannot use more than one per trigger.",
+          "source": "Uchiha",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "uchiha.l15.crimson-sovereign",
+          "name": "Crimson Sovereign",
+          "level": 15,
+          "description": "Even without the Sharingan, you foresee victory. As a Bonus Action, initiate your Crimson Aura — 20-ft radius, 1 minute (once per long rest). Benefits: Exploit Opening (creatures attacking in your aura trigger free AoO from you, first per round doesn't consume reaction); Scan the Perimeter (creatures in radius reveal a stat — AC / one save bonus / one unique ability); Redirection (force one hostile in aura to interpose another's attack on you via Str/Dex save).",
+          "source": "Uchiha",
+          "kind": "amp",
+          "ampType": "Battle",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        }
+      ],
+      "pickable": {
+        "pluralLabel": "Adaptations",
+        "singularLabel": "Adaptation",
+        "editorDescription": "Choose an Uchiha Adaptation.",
+        "pickerDescription": "Gain 2 at character creation; +1 at 7th and 15th levels.",
+        "options": [
+          {
+            "id": "uchiha.adaptation.amplified-defense",
+            "owningClanId": "uchiha",
+            "name": "Amplified Defense",
+            "description": "Gain an additional reaction (10-min recharge). At 7th, recharge becomes 2 uses per 10 min. Cannot take multiple reactions against the same trigger."
+          },
+          {
+            "id": "uchiha.adaptation.amplified-flames",
+            "owningClanId": "uchiha",
+            "name": "Amplified Flames",
+            "description": "Once per turn, when you cast a Fire Release jutsu that affects an area, increase the size by +5 ft (+10 at 7th, +15 at 15th)."
+          },
+          {
+            "id": "uchiha.adaptation.amplified-retaliation",
+            "owningClanId": "uchiha",
+            "name": "Amplified Retaliation",
+            "description": "Once per turn, when a hostile within 15 ft attacks you or an ally, spend your reaction to move up to half your movement (ending in your weapon range) and make an AoO. On hit, target makes a Dex or Wis save vs your highest save DC, becoming Off-Guard until end of your next turn on failure."
+          },
+          {
+            "id": "uchiha.adaptation.agile-fist",
+            "owningClanId": "uchiha",
+            "name": "Agile Fist",
+            "description": "Gain access to the Agile Fist stance (Taijutsu + Bukijutsu simultaneously). Use Hijutsu Flexibility for Unarmed/Weapon attacks; Great Assault action available."
+          },
+          {
+            "id": "uchiha.adaptation.shurikenjutsu",
+            "owningClanId": "uchiha",
+            "name": "Shurikenjutsu",
+            "description": "Once per turn, when casting a jutsu using a weapon with the Ammunition property, don't roll ammunition dice. Once per turn, when dealing [Weapon Damage] with a Thrown or Ammunition weapon, force a Dex or Wis save vs your highest save DC, becoming Off-Guard until end of next turn on failure."
+          }
+        ],
+        "sourceFeatureId": "uchiha.l1.advanced-adaptation",
+        "pickGrants": [
+          { "level": 1, "picks": 2 },
+          { "level": 7, "picks": 1 },
+          { "level": 15, "picks": 1 }
+        ]
+      },
+      "additionalPickables": [
+        {
+          "pluralLabel": "Ocular Evolutions",
+          "singularLabel": "Ocular Evolution",
+          "editorDescription": "Choose a Sharingan Ocular Evolution.",
+          "pickerDescription": "Gain 1 at L3; additional at 7th, 11th, 15th levels.",
+          "options": [
+            {
+              "id": "uchiha.ocular.sharingan-dodge",
+              "owningClanId": "uchiha",
+              "name": "Sharingan Dodge",
+              "description": "Once per turn, while not grappled or prone, when you take damage from an attack or make a Dex / Con save, spend 2 Ocular Charges to gain a rank of Mastery to AC or save until next turn (2 ranks at 7th; or spend 3 charges at 15th to auto-miss/auto-succeed)."
+            },
+            {
+              "id": "uchiha.ocular.rewrite-history",
+              "owningClanId": "uchiha",
+              "name": "Rewrite History",
+              "description": "As a reaction to an ally failing a save, spend 1 Ocular Charge to reroll. If they still fail, spend 2 more to remake; if still failing, spend +1 more."
+            },
+            {
+              "id": "uchiha.ocular.hypnotic-eye",
+              "owningClanId": "uchiha",
+              "name": "Hypnotic Eye",
+              "description": "Bonus Action + 1 Ocular Charge — target a non-blind creature within 30 ft. Wis save vs highest jutsu save DC. On failure: Berserk, Charmed, or Confused for 1 minute. Save at end of each turn ends. Successful save grants 10-min immunity."
+            },
+            {
+              "id": "uchiha.ocular.ocular-jutsu-augmentation",
+              "owningClanId": "uchiha",
+              "name": "Ocular Jutsu Augmentation",
+              "description": "Spend 2 Ocular Charges as part of casting a jutsu — upcast by 1 rank at no additional chakra cost."
+            },
+            {
+              "id": "uchiha.ocular.sharingan-copy",
+              "owningClanId": "uchiha",
+              "name": "Sharingan Copy",
+              "description": "Reaction — when a creature casts a non-Hijutsu jutsu with HS or M components, spend 3 Ocular Charges to imprint it. Max rank = highest you know based on level. Mismatched-affinity imprints cost +X chakra per rank. Cannot cast imprints without active Sharingan. Imprint list holds 2 (4 at 7th, 6 at 15th)."
+            },
+            {
+              "id": "uchiha.ocular.sharingan-genjutsu",
+              "owningClanId": "uchiha",
+              "name": "Sharingan: Genjutsu!",
+              "description": "When gained and on each rest, select 2 Genjutsu you qualify for (rank you can cast, 1 Action / Bonus Action casting time) — they become Memorized Illusions. Can imprint same one twice (separate slots). Spent on cast; recharge on short/long rest. As Action, spend 2 Ocular Charges to cast an imprinted jutsu — range becomes 30 ft + must maintain eye contact; doesn't reveal location / break stealth. +1 slot at 7th and 11th."
+            },
+            {
+              "id": "uchiha.ocular.genjutsu-counter",
+              "owningClanId": "uchiha",
+              "name": "Genjutsu Counter",
+              "description": "Sharingan grants awareness of Genjutsu. Genjutsu whose DC ≤ your passive Illusion or Genjutsu Save DC (higher) become detectable; you sense their misty haze. Bonus Action — Identify Genjutsu skill action on aware Genjutsu. Action (1 charge) or Bonus Action (2 charges) — ability check using highest jutsu ability mod vs the Genjutsu's DC to dispel; if aware, use Illusions in place."
+            }
+          ],
+          "sourceFeatureId": "uchiha.l3.sharingan",
+          "pickGrants": [
+            { "level": 3, "picks": 1 },
+            { "level": 7, "picks": 1 },
+            { "level": 11, "picks": 1 },
+            { "level": 15, "picks": 1 }
+          ]
+        }
+      ],
+      "natureReleaseGrants": [
+        {
+          "level": 1,
+          "picks": 0,
+          "autoReleases": [
+            "Fire"
+          ],
+          "fromReleases": [],
+          "source": "Fire Release Affinity",
+          "description": "You have Fire Release affinity."
+        }
+      ],
+      "resources": [
+        {
+          "name": "Ocular Charges",
+          "autoKey": "clan:uchiha:ocular-charges",
+          "source": "Sharingan",
+          "minLevel": 3,
+          "maxFormulaDescription": "1 + Proficiency Bonus",
+          "maxFormula": { "base": 1, "perProf": 1 },
+          "replenishOn": "short"
+        }
+      ],
+      "stanceGrants": [],
+      "creatureGrants": []
+    },
+    {
+      "id": "uchiha-mutation",
+      "name": "Uchiha (Mutation)",
+      "introQuote": "Not every Uchiha awakens the Sharingan. Some train until their technique and skill rival — even surpass — those who did.",
+      "introAttribution": "",
+      "subheading": "DIVERGENT TECHNIQUES",
+      "loreDescription": "The mutation variant of the Uchiha clan. You fail to manifest the Sharingan dojutsu but compensate with mastery of two secret battle stances — Flaming Spark (chakra) and Blazing Fan (bukijutsu) — and access to the clan's signature Gunbai Fan.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Dexterity or Intelligence, +1 Wisdom",
+        "speed": "30 feet",
+        "skillProficiencies": [
+          "Insight"
+        ],
+        "extraLanguages": [],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Skill Proficiency (Pick 1)",
+            "description": "Pick one between: Ninshou, Martial Arts, Illusions."
+          },
+          {
+            "name": "Fire Release Affinity",
+            "description": "You have Fire Release affinity."
+          },
+          {
+            "name": "Uchiha Techniques",
+            "description": "The Uchiha Clan has access to a separate list of jutsu unique to their clan. You can add these Jutsu to your jutsu list instead of selecting jutsu from the normal jutsu list(s)."
+          },
+          {
+            "name": "Hijutsu Flexibility",
+            "description": "Uchiha Clan Hijutsu can use either Intelligence or Wisdom as its casting ability score."
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "uchiha-mutation.l1.advanced-adaptation",
+          "name": "Advanced Adaptation",
+          "level": 1,
+          "description": "(Identical to base Uchiha) Pick 2 Adaptations at L1; +1 at 7th and 15th.",
+          "source": "Uchiha Mutation",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "uchiha-mutation.l3.divergent-techniques",
+          "name": "Divergent Techniques (Mutated Trait — replaces Sharingan)",
+          "level": 3,
+          "description": "You fail to manifest the Sharingan but, having anticipated it, trained until your technique and skill rivaled Uchiha with the Sharingan. You master two secret battle stances: Flaming Spark (Chakra) and Blazing Fan (Bukijutsu). You can benefit from both at the same time. If you have the Agile Fist adaptation, you can benefit from it AND either Flaming Spark or Blazing Fan, but never all three. As part of gaining this mutation, you also gain access to the Uchiha-designed Gunbai Fan weapon.",
+          "source": "Uchiha Mutation",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "uchiha-mutation.l7.blood-of-the-fan",
+          "name": "Blood of the Fan",
+          "level": 7,
+          "description": "(Identical to base Uchiha) Reaction to impose disadvantage on a non-allied creature's Intimidation/Persuasion check against another. 10-min recharge or recharges on successful Intimidation.",
+          "source": "Uchiha Mutation",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "reaction",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "uchiha-mutation.l11.heightened-battle-sense",
+          "name": "Heightened Battle Sense (Mutated Feature — replaces Fanning the Flame)",
+          "level": 11,
+          "description": "Your reliance on technique and prowess puts you above other Uchiha on the same level. While in a combat stance granted by your clan, gain a rank of Mastery to AC and Dex saves. Additionally, gain 2 special attacks tied to the Divergent Techniques mutation stances:\n\nFlame Bloom (Flaming Spark). Select a point within 60 ft; release a 20-ft radius sphere of crimson flame. Affected creatures make a Dex or Con save, taking 6d6+6 fire damage, becoming Off-Guard until next turn, and 1 rank of Burned on failure (half damage on success).\n\nUchiha Swipe (Blazing Fan). Slam your fan, creating a 5-ft wide 60-ft line. Creatures make a Str or Dex save (your choice) vs your highest jutsu save DC, taking 3× [Weapon Damage], pushed 40 ft, prone on failure (half damage, 5 ft push on success).",
+          "source": "Uchiha Mutation",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "action",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "uchiha-mutation.l15.crimson-sovereign",
+          "name": "Crimson Sovereign",
+          "level": 15,
+          "description": "(Identical to base Uchiha) Bonus Action — 20-ft Crimson Aura for 1 minute, once per long rest. Exploit Opening, Scan the Perimeter, Redirection.",
+          "source": "Uchiha Mutation",
+          "kind": "amp",
+          "ampType": "Battle",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        }
+      ],
+      "pickable": {
+        "pluralLabel": "Adaptations",
+        "singularLabel": "Adaptation",
+        "editorDescription": "Choose an Uchiha Adaptation.",
+        "pickerDescription": "Gain 2 at character creation; +1 at 7th and 15th levels.",
+        "options": [
+          {
+            "id": "uchiha-mutation.adaptation.amplified-defense",
+            "owningClanId": "uchiha-mutation",
+            "name": "Amplified Defense",
+            "description": "Gain an additional reaction (10-min recharge; 2 uses per 10 min at 7th)."
+          },
+          {
+            "id": "uchiha-mutation.adaptation.amplified-flames",
+            "owningClanId": "uchiha-mutation",
+            "name": "Amplified Flames",
+            "description": "Once per turn, when casting a Fire Release area jutsu, increase size by +5 ft (+10 at 7th, +15 at 15th)."
+          },
+          {
+            "id": "uchiha-mutation.adaptation.amplified-retaliation",
+            "owningClanId": "uchiha-mutation",
+            "name": "Amplified Retaliation",
+            "description": "Reaction — move half movement to make an AoO. On hit, Dex/Wis save vs Off-Guard until next turn."
+          },
+          {
+            "id": "uchiha-mutation.adaptation.agile-fist",
+            "owningClanId": "uchiha-mutation",
+            "name": "Agile Fist",
+            "description": "Gain access to the Agile Fist stance. Stacks with one of Flaming Spark / Blazing Fan but not both."
+          },
+          {
+            "id": "uchiha-mutation.adaptation.shurikenjutsu",
+            "owningClanId": "uchiha-mutation",
+            "name": "Shurikenjutsu",
+            "description": "Once per turn, don't roll Ammunition dice for jutsu using an Ammunition weapon. Once per turn, force Dex/Wis save vs Off-Guard with Thrown/Ammunition [Weapon Damage]."
+          }
+        ],
+        "sourceFeatureId": "uchiha-mutation.l1.advanced-adaptation",
+        "pickGrants": [
+          { "level": 1, "picks": 2 },
+          { "level": 7, "picks": 1 },
+          { "level": 15, "picks": 1 }
+        ]
+      },
+      "additionalPickables": [],
+      "natureReleaseGrants": [
+        {
+          "level": 1,
+          "picks": 0,
+          "autoReleases": [
+            "Fire"
+          ],
+          "fromReleases": [],
+          "source": "Fire Release Affinity",
+          "description": "You have Fire Release affinity."
+        }
+      ],
+      "resources": [],
+      "stanceGrants": [
+        { "level": 3, "stanceId": "clan.uchiha.flaming-spark", "source": "Divergent Techniques" },
+        { "level": 3, "stanceId": "clan.uchiha.blazing-fan", "source": "Divergent Techniques" }
+      ],
+      "creatureGrants": []
+    },
+    {
+      "id": "uzumaki",
+      "name": "Uzumaki",
+      "introQuote": "Ketsuki stands in the middle of the arena, his rival standing opposite to him. … “I don't back down! You of all people should know that by now!” he screams as he finishes his hand seals and creates a wave of Fire from the ground as it rolls towards his rival, overcoming him and defeating him as the crowds from the chunin arena scream in excitement.",
+      "introAttribution": "— Tatsunami Aburame, The Long Road, Ch. 6 excerpt.",
+      "subheading": "NEVER BACKING DOWN",
+      "loreDescription": "The Uzumaki Clan was formerly a prominent clan in the whirlpool country. Since its destruction, most of its members have resided in Konoha. Despite its past demise, over 100 years after the Fourth Shinobi World War the clan is once again active and prominent in the land of Fire. Uzumaki's skill with Fuinjutsu earned them both respect and fear throughout the ninja world. Uzumaki naturally possess incredibly strong life-forces — long lifespans and slow aging.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Constitution, +1 Charisma",
+        "speed": "30 feet",
+        "skillProficiencies": [
+          "Chakra Control",
+          "Ninshou"
+        ],
+        "extraLanguages": [],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Uzumaki Sealing Techniques",
+            "description": "The Uzumaki have access to a separate list of Jutsu unique to their clan. You can add these jutsu to your jutsu list instead of selecting jutsu from the normal jutsu list."
+          },
+          {
+            "name": "Hijutsu Flexibility",
+            "description": "Uzumaki Clan Hijutsu can use either Constitution or Intelligence as its casting ability score."
+          },
+          {
+            "name": "Overwhelming Determination",
+            "description": "Jutsu you create using the Creating a Jutsu rules increases the maximum number of effects they can have by +1."
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "uzumaki.l1.wellspring-of-chakra",
+          "name": "Wellspring of Chakra",
+          "level": 1,
+          "description": "Uzumaki are known for unmatched stamina and chakra reserves. Increase your Chakra Point total by 2; +2 per level. Spiral Cells start at 2 (4 at 7th, 6 at 15th).\n\nOnce per turn at start of turn, while not incapacitated or having ranks of Sealed, spend 1 Spiral Cell — gain 4 Temporary Chakra points (6 at 11th).\n\nAt 7th, when you take chakra damage or gain ranks of a Mental/Sensory condition, spend 1 Spiral Cell to reduce damage by your level or condition ranks to 0.",
+          "source": "Uzumaki",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "uzumaki.l1.binding-chains",
+          "name": "Binding Chains",
+          "level": 1,
+          "description": "Manifest your Chains of Binding for 1 minute by entering the Binding Chain chakra stance as a Bonus Action. Stacks with one Taijutsu or Bukijutsu stance.\n\nWhile in the stance: gain Seal Break benefit on Uzumaki Hijutsu; replace Attack-action attacks with Binding Chain or Striking Chain attacks (uses highest jutsu attack bonus).",
+          "source": "Uzumaki",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "uzumaki.l3.swirling-seals",
+          "name": "Swirling Seals",
+          "level": 3,
+          "description": "You learn special sealing formulas placed onto Spiral Tags. Spiral Tags can apply to damage dealt with Binding Chain, as part of casting an Uzumaki Hijutsu, or following its effect text. Max one Spiral Tag per turn. Begin with 2 known; +1 at 7th and 11th.\n\nA Spiral Tag requiring a save uses your highest jutsu save DC. If applied to a Hijutsu that already forces a save, pick which save — both effects apply on success or failure.",
+          "source": "Uzumaki",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "uzumaki.l7.gut-feeling",
+          "name": "Gut Feeling",
+          "level": 7,
+          "description": "While conscious, you cannot be surprised by hidden creatures. If allies are surprised, you gain a rank of Mastery to initiative per surprised ally. Deception checks against you treat your passive Insight as +5 higher. You can use Constitution or Charisma for See Through Lies; if you beat the contested check by 5 or more, gain a Will of Fire (once per long rest).",
+          "source": "Uzumaki",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "uzumaki.l11.warding-network",
+          "name": "Warding Network",
+          "level": 11,
+          "description": "Sketch binding seals in the air, creating ninjutsu-like effects without hand signs. Once per turn, as a Bonus Action or as part of casting a Fuinjutsu jutsu, manifest a Spiral Ward at a point within 60 ft. Maintain up to 2 wards; creature only benefits from one ward at a time. Counts as concentrating on a B-Rank Ninjutsu regardless of count.\n\nWard types (10-ft radius): Aegis (allies rank of Mastery to AC), Clarity (allies rank of Mastery to first save per round), Anchor (hostiles teleporting within 1 mile of anchor make Cha save vs jutsu save DC; on failure, teleport into the aura).",
+          "source": "Uzumaki",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "uzumaki.l15.spiraling-chains",
+          "name": "Spiraling Chains",
+          "level": 15,
+          "description": "As a Bonus Action, place a binding seal on yourself and the ground within reach — 120-ft radius aura for 1 minute. Binding chains lace the perimeter. For the duration: attacks with Binding Chain or Fuinjutsu-keyword jutsu can target any creature in the radius even if you cannot see them, as long as you are aware of them, even behind full cover. Once per long rest.",
+          "source": "Uzumaki",
+          "kind": "amp",
+          "ampType": "Battle",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        }
+      ],
+      "pickable": {
+        "pluralLabel": "Spiral Tags",
+        "singularLabel": "Spiral Tag",
+        "editorDescription": "Choose a Spiral Tag (Uzumaki sealing formula).",
+        "pickerDescription": "Gain 2 at 3rd level; +1 at 7th and 11th.",
+        "options": [
+          {
+            "id": "uzumaki.tag.bound-inscription",
+            "owningClanId": "uzumaki",
+            "name": "Bound Inscription",
+            "description": "As part of damage dealt or a creature failing a save, affix a Spiral Tag to them for 1 minute. Bonus Action — affix to a willing creature, object or surface for 24 hours. While affixed and within 1 mile, sense / hear / target creatures within 15 ft of the tag's location. Binding Chain or Uzumaki Hijutsu can originate from the tag."
+          },
+          {
+            "id": "uzumaki.tag.barrier-reverse",
+            "owningClanId": "uzumaki",
+            "name": "Barrier Reverse Technique",
+            "description": "As part of damage with Binding Chain to a Sealed creature, force a Cha save. On failure, for 1 minute the Sealed creature suffers -1 AC per rank of Sealed but loses 1 rank at end of each turn."
+          },
+          {
+            "id": "uzumaki.tag.sealing-cage",
+            "owningClanId": "uzumaki",
+            "name": "Sealing Cage",
+            "description": "Action — select one creature; Cha save. On failure, enveloped in a binding globe until end of next turn — total cover, blinded, cannot be targeted, cannot mold chakra. Full-Turn Action extends to end of following turn. Trapped creature can spend Action + Str save to escape."
+          },
+          {
+            "id": "uzumaki.tag.draining-seals",
+            "owningClanId": "uzumaki",
+            "name": "Draining Seals",
+            "description": "As part of Binding Chain damage or Uzumaki Hijutsu damage, force Cha save — 1 rank of Weakened on failure (2 ranks at 11th)."
+          },
+          {
+            "id": "uzumaki.tag.warding-seal",
+            "owningClanId": "uzumaki",
+            "name": "Warding Seal",
+            "description": "Bonus Action — mark a willing creature other than yourself within 30 ft. Marked creature gains rank of Mastery to AC and +1 to saves. Counts as concentrating on a C-Rank jutsu."
+          },
+          {
+            "id": "uzumaki.tag.rebuking-seal",
+            "owningClanId": "uzumaki",
+            "name": "Rebuking Seal",
+            "description": "As part of Binding Chain damage or Uzumaki Hijutsu damage, force Cha save — 1 rank of Concussed on failure (2 ranks at 11th)."
+          }
+        ],
+        "sourceFeatureId": "uzumaki.l3.swirling-seals",
+        "pickGrants": [
+          { "level": 3, "picks": 2 },
+          { "level": 7, "picks": 1 },
+          { "level": 11, "picks": 1 }
+        ]
+      },
+      "additionalPickables": [],
+      "natureReleaseGrants": [],
+      "resources": [
+        {
+          "name": "Spiral Cells",
+          "autoKey": "clan:uzumaki:spiral-cells",
+          "source": "Wellspring of Chakra",
+          "minLevel": 1,
+          "maxFormulaDescription": "2 (4 at L7, 6 at L15)",
+          "maxFormula": { "base": 2 },
+          "replenishOn": "short"
+        }
+      ],
+      "stanceGrants": [
+        { "level": 1, "stanceId": "clan.uzumaki.binding-chains", "source": "Binding Chains" }
+      ],
+      "creatureGrants": []
+    },
+    {
+      "id": "uzumaki-mutation",
+      "name": "Uzumaki (Mutation)",
+      "introQuote": "Lacking the distinct Fuinjutsu mastery of the once famous Uzumaki Clan, you instead manifest an oppressive, dominant willpower — pushing through and persevering through any situation.",
+      "introAttribution": "",
+      "subheading": "ORIGINAL TECHNIQUE",
+      "loreDescription": "The mutation variant of the Uzumaki clan. You lack the Fuinjutsu mastery of the canonical Uzumaki but compensate with unyielding determination and willpower. You take Original Technique as your trait swap (one custom Original Jutsu) and pick one mutation feature at each level a mutation exists — Spiral Power (replaces Binding Chains at L1), Fundamental Technique OR Stubborn (replaces Swirling Seals at L3), Tenacious OR Unbreakable Will (replaces Warding Network at L11), Chakra Resilience OR Dattebayo (replaces Spiraling Chains at L15).",
+      "traits": {
+        "recommendedAbilityScores": "+2 Constitution, +1 Charisma",
+        "speed": "30 feet",
+        "skillProficiencies": [
+          "Chakra Control",
+          "Ninshou"
+        ],
+        "extraLanguages": [],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Original Technique (Mutated Trait — replaces Uzumaki Sealing Techniques)",
+            "description": "At character creation, select one jutsu of B-Rank or lower you qualify for as your Original Technique. Its cost is set as Special (D 5, C 9, B 14, A 20, S 25). Its base rank is Special (highest you can cast based on level), and can only be cast at base rank. Damage dice reduced by an amount equal to its rank (return half rounded down per rank as it grows; rank-based penalties: D 0, C -2, B -4). It gains the Hijutsu keyword. Select 2 effects from the Jutsu Creation System matching its discipline (+1 at 7th and 15th; cannot pick same effect twice; restricted from Lasting / Upcast / Damage / Empowered Damage / Multiple Strikes / Damage Reduction / Augmentation / Unavoidable / Mind Control)."
+          },
+          {
+            "name": "Hijutsu Flexibility",
+            "description": "Uzumaki Clan Hijutsu can use either Constitution or Intelligence as its casting ability score."
+          },
+          {
+            "name": "Overwhelming Determination",
+            "description": "Jutsu you create using the Creating a Jutsu rules increases the maximum number of effects they can have by +1."
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "uzumaki-mutation.l1.wellspring-of-chakra",
+          "name": "Wellspring of Chakra",
+          "level": 1,
+          "description": "(Identical to base Uzumaki) +2 CP/level. Spiral Cells = 2 (4 at 7th, 6 at 15th). Spend 1 Spiral Cell once per turn at start of turn for 4 (6 at 11th) Temp CP. At 7th, also reduce chakra damage or Mental/Sensory condition ranks to 0.",
+          "source": "Uzumaki Mutation",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "uzumaki-mutation.l1.spiral-power",
+          "name": "Spiral Power (Mutated Feature — replaces Binding Chains)",
+          "level": 1,
+          "description": "The Blood of the Uzumaki manifests in you as unyielding determination rather than sealing techniques. Once per turn when casting a Jutsu, select one benefit:\n\nFull Power — if the jutsu inflicts ranks of a condition, spend 1 Spiral Cell to inflict +1 additional rank.\n\nControlled Power — if the jutsu requires concentration, treat it as two different concurrent jutsu (you can apply at-cast bonuses to each damage/resave instance).\n\nEnergizing Power — once per turn, if a creature fails a save vs a jutsu you cast by 5 or more, regain 1 Spiral Cell.\n\nAt 7th — apply two effects. At 15th — apply all listed effects.",
+          "source": "Uzumaki Mutation",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "uzumaki-mutation.l3.fundamental-technique",
+          "name": "Fundamental Technique (Mutated Feature — replaces Swirling Seals — Path A)",
+          "level": 3,
+          "description": "Select one jutsu you know that is not your Original Technique (or a Hijutsu you know if no Original Technique). It becomes your Fundamental Technique. Each time you cast it, select one benefit (+1 jutsu at 7th and 15th):\n\nFundamental Upcast — upcast 2 ranks instead of 1, ignoring rank limits; cost increase treated as upcasting by 1.\n\nFundamental Stability — if concentration required, gains Stable keyword.\n\nFundamental Efficiency — if concentration required, gains Efficient keyword.\n\nFundamental Ability — gains Hijutsu keyword.",
+          "source": "Uzumaki Mutation",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "uzumaki-mutation.l3.stubborn",
+          "name": "Stubborn (Mutated Feature — replaces Swirling Seals — Path B)",
+          "level": 3,
+          "description": "Gain 2 additional Spiral Cells (4 at 11th). Once per turn:\n  • When making a save or check to end a condition, spend 1 Spiral Cell to gain a rank of Mastery.\n  • When taking damage, spend your reaction and 1 Spiral Cell to gain DR equal to your level vs the triggering creature until next turn.",
+          "source": "Uzumaki Mutation",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "reaction",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "uzumaki-mutation.l7.gut-feeling",
+          "name": "Gut Feeling",
+          "level": 7,
+          "description": "(Identical to base Uzumaki) Can't be surprised. Rank of Mastery to init per surprised ally. Insight passive +5 vs Deception. See Through Lies with Con or Cha; beat by 5+ → gain Will of Fire (1/long rest).",
+          "source": "Uzumaki Mutation",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "uzumaki-mutation.l11.tenacious",
+          "name": "Tenacious (Mutated Feature — replaces Warding Network — Path A)",
+          "level": 11,
+          "description": "Gain resistance to the Sealed and Compelled conditions. Resistance to Chakra damage. Effects that would increase the cost to cast jutsu are halved.",
+          "source": "Uzumaki Mutation",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "uzumaki-mutation.l11.unbreakable-will",
+          "name": "Unbreakable Will (Mutated Feature — replaces Warding Network — Path B)",
+          "level": 11,
+          "description": "When you would fall to 0 HP, spend your reaction or 2 Spiral Cells to instead be reduced to 1. Each use grants 1 rank of Weakened.",
+          "source": "Uzumaki Mutation",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "reaction",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "uzumaki-mutation.l15.chakra-resilience",
+          "name": "Chakra Resilience (Mutated Feature — replaces Spiraling Chains — Path A)",
+          "level": 15,
+          "description": "Gain immunity to the negative effects of losing a Clash. Once per turn, when reduced to 0 HP, spend your reaction to spend a number of Chakra dice, regaining HP equal to the result. If you'd have 1+ HP after damage calc, regain the spent reaction.",
+          "source": "Uzumaki Mutation",
+          "kind": "amp",
+          "ampType": "Battle",
+          "effects": [],
+          "actionEconomy": "reaction",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "uzumaki-mutation.l15.dattebayo",
+          "name": "Dattebayo (Mutated Feature — replaces Spiraling Chains — Path B)",
+          "level": 15,
+          "description": "You never give up. When you roll a natural 20 on any d20 roll while in combat, regain 1 Spiral Cell. When you would fail a d20 roll, spend 2 Spiral Cells to remake it, gaining a rank of Mastery to the new result.",
+          "source": "Uzumaki Mutation",
+          "kind": "amp",
+          "ampType": "Battle",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        }
+      ],
+      "pickable": null,
+      "additionalPickables": [],
+      "natureReleaseGrants": [],
+      "resources": [
+        {
+          "name": "Spiral Cells",
+          "autoKey": "clan:uzumaki-mutation:spiral-cells",
+          "source": "Wellspring of Chakra",
+          "minLevel": 1,
+          "maxFormulaDescription": "2 (4 at L7, 6 at L15)",
+          "maxFormula": { "base": 2 },
+          "replenishOn": "short"
+        }
+      ],
+      "stanceGrants": [],
+      "creatureGrants": []
+    },
+    {
+      "id": "yamanaka",
+      "name": "Yamanaka",
+      "introQuote": "A bandit walks into his group's main tent. … About 400 yards away hidden in the brush of a large tree, Leena begins to wake up looking at her 2 allies and raising a thumb of success. “They took the bait, hook line and sinker.”",
+      "introAttribution": "— Tatsunami Aburame, The Long Road, Ch. 14 excerpt.",
+      "subheading": "IMPOSSIBLE TO PIN DOWN",
+      "loreDescription": "The Yamanaka Clan is a family of shinobi found in Konohagakure. They specialize in mind-related techniques, own and run a flower shop in the village, and traditionally lead the Konoha Barrier Team. Members specialize in intelligence gathering, espionage and interrogation. They have displayed sensory abilities including transferring consciousness, reading minds, and communicating telepathically. The Yamanaka have a special relationship with the Akimichi and Nara — generations of \"Ino–Shika–Cho Trios\".",
+      "traits": {
+        "recommendedAbilityScores": "+2 Wisdom or Intelligence, +1 Charisma",
+        "speed": "30 feet",
+        "skillProficiencies": [
+          "Illusions",
+          "Insight"
+        ],
+        "extraLanguages": [],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Yamanaka Techniques",
+            "description": "The Yamanaka Clan has access to a separate list of jutsu unique to their clan. You can add these Jutsu to your jutsu list instead of selecting jutsu from the normal jutsu list(s)."
+          },
+          {
+            "name": "Hijutsu Flexibility",
+            "description": "Yamanaka Clan Hijutsu can use either Intelligence or Charisma as its casting ability score."
+          },
+          {
+            "name": "Telepathic Comms",
+            "description": "Once per long rest, select 1 + proficiency bonus willing creatures you can reach. Until next long rest, telepathically communicate within 1 mile. Chakra-walled structures sever the link."
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "yamanaka.l1.mind-body-transfer",
+          "name": "Mind Body Transfer",
+          "level": 1,
+          "description": "Enter the Mind Disruption Chakra stance as a Bonus Action. While in the stance, Mind Body Transfer is available:\n\nBeam (Action, or in place of an Attack-action attack) — ranged attack within 60 ft, 1d6 + mod psychic + 1 rank Mental Overwrite (2d6 / 2 ranks at 11th).\n\nPulse (7th) — Charisma save; on failure, 2 ranks Mental Overwrite (3 at 15th). Doesn't reveal hidden.\n\nWave (15th) — radius half the feature's range, all chosen creatures make Cha save, 5d6 psychic + 1 rank Mental Overwrite on failure.\n\nConstructs, inanimate objects, creatures not native to this world, and creatures immune to Compelled or Sealed are immune.",
+          "source": "Yamanaka",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "yamanaka.l3.mental-recalibration",
+          "name": "Mental Recalibration",
+          "level": 3,
+          "description": "When using Mind Body Transfer or a Yamanaka Hijutsu that inflicts Mental Overwrite, infuse one Recalibration. Begin with 2 Recalibrations; +1 at 7th and 15th. Only one Recalibration per trigger. At 11th, you can use 2 Recalibrations per trigger.",
+          "source": "Yamanaka",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "yamanaka.l7.shared-perception",
+          "name": "Shared Perception",
+          "level": 7,
+          "description": "All creatures linked with your Telepathic Comms trait can spend 1 minute focusing on another willing creature linked. The focusing creature perceives through the target's senses, replacing their own. Up to 1 hour before needing a rest to share senses again.",
+          "source": "Yamanaka",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "yamanaka.l11.psionic-network",
+          "name": "Psionic Network",
+          "level": 11,
+          "description": "Gain Psionic Awareness — a unique sense. Perceive the presence and location of sentient thought of complex-thought creatures within 30 ft. Familiar creatures recognized. Always aware of complex-thought creatures in range. Doesn't pinpoint location, only existence + relative distance/direction. Penetrates non-chakra walls up to 1 ft. Spend 1 min focusing → 120 ft; 10 min → 1 mile; 1 hour → 100 miles. Beyond 1 mile requires looking for a familiar creature. Max 1 minute duration; 1+ mile = stationary.",
+          "source": "Yamanaka",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "yamanaka.l15.deep-disruption",
+          "name": "Deep Disruption",
+          "level": 15,
+          "description": "Use Mind Body Transfer as a Bonus Action instead of an Action (if you do, you can't use it as an Action). While Dominating a creature, if they would succeed their save to end Dominated, spend your reaction to reduce Mental Overwrite by 1 and extend the duration by 1 additional round. A creature with 0 ranks of Mental Overwrite automatically ends Dominated.",
+          "source": "Yamanaka",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "reaction",
+          "equippable": false,
+          "actions": []
+        }
+      ],
+      "pickable": {
+        "pluralLabel": "Recalibrations",
+        "singularLabel": "Recalibration",
+        "editorDescription": "Choose a Mental Recalibration.",
+        "pickerDescription": "Gain 2 at 3rd level; +1 at 7th and 15th levels.",
+        "options": [
+          {
+            "id": "yamanaka.recal.un-armored-thoughts",
+            "owningClanId": "yamanaka",
+            "name": "Un-Armored Thoughts",
+            "description": "As part of inflicting Mental Overwrite, target suffers -2 to next save before your next turn, and you can ask one Yes/No/I-don't-know question telepathically — must answer truthfully."
+          },
+          {
+            "id": "yamanaka.recal.mask-of-many-minds",
+            "owningClanId": "yamanaka",
+            "name": "Mask of Many Minds",
+            "description": "As part of Dominating a creature, gain access to memories from the past 48 hours."
+          },
+          {
+            "id": "yamanaka.recal.far-thought",
+            "owningClanId": "yamanaka",
+            "name": "Far Thought",
+            "description": "As part of using Mind Body Transfer, increase range by +30 ft. At 7th, applies to Yamanaka Hijutsu. At 15th, range bonus becomes +60 ft."
+          },
+          {
+            "id": "yamanaka.recal.stolen-might",
+            "owningClanId": "yamanaka",
+            "name": "Stolen Might",
+            "description": "As part of Dominating, gain access to any Taijutsu or Bukijutsu they know. If Dominated ends, retain knowledge of 2 — cast each once, within 1 minute, before forgetting."
+          },
+          {
+            "id": "yamanaka.recal.stolen-technique",
+            "owningClanId": "yamanaka",
+            "name": "Stolen Technique",
+            "description": "As part of Dominating, gain access to any Ninjutsu they know. Retain 2 on end (cast each once, 1 minute)."
+          },
+          {
+            "id": "yamanaka.recal.stolen-dreams",
+            "owningClanId": "yamanaka",
+            "name": "Stolen Dreams",
+            "description": "As part of Dominating, gain access to any Genjutsu they know. Retain 2 on end (cast each once, 1 minute)."
+          },
+          {
+            "id": "yamanaka.recal.efficient-mind",
+            "owningClanId": "yamanaka",
+            "name": "Efficient Mind",
+            "description": "As part of casting a Yamanaka Hijutsu, reduce its cost by an amount equal to its rank (D 1, C 2, B 3, A 4, S 5)."
+          },
+          {
+            "id": "yamanaka.recal.stupefy-coordination",
+            "owningClanId": "yamanaka",
+            "name": "Stupefy — Coordination",
+            "description": "Recalibrate Mental Overwrite: -1 per rank to melee/ranged attack and damage rolls."
+          },
+          {
+            "id": "yamanaka.recal.stupefy-control",
+            "owningClanId": "yamanaka",
+            "name": "Stupefy — Control",
+            "description": "Recalibrate Mental Overwrite: +2 cost per rank for jutsu cast."
+          },
+          {
+            "id": "yamanaka.recal.stupefy-concentration",
+            "owningClanId": "yamanaka",
+            "name": "Stupefy — Concentration",
+            "description": "Recalibrate Mental Overwrite: -1 jutsu concentration slot per 2 ranks."
+          },
+          {
+            "id": "yamanaka.recal.stupefy-migraine",
+            "owningClanId": "yamanaka",
+            "name": "Stupefy — Migraine",
+            "description": "Recalibrate Mental Overwrite: 1d8 psychic damage per rank at start of each turn."
+          }
+        ],
+        "sourceFeatureId": "yamanaka.l3.mental-recalibration",
+        "pickGrants": [
+          { "level": 3, "picks": 2 },
+          { "level": 7, "picks": 1 },
+          { "level": 15, "picks": 1 }
+        ]
+      },
+      "additionalPickables": [],
+      "natureReleaseGrants": [],
+      "resources": [],
+      "stanceGrants": [
+        { "level": 1, "stanceId": "clan.yamanaka.mind-disruption", "source": "Mind Body Transfer" }
+      ],
+      "creatureGrants": []
     }
   ]
 }

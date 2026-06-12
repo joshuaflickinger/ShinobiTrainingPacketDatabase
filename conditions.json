@@ -653,6 +653,83 @@
       ],
       "sourceKind": "clan",
       "source": "Nara"
+    },
+    {
+      "id": "physical.drained",
+      "category": "physical",
+      "name": "Drained",
+      "description": "Mokuton Infusion – Drained. Max Ranks: 5. [Physical], [Mental]\n  • A Drained creature takes 1d8 chakra damage at the start of each of their turns for each rank it has.\n  • A Drained creature increases the chakra damage they take from hostile creatures attacks or jutsu by +2. This increases to +4 at 7th level and +6 at 15th level.\n  • A Drained creature can spend an Action to make a DC 15 Constitution ability check to end this condition.",
+      "maxRank": 5,
+      "tags": [
+        "physical",
+        "mental"
+      ],
+      "sourceKind": "clan",
+      "source": "Senju"
+    },
+    {
+      "id": "physical.off-guard",
+      "category": "physical",
+      "name": "Off-Guard",
+      "description": "Advanced Adaptation – Off-Guard. [Physical], [Mental], [Sensory]\n  • An Off-Guard creature suffers a -2 penalty to their AC.\n  • An Off-Guard creature suffers a -2 penalty to the first Strength or Dexterity saving throw they make per turn.\n  • An Off-Guard creature suffers the effects of the Off-Guard bonus from Uchiha clan Hijutsu.",
+      "tags": [
+        "physical",
+        "mental",
+        "sensory"
+      ],
+      "sourceKind": "clan",
+      "source": "Uchiha"
+    },
+    {
+      "id": "physical.pronged-seal",
+      "category": "physical",
+      "name": "5-Pronged Seal",
+      "description": "5-Pronged Seal. [Physical], [Mental], [Sensory]\nYou have the legendary 5-Pronged Seal etched onto you. For the next hour, this seal binds your power significantly, inflicting the following effects.\n  • Increase the cost of Jutsu by +10.\n  • Reduce the damage you deal by -8.\n  • Reduce the number of Jutsu you can concentrate on by -1.\n  • A creature can spend its action to make a DC 20 Ninshou check to remove this condition. On a failure, the DC increases by +5.\n  • Once you end this condition, you cannot gain it again for 1 Day.",
+      "tags": [
+        "physical",
+        "mental",
+        "sensory"
+      ],
+      "sourceKind": "clan",
+      "source": "Uzumaki"
+    },
+    {
+      "id": "physical.river-dam-seal",
+      "category": "physical",
+      "name": "River Dam Seal",
+      "description": "River Dam Seal. [Physical], [Mental], [Sensory]\nThe ultimate sealing technique. Its power adjusts to the strength of the one bound with it. While a creature has River Dam Seal, the Sealed conditions, effects are suppressed, but they are still present on a creature. A creature can only remove ranks of Sealed one at a time per effect or action that would remove them. While they are afflicted with River Dam Seal, but cannot gain new ranks of Sealed while afflicted with River Dam Seal. A creature with River Dam Seal suffers the following effects based on their Adversary Classification.\n\nApplies to All Afflicted Creatures.\n  • Increase the cost of Jutsu by +20.\n  • Afflicted creature cannot teleport.\n  • Afflicted creature cannot maintain concentration on jutsu.\n  • A creature with 0 ranks of Sealed loses this condition.\n\nApplies to Standards.\n  • Reduce the damage you deal by -8.\n  • Afflicted creature cannot cast jutsu that require Chakra Molding (CM) that are of C-Rank or higher.\n\nApplies to Elites.\n  • Reduce the damage you deal by -10.\n  • You cannot regain Tenacity die.\n  • Afflicted creature cannot cast jutsu that require Chakra Molding (CM) that are of B-Rank or higher.\n\nApplies to Solo's.\n  • Reduce the damage you deal by -12.\n  • Whenever you spend a Tenacity die, you lose 1 Tenacity die.\n  • Afflicted creature cannot cast jutsu that require Chakra Molding (CM) that are of A-Rank or higher.\n\nApplies to Player Characters.\n  • Reduce the damage you deal by -10.\n  • Afflicted creature cannot upcast.\n  • Afflicted creature cannot cast jutsu that require Chakra Molding (CM) that are of their highest rank known.",
+      "tags": [
+        "physical",
+        "mental",
+        "sensory"
+      ],
+      "sourceKind": "clan",
+      "source": "Uzumaki"
+    },
+    {
+      "id": "mental.mental-overwrite",
+      "category": "mental",
+      "name": "Mental Overwrite",
+      "description": "Mind Body Transfer – Mental Overwrite. Max Ranks: 5. [Mental], [Sensory]\nPockets of the casters consciousness are overwriting yours. Your thoughts become hazy. Your movements sluggish and you begin to believe, not even your own. The strength of this jutsu depends on the mental strength of those it affects, unless they are Dominated.\n\nApplies to Minions.\n  • With 1 rank of Mental Overwrite, the afflicter can choose to make the affected creature becomes Dominated (see effect), until dispelled.\n\nApplies to Standards.\n  • With 3 ranks of Mental Overwrite, the afflicter can choose to make the affected creature becomes Dominated for up to 1 hour.\n  • This Dominated creature remakes their saves at the end of each of their turns, ending the condition and removing all ranks.\n\nApplies to Elites.\n  • With 5 ranks of Mental Overwrite, the afflicter can choose to make the affected creature becomes Dominated for up to 1 minute.\n  • This Dominated creature remakes their saves at the end of each of their turns, ending the condition and removing all ranks.\n\nApplies to Solo's.\n  • With 5 ranks of Mental Overwrite, the afflicter can choose to make the affected creature becomes Dominated until the end of their next turn, ending the condition and removing all ranks.\n\nApplies to Player Characters.\n  • With 5 ranks of Mental Overwrite, the afflicter can choose to make the affected creature becomes Dominated, remaking their Charisma saving throw at the end of each of their turns, ending it on a successful save.",
+      "maxRank": 5,
+      "tags": [
+        "mental",
+        "sensory"
+      ],
+      "sourceKind": "clan",
+      "source": "Yamanaka"
+    },
+    {
+      "id": "mental.dominated",
+      "category": "mental",
+      "name": "Dominated",
+      "description": "Dominated — Extended Condition.\nA Dominated creature has their wills overwritten by the inflicting creature, known as the Dominator. The Dominator imposes the following effects on the Dominated and themselves. You can normally be a Dominator to one creature at a time, unless otherwise specified.\n\nDominator Effects.\n  • The Dominators body falls limp, becoming Stunned, Blind, Deafened and Incapacitated, for the duration of this status.\n  • The Dominator takes over the body of the Dominated, moving they now act in initiative, when the Dominated would act, speaks in their voice, dialect, languages and even has knowledge of the inflicters mannerisms.\n  • The Dominator gains limited access to the Dominated statistics, becoming aware of their General and Clan traits, if any.\n  • The Dominator retains access to their known jutsu while in the body of the Dominated.\n  • The Dominator must maintain concentration on this status, as if it's an S-Rank Genjutsu or Ninjutsu, that they do not spend chakra to maintain.\n  • The Dominator uses their own attack bonuses and save DC when calculating them for the purpose of casting jutsu.\n  • The Dominator can use any action, attack or special ability that doesn't cost tenacity die or a special Class or class specific resource, using their own attack bonuses or Save DC for calculation.\n  • This status ends, if the Dominators original body takes damage.\n\nDominated Effects.\n  • The Dominated forgoes their turn to the Dominator.\n  • The Dominated is aware of all things occurring while under this status.\n  • The Dominated's body is even shifting.\n  • If this Dominated's body takes damage, they remake their Charisma saving throw, ending this status on a success.\n  • A Dominated creature, cannot be Dominated again for 24 hours.",
+      "tags": [
+        "mental",
+        "sensory"
+      ],
+      "sourceKind": "clan",
+      "source": "Yamanaka"
     }
   ]
 }

@@ -252,6 +252,82 @@
         }
       ],
       "summary": "Illusory construct born from your subconscious. Selected on rest from one of five dream types (Beast / Demon / Dragon / Fey / Spider) — each grants different ability bonuses, resistances, movement, and a special Distort ability. Only obeys you. If reduced to 0 HP, dispelled until your next rest. Can be replaced by a known summon-construct's statblock for 2 Oni-Coils when casting a summon jutsu or finishing a rest with one known."
+    },
+    {
+      "id": "senju.wood-dragon",
+      "name": "Wood Dragon",
+      "owningClanId": "senju",
+      "owningFeatureId": "",
+      "category": "construct",
+      "size": "Huge",
+      "sizeProgression": [],
+      "armorClass": "13 + your Ninjutsu ability modifier",
+      "hitPoints": "125",
+      "jutsuSlots": "",
+      "speed": "40 ft fly",
+      "abilities": {
+        "str": { "mod": 6, "save": true, "note": "Save +11" },
+        "dex": { "mod": 0, "save": false, "note": "Save +5" },
+        "con": { "mod": 6, "save": true, "note": "Save +11" },
+        "int": { "mod": -5, "save": false },
+        "wis": { "mod": 0, "save": false },
+        "cha": { "mod": -5, "save": false, "note": "Save -5" }
+      },
+      "saveProficiencies": [
+        "Strength",
+        "Constitution"
+      ],
+      "saveNote": "Uses caster's highest jutsu attack bonus or save DC for effects that require it.",
+      "skills": [],
+      "damageImmunities": [
+        "Poison",
+        "Psychic",
+        "Bludgeoning",
+        "Piercing",
+        "Slashing"
+      ],
+      "conditionImmunities": [
+        "All Mental",
+        "All Sensory",
+        "Chilled",
+        "Bleed",
+        "Envenomed"
+      ],
+      "senses": [
+        "Darkvision 60 ft.",
+        "Passive Perception 10"
+      ],
+      "traits": [
+        {
+          "name": "Ineffable Makeup",
+          "description": "The Wood Dragon cannot be dispelled by any jutsu of B-Rank or lower."
+        },
+        {
+          "name": "Body of Nature",
+          "description": "The Wood Dragon automatically critically succeeds saving throws against Genjutsu."
+        },
+        {
+          "name": "Multiattack",
+          "description": "The Wood Dragon can attack 2 times with its Bite."
+        },
+        {
+          "name": "Constrict",
+          "description": "On a successful Bite attack, the Wood Dragon can forgo its next attack to instead constrict the target so long as it has another attack to make. If it does, the target makes a Strength save being Restrained by the Dragon. While restrained, the affected creature is treated as if they have 3 ranks of Drained. A restrained creature remakes their save at the end of their turn, breaking free on a success."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Bite",
+          "actionEconomy": "action",
+          "description": "Melee Weapon Attack: reach 10 ft, one creature. Hit: 2d8 + 6 Earth damage. Once per turn on a hit, the target makes a Constitution save gaining 2 ranks of Drained on a failed save."
+        },
+        {
+          "name": "Detonation",
+          "actionEconomy": "bonus",
+          "description": "The dragon explodes in a massive incendiary explosion. All creatures within 15 ft of the Dragon make a Dexterity save, taking 8d8 Earth damage on a failed save or half on a successful one. A creature restrained by the dragon makes its save at disadvantage; on failure, takes double damage. Use as a Bonus Action or Reaction."
+        }
+      ],
+      "summary": "Conjured construct from the B-Rank Wood Release: Wood Dragon Summoning. Acts at the end of each of caster's turns; only listens to caster. Concentration up to 1 minute."
     }
   ]
 }

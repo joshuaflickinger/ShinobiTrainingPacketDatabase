@@ -190,6 +190,320 @@
         }
       ],
       "actionOptions": []
+    },
+    {
+      "id": "clan.sarutobi.cross-style",
+      "category": "chakra",
+      "name": "Cross-Style",
+      "expert": false,
+      "expertOf": "",
+      "prerequisite": "Sarutobi clan",
+      "description": "Sarutobi's signature stance. Counts as a Chakra, Taijutsu AND Bukijutsu stance simultaneously. Enter as a Bonus Action. Chakra Powered Strikes give your unarmed die 1d6 and your [Unarmed Damage] / [Weapon Damage] takes the damage type of your Advanced Nature Affinity (Medical → Poison). Unified Form lets you spend Will to chain a second jutsu of a different discipline as part of the same Action.",
+      "effects": [
+        "Counts as Chakra + Taijutsu + Bukijutsu stance simultaneously.",
+        "Chakra Powered Strikes — your unarmed damage die becomes 1d6; your [Unarmed Damage] / [Weapon Damage] types become the damage type of your Advanced Nature Affinity (Medical → Poison).",
+        "Unified Form — once per turn when you cast a Jutsu (Ninjutsu / Genjutsu / Taijutsu / Bukijutsu) as an Action, spend Will (D-Rank 1, C 2, B 3, A 4, S 5) to cast a second jutsu of a different discipline but the same rank as part of the same Action. Same casting time; neither can require concentration or cost-reduction effects. After using, you cannot Bonus-Action-cast a jutsu until your next turn.",
+        "Order matters — Any > Ninjutsu: affected creatures with Physical/Elemental/Sensory conditions suffer -1 save vs the Ninjutsu. Any > Taijutsu: the initial jutsu gains Combo; the Taijutsu pushes affected creatures 10 ft. Any > Bukijutsu: the initial jutsu gains Chain; the Bukijutsu damage gives -1 AC until your next turn. Any > Genjutsu: select a willing ally within half movement speed; you each swap places."
+      ],
+      "actions": [],
+      "actionOptions": []
+    },
+    {
+      "id": "clan.senju.mokuton-infusion",
+      "category": "chakra",
+      "name": "Mokuton Infusion",
+      "expert": false,
+      "expertOf": "",
+      "prerequisite": "Senju clan",
+      "description": "Senju's signature Wood-Release stance. Enter as a Bonus Action; select a variant (Will of the Buddha or Fist of Hevajra). Swap with a Bonus Action on subsequent turns. Like Smoke Style, you can simultaneously benefit from either a Taijutsu OR Bukijutsu stance.",
+      "effects": [
+        "Counts as a Chakra stance and stacks with either a Taijutsu or Bukijutsu stance.",
+        "Will of the Buddha — while wielding a Combat Scroll, you can replace each Attack-action attack with a Verdant Lash attack.",
+        "Fist of Hevajra — your [Unarmed Damage] type becomes Cold / Earth / Chakra (your choice on damage); unarmed attacks use your Hijutsu Flexibility ability mod; unarmed attacks gain Reach 1 (Reach 2 at 7th)."
+      ],
+      "actions": [
+        {
+          "name": "Swap Mokuton Variant",
+          "actionEconomy": "bonus",
+          "description": "Switch between Will of the Buddha and Fist of Hevajra."
+        }
+      ],
+      "actionOptions": [
+        {
+          "id": "clan.senju.mokuton-infusion.verdant-lash",
+          "name": "Verdant Lash (Will of the Buddha variant)",
+          "minLevel": 1,
+          "actionEconomy": "attack",
+          "description": "Lash out with bramble strikes. Make a melee or ranged Jutsu attack using your highest jutsu attack bonus. On a hit, deal the listed damage. If you roll an 8 or higher on the damage die, inflict 1 rank of Drained and push/pull the target 10 ft. At 7th — 15 ft, 2 ranks Drained, treated as casting a D-Rank Hijutsu. At 11th — damage +1 die. At 15th — 3 ranks Drained.",
+          "isAttack": true,
+          "attack": {
+            "kind": "melee",
+            "abilityMods": [
+              "Constitution",
+              "Intelligence"
+            ],
+            "proficient": true,
+            "damageDice": "1d10",
+            "damageType": "Earth, Cold or Chakra",
+            "range": "Melee or 30 ft ranged"
+          },
+          "scaling": [
+            {
+              "atLevel": 7,
+              "description": "Push/pull becomes 15 ft; inflicts 2 ranks Drained; treated as casting a D-Rank Hijutsu."
+            },
+            {
+              "atLevel": 11,
+              "damageDice": "2d10"
+            },
+            {
+              "atLevel": 15,
+              "description": "Inflicts 3 ranks Drained."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clan.uchiha.agile-fist",
+      "category": "taijutsu",
+      "name": "Agile Fist",
+      "expert": false,
+      "expertOf": "",
+      "prerequisite": "Uchiha clan",
+      "description": "Uchiha's highly agile combat form. Counts as both a Taijutsu and Bukijutsu stance because of its ability to integrate unarmed and weapon-based martial options simultaneously. Enter as a Bonus Action.",
+      "effects": [
+        "Your [Unarmed Damage] becomes 1d6; weapons you wield with a smaller die become d6.",
+        "Beginning at 7th level, if you do not have Extra Attack, you can attack twice while in this stance when you take the Attack action.",
+        "Use your Hijutsu Flexibility ability mod in place of Strength for Unarmed and Weapon attacks + damage.",
+        "When you take damage from an attack, spend your reaction to use half your AC as DR vs the triggering damage. If you reduce the damage by half or more, you can use Great Assault as part of the same reaction.",
+        "Counts as both a Taijutsu AND Bukijutsu stance."
+      ],
+      "actions": [],
+      "actionOptions": [
+        {
+          "id": "clan.uchiha.agile-fist.great-assault",
+          "name": "Great Assault",
+          "minLevel": 1,
+          "actionEconomy": "action",
+          "description": "Make a melee or ranged (60 ft) Jutsu attack using your highest jutsu attack bonus, dealing your [Unarmed Damage] + [Weapon Damage] and forcing a Dex or Wis save vs your attack-type save DC. On failure, the target becomes Off-Guard until the end of your next turn. At 7th level you can make a number of Great Assault attacks equal to the number of attacks granted by the Attack action.",
+          "isAttack": true,
+          "attack": {
+            "kind": "melee",
+            "abilityMods": [
+              "Intelligence",
+              "Wisdom"
+            ],
+            "proficient": true,
+            "damageDice": "1d6",
+            "damageType": "[Unarmed] + [Weapon]",
+            "range": "Melee or 60 ft ranged"
+          },
+          "scaling": [
+            {
+              "atLevel": 7,
+              "description": "Number of Great Assault attacks scales with Extra-Attack count."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clan.uchiha.flaming-spark",
+      "category": "chakra",
+      "name": "Flaming Spark",
+      "expert": false,
+      "expertOf": "",
+      "prerequisite": "Uchiha Mutation clan (Divergent Techniques)",
+      "description": "Mutation-Uchiha chakra stance — build flaming chakra in your lungs until each word you speak is followed by a spark of ember or wisps of smoke. Enter as a Bonus Action. Compatible with Agile Fist OR Blazing Fan (but not all three at once).",
+      "effects": [
+        "When you cast a jutsu with the Fire Release keyword, you become Enflamed until your next turn. While Enflamed, attacks that deal Fire damage gain +1 to crit threat range.",
+        "Beginning at 7th level, if you do not have Extra Attack, you can attack twice with Flame Flower as part of the Attack action.",
+        "Compatible with Agile Fist OR Blazing Fan (not all three)."
+      ],
+      "actions": [],
+      "actionOptions": [
+        {
+          "id": "clan.uchiha.flaming-spark.flame-flower",
+          "name": "Flame Flower",
+          "minLevel": 1,
+          "actionEconomy": "action",
+          "description": "Spit a ball of flame. Make a ranged Jutsu attack at a creature within 60 ft. On a hit, deal 2d6+2 Fire damage and force a Dex or Con save vs your attack-type save DC, becoming Off-Guard on failure. At 7th, damage becomes 3d6+3.",
+          "isAttack": true,
+          "attack": {
+            "kind": "ranged",
+            "abilityMods": [
+              "Intelligence",
+              "Wisdom"
+            ],
+            "proficient": true,
+            "damageDice": "2d6+2",
+            "damageType": "Fire",
+            "range": "60 ft"
+          },
+          "scaling": [
+            {
+              "atLevel": 7,
+              "damageDice": "3d6+3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clan.uchiha.blazing-fan",
+      "category": "bukijutsu",
+      "name": "Blazing Fan",
+      "expert": false,
+      "expertOf": "",
+      "prerequisite": "Uchiha Mutation clan (Divergent Techniques) + wielding a Gunbai Fan",
+      "description": "Mutation-Uchiha bukijutsu stance — take hold of the clan's signature Gunbai Fan. Enter as a Bonus Action while wielding a Gunbai Fan.",
+      "effects": [
+        "The Gunbai Fan's [Weapon Damage] die becomes 1d8.",
+        "The Gunbai Fan gains 1 rank of the Blocking property.",
+        "The Gunbai Fan loses the Two-Handed property.",
+        "Beginning at 7th level, if you do not have Extra Attack, you can attack twice with the Gunbai Fan as part of the Attack action.",
+        "As a reaction to taking damage from a Ninjutsu / Taijutsu / Bukijutsu, you can perform Uchiha Return (Clash using your highest skill between Ninshou, Martial Arts or Chakra Control)."
+      ],
+      "actions": [
+        {
+          "name": "Uchiha Return",
+          "actionEconomy": "reaction",
+          "description": "On taking damage from Ninjutsu / Taijutsu / Bukijutsu, swipe your fan, initiating a Clash using your highest skill between Ninshou, Martial Arts or Chakra Control."
+        }
+      ],
+      "actionOptions": [
+        {
+          "id": "clan.uchiha.blazing-fan.fanned-wind",
+          "name": "Fanned Wind",
+          "minLevel": 1,
+          "actionEconomy": "action",
+          "description": "Swipe your fan, creating a massive wave of force. All creatures in a 30-foot cone make a Strength save vs your highest Jutsu save DC, taking [Weapon Damage] + [Weapon Damage] and being pushed 20 ft on failure. At 7th, choose +10 ft to cone OR + [Weapon Damage].",
+          "isAttack": false,
+          "attack": null,
+          "scaling": [
+            {
+              "atLevel": 7,
+              "description": "At 7th, choose to increase the cone size by +10 ft OR damage by + [Weapon Damage]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clan.uzumaki.binding-chains",
+      "category": "chakra",
+      "name": "Binding Chains",
+      "expert": false,
+      "expertOf": "",
+      "prerequisite": "Uzumaki clan",
+      "description": "Manifest your Chakra-based Chains of Binding for 1 minute. Unlike other Chakra stances, you can simultaneously benefit from a Taijutsu or Bukijutsu stance.",
+      "effects": [
+        "Counts as a Chakra stance and stacks with either a Taijutsu or Bukijutsu stance.",
+        "You gain the Seal Break benefit from Uzumaki clan Hijutsu you cast.",
+        "When you take the Attack action, you can choose to instead make Binding Chain or Striking Chain attacks. These attacks use your highest jutsu attack bonus."
+      ],
+      "actions": [],
+      "actionOptions": [
+        {
+          "id": "clan.uzumaki.binding-chains.binding",
+          "name": "Binding Chain",
+          "minLevel": 1,
+          "actionEconomy": "attack",
+          "description": "Encircle targets with chains. Make a melee or ranged Jutsu attack at a creature you can see. On a hit, deal half the listed damage and once per turn force a Charisma save vs your highest Jutsu save DC, being Sealed on failure. At 7th — target up to 2 creatures. At 15th — up to 3.",
+          "isAttack": true,
+          "attack": {
+            "kind": "melee",
+            "abilityMods": [
+              "Constitution",
+              "Intelligence"
+            ],
+            "proficient": true,
+            "damageDice": "1d8",
+            "damageType": "Bludgeoning, Piercing or Chakra (half on Binding)",
+            "range": "Melee or 30 ft ranged"
+          },
+          "scaling": [
+            {
+              "atLevel": 7,
+              "description": "Target up to 2 creatures."
+            },
+            {
+              "atLevel": 11,
+              "damageDice": "2d8"
+            },
+            {
+              "atLevel": 15,
+              "description": "Target up to 3 creatures."
+            }
+          ]
+        },
+        {
+          "id": "clan.uzumaki.binding-chains.striking",
+          "name": "Striking Chain",
+          "minLevel": 1,
+          "actionEconomy": "attack",
+          "description": "Lash out with full force. Make a melee or ranged Jutsu attack at a creature you can see. On a hit, deal the listed damage. You can replace up to two Attack-action attacks with this. At 7th — attacks against a Grappled or Prone creature are always at advantage. At 15th — pick one physical damage type to deal alongside Chakra damage.",
+          "isAttack": true,
+          "attack": {
+            "kind": "melee",
+            "abilityMods": [
+              "Constitution",
+              "Intelligence"
+            ],
+            "proficient": true,
+            "damageDice": "1d8",
+            "damageType": "Bludgeoning, Piercing or Chakra",
+            "range": "Melee or 30 ft ranged"
+          },
+          "scaling": [
+            {
+              "atLevel": 7,
+              "description": "Attacks against Grappled/Prone targets are always at advantage."
+            },
+            {
+              "atLevel": 11,
+              "damageDice": "2d8"
+            },
+            {
+              "atLevel": 15,
+              "description": "Pick one physical damage type to deal alongside Chakra damage."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clan.yamanaka.mind-disruption",
+      "category": "chakra",
+      "name": "Mind Disruption",
+      "expert": false,
+      "expertOf": "",
+      "prerequisite": "Yamanaka clan",
+      "description": "Yamanaka's psionic combat stance — enter as a Bonus Action to wield Mind Body Transfer. Powers the Beam (1st), Pulse (7th), and Wave (15th) modes.",
+      "effects": [
+        "While in this stance you can use Mind Body Transfer's Beam mode as an Action or in place of an Attack-action attack.",
+        "At 7th level, you also gain Pulse mode.",
+        "At 15th level, you also gain Wave mode (AoE)."
+      ],
+      "actions": [
+        {
+          "name": "Mind Body Transfer — Beam",
+          "actionEconomy": "action",
+          "description": "Make a ranged attack at a creature within 60 ft using your highest jutsu modifier. On a hit, deal 1d6 + mod psychic damage and inflict 1 rank of Mental Overwrite. Scales to 2d6 / 2 ranks at 11th."
+        },
+        {
+          "name": "Mind Body Transfer — Pulse (7th)",
+          "actionEconomy": "action",
+          "description": "Charisma save; on failure, inflict 2 ranks of Mental Overwrite (3 at 15th). Does not reveal you if hidden."
+        },
+        {
+          "name": "Mind Body Transfer — Wave (15th)",
+          "actionEconomy": "action",
+          "description": "Aura of psionic intrusion at half the feature's range. All creatures of your choice in the radius make a Charisma save, taking 5d6 psychic and 1 rank Mental Overwrite on failure."
+        }
+      ],
+      "actionOptions": []
     }
   ]
 }
