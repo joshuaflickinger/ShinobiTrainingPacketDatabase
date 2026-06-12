@@ -19,7 +19,13 @@
         "Beginning at 7th level, when you deal chakra damage to a creature with 0 chakra, you instead deal double the result as force damage to their hit points.",
         "Beginning at 7th level, if you do not have the Extra Attack class feature, you can attack twice while in this stance when you take the Attack action."
       ],
-      "actions": []
+      "actions": [
+        {
+          "name": "Gentle Fist Strike",
+          "actionEconomy": "attack",
+          "description": "Make an unarmed attack using your Hijutsu casting ability modifier (Strength or Wisdom, per Hijutsu Flexibility). On a hit, deal your [Unarmed Damage] die (d8, becomes 2d8 at 11th level) as Chakra or Necrotic damage (your choice). Your Hijutsu cast while in this stance also gain their Eight Trigram effect."
+        }
+      ]
     }
   ]
 }
