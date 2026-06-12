@@ -602,7 +602,7 @@
       "id": "physical.shadow-bound",
       "category": "physical",
       "name": "Shadow Bound",
-      "description": "Your shadow has been connected to another's, forcing your body to mirror or be held in place by the binder's will. While Shadow Bound:\n  • The affected creature cannot use the Move action and has its speed reduced to 0 ft.\n  • The affected creature cannot take Reactions.\n  • The affected creature mirrors the binder's movements, where physically possible.\n  • At the end of each of the affected creature's turns (or as the inflicting feature / jutsu specifies), they can make a Strength or Dexterity saving throw vs the binder's highest jutsu save DC, ending this condition on a success.\n  • The Shadow Bound condition ends early if the binder loses concentration, drops below 0 HP, or is moved further than the inflicting jutsu's range from the affected creature.",
+      "description": "Shadow Possession – Shadow Bound. [Physical]\n  • A Shadow Bound creature is Restrained and Grappled in place.\n  • This condition ends early if any of the following occurs:\n      ◦ A Shadow Bound creature is moved as a result of another creature or effect moving them.\n      ◦ The creature that bound you is incapacitated or cannot mold chakra.\n      ◦ The creature that bound you cannot see you.\n      ◦ You or the creature that bound you is covered by total darkness.\n  • When you would make or remake your saving throw to end this effect, you do not roll at disadvantage.",
       "tags": [
         "physical"
       ],
@@ -610,10 +610,44 @@
       "source": "Nara"
     },
     {
+      "id": "physical.infested",
+      "category": "physical",
+      "name": "Infested",
+      "description": "Festering Brood – Infested. [Physical]\nYour body has been infiltrated by a small colony of carnivorous insects. Infested is treated as a physical condition.\n  • While Infested, increase the cost of jutsu you cast by +4 for each rank of Infested you have.\n      ◦ If enhanced, instead, increase the chakra cost by +6 for each rank.\n  • While Infested, you gain a -2 penalty to Strength and Dexterity saving throws.\n      ◦ If enhanced, the affected creature suffers the same penalty to their jutsu save DCs.\n  • An Infested creature can make a Constitution saving throw vs your highest jutsu save DC at the end of each of their turns to remove the infestation on a success.",
+      "tags": [
+        "physical"
+      ],
+      "sourceKind": "clan",
+      "source": "Aburame"
+    },
+    {
+      "id": "physical.network-distortion",
+      "category": "physical",
+      "name": "Network Distortion",
+      "description": "Eight Trigrams – Network Distortion. Max Ranks: 5. [Physical]\nYour chakra network has been damaged, making it difficult to control your chakra.\n  • While Network Distorted, increase the cost of jutsu cast by +4 for each rank.\n  • While Network Distorted, you suffer a -2 penalty to chakra control checks for each rank.\n  • You lose 1 rank of Network Distortion at the end of each of your turns.",
+      "maxRank": 5,
+      "tags": [
+        "physical"
+      ],
+      "sourceKind": "clan",
+      "source": "Hyūga"
+    },
+    {
+      "id": "mental.well-rested",
+      "category": "mental",
+      "name": "Well Rested",
+      "description": "Deep Sleep – Well Rested. [Mental / Will Amp]\nYou ever slept so well; it boosted your capabilities? Well now you have.\n  • Fresh Start. You gain temporary chakra points equal to your level. These temporary chakra points last until used or your next rest.\n  • Quick Start. The next initiative roll you make is at advantage.\n  • Loose Shoulders. The first instance of damage you deal is increased by +1 damage die. If multiple damage die of different sizes are rolled, add one additional die of the largest size.\n  • Quick Reaction. The first reaction you take in combat does not consume your reaction for the round. You can use this effect once per application of this status.\n  • No Longer Rested. Once all of these benefits have been consumed or used, this status ends.",
+      "tags": [
+        "mental"
+      ],
+      "sourceKind": "clan",
+      "source": "Kurama"
+    },
+    {
       "id": "mental.coordinated",
       "category": "mental",
       "name": "Coordinated",
-      "description": "Your team is acting in lockstep with a Nara strategist. Coordinated has two variants — Combat Coordination (combat encounters) and Diplomatic Coordination (social encounters). Both end when the encounter ends (initiative drops, or the social interaction concludes).\n  • Combat Coordination. Affected allies gain a +1 bonus to attack rolls and saving throws while the Nara strategist is conscious and within 60 ft of them; the bonus does not stack with other Coordinated effects. Allies can use the Help action as part of the same Action they use to make an attack or cast a jutsu, once per turn.\n  • Diplomatic Coordination. Affected allies gain a rank of Mastery on Charisma-based skill checks made during the social encounter, and the highest-rolling allied creature's result is used for any contested Charisma check the group is making together.\n  • The Nara strategist chooses which variant applies when initiative is rolled or the social encounter begins.",
+      "description": "Team Coordination – Coordinated. [Mental]\nYou move as a team, with your team. The variant applied depends on the encounter type — Combat Coordinated for combat, Diplomatic Coordination for social encounters. Both end when the encounter ends.\n\nCombat Coordinated (Will Amp).\n  • Coordinated Start. As part of rolling initiative, you gain a rank of Mastery to your initiative. This becomes 2 ranks at 7th and 3 ranks at 15th level.\n  • Team Coordination. You can select a willing ally's creature to go in your place in initiative. This counts as their turn for initiative. If you take another Combat Coordinated creature's place in initiative, you must give your place in initiative to another Combat Coordinated creature.\n  • Coordinated Support. If another Combat Coordinated creature is under the effect of a condition or hostile effect that requires an ability or skill check, or a saving throw, you can spend your reaction to make that check or saving throw for them using your statistics.\n\nDiplomatic Coordination (Social Amp).\n  • Coordinated Words. You gain a rank of Mastery to either Deception, Persuasion or Intimidation (pick one) for the remainder of this social encounter. This becomes 2 ranks at 7th and 3 ranks at 15th level.\n  • Coordinated Experience. If your Background is related to or associated with the opposing creature, you gain advantage on Insight checks.",
       "tags": [
         "mental"
       ],
