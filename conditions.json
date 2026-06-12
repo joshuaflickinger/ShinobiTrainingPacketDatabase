@@ -730,6 +730,67 @@
       ],
       "sourceKind": "clan",
       "source": "Yamanaka"
+    },
+    {
+      "id": "physical.volatile",
+      "category": "physical",
+      "name": "Volatile",
+      "description": "Dust Veil – Volatile. Max Rank: 5. [Physical], [Elemental]\n  • A Volatile creature is covered in extremely explosive carbon dust for the next minute.\n  • If a Volatile creature takes fire or lightning damage, the carbon dust sparks and then explodes. When it does, all creatures within 5-feet of the exploding creature take 1d12 fire damage for every rank of Volatile it had detonated, then removing all ranks of Volatile.\n  • A creature can only take damage from one Instance of a Volatile explosion.\n  • A Creature that takes cold damage as a result of a jutsu with the Water Release keyword, submerges themselves in a body of water, or spend 1 action on their turns can cleanse itself of the Volatile condition.",
+      "maxRank": 5,
+      "tags": [
+        "physical",
+        "elemental"
+      ],
+      "sourceKind": "clan",
+      "source": "Jiton"
+    },
+    {
+      "id": "physical.heavy",
+      "category": "physical",
+      "name": "Heavy",
+      "description": "Dust Veil – Heavy. [Physical], [Elemental]\n  • A Heavy creature cannot jump or benefit from the Dash or Disengage actions.\n  • A Heavy creature suffers disadvantage on the first Dexterity saving throw they make each turn.\n  • A Heavy creature treats spends 2 feet of movement for every 1 foot moved.",
+      "tags": [
+        "physical",
+        "elemental"
+      ],
+      "sourceKind": "clan",
+      "source": "Jiton"
+    },
+    {
+      "id": "physical.brined",
+      "category": "physical",
+      "name": "Brined",
+      "description": "Dust Veil – Brined. [Physical], [Elemental]\n  • A Brined creature is covered in an extremely coarse salt dust for the next minute.\n  • If a Brined creature takes Cold damage, the salt dust hardens and crystalizes. When it does, the Brined creature is Restrained in place until the end of their next turn. This removes the Brined condition.\n  • If a Brined creature takes Lightning damage, the salt dust becomes charged. When it does, the Brined creature gains 1 rank of Shaken each time they move 5 or more feet before the end of their next turn. This removes the Brined condition.",
+      "tags": [
+        "physical",
+        "elemental"
+      ],
+      "sourceKind": "clan",
+      "source": "Jiton"
+    },
+    {
+      "id": "physical.unstable",
+      "category": "physical",
+      "name": "Unstable",
+      "description": "Dust Veil – Unstable. [Physical], [Elemental]\n  • An Unstable creature that moves more than 10 feet before the end of their next turn falls prone.\n  • An Unstable creature suffers disadvantage on saving throws to resist being moved against its will or knocked Prone.\n  • An Unstable creature reduces the damage they deal with melee attacks by 4.",
+      "tags": [
+        "physical",
+        "elemental"
+      ],
+      "sourceKind": "clan",
+      "source": "Jiton"
+    },
+    {
+      "id": "elemental.immolation",
+      "category": "elemental",
+      "name": "Immolation",
+      "description": "Desiccated Heat – Immolation. [Elemental], Max Ranks: 5\n  • An Immolated creature takes 1d12 fire damage at the start of each of their turns for each rank it has.\n  • An Immolated creature can concentrate on one less jutsu while under this affliction.\n  • Creatures that are immune to fire damage is immune to this condition.\n  • An Immolated creature can spend an Action to make a DC 20 Dexterity ability check to end this affliction. On a successful check, the condition ends.",
+      "maxRank": 5,
+      "tags": [
+        "elemental"
+      ],
+      "sourceKind": "clan",
+      "source": "Shakuton"
     }
   ]
 }

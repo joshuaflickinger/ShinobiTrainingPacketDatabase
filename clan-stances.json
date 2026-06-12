@@ -504,6 +504,86 @@
         }
       ],
       "actionOptions": []
+    },
+    {
+      "id": "clan.fushin.divine-wind",
+      "category": "chakra",
+      "name": "Divine Wind",
+      "expert": false,
+      "expertOf": "",
+      "prerequisite": "Fūshin clan",
+      "description": "Fūshin's signature chakra stance with two variants. Enter as a Bonus Action; swap between variants at the start of each turn at no action cost. While in either variant, you float gently 1 ft off the ground and cannot take falling damage if you fall no more than 50 ft.\n\nPressure Front — compress air into invisible cyclones spiraling under you, weaponizing pressure. Build 1 High Pressure each time you cast a Wind Release jutsu (max 4, 6 at 11th); lasts 1 minute. Spend 1 High Pressure to grant Wind Release jutsu the Swirl effect. Your Hijutsu gain Critical Success/Failure effects.\n\nRazor Jet — push wind through a pin-sized chakra funnel for slicing wind jets. Each Wind Release jutsu you cast applies Low Pressure to one affected creature (lasts 1 minute). Spend Low Pressure on damage to push 10 ft. Wind Release area jutsu can change shape to Jet Needle (5-ft × 30-ft line; -2 to saves; +30 ft length at 7/11/15) or Cleave (line between two points within 60 ft; affected creatures gain +1 rank Bleed on failure).",
+      "effects": [
+        "Float 1 ft off the ground; no falling damage if falling ≤ 50 ft.",
+        "Two variants — Pressure Front or Razor Jet — swap at start of turn at no cost."
+      ],
+      "actions": [
+        {
+          "name": "Swap Divine Wind Variant",
+          "actionEconomy": "free",
+          "description": "At the start of each turn, swap between Pressure Front and Razor Jet at no action cost."
+        }
+      ],
+      "actionOptions": []
+    },
+    {
+      "id": "clan.hanami.medical-fist",
+      "category": "taijutsu",
+      "name": "Medical Fist",
+      "expert": false,
+      "expertOf": "",
+      "prerequisite": "Hanami clan",
+      "description": "Hanami's signature taijutsu stance — infuse chakra into your bones and layer your top skin like a Chakra-Scalpel shell that extends off like a flail to pierce, slash and brutalize your opponent.",
+      "effects": [
+        "Your [Unarmed Damage] becomes 1d6 and can deal Bludgeoning, Piercing or Slashing damage (your choice on damage roll).",
+        "Your melee attacks gain Reach. If they already had Reach, +1 rank of Reach (+2 at 7th, +3 at 15th).",
+        "You can use either Monstrous Burst OR Healer's Touch benefit from Hanami clan Hijutsu you cast (not both per casting).",
+        "Rank of Mastery to Athletics-based checks.",
+        "Beginning at 7th level, if you do not have Extra Attack, you can attack twice while in this stance when you take the Attack action."
+      ],
+      "actions": [],
+      "actionOptions": [
+        {
+          "id": "clan.hanami.medical-fist.strike",
+          "name": "Medical Fist Strike",
+          "minLevel": 1,
+          "actionEconomy": "attack",
+          "description": "Unarmed strike using the Hanami Medical Fist stance — chakra-coated bones extend like a flail. Uses your Hijutsu Flexibility ability mod (Str or Int). Damage type is Bludgeoning, Piercing, or Slashing (your choice on damage roll). Reach is granted.",
+          "isAttack": true,
+          "attack": {
+            "kind": "melee",
+            "abilityMods": [
+              "Strength",
+              "Intelligence"
+            ],
+            "proficient": true,
+            "damageDice": "1d6",
+            "damageType": "Bludgeoning, Piercing or Slashing",
+            "range": "Reach 1 (or +1 rank if already Reach)"
+          },
+          "scaling": []
+        }
+      ]
+    },
+    {
+      "id": "clan.jiton.dust-veil",
+      "category": "chakra",
+      "name": "Dust Veil",
+      "expert": false,
+      "expertOf": "",
+      "prerequisite": "Jiton clan",
+      "description": "Jiton's signature chakra stance. Release or recall your Dust Veil from a container you carry or from the environment as a Bonus Action. The veil dispels if you fall unconscious or take Lightning damage. Particle type was chosen at character creation (Carbon / Gold / Iron / Salt / Sand); your active particle type grants its base effects + Potency I/II upgrades you've taken.\n\nDust Veil abilities use your highest jutsu save DC.",
+      "effects": [
+        "Active particle type's base effect applies while in this stance.",
+        "Dispels on unconsciousness or Lightning damage.",
+        "Carbon — 20-ft cube of corrosive cloud (Con save → Envenomed; cloud has 2 ranks Volatile).",
+        "Gold — 20-ft cone wave (Str save → Grappled).",
+        "Iron — 10-ft aura of serrated particles (Mobility-component jutsu casters → Dex save; Bleed already → suffer Bleed as if start-of-turn).",
+        "Salt — 15-ft aura (creatures below max HP → Con save: lose Reaction or take 1d6 earth/poison per Physical condition rank).",
+        "Sand — passive +DR equal to highest ability mod vs attack damage."
+      ],
+      "actions": [],
+      "actionOptions": []
     }
   ]
 }

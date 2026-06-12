@@ -3382,6 +3382,885 @@
         { "level": 1, "stanceId": "clan.yamanaka.mind-disruption", "source": "Mind Body Transfer" }
       ],
       "creatureGrants": []
+    },
+    {
+      "id": "fushin",
+      "name": "Fūshin",
+      "introQuote": "The man walked down the long winding road. The howling wind buffeting against him, each step seeming harder than the last. … Through the entrance of the cave, he saw a figure emerge. A kunoichi with a Land of Water headband and an air of confidence about her. He sees that her clothes are pristine, and immediately understands that she was the one who cast this jutsu. His screams were deafened by the roaring, insistent wind.",
+      "introAttribution": "— Himitsu Yuki, The Longsword Bearer, Ch. 13 excerpt.",
+      "subheading": "ONE WIND THE WIND",
+      "loreDescription": "The Fūshin Clan is a clan native to the Land of Water who are few in number, but make up for some of the most powerful wind users in the shinobi world. Seemingly blessed by the wind itself, this clan can devastate the battlefield with their techniques, that seem to tower over others who are unfortunate enough to face them in battle.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Intelligence, +1 Dexterity",
+        "speed": "30 feet",
+        "skillProficiencies": [
+          "Chakra Control",
+          "Ninshou"
+        ],
+        "extraLanguages": [],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Passive Affinity",
+            "description": "You have the Wind Release Affinity."
+          },
+          {
+            "name": "Fūshin Techniques",
+            "description": "The Fūshin Clan has access to a separate list of jutsu unique to their clan. You can add these Jutsu to your jutsu list instead of selecting jutsu from the normal jutsu list(s)."
+          },
+          {
+            "name": "Hijutsu Flexibility",
+            "description": "Fūshin Clan Hijutsu can use either Dexterity or Intelligence as its casting ability score."
+          },
+          {
+            "name": "Wind Release Simplicity",
+            "description": "Reduce the downtime cost to create or learn jutsu with the Wind Release keyword by half."
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "fushin.l1.divine-winds",
+          "name": "Divine Winds",
+          "level": 1,
+          "description": "The winds recognize you and your bloodline. Enter the Divine Wind Chakra stance as a Bonus Action; access two variants (Pressure Front + Razor Jet). Swap variants at the start of each turn at no action cost. While in either variant, you float gently 1 ft off the ground and take no falling damage from falls ≤ 50 ft.\n\nPressure Front — build 1 High Pressure each time you cast a Wind Release jutsu (max 4, 6 at 11th); lasts 1 minute. Spend 1 High Pressure to grant a Wind Release jutsu the Swirl effect. Your Hijutsu gain Critical Success/Failure effects.\n\nRazor Jet — each Wind Release jutsu applies Low Pressure to one affected creature (1 minute). Spend Low Pressure on damage to push 10 ft. Area Wind Release can shape into Jet Needle (5×30 line, -2 saves) or Cleave (line between 2 points within 60 ft, +1 Bleed on failure).",
+          "source": "Fūshin",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "fushin.l3.rending-jetstream",
+          "name": "Rending Jetstream",
+          "level": 3,
+          "description": "When you cast a Fūshin Hijutsu, you can move up to 20 ft without triggering opportunity attacks as the wind carries you.\n\nHigh Pressure. Spend up to two High Pressure to rend defenses of a foe you deal Wind or Slashing damage to, reducing their DR by 2 per pressure until your next turn.\n\nLow Pressure. When a creature with Low Pressure casts a jutsu requiring Mobility (M), spend your reaction to spend the pressure, forcing a Dex save — Bleed + Shaken on failure.",
+          "source": "Fūshin",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "fushin.l3.wind-whispers",
+          "name": "Wind Whispers",
+          "level": 3,
+          "description": "Your wind has started to wander, gaining a mind of its own. Gain 1 Wind Whisper at 3rd level; additional whispers at 7th and 15th levels.",
+          "source": "Fūshin",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "fushin.l7.secrets-of-the-wind",
+          "name": "Secrets of the Wind",
+          "level": 7,
+          "description": "The wind ferries gossip, warnings, and secrets. Spend 10 minutes focusing — for the next hour, you can whisper and creatures of your choice within 90 ft you can see can hear you clearly, and you can hear them whisper, even if unaware. Blocked by walls 1+ inch thick; cannot affect creatures you lose sight of.",
+          "source": "Fūshin",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "fushin.l11.forceful-gale-wind",
+          "name": "Forceful Gale Wind",
+          "level": 11,
+          "description": "When casting a Wind Release jutsu targeting a creature with Low Pressure, spending 3 High Pressure and the marked creature's Low Pressure — your jutsu's effects apply before the effect the target attempts to use as a reaction, even if that jutsu has Interrupt.",
+          "source": "Fūshin",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "fushin.l15.typhoon-release-wind-scythe",
+          "name": "Typhoon Release: Wind Scythe",
+          "level": 15,
+          "description": "Enter your Wind Scythe state as a Bonus Action for 1 minute (once per long rest). While active:\n  • Gain BOTH Pressure Front and Razor Jet benefits in Divine Wind.\n  • Jutsu without the Wind Release keyword can gain Swirl by spending 1 High Pressure.\n  • Once per turn when dealing Slashing or Wind damage, spend 1 High Pressure to inflict 1 rank of Bleed to all damaged creatures.\n  • Use Jet Needle or Cleave as an Action (Dex save vs your highest jutsu save DC). Jet Needle: 8d6 Slashing/Wind on failure (half on success). Cleave: select three points, line first→second→third, 6d6 Slashing/Wind + 2 ranks Bleed on failure (half on success).",
+          "source": "Fūshin",
+          "kind": "amp",
+          "ampType": "Battle",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        }
+      ],
+      "pickable": {
+        "pluralLabel": "Wind Whispers",
+        "singularLabel": "Wind Whisper",
+        "editorDescription": "Choose a Wind Whisper.",
+        "pickerDescription": "Gain 1 at 3rd level; +1 at 7th and 15th levels.",
+        "options": [
+          {
+            "id": "fushin.whisper.vortex-burst",
+            "owningClanId": "fushin",
+            "name": "Vortex Burst",
+            "description": "When you cast a Wind Release area jutsu or trigger Swirl on a jutsu, increase the size by +5 ft (+10 at 11th).\n\nHigh Pressure. Spend 2 High Pressure to grant yourself a fly speed equal to your move speed until end of next turn.\n\nLow Pressure. When a creature with Low Pressure fails a save vs a jutsu you cast, spend that pressure to slam them into the ground — Prone + 0 speed until end of next turn."
+          },
+          {
+            "id": "fushin.whisper.blade-spiral",
+            "owningClanId": "fushin",
+            "name": "Blade Spiral",
+            "description": "When you cast a Fūshin Hijutsu as an Action that inflicts Bleed, spend your Bonus Action to trigger Swirl even if the jutsu doesn't have it. All creatures in Swirl's area make the same save as the original target; +1 Bleed on failure.\n\nHigh Pressure. Spend 1 High Pressure to sharpen your weapon — +1d6 wind damage until next turn (+2d6 at 11th).\n\nLow Pressure. When a creature with Low Pressure makes a melee attack against you, spend your reaction to spend that pressure for 2d6 slashing/wind damage (4d6 at 7th, 6d6 at 15th)."
+          },
+          {
+            "id": "fushin.whisper.storm-wall",
+            "owningClanId": "fushin",
+            "name": "Storm Wall",
+            "description": "When you cast a Wind Release jutsu with the Barrier keyword, it gains 4 DR vs incoming damage (6 at 11th). Casting any jutsu can dispel vapors/gases/fogs within 10 ft.\n\nHigh Pressure. As part of casting a Wind Release jutsu, spend 2 High Pressure to grant yourself a temporary wind shield with temp HP = 2× your level until next turn.\n\nLow Pressure. When you deal damage to a creature with Low Pressure benefiting from a Barrier, spend that pressure to halve the barrier's HP or DR (your choice)."
+          },
+          {
+            "id": "fushin.whisper.whispering-breeze",
+            "owningClanId": "fushin",
+            "name": "Whispering Breeze",
+            "description": "When you cast a Genjutsu with the Auditory keyword, it also affects Deafened creatures. If the Genjutsu has Inhale, it also affects breath-holders or non-breathers.\n\nHigh Pressure. When you cast a Fūshin Hijutsu that forces a save, spend 1 High Pressure to inflict Deafened + Dazed until end of next turn on failure.\n\nLow Pressure. When a creature with Low Pressure fails a save vs a Genjutsu you or an ally casts with Auditory or Inhale, spend that pressure to make them suffer the Critical Failure effect instead."
+          }
+        ],
+        "sourceFeatureId": "fushin.l3.wind-whispers",
+        "pickGrants": [
+          { "level": 3, "picks": 1 },
+          { "level": 7, "picks": 1 },
+          { "level": 15, "picks": 1 }
+        ]
+      },
+      "additionalPickables": [],
+      "natureReleaseGrants": [
+        {
+          "level": 1,
+          "picks": 0,
+          "autoReleases": [
+            "Wind"
+          ],
+          "fromReleases": [],
+          "source": "Passive Affinity",
+          "description": "You have the Wind Release affinity."
+        }
+      ],
+      "resources": [
+        {
+          "name": "High Pressure",
+          "autoKey": "clan:fushin:high-pressure",
+          "source": "Divine Winds (Pressure Front)",
+          "minLevel": 1,
+          "maxFormulaDescription": "4 (6 at 11th)",
+          "maxFormula": { "base": 4 },
+          "replenishOn": "none"
+        }
+      ],
+      "stanceGrants": [
+        { "level": 1, "stanceId": "clan.fushin.divine-wind", "source": "Divine Winds" }
+      ],
+      "creatureGrants": []
+    },
+    {
+      "id": "hanami",
+      "name": "Hanami",
+      "introQuote": "I looked forward seeing the group of 30 men in front of me and steeled my nerves. … In one single fluid motion I threw my fist into the ground creating a massive shockwave knocking all my attackers backward and begun to heal my wounds. By the time the attack began again I was as good as ever. I may not be able to win this fight, but I will buy Hans and Chiyo all the time they need.",
+      "introAttribution": "— Fujima Hanami, The Long Road, Ch. 30 excerpt.",
+      "subheading": "BUILT FOR COMBAT",
+      "loreDescription": "The Hanami Clan believes in perfecting one's physical body while also studying how to heal their own and others' wounds. The Hanami are known for their monstrous strength and blending medical jutsu into their combat style.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Strength, +1 Wisdom or Intelligence",
+        "speed": "30 feet",
+        "skillProficiencies": [
+          "Martial Arts",
+          "Medicine"
+        ],
+        "extraLanguages": [],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Tool Proficiency",
+            "description": "Medicine Kit."
+          },
+          {
+            "name": "Passive Affinity",
+            "description": "You have the Medical Release affinity."
+          },
+          {
+            "name": "Hanami Techniques",
+            "description": "The Hanami Clan has access to a separate list of jutsu unique to their clan."
+          },
+          {
+            "name": "Hijutsu Flexibility",
+            "description": "Hanami Clan Hijutsu can use either Strength or Intelligence as its casting ability score."
+          },
+          {
+            "name": "Resilient Chakra Network",
+            "description": "Rank of Mastery to saving throws against gaining a rank of Sealed."
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "hanami.l1.medical-fist",
+          "name": "Medical Fist",
+          "level": 1,
+          "description": "Your clan's unique fighting style — infuse chakra into your bones and layer your top skin like a Chakra-Scalpel shell that extends off like a flail. Enter the Medical Fist Taijutsu stance as a Bonus Action.",
+          "source": "Hanami",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "hanami.l3.boons-banes",
+          "name": "Hanami Boons/Banes",
+          "level": 3,
+          "description": "Prepare different medicines that heal or enhance combat capabilities. When you complete a short or long rest, select Boons or Banes each with a single use. You can create 1 + your proficiency bonus Boons/Banes (may stack copies). Boons consumed as a Bonus Action; only one Boon at a time. Banes infused per text using your highest jutsu save DC. Unused Boons/Banes go inert on next rest.\n\nAt 7th — make Fused Boons/Banes (two stacked benefits; only you can consume a Fused Boon). At 11th — no Bonus Action to consume a Boon; administer Boons to allies on your turn at no action.\n\nBoons: Blessed (+1d4 to attacks / checks / saves until end of next turn). Boosting (+1 melee crit threat per minute; +1d12 on unarmed crit; scale at 7/11). Combo/Finisher (Medical/Inhale jutsu gain Combo; Combo+Medical/Inhale gain Finisher + 2 damage dice). Lucky (treat next d20 below 10 as 10). Restoring (roll 2 hit dice + Con; 3 at 7th, 4 at 15th). Swift (+10 ft speed, ignore difficult terrain for 1 minute; +15 at 7th, +20 at 15th). Warding (resist 1 damage type for 1 minute; 2 types at 11th).\n\nBanes (infused as part of casting a Hanami Hijutsu that forces a save — failed save triggers): Dispelling (dispel a same-rank-or-lower concentrated jutsu). Dispirited (Confused 1 min, save to end). Fragile (Bruised gains Max Ranks 5 + bonus damage per rank). Hindering (-1d4 to a chosen ability's attacks/saves for 1 min). Sluggish (Slowed for 1 min). Weakening (1 rank Weakened; remake save → end + remove all if 3 successes; another rank on fail at end of turn). Gambling (1d6 — 1: lose action, 2-4: lose bonus action, 5-6: no effect).",
+          "source": "Hanami",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "hanami.l7.empowered-medicine",
+          "name": "Empowered Medicine",
+          "level": 7,
+          "description": "Your skill enables you to utilize the First Aid Kit in ways other medics cannot. First Aid Kits now apply their effects over 10 minutes instead of a rest, affect creatures twice per rest, have no use limits for you (no fear of running out of materials), and count as Medicine Kits for the Medical Check Up ability.",
+          "source": "Hanami",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "hanami.l11.hardened-body-mind",
+          "name": "Hardened Body & Mind",
+          "level": 11,
+          "description": "When forced to make a save to resist a Physical or Mental condition from a hostile creature, you can use the higher ability based on your Hijutsu Flexibility trait (Str or Int).\n\nAdditionally, Banes can now be infused into any Medical or Inhaled keyword jutsu you cast.",
+          "source": "Hanami",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "hanami.l15.overloaded-medicine",
+          "name": "Overloaded Medicine",
+          "level": 15,
+          "description": "Once per turn, when you cast a jutsu with the Medical keyword that heals HP, cleanses conditions, or deals damage, select one ally within 30 ft with ranks of a Physical/Mental/Sensory condition. Reduce one condition's rank by 1. That creature gains immunity to that condition until end of your next turn.\n\nAlternatively, once per turn, when you deal damage with a Combo or Finisher jutsu, weaken target's resilience — their next save to resist a Physical/Mental/Sensory condition is at disadvantage.",
+          "source": "Hanami",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        }
+      ],
+      "pickable": null,
+      "additionalPickables": [],
+      "natureReleaseGrants": [
+        {
+          "level": 1,
+          "picks": 0,
+          "autoReleases": [
+            "Medical"
+          ],
+          "fromReleases": [],
+          "source": "Passive Affinity",
+          "description": "You have the Medical Release affinity."
+        }
+      ],
+      "resources": [],
+      "stanceGrants": [
+        { "level": 1, "stanceId": "clan.hanami.medical-fist", "source": "Medical Fist" }
+      ],
+      "creatureGrants": []
+    },
+    {
+      "id": "jiton",
+      "name": "Jiton",
+      "introQuote": "The Genin from the sand stands with his arms crossed, watching, unimpressed with the showing of his rival during the chunin exams. … Judo responds as he creates a powerful blast of Air, that Gura, the Sand Genin smirks and responds with a drilling construct of Dust and Sand.",
+      "introAttribution": "— Himari Hyūga, At Worlds End, Ch. 1 excerpt.",
+      "subheading": "A MAGNETIC PERSONALITY",
+      "loreDescription": "The Jiton Clan is a clan that hails proudly from the Land of Wind. Every Kazekage has held this Nature Release and it has brought about an era of prosperity and peace within the Land of Wind. Using Jiton, or Magnet release, a user is usually seen as an extremely oppressive opponent able to fight without lifting a finger a lot of the time due to this clan using their Jutsu almost entirely through Chakra control with only a few of their techniques requiring the chakra focusing of hand signs to enable.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Intelligence, +1 Charisma",
+        "speed": "30 feet",
+        "skillProficiencies": [
+          "Ninshou",
+          "Survival"
+        ],
+        "extraLanguages": [],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Magnet Release Affinity",
+            "description": "You begin with either Earth or Wind Release Affinity (pick one)."
+          },
+          {
+            "name": "Magnet Release Techniques",
+            "description": "The Jiton Clan has access to a separate list of jutsu unique to their clan."
+          },
+          {
+            "name": "Hijutsu Flexibility",
+            "description": "Jiton Clan Hijutsu can use either Intelligence or Charisma as its casting ability score."
+          },
+          {
+            "name": "Magnetic Sense",
+            "description": "You can sense the presence and exact location of exposed and concealed metal within 30 ft, so long as it is at least 1 Bulk in size. Cannot penetrate barriers over 1 ft thick."
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "jiton.l1.dust-veil",
+          "name": "Dust Veil",
+          "level": 1,
+          "description": "You can manipulate magnetically charged dust particles. Select one Particle type at character creation (cannot be changed later). Release or recall your Dust Veil as a Bonus Action — entering your Dust Veil Chakra stance. If you fall unconscious or take Lightning damage, the stance is dispelled.\n\nGain 1 Particle pick at L1; additional at 7th and 15th. Selecting the same Particle twice unlocks Potency I; thrice unlocks Potency II. Dust Veil abilities use your highest jutsu save DC.",
+          "source": "Jiton",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "jiton.l3.magnetic-tagging",
+          "name": "Magnetic Tagging",
+          "level": 3,
+          "description": "Accumulate a Magnetic Charge at the start of each of your turns and once per turn when you cast a Jiton Hijutsu (max 4; 6 at 15th). Charges last 1 minute. Spend on:\n  • Magnetic Pulse — vs metallic weapon attack within range, spend 1 to impose 1d4 penalty (1d6 at 11th).\n  • Magnetic Shield — vs metallic weapon attack within range, spend 1 to reduce weapon damage die by 1 step (or -1 die if multi-die). +1 step at 7/15. d4 → treat as 1.\n  • Magnetic Snatch — Bonus Action, spend 1 to snatch a metallic weapon (Str save); +1 target at 7/15.\n  • Magnetic Vectors — vs a metallic ranged attack, spend 2 + reaction to redirect to another in range (your highest bonus attack).\n  • Magnetic Puppetry — Action, spend 3 vs a creature wielding a metallic weapon (Str save); on failure, control their weapon to attack closest creature for damage + 2d8 (+1d8 / +1 target at 7/11/15).",
+          "source": "Jiton",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "jiton.l7.magnet-release-manifestation",
+          "name": "Magnet Release Manifestation",
+          "level": 7,
+          "description": "Gain the second Nature release you didn't select from Magnet Release Affinity. When casting an Earth or Wind Release jutsu, you can change the damage type to Wind or Earth respectively.\n\nAlso, as an Action, you use your dust particle to create a semisolid platform — 5-ft radius disc, floats 2 ft above ground, 40-ft fly speed. Up to 4 creatures or 500 lbs; lasts 10 minutes. (10-ft radius / 8 creatures / 1000 lbs at 15th.)\n\nWhile riding the platform, you can forgo your movement and use the platform's movement instead.",
+          "source": "Jiton",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "action",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "jiton.l11.swirling-currents",
+          "name": "Swirling Currents",
+          "level": 11,
+          "description": "Your magnetic field constantly slows objects. When you complete a short or long rest, grant yourself resistance to two of the following damage types from melee and ranged attacks until you complete a short rest: bludgeoning, piercing, slashing, earth or wind.",
+          "source": "Jiton",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "jiton.l15.magnetic-surge",
+          "name": "Magnetic Surge",
+          "level": 15,
+          "description": "Increase max Magnetic Charges to 6. Enter Magnetic Surge as a Bonus Action for 1 minute (once per rest). While active — emanate a 40-ft radius of dominion centered on you:\n  • Jiton Hijutsu or Dust Veil abilities you cast can originate from any space you see within the radius.\n  • Creatures of your choice in the radius treat the area as difficult terrain.\n  • Once per turn when you force movement, increase distance by +10 ft.\n  • Regain 2 Magnetic Charges at the start of your turns instead of 1.",
+          "source": "Jiton",
+          "kind": "amp",
+          "ampType": "Battle",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        }
+      ],
+      "pickable": {
+        "pluralLabel": "Dust Veil Particles",
+        "singularLabel": "Dust Veil Particle",
+        "editorDescription": "Choose a Dust Veil particle type.",
+        "pickerDescription": "1 at L1, +1 at 7th and 15th. Same particle picked again unlocks Potency I then Potency II.",
+        "options": [
+          {
+            "id": "jiton.particle.carbon",
+            "owningClanId": "jiton",
+            "name": "Carbon",
+            "description": "Black carbon packed with potential energy. Action — 20-ft cube at a point ≤ 60 ft fills with corrosive cloud (lightly obscured). Lasts 1 min or until moderate wind disperses. Creatures starting their turn in it make a Con save, Envenomed on failure. Cloud counts as 2 ranks Volatile.\n\nPotency I — once per turn, damage with a Jiton Hijutsu makes target Volatile.\n\nPotency II — when you spend Action to generate the cloud, you can select 2 points and the area becomes heavily obscured + difficult terrain. Creatures failing inside become Blinded until end of following turn."
+          },
+          {
+            "id": "jiton.particle.gold",
+            "owningClanId": "jiton",
+            "name": "Gold",
+            "description": "Heavy gold particles. Once per turn, Bonus Action — release a 20-ft cone of weighted gold; creatures of your choice make Str save, Grappled until end of their turn on failure.\n\nPotency I — once per turn, when a creature fails a Jiton Hijutsu save, they become Heavy until next turn.\n\nPotency II — Action wave becomes 40-ft cone; failing creatures also become Heavy + Slowed until end of following turn."
+          },
+          {
+            "id": "jiton.particle.iron",
+            "owningClanId": "jiton",
+            "name": "Iron",
+            "description": "Sharp, durable iron dust. 10-ft aura of serrated particles. Creatures of your choice casting a Mobility (M) jutsu within the aura make a Dex save — if they have Bleed already, they suffer Bleed effects as if start-of-turn on failure.\n\nPotency I — once per turn, when a creature fails a Jiton Hijutsu save, they gain a rank of Bleed.\n\nPotency II — spend 10 min to coat your iron in a Poison you have access to. Until you complete a rest, when a creature fails the save (or Potency I trigger), they can suffer the chosen poison's effects in place of the original."
+          },
+          {
+            "id": "jiton.particle.salt",
+            "owningClanId": "jiton",
+            "name": "Salt",
+            "description": "Corroding, dehydrating salt dust. Creatures starting their turn within 15 ft of you below max HP make a Con save — on failure either lose Reaction OR take 1d6 earth/poison per Physical condition rank.\n\nPotency I — once per turn, damage with a Jiton Hijutsu makes target Brined.\n\nPotency II — Brined creatures cannot regain HP / CP, condition-end DCs are +5, and their conditions are treated as B-Rank-inflicted (even if lower-rank source)."
+          },
+          {
+            "id": "jiton.particle.sand",
+            "owningClanId": "jiton",
+            "name": "Sand",
+            "description": "Soft, light sand. Passively grants bonus DR = your highest ability mod vs attack damage.\n\nPotency I — creatures damaged by a Jiton Hijutsu become Unstable.\n\nPotency II — as a Bonus Action, manifest a sand construct. On rest, select one of: Beast Imitating Art: Predator, Sealing Art: Inanimate Puppet, Beast Imitating Art: Oni Twins, Earth Release: Mud Wolf, Earth Release: Stone Dragon. Cast as A-Rank at no chakra cost (max 2 if multi-summon). Once per rest."
+          }
+        ],
+        "sourceFeatureId": "jiton.l1.dust-veil",
+        "pickGrants": [
+          { "level": 1, "picks": 1 },
+          { "level": 7, "picks": 1 },
+          { "level": 15, "picks": 1 }
+        ]
+      },
+      "additionalPickables": [],
+      "natureReleaseGrants": [
+        {
+          "level": 1,
+          "picks": 1,
+          "autoReleases": [],
+          "fromReleases": [
+            "Earth",
+            "Wind"
+          ],
+          "source": "Magnet Release Affinity",
+          "description": "Pick Earth or Wind Release."
+        },
+        {
+          "level": 7,
+          "picks": 0,
+          "autoReleases": [],
+          "fromReleases": [
+            "Earth",
+            "Wind"
+          ],
+          "source": "Magnet Release Manifestation",
+          "description": "Gain the other of Earth / Wind at 7th level."
+        }
+      ],
+      "resources": [
+        {
+          "name": "Magnetic Charges",
+          "autoKey": "clan:jiton:magnetic-charges",
+          "source": "Magnetic Tagging",
+          "minLevel": 3,
+          "maxFormulaDescription": "4 (6 at L15)",
+          "maxFormula": { "base": 4 },
+          "replenishOn": "none"
+        }
+      ],
+      "stanceGrants": [
+        { "level": 1, "stanceId": "clan.jiton.dust-veil", "source": "Dust Veil" }
+      ],
+      "creatureGrants": []
+    },
+    {
+      "id": "konjiki",
+      "name": "Konjiki",
+      "introQuote": "I blinked once, then twice before realizing that I was still alive to blink and not buried miles below the surface. … She had summoned an unbelievable amount of steel to stop the cavern from collapsing and saved us all.",
+      "introAttribution": "— Kamira Kaguya, The Long Road, Ch. 24 excerpt.",
+      "subheading": "TEMPERED WILL",
+      "loreDescription": "The Konjiki is a clan from the village hidden in stones, a small village in the country between the lands of wind and earth. This clan is known for both their mercenary works in those great nations and their special affinity to the materialization of Yin and Earth chakra known as \"Steel Release\".",
+      "traits": {
+        "recommendedAbilityScores": "+2 Intelligence, +1 Constitution",
+        "speed": "30 feet",
+        "skillProficiencies": [
+          "Crafting",
+          "Ninshou"
+        ],
+        "extraLanguages": [],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Steel Release",
+            "description": "You begin with the Earth Release Affinity."
+          },
+          {
+            "name": "Konjiki Techniques",
+            "description": "The Konjiki Clan has access to a separate list of jutsu unique to their clan."
+          },
+          {
+            "name": "Hijutsu Flexibility",
+            "description": "Konjiki Clan Hijutsu can use either Constitution or Intelligence as its casting ability score."
+          },
+          {
+            "name": "Liquid Metal",
+            "description": "As a Bonus Action, you can conjure one weapon (or an ammunition stack) with a Bulk of 1. This weapon shares any weapon seals on your other weapons that it qualifies for but dissolves if another is conjured this way."
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "konjiki.l1.alomancy",
+          "name": "Alomancy",
+          "level": 1,
+          "description": "Your clan's Kekkei Genkai grants unparalleled control over the physical makeup of metals. Represented as Liquid Metal Ingots — you have 1 + your proficiency bonus. Spend Ingots to fuel Alomancy Techniques. Begin with 1 Technique; +1 at 7th and 15th. Ingots regain on short rest. Alomancy abilities use your highest jutsu attack or save DC.",
+          "source": "Konjiki",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "konjiki.l3.metallurgy",
+          "name": "Metallurgy",
+          "level": 3,
+          "description": "On rest, choose to create a Metallurgy Armor OR coat a weapon you wield in Metallurgy (lasts until next rest). At 11th level, create one of each (armor + weapon).\n\nWeapon — select a weapon you possess. If it has Ammunition, treat ammunition die as a d12 that can never be reduced. Gain a Konjiki weapon property:\n  • Geometric Makeup — Fortified + Blocking 1.\n  • Counter Weight — cannot be disarmed; gains Thrown (20/40) + Return.\n  • Shearing Edge — once per turn on hit, reduce target's AC by 1 OR DR by 2 until next turn.\n  • Rebounding Line — once per turn, if your attack beats target AC by 5+, next attack against you before your next turn is at disadvantage.\n\nArmor — select Reinforced Cloth, Shinobi Combat Jacket, or Jonin Armor. Bulk 1. Gain a Konjiki armor property:\n  • Anchored Greaves — Advantage on saves vs being moved; on successful save, gain 1 Liquid Metal Ingot.\n  • Elemental Deflection Plates — pick Earth/Wind/Fire/Cold/Lightning/Acid → resistance until hit by a crit or you create another armor.\n  • Expanding Plates — all other creatures within 5 ft gain +2 AC.\n  • Smart Armor — use Int in place of Dex for AC + 60 ft tremor sense.\n  • Kinetic Raiment — once per turn, when you move 10+ ft, gain bonus damage = 2× your Reinforced value; gain 1 Liquid Metal Ingot when used.",
+          "source": "Konjiki",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "konjiki.l7.bromine-keys",
+          "name": "Bromine Keys",
+          "level": 7,
+          "description": "Insert liquid metal into a lock. Spend 1 minute to perform Pick Locks as if you have a Security Kit; reduce DC by 10. On success, the lock is unlatched and any other key that would normally unlock it no longer does so. Any key you have can now unlock or lock the lock as if it was the original.",
+          "source": "Konjiki",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "konjiki.l11.heavy-metal",
+          "name": "Heavy Metal",
+          "level": 11,
+          "description": "Infuse metallic chakra into Earth Release jutsu. When you cast an Earth Release jutsu that summons a creature, structure, or barrier with HP, it becomes suffused with metallic chakra — increase HP at creation by your level, OR increase DR by your highest ability modifier for its duration.",
+          "source": "Konjiki",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "konjiki.l15.liquid-mercury-foundry",
+          "name": "Liquid Mercury Foundry",
+          "level": 15,
+          "description": "Konjiki's ultimate Metallurgy form. As a Bonus Action, enter your Mercury Foundry state for 1 minute (once per short rest). While in this state (Battle Amp):\n  • Generate +1 Ingot at the start of each of your turns.\n  • DR is set at 12 (if your DR is higher than 12, increase your DR by +2).\n  • At the start of each turn, gain 8 Temporary HP.\n  • Weapons made by Liquid Metal or under Metallurgy effects count as any weapon group for Bukijutsu casting.\n  • Armor made by Metallurgy gains a second armor trait.",
+          "source": "Konjiki",
+          "kind": "amp",
+          "ampType": "Battle",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        }
+      ],
+      "pickable": {
+        "pluralLabel": "Alomancy Techniques",
+        "singularLabel": "Alomancy Technique",
+        "editorDescription": "Choose an Alomancy Technique.",
+        "pickerDescription": "Gain 1 at character creation; +1 at 7th and 15th levels.",
+        "options": [
+          {
+            "id": "konjiki.alomancy.iron-bulwark",
+            "owningClanId": "konjiki",
+            "name": "Iron Bulwark",
+            "description": "Reaction — to an ally within 30 ft taking damage, spend 1 Ingot to project a metallic shield. HP = 2d6 + 6 (+1d6 at 7/15) and DR = your highest ability mod. Lasts until your next turn."
+          },
+          {
+            "id": "konjiki.alomancy.steel-reinforcement",
+            "owningClanId": "konjiki",
+            "name": "Steel Reinforcement",
+            "description": "Bonus Action — select a willing creature within 30 ft wearing armor or wielding a weapon; spend 2 Ingots. For the next minute, their bulk is increased by +2/+4/+6:\n  • Bulk +2 — Fortified + +2 Armor Bonus.\n  • Bulk +4 — as +2 plus +2 Constitution save bonus.\n  • Bulk +6 — as +2 plus +2 Str and Con save bonus."
+          },
+          {
+            "id": "konjiki.alomancy.metallic-thorns",
+            "owningClanId": "konjiki",
+            "name": "Metallic Thorns",
+            "description": "Bonus Action — spend 1 Ingot, select a point within 30 ft, fill a 10-ft cube with liquid metal that forms spikes when a chosen creature steps in. Dex save → 3d6 piercing, 2 ranks Bleed, -15 ft movement on failure (half on success). 1 minute; triggers once per turn. Damage +1d6 at 7/15; ranks Bleed +1 at 11."
+          },
+          {
+            "id": "konjiki.alomancy.metallic-step",
+            "owningClanId": "konjiki",
+            "name": "Metallic Step",
+            "description": "Reaction — to an ally within 60 ft forced to make a Str/Dex/Con save, spend 1 Ingot to drag them up to 20 ft closer to you in a straight line without provoking opportunity attacks. If pulled out of the effect's range, advantage on the save; otherwise +2 to save."
+          },
+          {
+            "id": "konjiki.alomancy.superheavy-metals",
+            "owningClanId": "konjiki",
+            "name": "Superheavy Metals",
+            "description": "As part of dealing damage with a metallic weapon or Konjiki Hijutsu, spend up to 4 Ingots to magnify weight. If target is Bruised, they suffer Bruised once additional time per Ingot spent."
+          },
+          {
+            "id": "konjiki.alomancy.supersharp",
+            "owningClanId": "konjiki",
+            "name": "Supersharp",
+            "description": "As part of dealing damage with a metallic weapon or Konjiki Hijutsu, spend up to 2 Ingots to magnify piercing — gain 4 Pierce per Ingot spent."
+          },
+          {
+            "id": "konjiki.alomancy.metallic-fan",
+            "owningClanId": "konjiki",
+            "name": "Metallic Fan",
+            "description": "As part of dealing damage with a metallic weapon or Konjiki Hijutsu targeting a single creature, spend 1 Ingot to magnify striking range. All creatures within 5 ft of original target make a Dex save, taking the attack's original damage on failure. On crit, all saves at disadvantage."
+          }
+        ],
+        "sourceFeatureId": "konjiki.l1.alomancy",
+        "pickGrants": [
+          { "level": 1, "picks": 1 },
+          { "level": 7, "picks": 1 },
+          { "level": 15, "picks": 1 }
+        ]
+      },
+      "additionalPickables": [],
+      "natureReleaseGrants": [
+        {
+          "level": 1,
+          "picks": 0,
+          "autoReleases": [
+            "Earth"
+          ],
+          "fromReleases": [],
+          "source": "Steel Release",
+          "description": "You begin with the Earth Release Affinity."
+        }
+      ],
+      "resources": [
+        {
+          "name": "Liquid Metal Ingots",
+          "autoKey": "clan:konjiki:ingots",
+          "source": "Alomancy",
+          "minLevel": 1,
+          "maxFormulaDescription": "1 + Proficiency Bonus",
+          "maxFormula": { "base": 1, "perProf": 1 },
+          "replenishOn": "short"
+        }
+      ],
+      "stanceGrants": [],
+      "creatureGrants": []
+    },
+    {
+      "id": "shakuton",
+      "name": "Shakuton",
+      "introQuote": "A Genin dashes through a thick brush of trees trying to escape an ambush. … she responds by conjuring a large, single sphere of Scorch flame and engulfs all of her enemies, turning them into mummified carcasses.",
+      "introAttribution": "— Soren Uzumaki, At Worlds End, Ch. 2 excerpt.",
+      "subheading": "TOO HOT TO TOUCH",
+      "loreDescription": "The Shakuton Clan is a clan that hails proudly from the Land of Wind. This clan has an extreme affinity for Fire & Wind Release, able to create flames as hot as a small sun that can burn away all moisture on impact. This clan has a famed history in the Land of Wind, but after one of its famed members was killed in an ambush, they scattered, joining other villages to avoid potential clan massacre.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Intelligence, +1 Wisdom",
+        "speed": "30 feet",
+        "skillProficiencies": [
+          "Survival",
+          "Ninshou"
+        ],
+        "extraLanguages": [],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Scorch Release Affinity",
+            "description": "You begin with either Wind or Fire Release Affinity (pick one)."
+          },
+          {
+            "name": "Scorch Release Techniques",
+            "description": "The Shakuton Clan has access to a separate list of jutsu unique to their clan."
+          },
+          {
+            "name": "Hijutsu Flexibility",
+            "description": "The Shakuton Clan Hijutsu can use either Intelligence or Wisdom as its casting ability score."
+          },
+          {
+            "name": "Blazing Heat Regulation",
+            "description": "Shakuton Clansmen and creatures within 5 ft of them are immune to hostile cold environments and do not need to make checks or saves to resist effects caused by extreme cold."
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "shakuton.l1.heating-up",
+          "name": "Heating Up",
+          "level": 1,
+          "description": "Each time you cast a Shakuton Clan Hijutsu or a Fire/Wind Release jutsu, gain 1 Scorch Charge (once per turn). Maintain up to 2 Scorch Charges; +2 max at 3rd, 7th, 11th, 15th. Charges dispelled after 1 minute. You cannot gain charges the same turn you spend them.\n\nWhile you have Scorch Charges, you are in your Scorching Heat state (Battle Amp):\n  • Hotter Still — +2 to fire damage you deal (+4 at 7th, +6 at 15th).\n  • Fuel to the Flame — when you deal Wind or Fire damage to a Burned creature, convert 1 rank of Burned to 1 rank of Immolation.\n  • Scorch Magnification — spend Scorch Charges to use the Scorch effect of Shakuton Hijutsu you cast.",
+          "source": "Shakuton",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "shakuton.l3.desiccated-heat",
+          "name": "Desiccated Heat",
+          "level": 3,
+          "description": "Your flames boil, dehydrate, evaporate, and melt without leaving a burn mark. Spend Scorch Charges on Desiccated Heat abilities. Save DC effects use your highest jutsu save DC. Select 2 abilities at L3; +2 at 11th.",
+          "source": "Shakuton",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "shakuton.l7.scorch-release",
+          "name": "Scorch Release",
+          "level": 7,
+          "description": "Gain the second Nature release you didn't select from Scorch Release Affinity. When casting a Fire or Wind Release jutsu, you can change the damage type to Wind or Fire respectively.\n\nAdditionally, as an Action, evaporate all exposed water/ice no larger than a 10-ft cube you touch — boiling them to steam instantly.",
+          "source": "Shakuton",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "action",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "shakuton.l11.evaporating-barrier",
+          "name": "Evaporating Barrier",
+          "level": 11,
+          "description": "If you would Clash with a jutsu by spending 1 Scorch Charge, the opposing creature makes their check with a -4 penalty. If you succeed the clash, they gain Weakened ranks = jutsu rank (D 1, C 2, B 3, A 4, S 5).\n\nIf the opposing creature clashed with a Water or Wind Release jutsu, your check is at advantage and you apply equal ranks of Immolation as Weakened.",
+          "source": "Shakuton",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "shakuton.l15.scorching-dominion",
+          "name": "Scorching Dominion",
+          "level": 15,
+          "description": "You reach the peak of Shakuton's heat generation:\n  • Generate Scorch Charges up to twice per turn now.\n  • Always in Scorching Heat state, even without Scorch Charges.\n  • While a creature within 20 ft has Immolation or Burned, spend 1 Scorch Charge to increase or decrease its ranks by 1 (once per turn, recharges next turn).\n  • Once per turn, while a creature within 20 ft is Chilled, spend 1 Scorch Charge to reduce Chilled by 2.",
+          "source": "Shakuton",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        }
+      ],
+      "pickable": {
+        "pluralLabel": "Desiccated Heat Abilities",
+        "singularLabel": "Desiccated Heat Ability",
+        "editorDescription": "Choose a Desiccated Heat ability.",
+        "pickerDescription": "Gain 2 at 3rd level; +2 at 11th level.",
+        "options": [
+          {
+            "id": "shakuton.heat.scorching-aura",
+            "owningClanId": "shakuton",
+            "name": "Scorching Aura",
+            "description": "Bonus Action + 1 Scorch Charge — 20-ft zone of intense heat. Creatures other than you in the zone cannot regain HP; instead take Fire damage = HP they would regain (your damage). Lasts until end of next turn; spend 1 more Charge to extend by 1 round."
+          },
+          {
+            "id": "shakuton.heat.blazing-aura",
+            "owningClanId": "shakuton",
+            "name": "Blazing Aura",
+            "description": "Bonus Action + 1 Scorch Charge — 20-ft zone of blazing heat. Creatures other than you that start their turn in or enter the zone make a Con save, gaining 1 rank of Immolation on failure. Damage +1d6 at 7/15; ranks Immolation +1 at 11. Extend by 1 Charge."
+          },
+          {
+            "id": "shakuton.heat.dehydrating-aura",
+            "owningClanId": "shakuton",
+            "name": "Dehydrating Aura",
+            "description": "Bonus Action + 1 Scorch Charge — 20-ft zone of evaporating heat. Creatures other than you that start their turn in or enter the zone make a Wis save, gaining 1 rank of Weakened on failure. Ranks Weakened +1 at 11. Extend by 1 Charge."
+          },
+          {
+            "id": "shakuton.heat.instigating-blaze",
+            "owningClanId": "shakuton",
+            "name": "Instigating Blaze",
+            "description": "When an ally within 60 ft casts a Ninjutsu/Taijutsu/Bukijutsu without both Wind+Fire keywords, spend 1 Scorch Charge to overheat it. Jutsu gains both keywords, +2 damage dice (additional as fire), and reduces target's Temp HP to 0 before damage."
+          },
+          {
+            "id": "shakuton.heat.swirling-heat",
+            "owningClanId": "shakuton",
+            "name": "Swirling Heat",
+            "description": "When you or an ally within 60 ft triggers Swirl on a Wind Release jutsu, spend 1 Scorch Charge to turn it into a blazing twister — Swirl radius increases to 10-ft, all creatures in area gain 1 rank Immolation instead."
+          },
+          {
+            "id": "shakuton.heat.searing-knuckle",
+            "owningClanId": "shakuton",
+            "name": "Searing Knuckle",
+            "description": "Bonus Action + 1 Scorch Charge — coat hands/feet in scorching flames for 1 minute. [Unarmed Damage] becomes 2d6 fire. Crit on [Unarmed Damage] inflicts 1 rank of Immolation. Also as an Action — touch plant matter or metal ≤ 1-ft cube to reduce to ash or molten puddle."
+          },
+          {
+            "id": "shakuton.heat.searing-edge",
+            "owningClanId": "shakuton",
+            "name": "Searing Edge",
+            "description": "Bonus Action + 1 Scorch Charge — coat your or ally's weapon in scorching flames for 1 minute. [Weapon Damage] becomes 1d12 fire. Crit on [Weapon Damage] inflicts 1 rank of Immolation."
+          },
+          {
+            "id": "shakuton.heat.heat-mirage",
+            "owningClanId": "shakuton",
+            "name": "Heat Mirage",
+            "description": "Action — release pent-up heat in a 30-ft cone. Wis save, 2 ranks Dazzled on failure. Creatures with Immolation make save with -1 per rank of Immolation."
+          }
+        ],
+        "sourceFeatureId": "shakuton.l3.desiccated-heat",
+        "pickGrants": [
+          { "level": 3, "picks": 2 },
+          { "level": 11, "picks": 2 }
+        ]
+      },
+      "additionalPickables": [],
+      "natureReleaseGrants": [
+        {
+          "level": 1,
+          "picks": 1,
+          "autoReleases": [],
+          "fromReleases": [
+            "Wind",
+            "Fire"
+          ],
+          "source": "Scorch Release Affinity",
+          "description": "Pick Wind or Fire Release."
+        },
+        {
+          "level": 7,
+          "picks": 0,
+          "autoReleases": [],
+          "fromReleases": [
+            "Wind",
+            "Fire"
+          ],
+          "source": "Scorch Release",
+          "description": "Gain the other of Wind / Fire at 7th level."
+        }
+      ],
+      "resources": [
+        {
+          "name": "Scorch Charges",
+          "autoKey": "clan:shakuton:scorch-charges",
+          "source": "Heating Up",
+          "minLevel": 1,
+          "maxFormulaDescription": "2 (+2 at 3/7/11/15)",
+          "maxFormula": { "base": 2 },
+          "replenishOn": "none"
+        }
+      ],
+      "stanceGrants": [],
+      "creatureGrants": []
     }
   ]
 }
