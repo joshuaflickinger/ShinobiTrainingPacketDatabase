@@ -51,6 +51,145 @@
           ]
         }
       ]
+    },
+    {
+      "id": "clan.iburi.smoke-style",
+      "category": "chakra",
+      "name": "Smoke Style",
+      "expert": false,
+      "expertOf": "",
+      "prerequisite": "Iburi clan",
+      "description": "The Iburi clan's unique fighting style. Enter Smoke Style as a Bonus Action; select a variant (Dancing Cinder or Fume Brawler). Swap variants by spending a Bonus Action on subsequent turns. While in this stance you also benefit from either a Taijutsu or Bukijutsu stance simultaneously.",
+      "effects": [
+        "Movement speed +5 ft. This increases to +10 at 7th and +15 at 15th levels.",
+        "Beginning at 7th level, if you do not have the Extra Attack class feature, you can attack twice while in this stance when you take the Attack action.",
+        "You can benefit from a Taijutsu OR Bukijutsu stance simultaneously while in Smoke Style."
+      ],
+      "actions": [
+        {
+          "name": "Swap Smoke Style Variant",
+          "actionEconomy": "bonus",
+          "description": "Switch between Dancing Cinder and Fume Brawler variants."
+        }
+      ],
+      "actionOptions": [
+        {
+          "id": "clan.iburi.smoke-style.cinder-bow",
+          "name": "Cinder Bow (Dancing Cinder variant)",
+          "minLevel": 1,
+          "actionEconomy": "attack",
+          "description": "Smoke-bow ranged weapon granted while in Dancing Cinder variant. Statistics of a Long Bow with a d12 damage die, Fire damage, uses your Iburi Hijutsu Flexibility (Con or Int) for hit + damage. Cannot be disarmed; dismiss at no cost, reform as a Bonus Action. Once per turn, if your attack is 5 or higher than target AC they gain a rank of Dazzled. Once per round, take an attack of opportunity without spending your reaction. Creatures within 10 ft of you provoke attacks of opportunity. (L7 Smoke Burst — Punishing Smog: +1 crit threat range; can target a point instead of a creature to fill a 10-foot cube with heavily obscuring smoke until your next turn.)",
+          "isAttack": true,
+          "attack": {
+            "kind": "ranged",
+            "abilityMods": [
+              "Constitution",
+              "Intelligence"
+            ],
+            "proficient": true,
+            "damageDice": "1d12",
+            "damageType": "Fire",
+            "range": "Long Bow"
+          },
+          "scaling": [
+            {
+              "atLevel": 7,
+              "description": "Smoke Burst — Punishing Smog: +1 crit threat range; can target a point to fill a 10-foot cube with heavily obscuring smoke until your next turn."
+            }
+          ]
+        },
+        {
+          "id": "clan.iburi.smoke-style.smoke-chains",
+          "name": "Smoke Chains (Fume Brawler variant)",
+          "minLevel": 1,
+          "actionEconomy": "attack",
+          "description": "Smoke-whip melee weapon granted while in Fume Brawler variant. Statistics of a Whip with a d10 damage die, Fire damage, uses your Iburi Hijutsu Flexibility (Con or Int) for hit + damage. Cannot be disarmed; dismiss at no cost, reform as a Bonus Action. Once per turn, if your attack is 5 or higher than target AC they gain a rank of Envenomed. Once per round, take Dash or Disengage at no action cost. As part of casting a Fire Release jutsu or passing a Str/Dex save, you can morph into smoke and shift 15 ft (opportunity attacks at disadvantage). (L7 Smoke Burst — Incapacitating Smoke: Smoke Chain gains Reach 3 and the Special property as if it were a Battle Wire; trips can hit all creatures within 5 ft of the target.)",
+          "isAttack": true,
+          "attack": {
+            "kind": "melee",
+            "abilityMods": [
+              "Constitution",
+              "Intelligence"
+            ],
+            "proficient": true,
+            "damageDice": "1d10",
+            "damageType": "Fire",
+            "range": "Whip reach"
+          },
+          "scaling": [
+            {
+              "atLevel": 7,
+              "description": "Smoke Burst — Incapacitating Smoke: Smoke Chain gains Reach 3 and Battle-Wire Special property; Trip can affect all creatures within 5 ft of the target."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clan.inuzuka.four-legs",
+      "category": "taijutsu",
+      "name": "Four-Legs Technique",
+      "expert": false,
+      "expertOf": "",
+      "prerequisite": "Inuzuka clan",
+      "description": "The Inuzuka's rabid-beast fighting style. Drop down on all fours and enter the Four-Legs Taijutsu stance to fight like a hunter, a predator, a Dog.",
+      "effects": [
+        "Your [Unarmed Damage] becomes 2d4 Slashing. Increases to 4d4 at 11th level.",
+        "You can use your Hijutsu Flexibility ability modifier (Strength or Wisdom) in place of Strength for attacks and damage.",
+        "Speed increases by +10 ft, and you don't spend extra movement when Wall or Water Walking.",
+        "You can take the Dash action as a Bonus Action."
+      ],
+      "actions": [],
+      "actionOptions": [
+        {
+          "id": "clan.inuzuka.four-legs.claw-strike",
+          "name": "Claw / Fang Strike",
+          "minLevel": 1,
+          "actionEconomy": "attack",
+          "description": "Unarmed strike using your sharpened claws / teeth while in the Four-Legs stance. Uses your Inuzuka Hijutsu Flexibility ability mod (Strength or Wisdom) for hit + damage; deals slashing damage.",
+          "isAttack": true,
+          "attack": {
+            "kind": "melee",
+            "abilityMods": [
+              "Strength",
+              "Wisdom"
+            ],
+            "proficient": true,
+            "damageDice": "2d4",
+            "damageType": "Slashing",
+            "range": ""
+          },
+          "scaling": [
+            {
+              "atLevel": 11,
+              "damageDice": "4d4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clan.nara.shadow-arts",
+      "category": "chakra",
+      "name": "Shadow Arts",
+      "expert": false,
+      "expertOf": "",
+      "prerequisite": "Nara clan",
+      "description": "The Nara clan's shadow-manipulation stance — focus, coordination, and isolation of foes. Enter as a Bonus Action; treated as a Chakra stance. The stance powers Shadow Possession and Bright/Dimly Lit jutsu modifiers (your GM picks the active time-of-day each scene).",
+      "effects": [
+        "While in this stance, your Nara Hijutsu gain their Bright or Dimly Lit effect (GM's call per scene).",
+        "Limited Shadow: you can hold 1 Shadow-Bound creature at a time. This increases to 2 at 7th and 3 at 15th levels.",
+        "Distorted Shadow: you cannot use Shadow Possession while unable to mold chakra or while losing concentration.",
+        "Shadows Reach: the range of Shadow Possession increases by +20 ft at 7th and 15th levels (base 40 ft → 60 → 80)."
+      ],
+      "actions": [
+        {
+          "name": "Shadow Possession",
+          "actionEconomy": "action",
+          "description": "Select a creature you can see within 40 ft. Their shadow connects to yours; the target makes a Dexterity save vs your highest Jutsu save. On a failure, they become Shadow Bound. A Shadow-Bound creature remakes the save at the end of each of their turns, ending the condition on a success. (Reach grows to 60 ft at 7th and 80 ft at 15th. Mendokusē reduces this to a Bonus Action at L15.)"
+        }
+      ],
+      "actionOptions": []
     }
   ]
 }

@@ -873,6 +873,1028 @@
           "source": "Gentle Fist"
         }
       ]
+    },
+    {
+      "id": "iburi",
+      "name": "Iburi",
+      "introQuote": "“Damn. It's blazing in here. Fui! Turn on the vents!” After a long days work, Kuro rocked back in his chair, shutting his eyes. … smoke emanates from his mouth, eyes, and nose, taking the form of an unknown Shinobi from the Land of Fire. The shinobi wraps his legs around Fui, taking him down in one fell swoop. … The Shinobi reaches for a radio link on his jacket. “Jōki, I'm in.”",
+      "introAttribution": "— Jōki Hatake, The Long Road, Ch. 42 excerpt.",
+      "subheading": "BORN OF ASH",
+      "loreDescription": "The Iburi Clan is a seclusive clan scattered all throughout the Land of Fire. Members of this clan possess a powerful Kekkei Genkai that allows them to transform themselves into smoke. In the past, this versatile ability proved to be a curse rather than a blessing, as it could not be controlled, causing some of the Iburi to be dispersed and killed in the winds. This burden, however, was resolved by one of the Leaf's legendary Sannin, granting the later generations mastery over their power.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Intelligence, +1 Constitution",
+        "speed": "30 feet",
+        "skillProficiencies": [
+          "Chakra Control",
+          "Survival"
+        ],
+        "extraLanguages": [],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Passive Affinity",
+            "description": "You begin with the Fire release affinity."
+          },
+          {
+            "name": "Iburi Techniques",
+            "description": "The Iburi Clan has access to a separate list of jutsu unique to their clan. You can add these Jutsu to your jutsu list instead of selecting jutsu from the normal jutsu list(s)."
+          },
+          {
+            "name": "Hijutsu Flexibility",
+            "description": "Iburi Clan Hijutsu can use either Constitution or Intelligence as its casting ability score."
+          },
+          {
+            "name": "Smoke Free Zone",
+            "description": "Whenever you would enter an area obscured by smoke, mist or a naturally-occurring gas (not jutsu based), you passively dispel it as you travel through, clearing your space of the obscuring haze."
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "iburi.l1.smoke-style",
+          "name": "Smoke Style",
+          "level": 1,
+          "description": "Generations of Iburi have mastered the clan's unique Smoke Style chakra stance. Enter Smoke Style as a Bonus Action and select one of its variants (Dancing Cinder or Fume Brawler). Swap variants with a Bonus Action on subsequent turns. While in the stance you can benefit from either a Taijutsu or Bukijutsu stance simultaneously, and your movement speed increases by +5 ft (+10 at 7th, +15 at 15th).\n\nBeginning at 7th level, if you do not have the Extra Attack class feature, you can attack twice while in this stance when you take the Attack action.\n\nDancing Cinder — generates a Cinder Bow (Long-Bow stats, d12, Fire damage; uses your Hijutsu Flexibility ability mod). Once per turn, if your attack with the bow is 5 or higher than target AC they gain a rank of Dazzled. Once per round, take an opportunity attack without spending your reaction. Creatures within 10 ft of you provoke opportunity attacks from you.\n\nFume Brawler — generates Smoke Chains (Whip stats, d10, Fire damage; uses your Hijutsu Flexibility ability mod). Once per turn, if your attack is 5 or higher than target AC they gain a rank of Envenomed. Once per round, Dash or Disengage at no action cost. As part of casting a Fire Release jutsu or passing a Str/Dex save, you can morph into smoke and shift 15 ft (opportunity attacks at disadvantage).",
+          "source": "Iburi",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "iburi.l3.will-o-wisps",
+          "name": "Will-O-Wisps",
+          "level": 3,
+          "description": "Your clan's Kekkei Genkai grants you unparalleled control over your body's physical make-up and the smoke created by fire. You begin with 2 Will-O-Wisps of your choice, gaining an additional Will-O-Wisp at 7th and 15th levels. If a Will-O-Wisp forces a saving throw, use your highest jutsu save DC to resolve its effect.",
+          "source": "Iburi",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "iburi.l7.smoke-burst",
+          "name": "Smoke Burst",
+          "level": 7,
+          "description": "You enhance your Smoke Style, granting it improved effects based on the active variant.\n\nPunishing Smog (Dancing Cinder). Attacks made with the Cinder Bow gain a +1 bonus to its critical threat range. You can target a point with a Cinder Bow attack instead of a creature; when you do, you fill a 10-foot cube centered on the point with thick smoke that heavily obscures vision for creatures within (you can see in from outside; they cannot see out). The cloud lasts until the beginning of your next turn.\n\nIncapacitating Smoke (Fume Brawler). The Smoke Chain now has Reach 3 and gains the Special property as if it were a Battle Wire. When you attempt to Trip a creature with the Smoke Chain you can instead attempt to trip every creature within 5 ft of them, comparing your result vs each. On a success, they take your [Weapon Damage] + [Weapon Damage].",
+          "source": "Iburi",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "iburi.l7.aberration-of-smoke",
+          "name": "Aberration of Smoke",
+          "level": 7,
+          "description": "As an Action, you convert your entire body into smoke and ash for 1 minute. While transformed, you gain a 20-foot fly speed and can fit through any cracks or holes smoke or mist could reasonably fit through. You can end this state at no action cost while in a space that can hold you. If trapped, you take 4d6 bludgeoning damage each turn you cannot return to normal.\n\nWhile in this state, you are resistant to all damage but vulnerable to Wind damage, and cannot cast jutsu requiring hand signs or physical contact (Taijutsu / Bukijutsu).\n\nOnce used, you cannot use this feature again until 10 minutes have passed.",
+          "source": "Iburi",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "action",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "iburi.l11.ashen-monarch",
+          "name": "Ashen Monarch",
+          "level": 11,
+          "description": "You can control any smoke, gas, haze or cloud by mixing particles of your ashen chakra into it. As a Reaction to entering, or beginning your turn within, an effect described as a cloud / gas / haze / smoke, make a Ninshou check using your Hijutsu Flexibility ability score vs the effect's Jutsu save DC (or the Standard Level DC if it has none). On a success, you take control of the area — reshaping or moving it as a Bonus Action on your turn — and gain immunity to its effects. When you command it as a Bonus Action you can either move it 20 ft (its center-most space follows) or reshape it into a 20-foot-radius sphere. Apply its effects using your highest Jutsu save DC. The original caster loses concentration; you begin concentration at no chakra cost for up to 1 minute.",
+          "source": "Iburi",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "reaction",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "iburi.l15.black-lung",
+          "name": "Black Lung",
+          "level": 15,
+          "description": "You can control the smoke your body and jutsu produce so completely that you can coat the lungs of your foes. As an Action select a point you can see within 60 ft, or as a Reaction select a cloud / gas / mist / fog you control.\n\nAction. Generate a 20-foot radius cloud of black smoke centered on the chosen point for the next minute.\n\nReaction. Transform a cloud / gas / mist / fog you control into a cloud of thick black smoke, retaining its shape.\n\nCreatures of your choice inside or entering the cloud treat the area as obscured + difficult terrain. You and allies you can see are not hindered by your own cloud. Creatures of your choice who begin / end their turn in the cloud or enter it on a turn must make a Constitution save vs your highest Jutsu save DC. On a failed save they gain 1 rank of Exhaustion as they begin hacking and wheezing. As a Bonus Action on subsequent turns, move the selected point up to 30 ft. The cloud can hover and does not need to settle. Creatures Exhausted by this feature lose all inflicted Exhaustion after spending 1 minute outside the cloud. Once used, cannot be used again until you complete a rest.",
+          "source": "Iburi",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "action-or-reaction",
+          "equippable": false,
+          "actions": []
+        }
+      ],
+      "pickable": {
+        "pluralLabel": "Will-O-Wisps",
+        "singularLabel": "Will-O-Wisp",
+        "editorDescription": "Choose a Will-O-Wisp.",
+        "pickerDescription": "Gain 2 at 3rd level; +1 at 7th and 15th levels.",
+        "options": [
+          {
+            "id": "iburi.will-o-wisp.ashen-simplicity",
+            "owningClanId": "iburi",
+            "name": "Ashen Simplicity",
+            "description": "Your clan's unique affinity to fire grants its progeny the opportunity to learn such jutsu at a faster rate than others. When creating or learning jutsu with the Fire Release keyword, reduce the time it takes to complete the task by half."
+          },
+          {
+            "id": "iburi.will-o-wisp.ashen-resilience",
+            "owningClanId": "iburi",
+            "name": "Ashen Resilience",
+            "description": "Particles that would normally harm others have a lessened effect on you. You gain a rank of Mastery to saving throws made to resist effects that originate from a cloud, gas or smoke. This bonus also extends to jutsu or effects with the Inhaled keyword. At 11th level this becomes 2 ranks of Mastery."
+          },
+          {
+            "id": "iburi.will-o-wisp.smoke-haze",
+            "owningClanId": "iburi",
+            "name": "Smoke Haze",
+            "description": "When you cast a jutsu with the Fire Release keyword that requires an attack, you can, once per turn, cause your flames to instead be overcome with a gout of black and gray smoke. All creatures within 5 ft of the original target(s) must make a Dexterity save, gaining 1 rank of Dazzled. This increases to 2 ranks at 7th and 3 ranks at 15th."
+          },
+          {
+            "id": "iburi.will-o-wisp.soot-lung",
+            "owningClanId": "iburi",
+            "name": "Soot Lung",
+            "description": "When you cast a Fire Release jutsu that would inflict ranks of Burned, you can have your flames be overcome with a gout of gray and white smoke instead. All affected creatures that would gain ranks of Burned instead gain an equal number of ranks of Envenomed. Creatures resistant / immune to Poison damage do not have advantage on saves to resist ranks of Envenomed granted by this feature."
+          },
+          {
+            "id": "iburi.will-o-wisp.the-unburned",
+            "owningClanId": "iburi",
+            "name": "The Unburned",
+            "description": "Your body radiates a soft but apparent heat that matches opposing sources of heat that would harm you. You gain resistance to Fire damage and make checks to resist harmful effects from extreme heat at advantage.\n\nAt 7th level you can attempt to siphon scorching heat from an ally — as a Bonus Action, while within 15 ft of an ally with ranks of Burned, attempt an ability check using your highest jutsu ability modifier vs the DC to end Burned (whichever is lower between the condition DC and the save DC).\n\nAt 11th level you gain immunity to Burned and the check gains a rank of Mastery. At 15th level the check gains 2 ranks of Mastery."
+          }
+        ],
+        "sourceFeatureId": "iburi.l3.will-o-wisps",
+        "pickGrants": [
+          {
+            "level": 3,
+            "picks": 2
+          },
+          {
+            "level": 7,
+            "picks": 1
+          },
+          {
+            "level": 15,
+            "picks": 1
+          }
+        ]
+      },
+      "additionalPickables": [],
+      "natureReleaseGrants": [
+        {
+          "level": 1,
+          "picks": 0,
+          "autoReleases": [
+            "Fire"
+          ],
+          "fromReleases": [],
+          "source": "Passive Affinity",
+          "description": "You begin with the Fire release affinity."
+        }
+      ],
+      "resources": [],
+      "stanceGrants": [
+        {
+          "level": 1,
+          "stanceId": "clan.iburi.smoke-style",
+          "source": "Smoke Style"
+        }
+      ],
+      "creatureGrants": []
+    },
+    {
+      "id": "inuzuka",
+      "name": "Inuzuka",
+      "introQuote": "“Come on Sutemaru, let's sniff these guys out,” Aria says while petting the head of her ninja-dog who's sniffing some left behind tents. … As Sutemaru begins to dig at the ground directly under him … and starts scratching at metal beneath the dirt. “You've gotta be kidding me…” Levi says while looking in complete disbelief. “Told you to give him a chance. He's a good boy!”",
+      "introAttribution": "— Tatsunami Aburame, The Long Road, Ch. 1 excerpt.",
+      "subheading": "THE MOST LOYAL",
+      "loreDescription": "The Inuzuka Clan is a family of shinobi in Konoha known for their use of ninja-dogs as fighting companions and are easily identified by the distinctive red fang markings on their cheeks. Members are given their own canine partner(s) when they reach a certain age. Thereafter, the shinobi and their dog(s) are practically inseparable. The shinobi and canine allies fight using Cooperation Ninjutsu, taking advantage of their teamwork and their sharp claws and teeth. The members of this clan, much like their canine partners, have greatly enhanced senses, especially their sense of smell.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Strength or Dexterity, +1 Wisdom",
+        "speed": "30 feet",
+        "skillProficiencies": [
+          "Animal Handling",
+          "Survival"
+        ],
+        "extraLanguages": [],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Beast Speak",
+            "description": "You can speak to and understand creatures designated as Beasts."
+          },
+          {
+            "name": "Inuzuka Hijutsu",
+            "description": "The Inuzuka Clan has access to a separate list of jutsu unique to their clan. You can add these Jutsu to your jutsu list instead of selecting jutsu from the normal jutsu list(s)."
+          },
+          {
+            "name": "Hijutsu Flexibility",
+            "description": "Inuzuka Clan Hijutsu can use either Strength or Wisdom as its casting ability score."
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "inuzuka.l1.beast-master",
+          "name": "Beast Master",
+          "level": 1,
+          "description": "Per clan tradition you were raised with a canine companion bred by the Inuzuka — a Nin-Dog. Your Nin-Dog has its own statblock detailed as part of this clan but can be one of many breeds that determine its unique traits.\n\nYour Nin-Dog is friendly to you and your allies and obeys your commands. In combat it acts as part of your turn but has its own reaction, which it can spend to cast Hijutsu you know with the [Tag-Team] keyword. Commands available: Move (no action cost — full movement); Strike (replace any attacks with a Bite); Synchronize (cast a Tag-Team jutsu with the dog spending a Jutsu Slot to follow up); Hunt (Bonus Action — Dash, Disengage, Hide, Help, or perform a skill-based action in exploration).\n\nYour Nin-Dog has Jutsu slots like a summoned creature, regaining them on rest. When you are incapacitated, it acts on its own to defend you. At 0 HP it makes Death saves. Killed Nin-Dogs are replaced via a Full-Rest ritual with the clan.\n\nYour Nin-Dog is the same level as you. It starts Small, grows to Medium at 7th level and Large at 15th. At levels 4 / 8 / 12 / 16 / 19, one of its ability mods + the associated save bonus increases by +1 (max +6).\n\nAt character creation, select your dog's Breed and an initial Trait. It gains additional Traits at 11th and 15th levels.",
+          "source": "Inuzuka",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": [],
+          "creatureId": "inuzuka.nin-dog"
+        },
+        {
+          "id": "inuzuka.l1.four-legs",
+          "name": "Four-Legs Technique",
+          "level": 1,
+          "description": "Your clan's unique fighting style has you fighting like a rabid beast with claws and fangs. While in combat you can drop down on all fours and enter the Four-Legs Taijutsu stance. While in this stance: your [Unarmed Damage] becomes 2d4 Slashing (4d4 at 11th level); you can use your Hijutsu Flexibility ability mod in place of Strength for attacks and damage; your speed increases by +10 and you don't spend extra movement Wall or Water Walking; you can take the Dash action as a Bonus Action.",
+          "source": "Inuzuka",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "inuzuka.l3.savage-attacker",
+          "name": "Savage Attacker",
+          "level": 3,
+          "description": "You and your Nin-Dog carry the savage fighting spirit of the Inuzuka. When you and your Nin-Dog are on opposite sides of a creature, the first attack roll either of you makes that turn is at advantage (once per turn). When either of you scores a critical hit, you become Feral.\n\nBeginning at 11th level, when either of you falls below half max HP, you become Feral for 1 minute, ignoring the Calming effect for the duration. Once used in this way, you cannot do so again until you complete a rest.",
+          "source": "Inuzuka",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "inuzuka.l7.beast-human-clone",
+          "name": "Beast Human Clone",
+          "level": 7,
+          "description": "When initiative is rolled, your Nin-Dog uses the advanced transformation technique, transforming to look exactly like you (with notable differences). Creatures cannot discern between you without Chakra Sight, and your Nin-Dog gains the benefit of your Four-Legs Taijutsu stance and can become Feral when you do.",
+          "source": "Inuzuka",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "inuzuka.l11.beast-sense",
+          "name": "Beast Sense",
+          "level": 11,
+          "description": "You imitate your Nin-Dog's sensory capabilities with chakra. You gain a rank of Mastery in Perception, Insight, and Survival. Skill-based actions using those skills that take an action now cost a Bonus Action instead.",
+          "source": "Inuzuka",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "inuzuka.l15.two-headed-wolf",
+          "name": "Two-Headed Wolf",
+          "level": 15,
+          "description": "As a Bonus Action, perform the Inuzuka clan's Secret Transformation Technique — you and your Nin-Dog fuse into a huge creature with 2 heads, combining your senses and strengths. You grow one size larger than your Nin-Dog up to Huge. You remain fused for 1 minute. Once used, cannot be used again until a long rest.\n\nWhile fused you use the Two-Headed Wolf statblock. If you fall to 0 HP, the fusion ends immediately — your Nin-Dog has 1 HP, you have half max HP.",
+          "source": "Inuzuka",
+          "kind": "amp",
+          "ampType": "Battle",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": [],
+          "creatureId": "inuzuka.two-headed-wolf"
+        }
+      ],
+      "pickable": {
+        "pluralLabel": "Nin-Dog Breeds",
+        "singularLabel": "Nin-Dog Breed",
+        "editorDescription": "Choose your Nin-Dog's breed at character creation.",
+        "pickerDescription": "Select one Breed at character creation. Breed grants a skill proficiency and a free starting Trait.",
+        "options": [
+          {
+            "id": "inuzuka.breed.inuit",
+            "owningClanId": "inuzuka",
+            "name": "Inuit",
+            "description": "A breed known for its hunting skill. Gains proficiency in Survival and the Wild Sense trait."
+          },
+          {
+            "id": "inuzuka.breed.kugsha",
+            "owningClanId": "inuzuka",
+            "name": "Kugsha",
+            "description": "A breed known for combat. Gains proficiency in Intimidation and the Ravage trait."
+          },
+          {
+            "id": "inuzuka.breed.tamaskan",
+            "owningClanId": "inuzuka",
+            "name": "Tamaskan",
+            "description": "A breed known for its ability to mold chakra. Gains proficiency in Chakra Control and the Paw-Signs trait."
+          },
+          {
+            "id": "inuzuka.breed.shiba",
+            "owningClanId": "inuzuka",
+            "name": "Shiba",
+            "description": "A breed known for its chameleon-like fur. Gains proficiency in Stealth and the Silent Paw trait."
+          },
+          {
+            "id": "inuzuka.breed.akita",
+            "owningClanId": "inuzuka",
+            "name": "Akita",
+            "description": "A breed known for its size and strength. Gains proficiency in Athletics and the Grit trait."
+          }
+        ],
+        "sourceFeatureId": "inuzuka.l1.beast-master",
+        "pickGrants": [
+          {
+            "level": 1,
+            "picks": 1
+          }
+        ]
+      },
+      "additionalPickables": [
+        {
+          "pluralLabel": "Nin-Dog Traits",
+          "singularLabel": "Nin-Dog Trait",
+          "editorDescription": "Choose additional Traits for your Nin-Dog.",
+          "pickerDescription": "1 free Trait at character creation (in addition to your Breed's automatic trait). Additional Traits at 11th and 15th levels.",
+          "options": [
+            {
+              "id": "inuzuka.trait.wild-sense",
+              "owningClanId": "inuzuka",
+              "name": "Wild Sense",
+              "description": "Your Nin-Dog can sniff out creatures even when their tracks are covered. As a Bonus Action it takes a single sniff and becomes aware of all creatures within 60 ft (120 ft at 7th, 1 mile at 15th) and their locations. Previously Undetected creatures drop to Unseen. Does not identify a creature, does not reveal those submerged, underground, inside buildings, or hidden by jutsu. 10-minute recharge."
+            },
+            {
+              "id": "inuzuka.trait.ravage",
+              "owningClanId": "inuzuka",
+              "name": "Ravage",
+              "description": "Your Nin-Dog's Bite damage die increases by 1 step (max d12). You can take this trait more than once. Once per turn, as part of the Strike command, your Nin-Dog makes one additional Bite attack."
+            },
+            {
+              "id": "inuzuka.trait.paw-signs",
+              "owningClanId": "inuzuka",
+              "name": "Paw-Signs",
+              "description": "Your Nin-Dog weaves its paws like hand signs creating complex motions. Select 2 Ninjutsu of D-Rank you would qualify for; your Nin-Dog learns them and you gain the Cast command (Bonus Action: command your Nin-Dog to cast a jutsu it knows). Your Nin-Dog learns one additional jutsu at 7th and 15th levels. Can be taken multiple times — each time, raises the rank of jutsu it can learn by one grade (max A-Rank)."
+            },
+            {
+              "id": "inuzuka.trait.silent-paw",
+              "owningClanId": "inuzuka",
+              "name": "Silent Paw",
+              "description": "Your Nin-Dog's paw pads are soft and quiet. It gains a rank of Mastery in Stealth. As part of the Hunt command it can attempt to Hide while lightly obscured. On a success it also gains Dash and doesn't lose Hidden benefits when moving more than half its speed."
+            },
+            {
+              "id": "inuzuka.trait.grit",
+              "owningClanId": "inuzuka",
+              "name": "Grit",
+              "description": "Your Nin-Dog's HP increases by twice its level, and gains +2 max HP each level thereafter. It gains proficiency in Constitution saving throws and DR equal to its Con modifier."
+            },
+            {
+              "id": "inuzuka.trait.savage",
+              "owningClanId": "inuzuka",
+              "name": "Savage",
+              "description": "Creatures that cast jutsu with the Hand Sign (HS) component make your Nin-Dog see red, allowing it to spend its reaction to move and make a Bite attack against them before the triggering jutsu resolves. Can be taken more than once, +1 attack each time, max 3 attacks."
+            },
+            {
+              "id": "inuzuka.trait.barker",
+              "owningClanId": "inuzuka",
+              "name": "Barker",
+              "description": "Your Nin-Dog gains the Bark attack (Ranged Taijutsu Save: 15 ft., one target. Wis save; failed save → 1 rank of Demoralized). Can be used in place of its Bite."
+            },
+            {
+              "id": "inuzuka.trait.talker",
+              "owningClanId": "inuzuka",
+              "name": "Talker",
+              "description": "Your Nin-Dog can speak in a language everyone understands. Gains proficiency in Persuasion and Deception. Will never lie to you, but will always lie to others if it believes the truth will bring you harm."
+            },
+            {
+              "id": "inuzuka.trait.skilled",
+              "owningClanId": "inuzuka",
+              "name": "Skilled",
+              "description": "Your Nin-Dog gains proficiency in 4 skills of your choice. Can be taken more than once — each new instance grants 4 new skill proficiencies and a rank of Mastery on all previously-known skills."
+            },
+            {
+              "id": "inuzuka.trait.big-boy-girl",
+              "owningClanId": "inuzuka",
+              "name": "Big Boy / Girl",
+              "description": "Increase your Nin-Dog's size by one category. If it would grow to a defined size on its own, it grows to the next category instead. You also gain the Shrink Boy/Girl command (Action: shrink one size category indefinitely until commanded again). When attacking a creature smaller than itself, it gains a rank of Mastery on attack + damage rolls."
+            }
+          ],
+          "sourceFeatureId": "inuzuka.l1.beast-master",
+          "pickGrants": [
+            {
+              "level": 1,
+              "picks": 1
+            },
+            {
+              "level": 11,
+              "picks": 1
+            },
+            {
+              "level": 15,
+              "picks": 1
+            }
+          ]
+        }
+      ],
+      "natureReleaseGrants": [],
+      "resources": [],
+      "stanceGrants": [
+        {
+          "level": 1,
+          "stanceId": "clan.inuzuka.four-legs",
+          "source": "Four-Legs Technique"
+        }
+      ],
+      "creatureGrants": [
+        {
+          "level": 1,
+          "creatureId": "inuzuka.nin-dog",
+          "source": "Beast Master"
+        },
+        {
+          "level": 15,
+          "creatureId": "inuzuka.two-headed-wolf",
+          "source": "Two-Headed Wolf"
+        }
+      ]
+    },
+    {
+      "id": "kurama",
+      "name": "Kurama",
+      "introQuote": "“There has to be a way out!” the bandit screamed as he raced down the same hallway for the 20th time. … Elsewhere a young girl wearing a chunin vest sits in a tree eating ice cream as she watches the bandit run in circles screaming pointlessly. She giggles to herself before finishing her snack. She reaches into her side pouch drawing a single kunai and approaches them, “I guess, I had my fun. Time to put an end to this.”",
+      "introAttribution": "— Tatsunami Aburame, The Long Road, Ch. 3 excerpt.",
+      "subheading": "ILLUSIONS AS REAL AS REALITY",
+      "loreDescription": "The Kurama Clan is a clan of extremely skilled Genjutsu users. This talent in Genjutsu is due to the Kekkei Genkai that the clan possesses. However, once every few generations, a member of the clan will be born with such enormous skill in Genjutsu that their illusions cause the brain to make anything that happens to the victim within the Genjutsu physically real, allowing the clan member to potentially kill their opponents with Genjutsu.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Wisdom or Charisma, +1 Intelligence",
+        "speed": "30 feet",
+        "skillProficiencies": [
+          "Illusions",
+          "Insight"
+        ],
+        "extraLanguages": [],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Illusory Genius",
+            "description": "You reduce downtime cost to learn Genjutsu you qualify for by an amount equal to their rank, to a minimum of 1. (D-Rank: 1, C-Rank: 2, B-Rank: 3, A-Rank: 4, S-Rank: 5)"
+          },
+          {
+            "name": "Deep Sleep",
+            "description": "Over the course of a long rest, your dreams are made manifest. Select one skill or Toolkit and gain proficiency in it until your next long rest. If you have proficiency already, you instead gain a rank of Mastery with that skill."
+          },
+          {
+            "name": "Photographic Memory",
+            "description": "Your mind is a lockbox. You can perfectly recall anything you've read, seen, or heard within the last 3 months, without making a check."
+          },
+          {
+            "name": "Kurama Hijutsu",
+            "description": "The Kurama Clan has access to a separate list of jutsu unique to their clan. You can add these Jutsu to your jutsu list instead of selecting jutsu from the normal jutsu list(s)."
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "kurama.l1.onijutsu",
+          "name": "Onijutsu",
+          "level": 1,
+          "description": "Your Genjutsu are extensions of your subconscious, and your ability to control your dreams using your clan's Kekkei Genkai gives birth to a unique subset of Genjutsu molding called Onijutsu. Onijutsu manifests as Oni-Coils. You have a number of coils equal to 1 + your proficiency bonus.\n\nYou spend Oni-Coils on chosen Onijutsu. Each Onijutsu costs 1 Oni-Coil unless specified otherwise. Each Onijutsu can be used once per turn as part of casting a Genjutsu you know, unless otherwise specified. You can use up to 2 Onijutsu per casting. You regain spent Oni-Coils when you finish a rest.\n\nYou gain 2 Onijutsu at character creation and 1 additional Onijutsu at 7th and 15th levels.",
+          "source": "Kurama",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "kurama.l1.dream-walker",
+          "name": "Dream Walker",
+          "level": 1,
+          "description": "Whenever you awake from a rest, you bring something from your dreams with you — a Dream Walker, an illusory construct given form by your subconscious. Choose its type from: Dream Fey, Dream Beast, Dream Dragon, Dream Spider, Dream Demon. Use the Dream Walker statblock and apply your chosen dream type's traits.\n\nYour Dream Walker grows alongside you and can affect the waking world while it remains above 0 HP. If reduced to 0 HP it is dispelled until your next rest. It regains all missing HP on rest.\n\nAlternatively: when you cast a jutsu or use a feature that summons a chakra construct, or when you finish your rest while you know a jutsu that summons a construct, you can spend 2 Oni-Coils to use that creature's statblock as your Dream Walker.\n\nYour Dream Walker only obeys you and doesn't acknowledge others unless commanded. Commands: Move (no cost, full movement), Strike (replace any attacks with its Strike), Distort (Bonus Action — use its dream-type ability; saves use your Ninjutsu or Genjutsu save DC).\n\nAt 7th level — Pass Through: as part of casting a Ninjutsu or Genjutsu, the jutsu can originate from your Dream Walker. Inflict Harm: as part of casting a Taijutsu or Bukijutsu, your Dream Walker can perform the attacks and use its Strikes in place of your [Unarmed Damage] / [Weapon Damage].",
+          "source": "Kurama",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": [],
+          "creatureId": "kurama.dream-walker"
+        },
+        {
+          "id": "kurama.l3.illusion-made-manifest",
+          "name": "Illusion Made Manifest",
+          "level": 3,
+          "description": "Your dreams give weight and form to thoughts. When you complete a rest, select one weapon group and gain proficiency in those weapons. Wielding a weapon from that group makes it ethereal and its damage type becomes Psychic. Only you can wield this weapon. While wielding it you can spend Oni-Coils to utilize:\n\nMemory Haze. As part of dealing [Weapon Damage], spend 1 Oni-Coil to force a Wisdom save. On failure the target becomes Confused.\n\nStolen Thoughts. As part of dealing [Weapon Damage], spend 2 Oni-Coils to force an Intelligence save. On failure, you become aware of their most immediate goals and they forget them for the next minute.\n\nIf the affected creature is already making a save vs damage / damage reduction, then on a failed save these effects apply.",
+          "source": "Kurama",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "kurama.l3.deja-vu",
+          "name": "Déjà Vu",
+          "level": 3,
+          "description": "Dreams are like prophecy. When you would make a contested check against an opponent's Charisma or Wisdom based skill, you can make your check at advantage (because you've already seen this transpire in a dream). 10-minute recharge — dreams are difficult to decipher on demand.",
+          "source": "Kurama",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "kurama.l7.deep-sleep-allies",
+          "name": "Deep Sleep",
+          "level": 7,
+          "description": "Your allies have never had a deep sleep like you. When you and your allies complete a Long Rest together, you all become Well Rested.",
+          "source": "Kurama",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "kurama.l7.lucid-dreams",
+          "name": "Lucid Dreams",
+          "level": 7,
+          "description": "When you summon your Dream Walker its form is more malleable. Select one of the following Lucid Dream modifications; can be changed on rest.\n\nElemental — Dream Walker takes on a Nature Release you have access to (Earth / Wind / Fire / Water / Lightning). Select 2 jutsu you know of C-Rank or lower with that keyword; they become abilities it can use twice per initiative each. If you don't have access (random roll 1d6: 1 Earth, 2 Wind, 3 Fire, 4 Water, 5 Lightning, 6 Reroll), it gains the chosen jutsu pair listed: Earth — Agonizing Thorn / Tectonic Palm; Wind — Slicing Wind Bullet / Great Breakthrough; Fire — Phoenix Fire / Flame Armor; Water — Tsunami Mallet / Hiding In Mist; Lightning — Guiding Bolt / Lightning Rope.\n\nWarrior — Dream Walker becomes more warrior-like. Select 2 Taijutsu or Bukijutsu of C-Rank or lower you know as twice-per-initiative abilities. If you don't have a pair, gain by type: Brute — Leaf Uppercut / Beast; Samurai — Yosaku Cut / Disarming Riposte; Ninja — Crippling Strike / Mikiri Counter.\n\nVegetative — Dream Walker takes on plant / fungi qualities for Medicine. Pick or roll (1d4: 1 Flowers/Poison, 2 Fungi/Necrotic, 3 Moss/Acid, 4 Reroll). Default jutsu pairs: Flowers — Poisonous Blast / Poison Mist; Fungi — Necrosis / Vampiric Touch; Moss — Acid String / Acidic Bolt.",
+          "source": "Kurama",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "kurama.l11.mental-resistance",
+          "name": "Mental Resistance",
+          "level": 11,
+          "description": "Your mind and will are shielded by your subconscious. You gain a rank of Mastery on Intelligence and Wisdom saving throws.",
+          "source": "Kurama",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "kurama.l15.inner-self",
+          "name": "Inner Self",
+          "level": 15,
+          "description": "Your subconscious rises to the surface, becoming your true self — your Dream Walker. As a Bonus Action, while you have a Dream Walker active, you fuse into them, assuming their form and using their statblock's ability scores, attacks, abilities, and hit points. You retain your own weapon and skill proficiencies and jutsu knowledge, plus any it has that you don't. For the next minute you retain this state. If your HP falls to 0, you revert and your Dream Walker is dispelled. Once used, cannot be used again until you complete a long rest. Alternatively, spend 2 Oni-Coils to revert back to your Dream Walker form early.",
+          "source": "Kurama",
+          "kind": "amp",
+          "ampType": "Battle",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        }
+      ],
+      "pickable": {
+        "pluralLabel": "Onijutsu",
+        "singularLabel": "Onijutsu",
+        "editorDescription": "Choose an Onijutsu (Genjutsu amplification).",
+        "pickerDescription": "Gain 2 at character creation; +1 at 7th and 15th levels.",
+        "options": [
+          {
+            "id": "kurama.onijutsu.curse-of-daydreams",
+            "owningClanId": "kurama",
+            "name": "Curse of Daydreams",
+            "description": "When a creature would critically fail a save against a Genjutsu you cast, treat the Genjutsu as if upcast by 1 rank. If they would fail by 10 or more, treat it as upcast by 2 ranks (ignoring rank limitations)."
+          },
+          {
+            "id": "kurama.onijutsu.infectious-genjutsu",
+            "owningClanId": "kurama",
+            "name": "Infectious Genjutsu",
+            "description": "When an affected creature fails their save (or you score a hit with your Genjutsu attack), the target becomes a relay point. Until your next turn, once per turn, if an ally moves within 10 ft of them, the moving creature must make the saving throw, suffering its effects as if they were the original target."
+          },
+          {
+            "id": "kurama.onijutsu.overwhelming-illusions",
+            "owningClanId": "kurama",
+            "name": "Overwhelming Illusions",
+            "description": "When a creature succeeds their save against the amplified Genjutsu, until the end of their next turn they increase the cost of jutsu they cast by an amount equal to the rank of the amplified jutsu (D: +4, C: +8, B: +12, A: +16, S: +20)."
+          },
+          {
+            "id": "kurama.onijutsu.punishing-illusions",
+            "owningClanId": "kurama",
+            "name": "Punishing Illusions",
+            "description": "If one of your targets succeeds on their save against the amplified Genjutsu, you manifest a secondary illusion with the original. The affected creature remakes their save; if they fail this remade save they suffer the Genjutsu's success effects but also become Confused."
+          },
+          {
+            "id": "kurama.onijutsu.sensory-domination",
+            "owningClanId": "kurama",
+            "name": "Sensory Domination",
+            "description": "A creature that fails their save against the amplified Genjutsu who has a special sense (Blind Sight, Chakra Sight, etc.) is instead Blinded for the duration of the jutsu (or until your next turn if it has no duration)."
+          },
+          {
+            "id": "kurama.onijutsu.subtle-illusion",
+            "owningClanId": "kurama",
+            "name": "Subtle Illusion",
+            "description": "The amplified Genjutsu can be cast without Hand Signs (HS) or Chakra Seals (CS). When cast this way, you must make eye contact or physical contact with the target as part of casting."
+          },
+          {
+            "id": "kurama.onijutsu.the-pain-is-real",
+            "owningClanId": "kurama",
+            "name": "The Pain Is Real",
+            "description": "At the cost of 2 Oni-Coils, when you cast a Ninjutsu / Taijutsu / Bukijutsu that deals damage as an Action, convert it into a Genjutsu. The jutsu loses its Ninjutsu / Taijutsu / Bukijutsu keyword and gains Genjutsu and Tactile."
+          },
+          {
+            "id": "kurama.onijutsu.will-breaker",
+            "owningClanId": "kurama",
+            "name": "Will Breaker",
+            "description": "When an affected creature fails their save vs the amplified Genjutsu, they suffer a -1 penalty to their next Strength or Dexterity save. Increases to -2 at 11th level."
+          },
+          {
+            "id": "kurama.onijutsu.versatile-authority",
+            "owningClanId": "kurama",
+            "name": "Versatile Authority",
+            "description": "A creature making a save vs the amplified Genjutsu that has ranks of a Physical or Elemental condition cannot gain a jutsu-based bonus to their save."
+          }
+        ],
+        "sourceFeatureId": "kurama.l1.onijutsu",
+        "pickGrants": [
+          {
+            "level": 1,
+            "picks": 2
+          },
+          {
+            "level": 7,
+            "picks": 1
+          },
+          {
+            "level": 15,
+            "picks": 1
+          }
+        ]
+      },
+      "additionalPickables": [],
+      "natureReleaseGrants": [],
+      "resources": [
+        {
+          "name": "Oni-Coils",
+          "autoKey": "clan:kurama:oni-coils",
+          "source": "Onijutsu",
+          "minLevel": 1,
+          "maxFormulaDescription": "1 + Proficiency Bonus",
+          "maxFormula": {
+            "base": 1,
+            "perProf": 1
+          },
+          "replenishOn": "short"
+        }
+      ],
+      "stanceGrants": [],
+      "creatureGrants": [
+        {
+          "level": 1,
+          "creatureId": "kurama.dream-walker",
+          "source": "Dream Walker"
+        }
+      ]
+    },
+    {
+      "id": "namikaze",
+      "name": "Namikaze",
+      "introQuote": "A hot-headed, blond shinobi stands at the beginning of the starting line. Other shinobi approach the starting line nervous that the blond shinobi is here at all. … They cross the finish line. As everyone sits around tired and exhausted he says, “Good effort guys. Too bad I won twice already.”",
+      "introAttribution": "— Shuria Nata, At Worlds End, Ch. 1 excerpt.",
+      "subheading": "FASTER THAN THE EYE CAN SEE",
+      "loreDescription": "The Namikaze Clan doesn't know its origins, but it's assumed they hail from the Land of Fire. Their most prominent member became its 4th Hokage. The Namikaze Clan doesn't have a powerful family name, nor does it share a family compound or hold any high-ranking title. It is embodied by its ideal of speed and potential. The Namikaze clan has produced some of the fastest shinobi in the leaf, and the continuation of this tradition will move further into the future.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Dexterity, +1 Intelligence",
+        "speed": "30 feet",
+        "skillProficiencies": [
+          "Athletics",
+          "Chakra Control"
+        ],
+        "extraLanguages": [],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Swift Release Affinity",
+            "description": "You begin with either Wind or Lightning Release affinity (pick one)."
+          },
+          {
+            "name": "Swift Release Techniques",
+            "description": "The Namikaze Clan has access to a separate list of jutsu unique to their clan. You can add these Jutsu to your jutsu list instead of selecting jutsu from the normal jutsu list(s)."
+          },
+          {
+            "name": "Hijutsu Flexibility",
+            "description": "Namikaze Clan Hijutsu can use either Dexterity or Intelligence as its casting ability score."
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "namikaze.l1.blood-of-the-swift",
+          "name": "Blood of the Swift",
+          "level": 1,
+          "description": "The Namikaze are known for their incredible reflexes and agility. Due to your natural gift for speed, you develop a special fuinjutsu meant to seal bursts of chakra within you, that you can release for exponential boosts to your physicality. This special fuinjutsu is known as Speed Seals and are represented as d8s. You have a number of Speed Seals equal to 1 + your proficiency bonus.\n\nYou can spend Speed Seals on any feature or ability that calls for it. You regain spent seals when you finish a rest. The first of such abilities are your Blitz Arts — special abilities passed down from clansmen to clansmen. You begin with 2 such abilities. You gain an additional one at 7th and 15th levels.",
+          "source": "Namikaze",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "namikaze.l3.interdiction-seal",
+          "name": "Interdiction Seal",
+          "level": 3,
+          "description": "The Namikaze are related to the Uzumaki through both blood and familial history. The Namikaze honors that by training its members to be specialists in Fuinjutsu as well as speed. Once per turn, when you deal damage with a weapon attack or a melee attack, you can spend 1 Speed Seal to mark a damaged creature with the spent seal. A specialized seal of your design grows over the impact point and remains for the next minute. While a creature is marked in this way the seal provides:\n\nMarked. Trigger Interdiction Seal effects from Hijutsu you cast.\n\nTriangulate. The first attack each turn against a marked creature has +1 to its critical threat range.\n\nInterdiction. As a Reaction to a marked creature you can see casting a jutsu that requires Hand Signs (HS), you can detonate the Speed Seal — the affected creature must make a Constitution save vs your highest jutsu save DC, having their jutsu Interrupted and gaining 1 rank of Sealed on a failure (2 ranks at 11th level). Detonating dispels the mark.",
+          "source": "Namikaze",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "namikaze.l7.swift-release-manifestation",
+          "name": "Swift Release Manifestation",
+          "level": 7,
+          "description": "The Namikaze clan has a unique talent for manifesting Swift Release due to their close affinity to both Wind and Lightning Release. You gain the second Nature release you didn't select from the Swift Release Affinity trait, and when casting a jutsu with either Lightning or Wind Release keywords, you can change the damage type to Wind or Lightning respectively.\n\nAdditionally, once per turn, at the beginning or end of that turn, you can spend 1 Speed Seal to teleport to a creature or object marked with your Speed Seal, so long as they are within 120 ft of you.",
+          "source": "Namikaze",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "namikaze.l11.tricksters-blink",
+          "name": "Tricksters Blink",
+          "level": 11,
+          "description": "Your speed and reflexes have reached their peak. Gain the following once-per-turn special abilities:\n\nRedirecting Flashpoint. When you have two or more creatures marked with a Speed Seal and you see one making an attack or casting a jutsu, spend your Reaction targeting two marked creatures. Both teleport, switching positions on the map (before the jutsu / attack resolves). If this puts the jutsu / attack out of range, the attacker must choose a new valid target; if no valid target exists, the attack misses / jutsu is Interrupted. Both seals then dispel.\n\nBlink Burst. When a hostile creature marked with your Speed Seal would deal damage to you or inflict a Physical / Elemental condition as a result of an attack or jutsu, spend your Reaction, dispel the target's Speed Seal, and spend 1 additional Speed Seal. Make a Dexterity save vs the triggering attack result or jutsu's save DC. On a success, you avoid the attack or treat your success as theirs (when they were forcing a Dex save). You also teleport into an adjacent space near them and can cast a jutsu that requires an attack, has a 1-Action casting time, and only targets the triggering creature.",
+          "source": "Namikaze",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "reaction",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "namikaze.l15.sovereign-of-speed",
+          "name": "Sovereign of Speed",
+          "level": 15,
+          "description": "You learn to vibrate your body, accelerating yourself beyond normal shinobi limits — infusing your cells with the energy needed to ignore friction itself. As a Bonus Action, enter the Speed Sovereign state for the next minute. Once per long rest.",
+          "source": "Namikaze",
+          "kind": "amp",
+          "ampType": "Battle",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        }
+      ],
+      "pickable": {
+        "pluralLabel": "Blitz Arts",
+        "singularLabel": "Blitz Art",
+        "editorDescription": "Choose a Blitz Art (Speed-Seal ability).",
+        "pickerDescription": "Gain 2 at character creation; +1 at 7th and 15th levels.",
+        "options": [
+          {
+            "id": "namikaze.blitz-art.flash-dodge",
+            "owningClanId": "namikaze",
+            "name": "Flash Dodge",
+            "description": "As a Reaction to taking damage, spend up to 2 Speed Seals, gaining +2 AC until your next turn for each die spent. Applied against the triggering attack."
+          },
+          {
+            "id": "namikaze.blitz-art.flash-step",
+            "owningClanId": "namikaze",
+            "name": "Flash Step",
+            "description": "At the beginning of your turn, spend 1 Speed Seal to gain the benefits of the Dash action. You also cannot have your speed reduced by hostile effects for the duration."
+          },
+          {
+            "id": "namikaze.blitz-art.speed-amplification",
+            "owningClanId": "namikaze",
+            "name": "Speed Amplification",
+            "description": "At the beginning of your turn, spend 1 Speed Seal. You gain +10 speed and ignore difficult terrain until your next turn. Increases to +20 at 7th and +30 at 15th."
+          },
+          {
+            "id": "namikaze.blitz-art.blitz-assault",
+            "owningClanId": "namikaze",
+            "name": "Blitz Assault",
+            "description": "Once per turn, as part of making an attack when casting a jutsu, spend 2 Speed Seals to make one additional attack of the same type, dealing 2d8 damage on a hit and reapplying the jutsu's non-damaging effect on a success. Damage increases to 4d8 at 7th and 6d8 at 15th."
+          },
+          {
+            "id": "namikaze.blitz-art.blink-of-an-eye",
+            "owningClanId": "namikaze",
+            "name": "Blink of an Eye",
+            "description": "At the beginning of your turn, spend 2 Speed Seals to teleport to a space within your movement range. All hostile creatures adjacent to the destination must make a Dex save, suffering -2 AC until your next turn on a failure. If you make an attack against a penalized-AC creature that same turn, you can spend 1 additional Speed Seal to teleport back to your starting space."
+          },
+          {
+            "id": "namikaze.blitz-art.phase-dodge",
+            "owningClanId": "namikaze",
+            "name": "Phase Dodge",
+            "description": "As a Reaction to making a Strength or Constitution save, spend 2 Speed Seals. Make a Dexterity save in place of the triggering save."
+          },
+          {
+            "id": "namikaze.blitz-art.like-the-wind",
+            "owningClanId": "namikaze",
+            "name": "Like the Wind",
+            "description": "Once per turn, when you deal Wind or Lightning damage to a creature, spend 1 Speed Seal and select a different creature within 30 ft. Teleport adjacent to them and make one unarmed or weapon attack, dealing your [Unarmed Damage] or [Weapon Damage] plus your spent Speed Seal."
+          },
+          {
+            "id": "namikaze.blitz-art.rushing-start",
+            "owningClanId": "namikaze",
+            "name": "Rushing Start",
+            "description": "When you roll initiative, spend 1 Speed Seal, adding twice the result to your initiative."
+          },
+          {
+            "id": "namikaze.blitz-art.speed-burst",
+            "owningClanId": "namikaze",
+            "name": "Speed Burst",
+            "description": "Once per turn on your turn, spend 3 Speed Seals to gain an additional Action. The additional action lasts until the end of the current turn. Once used, the cost increases by +1 until you complete a long rest."
+          },
+          {
+            "id": "namikaze.blitz-art.speed-formula",
+            "owningClanId": "namikaze",
+            "name": "Speed Formula",
+            "description": "As a Bonus Action, mark one weapon you are wielding with your Speed Seal. The mark lasts 1 hour or until spent (marking doesn't spend it). As a Bonus Action on later turns, spend the marked weapon's Speed Seal to teleport to it (within 120 ft and not destroyed)."
+          }
+        ],
+        "sourceFeatureId": "namikaze.l1.blood-of-the-swift",
+        "pickGrants": [
+          {
+            "level": 1,
+            "picks": 2
+          },
+          {
+            "level": 7,
+            "picks": 1
+          },
+          {
+            "level": 15,
+            "picks": 1
+          }
+        ]
+      },
+      "additionalPickables": [],
+      "natureReleaseGrants": [
+        {
+          "level": 1,
+          "picks": 1,
+          "autoReleases": [],
+          "fromReleases": [
+            "Wind",
+            "Lightning"
+          ],
+          "source": "Swift Release Affinity",
+          "description": "Pick Wind or Lightning Release as your initial affinity."
+        },
+        {
+          "level": 7,
+          "picks": 0,
+          "autoReleases": [],
+          "fromReleases": [
+            "Wind",
+            "Lightning"
+          ],
+          "source": "Swift Release Manifestation",
+          "description": "Gain the other of Wind / Lightning Release at 7th level. Apply via level-up dedup against your L1 pick."
+        }
+      ],
+      "resources": [
+        {
+          "name": "Speed Seals",
+          "autoKey": "clan:namikaze:speed-seals",
+          "source": "Blood of the Swift",
+          "minLevel": 1,
+          "maxFormulaDescription": "1 + Proficiency Bonus",
+          "maxFormula": {
+            "base": 1,
+            "perProf": 1
+          },
+          "replenishOn": "short"
+        }
+      ],
+      "stanceGrants": [],
+      "creatureGrants": []
+    },
+    {
+      "id": "nara",
+      "name": "Nara",
+      "introQuote": "Shinbi looked across the battlefield where multiple bodies lay either lifeless or almost there. … She opens her eyes and begins to speak, “The enemy knows we are wounded and weak, allow them to think that. They will be coming soon, it's a trap we will set for them, let them come. Set explosive Traps along the way. We are making a tactical retreat.” Her men look confused but listen nonetheless. As they make their way out, the left flank is breached as they rush towards the retreating party. Shinbi makes a single hand seal as the explosives go off stopping them in their tracks and crippling their assault.",
+      "introAttribution": "— Tatsunami Aburame, The Long Road, Ch. 10 excerpt.",
+      "subheading": "INCONCEIVABLE FORESIGHT",
+      "loreDescription": "The Nara Clan or Nara Family is one of the many clans of Konohagakure. They are known for tending deer and their ability to manipulate shadows through the use of Yin Release. There are stories of men and women who can see battles before they happen, see victories and defeats before the first weapons are drawn and can route those victories or prevent those defeats all within the span of a moment. These men and women came together and over the years consolidated their knowledge and insight and became known as the Nara Clan. The Nara clan has a special relationship with the Akimichi and the Yamanaka clan. For several generations, members of these three families have formed \"Ino–Shika–Cho\" trios.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Intelligence, +1 Wisdom",
+        "speed": "30 feet",
+        "skillProficiencies": [
+          "Investigation",
+          "Insight"
+        ],
+        "extraLanguages": [],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Nara Hijutsu",
+            "description": "The Nara Clan has access to a separate list of jutsu unique to their clan. You can add these Jutsu to your jutsu list instead of selecting jutsu from the normal jutsu list(s)."
+          },
+          {
+            "name": "Hijutsu Flexibility",
+            "description": "Nara Clan Hijutsu can use either Intelligence or Wisdom as its casting ability score."
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "nara.l1.shadow-arts",
+          "name": "Shadow Arts",
+          "level": 1,
+          "description": "The Nara clan teaches you to think in silhouettes and the curvature of light. Enter your Shadow Arts stance as a Bonus Action (treated as a Chakra stance). While in the stance: Shadow Possession (Action) — select a creature within 40 ft; they make a Dex save vs your highest Jutsu save DC. On failure they become Shadow Bound; they remake the save at the end of each of their turns. Shadow's Reach: range +20 ft at 7th, +20 ft at 15th. Limited Shadow: hold 1 creature at a time (2 at 7th, 3 at 15th). Distorted Shadow: can't use if you can't mold chakra or maintain concentration. Time of Day: your jutsu gain their Bright / Dimly Lit effects based on the GM's environmental call.",
+          "source": "Nara",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "nara.l3.operational-contingencies",
+          "name": "Operational Contingencies",
+          "level": 3,
+          "description": "You don't react — you knew what was going to happen and planned a contingency for it. At the beginning of each of your turns, spend your Bonus Action to establish a Contingency (a Cause + Effect pair). At 11th level you set two Contingencies as part of the same Bonus Action. A prepared Contingency lasts until your next turn. If a Cause occurs in that window, the Effect resolves at the same time.\n\nCauses: an ally is targeted by an attack; an ally fails a save; an ally gains a Physical / Mental Condition; a hostile creature you see casts a jutsu with HS; a hostile creature you see begins their turn concentrating on a jutsu; a hostile creature you see moves within 10 ft of an ally.\n\nEffects: ally gains a rank of Mastery on their AC until their next turn; ally gains a rank of Mastery on their saves until their next turn; ally remakes a save for an active effect; ally makes a free opportunity attack against a hostile creature in range; ally spends their reaction to move 10 ft without provoking AoO (can leave an area effect or an enemy's attack range); ally spends their reaction to cast a 1-Action jutsu against a hostile creature in range.",
+          "source": "Nara",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "nara.l7.team-coordination",
+          "name": "Team Coordination",
+          "level": 7,
+          "description": "When you roll initiative or begin a social encounter, all allies gain the Coordinated condition until initiative ends. Two variants — Combat Coordination (combat) and Diplomatic Coordination (social).",
+          "source": "Nara",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "nara.l11.shogi-board",
+          "name": "Shogi Board",
+          "level": 11,
+          "description": "Every battlefield is a shogi board only you can see. When you use Shadow Possession or cast a Nara Hijutsu that inflicts Shadow Bound, while you have Contingencies established, dismiss one Contingency to command two allies to spend their Reaction casting a 1-Action jutsu or using a clan feature that costs an Action. They must target the same creature you do. You and the chosen allies determine the order effects are applied. (Allies casting Human Boulder Hijutsu / Mind Body Transfer / Mind Body Disturbance Hijutsu attack with a rank of Mastery and force the target's save with a -2 penalty.)",
+          "source": "Nara",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "nara.l15.mendokuse",
+          "name": "Mendokusē",
+          "level": 15,
+          "description": "What a drag, right? You can set up 1 Contingency at the start of your turn without spending a Bonus Action; if you do, you cannot use a Bonus Action to establish another Contingency. You can use Shadow Possession as a Bonus Action instead of an Action; if you do, you cannot use Shadow Possession as an Action.",
+          "source": "Nara",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        }
+      ],
+      "additionalPickables": [],
+      "natureReleaseGrants": [],
+      "resources": [],
+      "stanceGrants": [
+        {
+          "level": 1,
+          "stanceId": "clan.nara.shadow-arts",
+          "source": "Shadow Arts"
+        }
+      ],
+      "creatureGrants": []
     }
   ]
 }

@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "rules": {
+    "note": "Statblocks the program references from clan / class / jutsu features — Nin-Dogs, fusion forms, summoned constructs. Each entry mirrors the in-source statblock as faithfully as the data shape allows; the consuming feature points here by `id`."
+  },
+  "creatures": [
+    {
+      "id": "inuzuka.nin-dog",
+      "name": "Nin-Dog",
+      "owningClanId": "inuzuka",
+      "owningFeatureId": "inuzuka.l1.beast-master",
+      "category": "beast",
+      "size": "Small",
+      "sizeProgression": [
+        { "atLevel": 7, "size": "Medium" },
+        { "atLevel": 15, "size": "Large" }
+      ],
+      "armorClass": "10 + Dex Mod + your proficiency bonus",
+      "hitPoints": "(10 + Con Mod) × your level",
+      "jutsuSlots": "2 + Half Level (Min 1)",
+      "speed": "35 ft.",
+      "abilities": {
+        "str": { "mod": 2, "save": true },
+        "dex": { "mod": 2, "save": true },
+        "con": { "mod": 2, "save": false },
+        "int": { "mod": 0, "save": false },
+        "wis": { "mod": 2, "save": true },
+        "cha": { "mod": 1, "save": false }
+      },
+      "saveProficiencies": [
+        "Strength",
+        "Dexterity",
+        "Wisdom"
+      ],
+      "saveNote": "Add your proficiency bonus with the listed Mod to calculate the save bonus; all others add only half your prof bonus.",
+      "skills": [
+        "Acrobatics",
+        "Perception",
+        "Insight"
+      ],
+      "senses": [
+        "Darkvision 30 ft.",
+        "Keen Smell & Hearing (advantage on Perception checks to Smell or Hear something)"
+      ],
+      "traits": [
+        {
+          "name": "Tag-Team",
+          "description": "The Nin-Dog can cast any jutsu its master knows with the Tag-Team keyword when commanded to Synchronize."
+        },
+        {
+          "name": "Master's Strength",
+          "description": "If a jutsu your Nin-Dog casts with the Tag-Team keyword requires a saving throw, they can use your Taijutsu Save DC or their own Jutsu Save DC, whichever is higher."
+        },
+        {
+          "name": "Own Strength",
+          "description": "The Nin-Dog uses either its Strength or Dexterity to determine its Jutsu save DC."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Bite",
+          "actionEconomy": "action",
+          "description": "Melee Weapon Attack: 5 ft., one target. Str + Prof to hit, 1d6 + Mod Piercing damage. Increases to 2d6 at 11th level."
+        }
+      ],
+      "progression": [
+        {
+          "atLevel": 4,
+          "description": "Increase one ability modifier and its associated save by +1 (max +6). Repeats at 8, 12, 16, 19."
+        }
+      ],
+      "summary": "Your canine companion. Acts as part of your turn but has its own reaction (used for Tag-Team Hijutsu). Treated as the same level as you. Starts Small; grows to Medium at L7, Large at L15. If reduced to 0 HP, makes Death saving throws. If killed, a Full-Rest ritual with the clan replaces them with a same-breed, same-level, same-traits dog."
+    },
+    {
+      "id": "inuzuka.two-headed-wolf",
+      "name": "Two-Headed Wolf",
+      "owningClanId": "inuzuka",
+      "owningFeatureId": "inuzuka.l15.two-headed-wolf",
+      "category": "beast",
+      "size": "Huge (one size larger than your Nin-Dog, max Huge)",
+      "sizeProgression": [],
+      "armorClass": "15 + Proficiency bonus, or your AC, whichever is higher",
+      "hitPoints": "8 × your level",
+      "jutsuSlots": "",
+      "speed": "60 ft.",
+      "abilities": {
+        "str": { "mod": 6, "save": true },
+        "dex": { "mod": 6, "save": true },
+        "con": { "mod": 6, "save": true },
+        "int": { "mod": 0, "save": false, "note": "Use your or your Nin-Dog's mod, whichever is higher" },
+        "wis": { "mod": 0, "save": false, "note": "Use your or your Nin-Dog's mod, whichever is higher" },
+        "cha": { "mod": 0, "save": false, "note": "Use your or your Nin-Dog's mod, whichever is higher" }
+      },
+      "saveProficiencies": [],
+      "saveNote": "",
+      "skills": [],
+      "damageResistances": [
+        "Bludgeoning",
+        "Piercing",
+        "Slashing"
+      ],
+      "conditionImmunities": [
+        "Bruised",
+        "Weakened"
+      ],
+      "senses": [
+        "All of your Nin-Dog's senses, plus your own."
+      ],
+      "traits": [
+        {
+          "name": "Shared Fortitude",
+          "description": "You gain all resistances and immunities you had prior to the fusion."
+        },
+        {
+          "name": "Shared Mind",
+          "description": "Use your or your Nin-Dog's ability modifiers for Intelligence, Wisdom and Charisma while in this state, whichever is higher."
+        },
+        {
+          "name": "Shared Strength",
+          "description": "You gain the benefits of your Nin-Dog's traits where applicable."
+        },
+        {
+          "name": "Class Limits",
+          "description": "You can use your Class and clan features while in this state. Your Bite is treated as both a weapon and unarmed attack. Taking the Attack action lets you attack with your Bite. If your weapon had Seals, your Bite inherits their effects."
+        },
+        {
+          "name": "Inherent Knowledge",
+          "description": "You can still cast jutsu you know, ignoring hand signs when needed."
+        },
+        {
+          "name": "Shared Body",
+          "description": "While in this state, you gain an additional action which you can only use to cast a Tag-Team jutsu on the same turn (only using its Tag-Team effect)."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Bite",
+          "actionEconomy": "action",
+          "description": "Melee Weapon Attack: 5 ft., one target. Str or Dex + Prof to hit, 2d12 + Mod Piercing damage."
+        }
+      ],
+      "summary": "Fused Inuzuka + Nin-Dog form (L15 Two-Headed Wolf feature). Maintained for 1 minute. If you fall to 0 HP, the fusion ends — Nin-Dog has 1 HP, you have half your max HP."
+    },
+    {
+      "id": "kurama.dream-walker",
+      "name": "Dream Walker",
+      "owningClanId": "kurama",
+      "owningFeatureId": "kurama.l1.dream-walker",
+      "category": "illusory-construct",
+      "size": "Medium",
+      "sizeProgression": [],
+      "armorClass": "13 + your proficiency bonus",
+      "hitPoints": "11 + Proficiency Bonus + your level",
+      "jutsuSlots": "",
+      "speed": "30 ft.",
+      "abilities": {
+        "str": { "mod": 0, "save": true, "note": "Base modifiers — applied differently per dream type" },
+        "dex": { "mod": 0, "save": true },
+        "con": { "mod": 0, "save": true },
+        "int": { "mod": 0, "save": true },
+        "wis": { "mod": 0, "save": true },
+        "cha": { "mod": 0, "save": true }
+      },
+      "saveProficiencies": [
+        "Strength",
+        "Dexterity",
+        "Constitution",
+        "Intelligence",
+        "Wisdom",
+        "Charisma"
+      ],
+      "saveNote": "Strong Dreams — Increase all modifiers by +1 at 7th level and again at 15th level.",
+      "skills": [],
+      "senses": [],
+      "traits": [
+        {
+          "name": "Illusory Construct",
+          "description": "Cannot physically interact with the environment; cannot be more than 60 ft from its summoner before being dispelled. Moves through other creatures' spaces as if difficult terrain. Reduces its HP by 5 if it ends its turn inside an object where its summoner cannot see it. Save DC effects use your Ninjutsu or Genjutsu save DC."
+        },
+        {
+          "name": "Strong Dreams",
+          "description": "Increase all modifiers by +1 at 7th level and again at 15th level."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Strike (Melee)",
+          "actionEconomy": "action",
+          "description": "Melee Genjutsu Attack: 5 ft., one target. Highest Mod + Prof to hit, 1d8 + Mod psychic damage. Increases to 2d8 at 11th."
+        },
+        {
+          "name": "Strike (Ranged)",
+          "actionEconomy": "action",
+          "description": "Ranged Genjutsu Attack: 30 ft., one target. Highest Mod + Prof to hit, 1d6 + Mod psychic damage. Increases to 2d6 at 11th."
+        }
+      ],
+      "variants": [
+        {
+          "id": "kurama.dream-walker.beast",
+          "name": "Dream Beast",
+          "abilityBonuses": "+3 Str, Con. +2 Dex, Wis.",
+          "resistances": "Acid, Bludgeoning, Earth damage",
+          "speedBonus": "+20 ft speed",
+          "ability": {
+            "name": "Beast Pounce",
+            "description": "One creature within 15 feet must make an Intelligence saving throw, being knocked prone and Dazed on a failed save."
+          }
+        },
+        {
+          "id": "kurama.dream-walker.demon",
+          "name": "Dream Demon",
+          "abilityBonuses": "+3 Str, Cha. +2 Con, Int.",
+          "resistances": "Fire, Necrotic, Slashing damage",
+          "speedBonus": "+20 ft speed",
+          "ability": {
+            "name": "Demon's Bargain",
+            "description": "One creature within 20 feet must make a Wisdom saving throw, going Berserk on a failed save. Once used, cannot be used again until the end of your next turn."
+          }
+        },
+        {
+          "id": "kurama.dream-walker.dragon",
+          "name": "Dream Dragon",
+          "abilityBonuses": "+3 Int, Con. +2 Dex, Cha.",
+          "resistances": "Force, Lightning, Wind damage",
+          "speedBonus": "30 ft Fly speed",
+          "ability": {
+            "name": "Dragon's Breath",
+            "description": "All creatures in a 30-foot cone must make a Charisma saving throw, being Weakened on a failed save."
+          }
+        },
+        {
+          "id": "kurama.dream-walker.fey",
+          "name": "Dream Fey",
+          "abilityBonuses": "+3 Wis, Con. +2 Dex, Cha.",
+          "resistances": "Cold, Poison, Psychic damage",
+          "speedBonus": "30 ft Fly speed",
+          "ability": {
+            "name": "Fey Trickery",
+            "description": "One creature within 60 feet must make an Intelligence saving throw, being Dazzled on a failed save."
+          }
+        },
+        {
+          "id": "kurama.dream-walker.spider",
+          "name": "Dream Spider",
+          "abilityBonuses": "+3 Dex, Wis. +2 Str, Con.",
+          "resistances": "Physical and Elemental Conditions",
+          "speedBonus": "60 ft climb speed",
+          "ability": {
+            "name": "Spider's Web",
+            "description": "All creatures within a 10-foot cube, centered on a point you can see within 30 feet, must make a Wisdom saving throw, being Concussed on a failed save."
+          }
+        }
+      ],
+      "summary": "Illusory construct born from your subconscious. Selected on rest from one of five dream types (Beast / Demon / Dragon / Fey / Spider) — each grants different ability bonuses, resistances, movement, and a special Distort ability. Only obeys you. If reduced to 0 HP, dispelled until your next rest. Can be replaced by a known summon-construct's statblock for 2 Oni-Coils when casting a summon jutsu or finishing a rest with one known."
+    }
+  ]
+}
