@@ -157,7 +157,8 @@
         ]
       },
       "natureReleaseGrants": [],
-      "resources": []
+      "resources": [],
+      "stanceGrants": []
     },
     {
       "id": "akimichi",
@@ -320,7 +321,8 @@
           },
           "replenishOn": "short"
         }
-      ]
+      ],
+      "stanceGrants": []
     },
     {
       "id": "hatake",
@@ -583,7 +585,8 @@
           },
           "replenishOn": "long"
         }
-      ]
+      ],
+      "stanceGrants": []
     },
     {
       "id": "hyuga",
@@ -773,7 +776,14 @@
         ]
       },
       "natureReleaseGrants": [],
-      "resources": []
+      "resources": [],
+      "stanceGrants": [
+        {
+          "level": 1,
+          "stanceId": "clan.hyuga.gentle-fist",
+          "source": "Gentle Fist"
+        }
+      ]
     }
   ]
 }
