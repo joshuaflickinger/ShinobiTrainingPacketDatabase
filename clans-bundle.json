@@ -2292,8 +2292,8 @@
         "darkvision": "",
         "extraTraits": [
           {
-            "name": "Prime Nature Release (Mutated Trait — replaces Wood Release Affinity + Mokuton Release Techniques)",
-            "description": "Select one Nature release between Earth, Wind, Fire, Water, Lightning or Medical. You can add jutsu with the corresponding keyword to your jutsu list. At 1st, 3rd, 7th, 11th and 15th levels, you can add 2 jutsu you qualify for with the chosen keyword. (Suggestion: Water Release)"
+            "name": "Prime Nature Release",
+            "description": "Mutated Trait — replaces Wood Release Affinity + Mokuton Release Techniques.\n\nSelect one Nature release between Earth, Wind, Fire, Water, Lightning or Medical. You can add jutsu with the corresponding keyword to your jutsu list. At 1st, 3rd, 7th, 11th and 15th levels, you can add 2 jutsu you qualify for with the chosen keyword. (Suggestion: Water Release)"
           },
           {
             "name": "Hijutsu Flexibility",
