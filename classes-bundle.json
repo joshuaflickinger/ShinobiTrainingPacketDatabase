@@ -3551,18 +3551,18 @@
         ]
       },
       "startingSkillProficiencies": {
-        "pickCount": 3,
+        "pickCount": 4,
         "fromSkills": [
           "Chakra Control",
           "History",
           "Insight",
           "Investigation",
-          "Medicine",
-          "Nature",
-          "Ninshou",
-          "Perception"
+          "Perception",
+          "Stealth"
         ],
-        "autoProficient": []
+        "autoProficient": [
+          "Ninshou"
+        ]
       },
       "masteryGrants": [
         {
