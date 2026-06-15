@@ -555,6 +555,313 @@
         }
       ],
       "summary": "Summoned by the A-Rank Ice Release: Demonic Blizzard Dragon jutsu. Uses summoner's Ninjutsu attack bonus and Save DC. Commanded as a Bonus Action."
+    },
+    {
+      "id": "bakuton.clay-spider",
+      "name": "Clay Spider",
+      "owningClanId": "bakuton",
+      "owningFeatureId": "",
+      "category": "construct",
+      "size": "Small",
+      "sizeProgression": [],
+      "armorClass": "10 + your Ninjutsu ability modifier",
+      "hitPoints": "10 + 10 for every rank above C-Rank",
+      "jutsuSlots": "",
+      "speed": "30 ft",
+      "abilities": {
+        "str": { "mod": 0, "save": true, "note": "Save +3" },
+        "dex": { "mod": 0, "save": true, "note": "Save +3" },
+        "con": { "mod": 0, "save": true, "note": "Save +3" },
+        "int": { "mod": -5, "save": false, "note": "Save -5" },
+        "wis": { "mod": 0, "save": false, "note": "Save +0" },
+        "cha": { "mod": -5, "save": false, "note": "Save -5" }
+      },
+      "saveProficiencies": [
+        "Strength",
+        "Dexterity",
+        "Constitution"
+      ],
+      "saveNote": "",
+      "skills": [
+        "Stealth"
+      ],
+      "damageImmunities": [
+        "Acid",
+        "Poison",
+        "Psychic"
+      ],
+      "conditionImmunities": [
+        "All Mental",
+        "All Sensory",
+        "Stunned",
+        "Exhaustion"
+      ],
+      "senses": [
+        "Relies on Caster senses"
+      ],
+      "traits": [
+        {
+          "name": "Shock Weakness",
+          "description": "If this creature takes Lightning damage it cannot perform its Detonate attack until the end of its caster's next turn. It also cannot Detonate while it has the Shocked condition."
+        },
+        {
+          "name": "Silent Scurry",
+          "description": "When summoned, make a Stealth check using your highest jutsu modifier vs any hostile creature that can see you. On success, the Clay Spider is Undetected by creatures without Chakra Sight or Chakra Sense."
+        },
+        {
+          "name": "Purpose to BOOM",
+          "description": "Once summoned, this creature has 1 minute before it self-Detonates. If it cannot Detonate after this 1-minute duration, it dispels itself."
+        },
+        {
+          "name": "Scurry",
+          "description": "The Spider takes the Dash and Disengage action as part of this action."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Grab",
+          "actionEconomy": "action",
+          "description": "Attempts to grab onto a creature. Target makes a Dex save. On failure, the spider holds on. The creature can attempt a Str save to pull the spider free."
+        },
+        {
+          "name": "Detonate",
+          "actionEconomy": "special",
+          "description": "Fills a 5-foot radius. All creatures in radius make a Dex save, taking force damage on failure (half on success) based on rank summoned: D/C: 3d6, B/A: 4d6, S: 5d6. If a creature is in multiple Detonating Spiders' radii, they make a single save but +2d6 per additional radius they're in. A grappled creature saves at disadvantage."
+        }
+      ],
+      "summary": "Summoned by D-Rank Explosion Release: Clay Spiders. Up to 5 active at once. Commanded as Action or Bonus Action."
+    },
+    {
+      "id": "bakuton.clay-bird",
+      "name": "Clay Bird",
+      "owningClanId": "bakuton",
+      "owningFeatureId": "",
+      "category": "construct",
+      "size": "Large",
+      "sizeProgression": [],
+      "armorClass": "12 + your Ninjutsu ability modifier",
+      "hitPoints": "40 + 10 for every rank above C-Rank",
+      "jutsuSlots": "",
+      "speed": "45 ft flying",
+      "abilities": {
+        "str": { "mod": 2, "save": true, "note": "Save +4" },
+        "dex": { "mod": 4, "save": true, "note": "Save +8" },
+        "con": { "mod": 3, "save": true, "note": "Save +7" },
+        "int": { "mod": -5, "save": false, "note": "Save -5" },
+        "wis": { "mod": 0, "save": false, "note": "Save +0" },
+        "cha": { "mod": -5, "save": false, "note": "Save -5" }
+      },
+      "saveProficiencies": [
+        "Strength",
+        "Dexterity",
+        "Constitution"
+      ],
+      "saveNote": "",
+      "skills": [],
+      "damageImmunities": [
+        "Acid",
+        "Poison",
+        "Psychic"
+      ],
+      "damageVulnerabilities": [
+        "Lightning"
+      ],
+      "conditionImmunities": [
+        "All Mental",
+        "All Sensory",
+        "Stunned",
+        "Exhaustion"
+      ],
+      "senses": [
+        "Relies on Caster senses"
+      ],
+      "traits": [
+        {
+          "name": "Flying Mount",
+          "description": "Primary purpose is to be a flying mount. A creature of your choice can mount. While mounted, replace movement with the Clay Bird's. You cannot command it to move separately from you unless you dismount by spending 5 ft of movement. Attacks targeting the mounted creature do not harm the Clay Bird and vice versa. A mounted creature can spend its reaction to switch targets, interposing. Area effects affect both individually."
+        },
+        {
+          "name": "Shock Weakness",
+          "description": "If this creature takes Lightning damage it cannot Detonate until the end of its caster's next turn. Also cannot Detonate while Shocked."
+        },
+        {
+          "name": "Purpose to BOOM",
+          "description": "Once summoned, has 1 minute before self-Detonates. If it cannot Detonate after 1 minute, it dispels itself."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Ram",
+          "actionEconomy": "action",
+          "description": "If the Clay Bird flies in a straight line for at least 30 ft, can perform Ram attack. All creatures in the straight line make a Dexterity save, taking 6d6 bludgeoning damage on failure (half on success)."
+        },
+        {
+          "name": "Detonate",
+          "actionEconomy": "special",
+          "description": "Fills a 10-foot radius centered on it. All creatures in radius make a Dex save, taking force damage based on rank: D/C: 4d8, B/A: 5d8, S: 6d8. If multiple Clay Birds Detonate and target a creature in multiple radii, they make a single save but +2d8 per additional radius."
+        }
+      ],
+      "summary": "Summoned by C-Rank Explosion Release: Clay Bird. One active at a time (2 at A-Rank). Commanded as Action or Bonus Action."
+    },
+    {
+      "id": "bakuton.clay-centipede",
+      "name": "Clay Centipede",
+      "owningClanId": "bakuton",
+      "owningFeatureId": "",
+      "category": "construct",
+      "size": "Large",
+      "sizeProgression": [],
+      "armorClass": "14 + your Ninjutsu ability modifier",
+      "hitPoints": "30 + 15 for every rank above B-Rank",
+      "jutsuSlots": "",
+      "speed": "40 ft, 60 ft climb",
+      "abilities": {
+        "str": { "mod": 2, "save": true, "note": "Save +4" },
+        "dex": { "mod": 4, "save": true, "note": "Save +8" },
+        "con": { "mod": 3, "save": true, "note": "Save +7" },
+        "int": { "mod": -5, "save": false, "note": "Save -5" },
+        "wis": { "mod": 0, "save": false, "note": "Save +0" },
+        "cha": { "mod": -5, "save": false, "note": "Save -5" }
+      },
+      "saveProficiencies": [
+        "Strength",
+        "Dexterity",
+        "Constitution"
+      ],
+      "saveNote": "",
+      "skills": [],
+      "damageImmunities": [
+        "Acid",
+        "Poison",
+        "Psychic"
+      ],
+      "damageVulnerabilities": [
+        "Lightning"
+      ],
+      "conditionImmunities": [
+        "All Mental",
+        "All Sensory"
+      ],
+      "senses": [
+        "Relies on Caster senses"
+      ],
+      "traits": [
+        {
+          "name": "Shock Weakness",
+          "description": "If this creature takes Lightning damage it cannot Detonate until the end of its caster's next turn. Also cannot Detonate while Shocked."
+        },
+        {
+          "name": "Purpose to BOOM",
+          "description": "Once summoned, has 1 minute before self-Detonates. If it cannot Detonate after 1 minute, it dispels itself."
+        },
+        {
+          "name": "Bug Bomb",
+          "description": "When this creature falls to 0 HP it uses its Detonate attack as a reaction."
+        },
+        {
+          "name": "Multiattack",
+          "description": "The Clay Centipede can attack 2 times with its pincers."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Pincers",
+          "actionEconomy": "action",
+          "description": "Melee Weapon Attack: reach 10 ft, one creature. Hit: 2d6 + 4 piercing damage."
+        },
+        {
+          "name": "Body Wrap",
+          "actionEconomy": "action",
+          "description": "Attempt to grapple a creature. Target makes a Dex save, Grappled on failure. The creature can Action or end-of-turn save Str save to break free."
+        },
+        {
+          "name": "Detonate",
+          "actionEconomy": "special",
+          "description": "Fills a 10-foot radius centered on it. All creatures in radius make a Dex save, taking force damage based on rank: B/A: 6d6, S: 8d6. If multiple Centipedes Detonate on the same creature in multiple radii, single save but +2d6 per additional radius."
+        }
+      ],
+      "summary": "Summoned by B-Rank Explosion Release: Clay Centipede. Up to 2 active at a time. Commanded as Action or Bonus Action."
+    },
+    {
+      "id": "bakuton.clay-dragon",
+      "name": "Clay Dragon",
+      "owningClanId": "bakuton",
+      "owningFeatureId": "",
+      "category": "construct",
+      "size": "Huge",
+      "sizeProgression": [],
+      "armorClass": "16 + your Ninjutsu ability modifier, DR 6",
+      "hitPoints": "60 + 25 for every rank above A-Rank",
+      "jutsuSlots": "4",
+      "speed": "40 ft flying",
+      "abilities": {
+        "str": { "mod": 5, "save": true, "note": "Save +11" },
+        "dex": { "mod": 4, "save": true, "note": "Save +10" },
+        "con": { "mod": 5, "save": true, "note": "Save +11" },
+        "int": { "mod": -5, "save": false, "note": "Save -5" },
+        "wis": { "mod": 0, "save": false, "note": "Save +0" },
+        "cha": { "mod": -5, "save": false, "note": "Save -5" }
+      },
+      "saveProficiencies": [
+        "Strength",
+        "Dexterity",
+        "Constitution"
+      ],
+      "saveNote": "",
+      "skills": [],
+      "damageImmunities": [
+        "Acid",
+        "Poison",
+        "Psychic"
+      ],
+      "damageVulnerabilities": [
+        "Lightning"
+      ],
+      "conditionImmunities": [
+        "All Mental",
+        "All Sensory",
+        "Stunned",
+        "Exhaustion"
+      ],
+      "senses": [
+        "Relies on Caster senses"
+      ],
+      "traits": [
+        {
+          "name": "Flying Mount",
+          "description": "Primary purpose is to be a flying mount. A creature of your choice can mount. While mounted, replace movement with the Clay Dragon's. You cannot command it to move separately from you unless you dismount by spending 5 ft of movement. Attacks targeting the mounted creature must instead target the Dragon and vice versa. Area effects affect only the Clay Dragon."
+        },
+        {
+          "name": "Shock Weakness",
+          "description": "If this creature takes Lightning damage it cannot Detonate until the end of its caster's next turn. Also cannot Detonate while Shocked."
+        },
+        {
+          "name": "Purpose to BOOM",
+          "description": "Once summoned, has 1 minute before self-Detonates. If it cannot Detonate after 1 minute, it dispels itself."
+        },
+        {
+          "name": "Multiattack",
+          "description": "The Clay Dragon can attack 2 times with its Tail."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Tail",
+          "actionEconomy": "action",
+          "description": "Melee Weapon Attack: reach 10 ft, one creature. Hit: 3d8 + 5 Earth damage."
+        },
+        {
+          "name": "Explosive Breath",
+          "actionEconomy": "action",
+          "description": "The Clay Dragon casts Explosion Release: Clay Missiles at C-Rank as if you had cast it, using your Ninjutsu attack bonus, save DC or ability modifier."
+        },
+        {
+          "name": "Detonate",
+          "actionEconomy": "special",
+          "description": "Fills a 10-foot radius centered on it. All creatures in radius make a Dex save, taking force damage based on rank: A: 8d8, S: 12d8."
+        }
+      ],
+      "summary": "Summoned by A-Rank Explosion Release: Clay Dragon. One active at a time. Commanded as Action or Bonus Action."
     }
   ]
 }

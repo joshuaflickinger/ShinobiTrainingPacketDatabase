@@ -733,6 +733,86 @@
         }
       ],
       "actionOptions": []
+    },
+    {
+      "id": "clan.bakuton.artistic-cataclysm",
+      "category": "chakra",
+      "name": "Artistic Cataclysm",
+      "expert": false,
+      "expertOf": "",
+      "prerequisite": "Bakuton clan (Artistic Branch)",
+      "description": "Bakuton Artistic Branch — Chakra stance for the 3-mouthed explosive artist. Bonus Action to enter.",
+      "effects": [
+        "All Clay constructs you command act as part of the same Bonus Action used to command them. Each can be commanded separately.",
+        "When you take the Attack action or cast a Bakuton Hijutsu that requires an attack, you can replace any number of attacks with Clay Bombing attacks.",
+        "Beginning at 7th level, if you do not have Extra Attack, you can attack twice with Clay Bombing as part of the Attack action."
+      ],
+      "actions": [],
+      "actionOptions": [
+        {
+          "id": "clan.bakuton.artistic-cataclysm.clay-bombing",
+          "name": "Clay Bombing",
+          "minLevel": 1,
+          "actionEconomy": "attack",
+          "description": "Ranged Jutsu attack using your highest jutsu attack bonus within 60 ft, 1d12 force damage. On a 12 roll, add 1 extra damage die (more explosive). At 7th — damage becomes 2d12 and Barriers/structures/constructs treat damage as vulnerable.",
+          "isAttack": true,
+          "attack": {
+            "kind": "ranged",
+            "abilityMods": [
+              "Constitution",
+              "Intelligence"
+            ],
+            "proficient": true,
+            "damageDice": "1d12",
+            "damageType": "Force",
+            "range": "60 ft"
+          },
+          "scaling": [
+            {
+              "atLevel": 7,
+              "damageDice": "2d12",
+              "description": "Barriers, structures and constructs treat damage as if they were vulnerable."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clan.bakuton.ballistic-knuckle",
+      "category": "taijutsu",
+      "name": "Ballistic Knuckle",
+      "expert": false,
+      "expertOf": "",
+      "prerequisite": "Bakuton clan (Reckless Branch)",
+      "description": "Bakuton Reckless Branch — Taijutsu stance for the explosive-fisted brawler. Bonus Action to enter.",
+      "effects": [
+        "Your [Unarmed Damage] becomes 2d8 Force; no ability modifier added.",
+        "Unarmed attacks gain the Deadly 1 property (Deadly 2 at 7th, Deadly 3 at 15th).",
+        "Resistance to damage from your own clan features.",
+        "Beginning at 7th level, if you do not have Extra Attack, you can attack twice while in this stance."
+      ],
+      "actions": [],
+      "actionOptions": []
+    },
+    {
+      "id": "clan.futton.broiling-rampart",
+      "category": "taijutsu",
+      "name": "Broiling Rampart",
+      "expert": false,
+      "expertOf": "",
+      "prerequisite": "Futton clan (Broil Branch)",
+      "description": "Futton Broil Branch — Taijutsu stance building Pressure with each strike. Bonus Action to enter.",
+      "effects": [
+        "Use your Hijutsu Flexibility ability mod (Str or Con) in place of Strength for unarmed and weapon attacks.",
+        "Build Pressure: once per turn, gain 1 Pressure when you Dash, Disengage, or cast a Fire/Water Release jutsu. Max 3 Pressure.",
+        "Spend Pressure (1 each, uses your highest jutsu save DC / attack bonus):",
+        "  • Boil Knuckle. When attack is 5+ over target AC, force Con save → Dazed on failure.",
+        "  • Jet Dash. +20 speed; at end of turn boiling steam forces adjacent creatures to Con save → Corroded or Scalded on failure. Counts as a Taijutsu of your highest rank.",
+        "  • Vent Strike. Once per turn when dealing [Weapon Damage] or [Unarmed Damage], +2 damage (+4 at 7th, +6 at 15th).",
+        "Beginning at 7th level, if you do not have Extra Attack, you can attack twice while in this stance."
+      ],
+      "actions": [],
+      "actionOptions": []
     }
   ]
 }

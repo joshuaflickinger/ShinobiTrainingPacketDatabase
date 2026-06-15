@@ -871,6 +871,41 @@
       ],
       "sourceKind": "clan",
       "source": "Kaguya"
+    },
+    {
+      "id": "elemental.deteriorate",
+      "category": "elemental",
+      "name": "Deteriorate",
+      "description": "Deteriorate. Max Ranks: 5. [Elemental]\nA Deteriorating creature suffers the effects of their body and physical form falling apart.\n  • A Deteriorating creature suffers the effects of their body and physical form falling apart.\n  • A Deteriorating creature gains attacking creatures a +1 bonus to their critical hit range, for each rank they have.\n  • A creature with 3 or more ranks of Deteriorate loses all Resistances they have.\n  • A creature with 5 ranks of Deteriorate loses all Immunities they have.\n  • Creatures that are immune to Acid damage is immune to this condition.\n  • A Deteriorating creature can spend an Action to make a DC 20 Constitution ability check to end this affliction. On a successful check, the condition ends.",
+      "maxRank": 5,
+      "tags": [
+        "elemental"
+      ],
+      "sourceKind": "clan",
+      "source": "Futton"
+    },
+    {
+      "id": "elemental.scald",
+      "category": "elemental",
+      "name": "Scald",
+      "description": "Scald. Max Ranks: 5. [Elemental]\nA Scalding creature suffers the effects of their body and physical form being unable to function to its full potential.\n  • A Scalded creature reduces the damage they deal by -2, for each rank they have.\n  • A creature with 3 or more ranks of Scald loses all Temporary Hit Points they have, and cannot regain Temp HP.\n  • A creature with 5 ranks of Scald cannot cast jutsu with the Barrier keyword.\n  • Creatures that are immune to Acid damage is immune to this condition.\n  • A Scalded creature can spend an Action to make a DC 20 Constitution ability check to end this affliction. On a successful check, the condition ends.",
+      "maxRank": 5,
+      "tags": [
+        "elemental"
+      ],
+      "sourceKind": "clan",
+      "source": "Futton"
+    },
+    {
+      "id": "elemental.molten",
+      "category": "elemental",
+      "name": "Molten",
+      "description": "Molten. [Elemental]\nA Molten creature is covered in molten rock and fire, setting them up for cataclysmic elemental reactions. Once a creature takes one of the listed elemental damage types this condition applies the listed effect. This condition ends at the end of the affected creature's next turn unless otherwise specified.\n  • A Molten creature that takes earth damage, has the molten matter on them harden, reducing their speed by half and they cannot cast jutsu with the M (mobility) component until the end of their next turn.\n  • A Molten creature that takes wind damage, has the molten matter on them burst, spreading to all creatures within 10 feet of them, applying the Burned condition. This condition then immediately ends.\n  • A Molten creature that takes fire damage has the molten material heat up radiating extreme heat, applying 2 ranks of the Burned condition. This condition then immediately ends.\n  • A Molten creature that takes cold damage has their body become brittle, becoming vulnerable to the next instance of Bludgeoning, piercing and slashing damage they take. If they take Bludgeoning, piercing or slashing damage before the end of their next turn, this condition immediately ends.\n  • A Molten creature that takes lightning damage has lightning arc to all creatures within 10 feet of them, applying the Shocked condition. This condition then immediately ends.\n  • Creatures that are immune to Fire and Earth damage is immune to this condition.",
+      "tags": [
+        "elemental"
+      ],
+      "sourceKind": "clan",
+      "source": "Yoton"
     }
   ]
 }

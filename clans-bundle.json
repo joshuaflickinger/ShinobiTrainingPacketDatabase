@@ -5598,6 +5598,991 @@
       "resources": [],
       "stanceGrants": [],
       "creatureGrants": []
+    },
+    {
+      "id": "bakuton",
+      "name": "Bakuton",
+      "introQuote": "\"We are in way over our heads!\" Senko says. \"Don't you dare give up on me!\" her red-haired Uzumaki friend responds. … \"You have to use it Senko!\" the Uzumaki screams. \"What!? No! I haven't mastered it yet, what if the blow back~\" she begins, but is caught off guard by her friend's tearful pleas. \"Fine! Stand back. I'm about to blow us out of here!!!\"",
+      "introAttribution": "— Tye Tiken, At Worlds End, Ch. 3 excerpt.",
+      "subheading": "AN EXPLOSIVE PERSONALITY",
+      "loreDescription": "The Bakuton Clan is a clan without a clear family name, but one with a fearsome history and purpose. Members of this clan can be found in villages across the country and are used to great effect in different military institutions. The Bakuton Family line is one of power and absolute authority — these shinobi control a battlefield through force alone and very few can say they would stand a chance against one in a head-to-head match.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Constitution, +1 Intelligence",
+        "speed": "30 feet",
+        "skillProficiencies": [
+          "Chakra Control"
+        ],
+        "extraLanguages": [],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Skill Proficiency (Pick 1)",
+            "description": "Choose between Ninshou or Martial Arts."
+          },
+          {
+            "name": "Explosion Release Affinity",
+            "description": "You begin with either Earth or Lightning Release Affinity (pick one)."
+          },
+          {
+            "name": "Explosive Techniques",
+            "description": "The Bakuton Clan has access to a separate list of jutsu unique to their clan."
+          },
+          {
+            "name": "Hijutsu Flexibility",
+            "description": "Bakuton Clan Hijutsu can use either Constitution or Intelligence as its casting ability score."
+          }
+        ]
+      },
+      "branchLabel": "Branch",
+      "branchPluralLabel": "Branches",
+      "branchPickLevel": 1,
+      "branches": [
+        {
+          "id": "bakuton.artistic-branch",
+          "name": "Artistic Branch",
+          "description": "Artisans who happen to be demolitionists. Born with 3 mouths (one on face, one on each hand) that infuse explosive chakra into any substance they lick or chew.",
+          "features": [
+            {
+              "id": "bakuton.artistic.l1.artistic-cataclysm",
+              "name": "Artistic Cataclysm",
+              "level": 1,
+              "description": "[Artistic Branch] You are born with 3 mouths — face, and one on each hand. These additional mouths infuse explosive chakra into any substance they lick or chew. Bonus Action — enter the Artistic Cataclysm chakra stance. While in this stance, Clay constructs you command all act as part of the same Bonus Action (each commanded separately). When you take the Attack action or cast a Bakuton Hijutsu requiring an attack, you can replace any number of attacks with Clay Bombing attacks (1d12 force, 60 ft range; on a 12 roll add 1 more damage die). Beginning at 7th level, +1 attack with Clay Bombing if no Extra Attack; damage becomes 2d12 and Barriers/structures/constructs are vulnerable.",
+              "source": "Bakuton (Artistic)",
+              "kind": "feature",
+              "effects": [],
+              "actionEconomy": "bonus",
+              "equippable": false,
+              "actions": []
+            },
+            {
+              "id": "bakuton.artistic.l7.artistic-payloads",
+              "name": "Artistic Payloads",
+              "level": 7,
+              "description": "[Artistic Branch] You gain the second Nature release you didn't pick from Explosion Release Affinity. Casting jutsu with Lightning or Earth Release keywords can change damage type to Force.\n\nLearn 3 Payloads, prepare 2 per rest. +2 known at 11th; can prepare 3. Affected creatures save vs your highest jutsu save DC. Immune to your own Payload effects. When detonating Primed creatures / objects / structures, select one Payload to infuse — only one detonation has the Payload effect.",
+              "source": "Bakuton (Artistic)",
+              "kind": "feature",
+              "effects": [],
+              "actionEconomy": "none",
+              "equippable": false,
+              "actions": []
+            },
+            {
+              "id": "bakuton.artistic.l15.explosive-art",
+              "name": "Explosive Art!",
+              "level": 15,
+              "description": "[Artistic Branch] You are a walking magazine of explosive potential. Bonus Action — enter the Grand Detonator state for 1 minute (once per long rest).\n\nGrand Detonator (Battle Amp):\n  • Expanded Limit. Up to 8 Primes active at once.\n  • If Looks Could Kill. Once per turn, detonate a single Primed creature without spending an action on your turn.\n  • Lethal Charge. Infuse up to 3 different Payloads into a detonation.\n  • Terrain Buster. All detonations can create difficult terrain in the affected area.",
+              "source": "Bakuton (Artistic)",
+              "kind": "amp",
+              "ampType": "Battle",
+              "effects": [],
+              "actionEconomy": "bonus",
+              "equippable": false,
+              "actions": []
+            }
+          ],
+          "resources": []
+        },
+        {
+          "id": "bakuton.reckless-branch",
+          "name": "Reckless Branch",
+          "description": "Demolitionists who happen to be brawlers. Born with explosive hands and a penchant for close-range fights.",
+          "features": [
+            {
+              "id": "bakuton.reckless.l1.ballistic-knuckle",
+              "name": "Ballistic Knuckle",
+              "level": 1,
+              "description": "[Reckless Branch] When you got into scraps as a child, everyone agreed: you had hands — explosive ones. Bonus Action — enter the Ballistic Knuckle Taijutsu stance. While in this stance: [Unarmed Damage] becomes 2d8 Force (no ability mod added). Unarmed attacks gain Deadly 1 (Deadly 2 at 7th, Deadly 3 at 15th). Resistance to damage from your own clan features. Beginning at 7th level, attack twice in this stance if no Extra Attack.",
+              "source": "Bakuton (Reckless)",
+              "kind": "feature",
+              "effects": [],
+              "actionEconomy": "bonus",
+              "equippable": false,
+              "actions": []
+            },
+            {
+              "id": "bakuton.reckless.l7.reckless-payloads",
+              "name": "Reckless Payloads",
+              "level": 7,
+              "description": "[Reckless Branch] You detonate your charges while in point-blank range. You gain the second Nature release you didn't pick from Explosion Release Affinity. Lightning or Earth Release jutsu can change damage type to Force.\n\nLearn 3 Payloads, prepare 2 per rest. +2 known at 11th; can prepare 3. Affected creatures save vs your highest jutsu save DC. Immune to your own Payload effects. You can detonate a SINGLE Primed creature by dealing [Unarmed Damage] to them. Payloads can change the shape of the affected area. Only one detonation has the Payload effect.",
+              "source": "Bakuton (Reckless)",
+              "kind": "feature",
+              "effects": [],
+              "actionEconomy": "none",
+              "equippable": false,
+              "actions": []
+            },
+            {
+              "id": "bakuton.reckless.l15.bombfist-brawler",
+              "name": "Bombfist Brawler",
+              "level": 15,
+              "description": "[Reckless Branch] You become a walking warhead. Bonus Action — enter Cataclysm Knuckle state for 1 minute (once per long rest).\n\nCataclysm Knuckle (Battle Amp):\n  • Blast Zone. Immune to the harmful effects of your Primes, Bakuton Hijutsu and Clan features.\n  • Black Powder Pressure. When you deal [Unarmed Damage] to a creature and Prime them, they are marked twice instead of once.\n  • Detonation Momentum. You gain a bonus to your attack critical threat range when attacking a Primed creature, equal to the number of Primes on them.",
+              "source": "Bakuton (Reckless)",
+              "kind": "amp",
+              "ampType": "Battle",
+              "effects": [],
+              "actionEconomy": "bonus",
+              "equippable": false,
+              "actions": []
+            }
+          ],
+          "resources": []
+        }
+      ],
+      "features": [
+        {
+          "id": "bakuton.l3.priming-cataclysm",
+          "name": "Priming Cataclysm",
+          "level": 3,
+          "description": "You don't set traps. You schedule surprises. Once per turn, when you deal [Unarmed Damage], damage as a result of Clay Bombings, or damage as a result of a Bakuton Hijutsu, you can Prime all damaged creatures. Alternatively, as a Bonus Action, Prime an object or structure you touch. Primes last for 1 minute or until detonated. Maintain up to 4 Primes; a creature can be Primed more than once.\n\nWhile Primes are active, spend Action / Bonus Action / Reaction on your turn to detonate all Primes. Detonation: 5-foot radius centered on creature/object (Primes on structures explode from the Prime location). Radius increases by +5 ft per additional Prime on same target.\n\nCreatures in the area make a Dex save vs your highest jutsu save DC, taking 2d6 force damage per Prime detonated on the same target (half on success). Overlapping explosions: choose which one affects the creature.\n\nAt 7th — +1 max active Prime. At 11th — damage becomes 3d6. At 15th — +1 max active Prime.",
+          "source": "Bakuton",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "bakuton.l11.controlled-demolition",
+          "name": "Controlled Demolition",
+          "level": 11,
+          "description": "You've blown up enough things to know how not to blow up everything.\n\nBreach. Outside combat, spend 10 minutes placing and tuning a Prime to breach a 5-ft-wide hole through up to 5 ft of material, even if chakra-reinforced.\n\nIntimidation/Persuasion vs non-combat-ready creatures: pretend to set a visible charge — Priming yourself or another creature/object/structure within 10 ft. On success, target becomes extremely compliant for 1 minute. Realizing the Prime is fake requires a Perception check vs your highest jutsu save DC.",
+          "source": "Bakuton",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        }
+      ],
+      "pickable": {
+        "pluralLabel": "Payloads",
+        "singularLabel": "Payload",
+        "editorDescription": "Choose a Bakuton Payload.",
+        "pickerDescription": "Gain 3 known at 7th level; prepare 2 per rest. +2 known at 11th; prepare 3.",
+        "options": [
+          {
+            "id": "bakuton.payload.a1-scatter-burst",
+            "owningClanId": "bakuton",
+            "name": "A1 Scatter Burst (Artistic)",
+            "description": "Failed creatures thrown 30 ft in a direction of your choice (excluding airborne, falling prone). Each can be aimed individually."
+          },
+          {
+            "id": "bakuton.payload.a2-smoke-petals",
+            "owningClanId": "bakuton",
+            "name": "A2 Smoke Petals (Artistic)",
+            "description": "Detonation creates a 20-ft radius of smoke heavily obscuring vision. Lasts until next turn. Failed save → 1 rank Concussed and Dazzled."
+          },
+          {
+            "id": "bakuton.payload.a3-seismic-quake",
+            "owningClanId": "bakuton",
+            "name": "A3 Seismic Quake (Artistic)",
+            "description": "Detonation shatters the ground making the affected area difficult terrain. Failed save → Slowed until next turn."
+          },
+          {
+            "id": "bakuton.payload.a4-fractal-adhesive",
+            "owningClanId": "bakuton",
+            "name": "A4 Fractal Adhesive (Artistic)",
+            "description": "Splash of sticky mud-like adhesive. Failed save → Restrained until end of next turn."
+          },
+          {
+            "id": "bakuton.payload.a5-cluster-gallery",
+            "owningClanId": "bakuton",
+            "name": "A5 Cluster Gallery (Artistic)",
+            "description": "4 mini charges land within 20 ft of triggering explosion. Each explodes in 5-ft radius. Failed save in new zone → 1 rank Concussed + Prone. Max 2 mini charges per creature; single save determines double-effect."
+          },
+          {
+            "id": "bakuton.payload.b1-knuckle-burst",
+            "owningClanId": "bakuton",
+            "name": "B1 Knuckle Burst (Reckless)",
+            "description": "If detonation triggered by [Unarmed Damage]: 30-ft cone from you. Failed save → 1 rank Shaken."
+          },
+          {
+            "id": "bakuton.payload.b2-armor-crack",
+            "owningClanId": "bakuton",
+            "name": "B2 Armor Crack (Reckless)",
+            "description": "If detonation triggered by [Unarmed Damage]: 60-ft line from you. Failed save → -2 AC until next turn."
+          },
+          {
+            "id": "bakuton.payload.b3-flash-bang",
+            "owningClanId": "bakuton",
+            "name": "B3 Flash Bang (Reckless)",
+            "description": "If detonation triggered by [Unarmed Damage]: 20-ft cube from you. Failed save → Blinded until next turn."
+          },
+          {
+            "id": "bakuton.payload.b4-ear-ringer",
+            "owningClanId": "bakuton",
+            "name": "B4 Ear Ringer (Reckless)",
+            "description": "If detonation triggered by [Unarmed Damage]: 30-ft cone from you. Failed save → Deafened + 2 ranks Concussed."
+          },
+          {
+            "id": "bakuton.payload.b5-barrier-buster",
+            "owningClanId": "bakuton",
+            "name": "B5 Barrier Buster (Reckless)",
+            "description": "If detonation triggered by [Unarmed Damage]: 60-ft line from you. Failed save → Barrier-keyword effects benefitting the creature are dispelled before damage."
+          }
+        ],
+        "sourceFeatureId": "",
+        "pickGrants": [
+          { "level": 7, "picks": 3 },
+          { "level": 11, "picks": 2 }
+        ]
+      },
+      "additionalPickables": [],
+      "natureReleaseGrants": [
+        {
+          "level": 1,
+          "picks": 1,
+          "autoReleases": [],
+          "fromReleases": [
+            "Earth",
+            "Lightning"
+          ],
+          "source": "Explosion Release Affinity",
+          "description": "Pick Earth or Lightning Release."
+        },
+        {
+          "level": 7,
+          "picks": 0,
+          "autoReleases": [],
+          "fromReleases": [
+            "Earth",
+            "Lightning"
+          ],
+          "source": "Payloads",
+          "description": "Gain the other of Earth / Lightning at 7th level."
+        }
+      ],
+      "resources": [],
+      "stanceGrants": [
+        { "level": 1, "stanceId": "clan.bakuton.artistic-cataclysm", "source": "Artistic Cataclysm" },
+        { "level": 1, "stanceId": "clan.bakuton.ballistic-knuckle", "source": "Ballistic Knuckle" }
+      ],
+      "creatureGrants": []
+    },
+    {
+      "id": "futton",
+      "name": "Futton",
+      "introQuote": "\"And you think we are just gonna hand over the client?\" Diane asks her assailants… \"That's Genin, to you, whoever you are. But I think you better move, before I get mad, your people end up burned and boiled.\" She inhales and exhales a gas of boiling hot steam, that creates a stream of screams from her would-be assailants that slowly, but surely, goes silent.",
+      "introAttribution": "— Lyo Hataka, At Worlds End, Ch. 2 excerpt.",
+      "subheading": "A CORROSIVE BREATH",
+      "loreDescription": "The Futton Clan is a clan without a clear family name, but one with a deadly history and purpose. Members of this clan can be found in villages across the country and are used to great effect in different military institutions. The Futton Family line has a clear influence in Kirigakure (The Land of Water), even having one of its descendants as the Mizukage at one point in time. This clan uses its acidic Jutsu to melt the competition.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Intelligence or Strength, +1 Constitution",
+        "speed": "30 feet",
+        "skillProficiencies": [
+          "Martial Arts"
+        ],
+        "extraLanguages": [],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Skill Proficiency (Pick 1)",
+            "description": "Choose between Ninshou or Athletics."
+          },
+          {
+            "name": "Boil Release Affinity",
+            "description": "You begin with either Water or Fire Release Affinity (pick one)."
+          },
+          {
+            "name": "Corrosive Techniques",
+            "description": "The Futton Clan has access to a separate list of Jutsu unique to their clan. They do not need both Nature Releases to use their Clan jutsu."
+          },
+          {
+            "name": "Hijutsu Flexibility",
+            "description": "Futton Clan Hijutsu can use either Strength or Constitution as its casting ability score."
+          }
+        ]
+      },
+      "branchLabel": "Branch",
+      "branchPluralLabel": "Branches",
+      "branchPickLevel": 1,
+      "branches": [
+        {
+          "id": "futton.corrosive-branch",
+          "name": "Corrosive Branch",
+          "description": "Fighters who specialize in using the acidic vapors of Boil release to dissolve anything in their path.",
+          "features": [
+            {
+              "id": "futton.corrosive.l1.corrosive-kisses",
+              "name": "Corrosive Kisses",
+              "level": 1,
+              "description": "[Corrosive Branch] Manipulate the corrosive acidity of your Water Release chakra using Fire Release as a dial. Solid Fog (Action) — expel a cloud of acidic mist. Select a shape: Line 25×5 (+10 at 7/15), Cone 15-ft (+5 at 7/15), or Sphere 10-ft radius at a point within 30 ft (+5 at 7/15). Creatures in area save vs your highest jutsu save DC. On failure, 1d12 acid (+1d12 at 7/15) AND one of:\n  • Inflict 1 rank of Corroded or Deteriorate (your choice). Counts as a Ninjutsu of your highest rank. Rank +1 at 7/15.",
+              "source": "Futton (Corrosive)",
+              "kind": "feature",
+              "effects": [],
+              "actionEconomy": "action",
+              "equippable": false,
+              "actions": []
+            },
+            {
+              "id": "futton.corrosive.l7.alchemical-fog",
+              "name": "Alchemical Fog",
+              "level": 7,
+              "description": "[Corrosive Branch] You gain the second Nature release you didn't pick from Boil Release Affinity. Water/Fire Release jutsu can change damage type to Acid.\n\nYour Solid Fog now persists until your next turn. Learn 2 acidic mixtures (transmute your boil mixture); +1 at 11th. Only one acid active at a time. Affected creatures save vs your highest jutsu save DC.",
+              "source": "Futton (Corrosive)",
+              "kind": "feature",
+              "effects": [],
+              "actionEconomy": "none",
+              "equippable": false,
+              "actions": []
+            }
+          ],
+          "resources": []
+        },
+        {
+          "id": "futton.broil-branch",
+          "name": "Broil Branch",
+          "description": "Fighters who boil their own chakra to build pressure for explosive martial arts. Heavy strikes and stalwart defenses.",
+          "features": [
+            {
+              "id": "futton.broil.l1.broiling-rampart",
+              "name": "Broiling Rampart",
+              "level": 1,
+              "description": "[Broil Branch] Boil your chakra into pressure within. Bonus Action — enter the Broiling Rampart Taijutsu stance. Use Hijutsu Flexibility (Str or Con) in place of Str for attacks. Build 1 Pressure once per turn when you Dash, Disengage, or cast a Fire/Water Release jutsu (max 3). Spend Pressure on:\n  • Boil Knuckle (1) — attack 5+ over AC → Con save → Dazed on failure.\n  • Jet Dash (1) — +20 speed; end of turn, adjacent creatures Con save → Corroded or Scalded on failure. Counts as Taijutsu of highest rank.\n  • Vent Strike (1) — once per turn, [Weapon/Unarmed Damage] +2 (+4 at 7th, +6 at 15th).\n\nBeginning at 7th — attack twice in this stance if no Extra Attack.",
+              "source": "Futton (Broil)",
+              "kind": "feature",
+              "effects": [],
+              "actionEconomy": "bonus",
+              "equippable": false,
+              "actions": []
+            },
+            {
+              "id": "futton.broil.l7.steam-engine",
+              "name": "Steam Engine",
+              "level": 7,
+              "description": "[Broil Branch] You gain the second Nature release you didn't pick from Boil Release Affinity. Water/Fire Release jutsu can change damage type to Acid.\n\nLearn 2 Steam Engine maneuvers; +1 at 11th. By spending 2 Pressure, enter Torque (Battle Amp) for 1 minute (once per rest). If a maneuver requires a save, use your highest jutsu save DC.\n\nTorque (Battle Amp):\n  • Higher Horsepower. Maintain up to 6 Pressure at once.\n  • Piston Break. Build up to 2 Pressure per turn instead of one.",
+              "source": "Futton (Broil)",
+              "kind": "amp",
+              "ampType": "Battle",
+              "effects": [],
+              "actionEconomy": "none",
+              "equippable": false,
+              "actions": []
+            }
+          ],
+          "resources": []
+        }
+      ],
+      "features": [
+        {
+          "id": "futton.l3.boiling-synthesis",
+          "name": "Boiling Synthesis",
+          "level": 3,
+          "description": "Synergize with your dual nature releases to synthesize unique additives. Select 2 infusions at L3 (swappable on long rest).",
+          "source": "Futton",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "futton.l11.sauna-of-lies",
+          "name": "Sauna of Lies",
+          "level": 11,
+          "description": "Your presence punishes liars. In a social encounter, select one creature to turn the heat up on. When they make a Cha check vs you or your allies, spend your reaction to impose -1d4 to their check. Twice per social encounter.",
+          "source": "Futton",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "reaction",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "futton.l15.perfect-solution",
+          "name": "Perfect Solution",
+          "level": 15,
+          "description": "You radiate a corrosive aura so potent that defenses fail. In combat, hostile creatures ending their turn within 15 ft make a Con save vs your highest jutsu save DC. On failure, -1 AC for 1 minute. Pass by 10+ → immunity until you rest.\n\nAdditionally, jutsu cast by hostiles with the Barrier keyword within 15 ft of you, that roll dice to determine effects or HP, roll half their listed value.",
+          "source": "Futton",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        }
+      ],
+      "pickable": {
+        "pluralLabel": "Boiling Synthesis Infusions",
+        "singularLabel": "Boiling Synthesis Infusion",
+        "editorDescription": "Choose a Boiling Synthesis infusion.",
+        "pickerDescription": "Gain 2 at 3rd level. Swappable on long rest.",
+        "options": [
+          {
+            "id": "futton.synthesis.acidic-mists",
+            "owningClanId": "futton",
+            "name": "Acidic Mists",
+            "description": "Once per turn, casting a Chilled-inflicting jutsu can replace ranks of Chilled with ranks of Deteriorate. 1-turn recharge."
+          },
+          {
+            "id": "futton.synthesis.melting-heat",
+            "owningClanId": "futton",
+            "name": "Melting Heat",
+            "description": "Once per turn, casting a Burned-inflicting jutsu can replace ranks of Burn with ranks of Scald. 1-turn recharge."
+          },
+          {
+            "id": "futton.synthesis.caustic-aura",
+            "owningClanId": "futton",
+            "name": "Caustic Aura",
+            "description": "Bonus Action — emit a steam aura for 1 minute (or until you fail a Wind Release save). Reduce bludgeon/pierce/slash weapon damage by half your level."
+          },
+          {
+            "id": "futton.synthesis.great-wall-dissolution",
+            "owningClanId": "futton",
+            "name": "Great Wall Dissolution",
+            "description": "Once per turn, dealing [Unarmed/Weapon Damage] to a construct/object/structure — Con save vs your highest jutsu save DC. On failure: lose all resistances, gain vulnerability to Acid + one other type until next turn. For jutsu effects: ability check using highest jutsu modifier vs jutsu save DC; success dispels. Mastery to check +1 at 7/11/15. Each creature affected once per 10 minutes."
+          }
+        ],
+        "sourceFeatureId": "futton.l3.boiling-synthesis",
+        "pickGrants": [
+          { "level": 3, "picks": 2 }
+        ]
+      },
+      "additionalPickables": [],
+      "natureReleaseGrants": [
+        {
+          "level": 1,
+          "picks": 1,
+          "autoReleases": [],
+          "fromReleases": [
+            "Water",
+            "Fire"
+          ],
+          "source": "Boil Release Affinity",
+          "description": "Pick Water or Fire Release."
+        },
+        {
+          "level": 7,
+          "picks": 0,
+          "autoReleases": [],
+          "fromReleases": [
+            "Water",
+            "Fire"
+          ],
+          "source": "Alchemical Fog",
+          "description": "Gain the other of Water / Fire at 7th level (Corrosive Branch's Alchemical Fog or Broil Branch's Steam Engine)."
+        }
+      ],
+      "resources": [],
+      "stanceGrants": [
+        { "level": 1, "stanceId": "clan.futton.broiling-rampart", "source": "Broiling Rampart" }
+      ],
+      "creatureGrants": []
+    },
+    {
+      "id": "shihou",
+      "name": "Shí Hóu",
+      "introQuote": "\"At long last!\" the humble monk traveling west on his journey to collect the divine sutras sang out. Following behind, a slightly annoyed, but still playful Shinobi Son Wu. \"Hey old man, how much further do we have to go?\" Cried out the Ninja. \"Not too much further! Only another 1000 miles!\" Wu angrily followed, but loyal to the mission.",
+      "introAttribution": "— Tales of the Gallant, Chapter 2.",
+      "subheading": "TAOIST SPIRIT",
+      "loreDescription": "The Shi Hou are a peaceful clan hailing from a small village in the Land of Earth. From birth, members of this clan are exceptionally strong, manifesting an unusual Kekkei Genkai, a monkey-like tail. The Shi Hou tend to keep to themselves, however, time and time again during Great Shinobi wars they lend their strength. They believe themselves descendants of the first Human Sage, who trained under the Primate Tribe.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Constitution, +1 Strength or Dexterity",
+        "speed": "35 feet",
+        "skillProficiencies": [
+          "Acrobatics",
+          "Deception"
+        ],
+        "extraLanguages": [],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Weapon Proficiencies",
+            "description": "Polearm Weapon Group."
+          },
+          {
+            "name": "Shi Hou Agility",
+            "description": "Climbing speed equal to your walking speed."
+          },
+          {
+            "name": "Monkey Tail",
+            "description": "From birth, Shi Hou clansmen are born with a monkey-like tail covered in furlike hair matching their natural hair color. Use as an additional limb for holding 1-Bulk items. Grants 1 rank of Mastery to Acrobatics."
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "shihou.l1.inner-chi",
+          "name": "Inner Chi",
+          "level": 1,
+          "description": "Your body is permeated with a unique secondary chakra source — Inner Chi. Start with 1 + your proficiency bonus. Spend on features that call for it; regain on rest of any type. First, Simple Transformations: by spending 1 Inner Chi, partially transform into an animal to empower your martial prowess. Use when a transformation's trigger dictates. Select 2 Simple Transformations at character creation; +1 at 7th and 15th levels. Transformations use your highest jutsu attack bonus / save DC.",
+          "source": "Shí Hóu",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "shihou.l1.ruyi-jingu-bang",
+          "name": "Ruyi Jingu Bang",
+          "level": 1,
+          "description": "Spirit Bond a Polearm-group weapon you possess (up to 2 Spirit Bonded weapons at a time; swap on Full-Rest). Spirit-Bonded weapons gain Reach 1 if they don't have it.\n\nWhile in combat:\n  • Shi Zhou Suo (Bonus Action) — shrink Spirit-Bonded weapon. Gains Hidden, Light; loses Two-Handed, Heavy; bulk 0. Reduce damage die by 1 step. Cannot use Fāyù simultaneously.\n  • Zengzhang (Bonus Action) — alter weapon to increase Reach by +1 (+2 at 7th, +3 at 15th).\n  • Fāyù (Action) — massively increase weight. Gains Heavy + Critical 2 weapon properties. Cannot use Shi Zhou Suo simultaneously.\n  • Hui (Object interaction) — dispel Shi Zhou Suo or Fāyù.",
+          "source": "Shí Hóu",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "shihou.l3.deceptive-strikes",
+          "name": "Deceptive Strikes",
+          "level": 3,
+          "description": "Touted as experts of whimsical combat deception. As part of an Attack-action attack, attempt one of:\n\nDeceptive Combat. Perform Create Diversion skill-action. Use your attack result as the check result. On success, target falls under Create Diversion; next ally attack gains +1d4 to result. Once per other round per creature.\n\nConfusing Technique. Once per turn, force Int save vs your highest jutsu save DC. On failure: Confused + Concussed. Once per other round per creature.",
+          "source": "Shí Hóu",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "shihou.l3.monkey-see-monkey-do",
+          "name": "Monkey See, Monkey Do",
+          "level": 3,
+          "description": "Commit a person's voice, behavior and mannerisms to memory. Spend 1 Inner Chi to cast Transform Genjutsu or Advanced Transformation Ninjutsu at no action cost.\n\nWhile transformed, Lie / Impersonate / Make an Impression skill actions gain a rank of Mastery (2 at 7th, 3 at 15th).",
+          "source": "Shí Hóu",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "shihou.l7.advanced-transformations",
+          "name": "Advanced Transformations",
+          "level": 7,
+          "description": "Partial Transformations. Select 2 Partial Transformations at 7th; +2 at 15th. Spend 2 Inner Chi + Bonus Action to transform part of your body into the listed animal for up to 1 minute. Spend 1 Inner Chi on your turn to switch which form you benefit from. Only one Partial Transformation active at a time.",
+          "source": "Shí Hóu",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "shihou.l7.golden-strands",
+          "name": "Golden Strands",
+          "level": 7,
+          "description": "Spend 1 Inner Chi as a Bonus Action — pluck a strand of hair and transform it into any non-consumable item with Bulk 3 or less, quality up to Greater. Items with charges have a single charge. Items persist for up to 1 minute.",
+          "source": "Shí Hóu",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "shihou.l11.primal-vanity",
+          "name": "Primal Vanity",
+          "level": 11,
+          "description": "Action — spend 2 Inner Chi to summon up to four Clones as if casting Shadow Clone Technique Ninjutsu at A-Rank. Clones gain bonus HP and Temp HP equal to your level. Regain Temp HP equal to your level at the start of each of your turns.",
+          "source": "Shí Hóu",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "action",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "shihou.l15.nirvana",
+          "name": "Nirvana",
+          "level": 15,
+          "description": "Unleash all your Inner Chi as a cloak of chakra. Once per long rest, at the start of your turn, spend 4 Inner Chi to enter Nirvana state for 1 minute.\n\nNirvana (Battle Amp):\n  • Recycling Chi. At the beginning of each of your turns, regain 1 Inner Chi up to your maximum.\n  • Without Effort. You can take damage, refusing a saving throw or attack of a target you can see vs your jutsu DC.\n  • Chi Guard. When you take damage, you can spend your reaction to spend any remaining Inner Chi, to reduce the damage by 4, for each Inner Chi.\n  • Obstacle Avoidance. While in this state, you can spend an action to gain a Strength or Dexterity saving throw vs a hostile effect, you suffer no damage or additional effects.\n  • Master of Transfiguration. You can use 2 Simple and Partial Transformations found under the Inner Chi and Advanced Transformations clan feature.\n  • Pure Heart. When you fail a saving throw vs Compulsion, Wisdom or Charisma saving throws, you can spend 1 Inner Chi to remake the failed saving throw. If you fail again, you can spend an additional 1 Inner Chi to remake the saving throw, increasing the save by +1 for each save use before the beginning of your next turn.",
+          "source": "Shí Hóu",
+          "kind": "amp",
+          "ampType": "Battle",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        }
+      ],
+      "pickable": {
+        "pluralLabel": "Simple Transformations",
+        "singularLabel": "Simple Transformation",
+        "editorDescription": "Choose a Simple Transformation (Inner Chi 1).",
+        "pickerDescription": "Gain 2 at L1; +1 at 7th and 15th levels.",
+        "options": [
+          {
+            "id": "shihou.simple.bear",
+            "owningClanId": "shihou",
+            "name": "Bear",
+            "description": "When you deal [Unarmed/Weapon Damage] to a creature, force Str save. On failure, off balance: +1 damage die and next non-you attack against them has advantage."
+          },
+          {
+            "id": "shihou.simple.bull",
+            "owningClanId": "shihou",
+            "name": "Bull",
+            "description": "When you deal [Unarmed/Weapon Damage] on a turn you moved 10+ ft, force Str save. On failure, Shaken and thrown 30 ft. If thrown upward, can cast a Finisher-keyword jutsu as if Combo."
+          },
+          {
+            "id": "shihou.simple.squid",
+            "owningClanId": "shihou",
+            "name": "Squid",
+            "description": "When Grappled / Restrained, immediately attempt Acrobatics or Deception check vs the creature's lowest jutsu save DC. On success, end the condition on yourself."
+          },
+          {
+            "id": "shihou.simple.hawk",
+            "owningClanId": "shihou",
+            "name": "Hawk",
+            "description": "As part of casting a Jutsu, gain fly speed = movement until next turn. Ignore difficult terrain. If a hostile reduces your speed via a jutsu, use Hawk to gain that speed back until end of next turn."
+          },
+          {
+            "id": "shihou.simple.bat",
+            "owningClanId": "shihou",
+            "name": "Bat",
+            "description": "Bonus Action — perform Search skill action. Gain 15 ft Blindsight until end of current turn + Mastery to check."
+          },
+          {
+            "id": "shihou.simple.rabbit",
+            "owningClanId": "shihou",
+            "name": "Rabbit",
+            "description": "Bonus Action — double Jump distance. Reduce fall damage to 0 if fall is less than 120 ft. Jutsu against flying creatures gain advantage."
+          }
+        ],
+        "sourceFeatureId": "shihou.l1.inner-chi",
+        "pickGrants": [
+          { "level": 1, "picks": 2 },
+          { "level": 7, "picks": 1 },
+          { "level": 15, "picks": 1 }
+        ]
+      },
+      "additionalPickables": [
+        {
+          "pluralLabel": "Partial Transformations",
+          "singularLabel": "Partial Transformation",
+          "editorDescription": "Choose a Partial Transformation (Inner Chi 2 + BA).",
+          "pickerDescription": "Gain 2 at 7th level; +2 at 15th.",
+          "options": [
+            {
+              "id": "shihou.partial.tiger",
+              "owningClanId": "shihou",
+              "name": "Tiger",
+              "description": "First melee attack each turn gains +2 to crit threat range."
+            },
+            {
+              "id": "shihou.partial.turtle",
+              "owningClanId": "shihou",
+              "name": "Turtle",
+              "description": "Once per turn, when you deal damage with a jutsu, gain Temp HP = your level."
+            },
+            {
+              "id": "shihou.partial.wolf",
+              "owningClanId": "shihou",
+              "name": "Wolf",
+              "description": "Once per turn, when melee attacks from a jutsu you cast hit, force Con save vs the jutsu's save DC. On failure, ranks Bleed = jutsu rank (D 1 → S 5)."
+            },
+            {
+              "id": "shihou.partial.gorilla",
+              "owningClanId": "shihou",
+              "name": "Gorilla",
+              "description": "Damage from ranged attacks gains +2 (+4 at 15th)."
+            },
+            {
+              "id": "shihou.partial.dragon",
+              "owningClanId": "shihou",
+              "name": "Dragon",
+              "description": "Once per turn, casting a Finisher-keyword jutsu or Chain 3 grants Temp CP = half your level (until next turn)."
+            },
+            {
+              "id": "shihou.partial.snake",
+              "owningClanId": "shihou",
+              "name": "Snake",
+              "description": "Once per turn, casting an area-affecting jutsu increases its size/length by +10 ft."
+            },
+            {
+              "id": "shihou.partial.mink",
+              "owningClanId": "shihou",
+              "name": "Mink",
+              "description": "If you have an active Clone, damage it deals gains 2 ranks of Mastery."
+            },
+            {
+              "id": "shihou.partial.owl",
+              "owningClanId": "shihou",
+              "name": "Owl",
+              "description": "Once per turn, casting a save-forcing jutsu — select one creature that passed to remake save, taking second result."
+            }
+          ],
+          "sourceFeatureId": "shihou.l7.advanced-transformations",
+          "pickGrants": [
+            { "level": 7, "picks": 2 },
+            { "level": 15, "picks": 2 }
+          ]
+        }
+      ],
+      "natureReleaseGrants": [],
+      "resources": [
+        {
+          "name": "Inner Chi",
+          "autoKey": "clan:shihou:inner-chi",
+          "source": "Inner Chi",
+          "minLevel": 1,
+          "maxFormulaDescription": "1 + Proficiency Bonus",
+          "maxFormula": { "base": 1, "perProf": 1 },
+          "replenishOn": "short"
+        }
+      ],
+      "stanceGrants": [],
+      "creatureGrants": []
+    },
+    {
+      "id": "yoton",
+      "name": "Yoton",
+      "introQuote": "A Chunin male is training in the desert tundra's of the land of Earth. … The Chunin quickly weaves hand seals before conjuring a wall of earth blocking his Tetsubo assault. His second sparring partner responds by conjuring a jolt of Lightning that the Chunin responds to in kind by conjuring a mote of magma and firing it to clash with the Lightning.",
+      "introAttribution": "— Vale Uchiha, At Worlds End, Ch. 21 excerpt.",
+      "subheading": "BLOOD OF THE EARTH",
+      "loreDescription": "The Yoton Clan is a clan that hails from the land of Earth. A Clan without a clear family name, but one which has produced many prominent shinobi. This clan has an extreme affinity for Earth and Fire Release, mixing them and creating the ability to conjure and use Lava as both an offensive and Defensive force. Their power is well respected, with one of their members being chosen as a jinchūriki for the Four-Tails.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Intelligence, +1 Constitution",
+        "speed": "30 feet",
+        "skillProficiencies": [
+          "Nature",
+          "Survival"
+        ],
+        "extraLanguages": [],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Lava Release Affinity",
+            "description": "You begin with either Earth or Fire Release Affinity (pick one)."
+          },
+          {
+            "name": "Lava Techniques",
+            "description": "The Yoton clan has access to a separate list of jutsu unique to their clan. They do not need both nature releases to use their clan jutsu."
+          },
+          {
+            "name": "Hijutsu Flexibility",
+            "description": "Yoton Clan Hijutsu can use either Intelligence or Constitution as its casting ability score."
+          },
+          {
+            "name": "Thermal Acclimation",
+            "description": "Advantage on checks made to resist extreme heat environments."
+          },
+          {
+            "name": "Thermal Attunement",
+            "description": "Sense sources of heat — fire, lava, or any heat that could burn — within 120 ft, even through walls up to 1 ft thick."
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "yoton.l1.magma-domain",
+          "name": "Magma Domain",
+          "level": 1,
+          "description": "Yoton are varied — often mistaken for 4 different clans. Select one Magma Variant at L1 (cannot be changed). Casting a Hijutsu can use your Variant's listed ability + their other abilities by use requirements. Select another variant at 7th and 15th. If you pick the same variant again, gain Intensity I; a third time grants Intensity II. Magma Variant abilities use your highest jutsu save DC.\n\nAll Variants share the following ability:\n\nMolten Terrain. Bonus Action — select a point within 60 ft and make a 10-foot cube centered on this point become Molten Terrain. Maintain 1 active (2 at 11th). Lasts 1 minute. Excess terrains dispel the oldest.",
+          "source": "Yoton",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "yoton.l1.molten-terrain",
+          "name": "Molten Terrain (Special Terrain)",
+          "level": 1,
+          "description": "Special Terrain — Molten Terrain. Creatures attempting to move through a space marked as Molten terrain, every foot of movement in that space costs 1 extra foot. This effect is cumulative with difficult terrain and other special terrains.",
+          "source": "Yoton",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "yoton.l3.scorched-foundation",
+          "name": "Scorched Foundation",
+          "level": 3,
+          "description": "Superheat the environment in variety of ways. First — allied creatures are immune to harmful effects of your Molten Terrain. Select 3 Foundations at L3; +1 at 7th and 15th. When you create Molten Terrain, choose 2 of your selected Foundations to apply.\n\nIf a Foundation calls for a saving throw, use your highest jutsu save DC. If 2+ require saves, pick one save type; failing the save means suffering both effects.",
+          "source": "Yoton",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "yoton.l7.lava-release-manifestation",
+          "name": "Lava Release Manifestation",
+          "level": 7,
+          "description": "You gain the second Nature release you didn't pick from Lava Release Affinity. Earth or Fire Release jutsu can change damage type to Earth or Fire respectively.\n\nAlso, when encountering a seal/barrier formed by a jutsu meant to impede progress, spend 1 minute pouring Magma Release chakra into it. Ability check using your highest Hijutsu Flexibility ability vs the Save DC / Level DC / Standard Jutsu DC (highest). On success, dispel.",
+          "source": "Yoton",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "yoton.l11.lava-chakra-mode",
+          "name": "Lava Chakra Mode",
+          "level": 11,
+          "description": "Excrete magma chakra from your pores, coating yourself in lava armor. Bonus Action — enter Lava Chakra Mode for 1 minute (once per long rest). Alternatively, while in combat standing within 2 overlapping Molten Terrains, spend a Bonus Action dispelling both and entering Lava Chakra Mode (once per long rest).\n\nLava Chakra Mode (Battle Amp):\n  • +2 AC for the duration.\n  • When you create Molten Terrain from Magma Domain, you can create 2 Molten Terrains simultaneously.\n  • Hostile melee attackers take 10 fire damage.\n  • Earth Release difficult terrain you create can be treated as Molten Terrain.\n  • Fire Release jutsu inflicting Burned can instead inflict Molten.",
+          "source": "Yoton",
+          "kind": "amp",
+          "ampType": "Battle",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "yoton.l15.world-forge",
+          "name": "World Forge",
+          "level": 15,
+          "description": "You have dominion over your own reality. Action — create a 40-ft radius aura of raw magma chakra centered on you, becoming a Forge of change. Duration: 1 minute.\n  • All terrain within this radius becomes Molten Terrain.\n  • You can apply up to 4 Foundations at once to your Molten Terrain.\n  • At the beginning of each Molten-conditioned creature's turn, you gain 10 Temp HP.",
+          "source": "Yoton",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "action",
+          "equippable": false,
+          "actions": []
+        }
+      ],
+      "pickable": {
+        "pluralLabel": "Magma Variants",
+        "singularLabel": "Magma Variant",
+        "editorDescription": "Choose a Magma Variant.",
+        "pickerDescription": "Gain 1 at L1; +1 at 7th and 15th levels. Same variant picked twice unlocks Potency I; thrice unlocks Potency II.",
+        "options": [
+          {
+            "id": "yoton.variant.onyx",
+            "owningClanId": "yoton",
+            "name": "Onyx",
+            "description": "Once per turn, as part of casting a Hijutsu or as Bonus Action, conjure an Onyx shard at a point within 30 ft, radiating molten chakra for 1 minute. Maintain 1 (+1 at 7/15). Creatures within 10 ft of the shard make saves vs speed-reduction / Grapple / Restrain / Prone at disadvantage.\n\nIntensity I: Onyx becomes an Earthen Artifact. Hostile creatures casting Barrier within aura have cost +8.\n\nIntensity II: With 2+ Onyx active and standing in overlapping auras, gain resistance to first damage instance each turn."
+          },
+          {
+            "id": "yoton.variant.quicklime",
+            "owningClanId": "yoton",
+            "name": "Quicklime",
+            "description": "Molten Terrain you conjure increases size by +5 ft and max terrains by +1. Size +5 at 7/15.\n\nIntensity I: Hostile creatures trying to leave your Molten Terrain make Str save. On failure, cannot move into a space unaffected by your Molten Terrain that turn.\n\nIntensity II: Hostiles casting HS-component jutsu under a Hijutsu of yours make Str save first. On failure, jutsu Interrupted."
+          },
+          {
+            "id": "yoton.variant.volcanic",
+            "owningClanId": "yoton",
+            "name": "Volcanic",
+            "description": "When a creature first enters your Molten Terrain they make Str save → Molten on failure.\n\nIntensity I: Casting an Earth/Fire Release area jutsu that crosses your Molten Terrain increases area by +10 ft.\n\nIntensity II: Bonus-Action Molten Terrain creation increases size by +10 ft. Creatures within 5 ft of selected point have disadvantage on next Earth/Fire Release save before next turn."
+          },
+          {
+            "id": "yoton.variant.rubber",
+            "owningClanId": "yoton",
+            "name": "Rubber",
+            "description": "Earth/Fire Release Self-range jutsu providing Temp HP / DR / Barrier gain 30 ft range and can target a willing ally. Earthen Artifacts without listed HP within your Molten Terrain gain 20 HP.\n\nIntensity I: Allies in your Molten Terrain have resistance to bludgeoning/piercing/slashing/lightning. Spend 4 HP from an Earthen Artifact in your terrain to grant ally one additional resistance until next turn.\n\nIntensity II: Active Earthen Artifact with HP can absorb up to half damage allies in your Terrain take. Excess goes back to ally."
+          }
+        ],
+        "sourceFeatureId": "yoton.l1.magma-domain",
+        "pickGrants": [
+          { "level": 1, "picks": 1 },
+          { "level": 7, "picks": 1 },
+          { "level": 15, "picks": 1 }
+        ]
+      },
+      "additionalPickables": [
+        {
+          "pluralLabel": "Scorched Foundations",
+          "singularLabel": "Scorched Foundation",
+          "editorDescription": "Choose a Scorched Foundation.",
+          "pickerDescription": "Gain 3 at 3rd level; +1 at 7th and 15th levels.",
+          "options": [
+            {
+              "id": "yoton.foundation.buoyant",
+              "owningClanId": "yoton",
+              "name": "Buoyant",
+              "description": "Allied creatures starting turn on this terrain gain +15 speed, advantage on saves vs forced movement / Prone, and hostiles cannot AoO their movement."
+            },
+            {
+              "id": "yoton.foundation.dense",
+              "owningClanId": "yoton",
+              "name": "Dense",
+              "description": "Structures/Barriers summoned by Earth/Fire Release jutsu on this terrain gain 4 DR (8 at 7th, 12 at 15th)."
+            },
+            {
+              "id": "yoton.foundation.obscuring",
+              "owningClanId": "yoton",
+              "name": "Obscuring",
+              "description": "Lightly obscured to creatures not standing on it. At 11th, hostile creatures can't target creatures standing on this terrain with attacks unless they're also on it."
+            },
+            {
+              "id": "yoton.foundation.reactive-heat",
+              "owningClanId": "yoton",
+              "name": "Reactive Heat",
+              "description": "Once per turn, hostiles taking Acid/Earth/Fire damage while on this terrain force Con save → 1 rank Burn on failure."
+            },
+            {
+              "id": "yoton.foundation.rubbery",
+              "owningClanId": "yoton",
+              "name": "Rubbery",
+              "description": "Allies on this terrain take 4 less damage (8 at 7th, 12 at 15th)."
+            },
+            {
+              "id": "yoton.foundation.scalding",
+              "owningClanId": "yoton",
+              "name": "Scalding",
+              "description": "Creatures starting turn on this terrain take 1d6 fire damage (3d6 at 7th, 5d6 at 15th)."
+            },
+            {
+              "id": "yoton.foundation.shifting",
+              "owningClanId": "yoton",
+              "name": "Shifting",
+              "description": "Creatures starting turn on this terrain make Con save. On failure, concentration checks at disadvantage; jutsu costs +2 (+4 at 7th, +6 at 15th)."
+            },
+            {
+              "id": "yoton.foundation.sticky",
+              "owningClanId": "yoton",
+              "name": "Sticky",
+              "description": "Creatures starting turn on this terrain make Dex save. On failure, -15 ft speed; cannot Dash, Disengage, Dodge until end of next turn."
+            },
+            {
+              "id": "yoton.foundation.toxic",
+              "owningClanId": "yoton",
+              "name": "Toxic",
+              "description": "Once per turn, hostiles taking Wind/Poison/Necrotic damage on this terrain force Con save → 1 rank Envenomed on failure."
+            }
+          ],
+          "sourceFeatureId": "yoton.l3.scorched-foundation",
+          "pickGrants": [
+            { "level": 3, "picks": 3 },
+            { "level": 7, "picks": 1 },
+            { "level": 15, "picks": 1 }
+          ]
+        }
+      ],
+      "natureReleaseGrants": [
+        {
+          "level": 1,
+          "picks": 1,
+          "autoReleases": [],
+          "fromReleases": [
+            "Earth",
+            "Fire"
+          ],
+          "source": "Lava Release Affinity",
+          "description": "Pick Earth or Fire Release."
+        },
+        {
+          "level": 7,
+          "picks": 0,
+          "autoReleases": [],
+          "fromReleases": [
+            "Earth",
+            "Fire"
+          ],
+          "source": "Lava Release Manifestation",
+          "description": "Gain the other of Earth / Fire at 7th level."
+        }
+      ],
+      "resources": [],
+      "stanceGrants": [],
+      "creatureGrants": []
     }
   ]
 }
