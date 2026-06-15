@@ -584,6 +584,155 @@
       ],
       "actions": [],
       "actionOptions": []
+    },
+    {
+      "id": "clan.genwa.uplink",
+      "category": "chakra",
+      "name": "Uplink",
+      "expert": false,
+      "expertOf": "",
+      "prerequisite": "Genwa clan",
+      "description": "Genwa Uplink chakra stance. Bonus Action to enter or switch from Downlink. While in this stance, electrical energy radiates off you in a neon color of your choice.",
+      "effects": [
+        "You can utilize the Angel Link effect of your Hijutsu.",
+        "Genwa Hijutsu you cast can originate from any space or creature that is currently Signal Boosted.",
+        "When you take the Attack action while in this stance, you can replace attacks with Radiant Beam attacks."
+      ],
+      "actions": [],
+      "actionOptions": [
+        {
+          "id": "clan.genwa.uplink.radiant-beam",
+          "name": "Radiant Beam",
+          "minLevel": 1,
+          "actionEconomy": "attack",
+          "description": "Fire a blast of light-like energy formed from your Lightning Release. Make a ranged Jutsu attack within 30 ft (60 ft at 7th) using your highest jutsu attack bonus. On hit, deal 1d8 + jutsu modifier in Lightning damage (2d8 at 15th). On rolling a max die result (3-4 on d4, 5-6 on d6, etc.), you or an ally within 30 ft becomes Signal Boosted until end of your next turn. If you do not have Extra Attack, at 7th level you can make two attacks with this attack.",
+          "isAttack": true,
+          "attack": {
+            "kind": "ranged",
+            "abilityMods": [
+              "Intelligence",
+              "Wisdom"
+            ],
+            "proficient": true,
+            "damageDice": "1d8",
+            "damageType": "Lightning",
+            "range": "30 ft (60 ft at 7th)"
+          },
+          "scaling": [
+            {
+              "atLevel": 7,
+              "description": "Range becomes 60 ft. If you lack Extra Attack, attack twice with Radiant Beam as part of the Attack action."
+            },
+            {
+              "atLevel": 15,
+              "damageDice": "2d8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clan.genwa.downlink",
+      "category": "bukijutsu",
+      "name": "Downlink",
+      "expert": false,
+      "expertOf": "",
+      "prerequisite": "Genwa clan",
+      "description": "Genwa Downlink bukijutsu stance. Bonus Action to enter or switch from Uplink. You manifest a neon weapon formed of light in a color of your choice.",
+      "effects": [
+        "You can utilize the Demon Link effect of your Hijutsu.",
+        "Genwa Hijutsu you cast that affects a creature with ranks of Shocked converts 1 rank of Shocked into the Firewalled condition.",
+        "Melee weapons you wield (and are proficient in) become wreathed in neon light. When you take the Attack action with this weapon, you can replace attacks with Radiant Saber attacks."
+      ],
+      "actions": [],
+      "actionOptions": [
+        {
+          "id": "clan.genwa.downlink.radiant-saber",
+          "name": "Radiant Saber",
+          "minLevel": 1,
+          "actionEconomy": "attack",
+          "description": "Strike with a beam of light-like energy formed from your Lightning Release. Make a melee Jutsu attack within 5 ft using your highest jutsu attack bonus. On hit, deal [Weapon Damage] as Lightning damage; the target becomes Firewalled until end of your next turn. If you do not have Extra Attack, at 7th level make two attacks. At 15th level, +1 crit threat range.",
+          "isAttack": true,
+          "attack": {
+            "kind": "melee",
+            "abilityMods": [
+              "Intelligence",
+              "Wisdom"
+            ],
+            "proficient": true,
+            "damageDice": "[Weapon Damage]",
+            "damageType": "Lightning",
+            "range": "5 ft"
+          },
+          "scaling": [
+            {
+              "atLevel": 7,
+              "description": "If you lack Extra Attack, attack twice with Radiant Saber as part of the Attack action."
+            },
+            {
+              "atLevel": 15,
+              "description": "+1 crit threat range."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clan.kaguya.shikotsumyaku",
+      "category": "bukijutsu",
+      "name": "Shikotsumyaku",
+      "expert": false,
+      "expertOf": "",
+      "prerequisite": "Kaguya clan",
+      "description": "Kaguya's primary fighting style — train your young ruthlessly to utilize their unique physiology of manipulating bone structure. This is a Bukijutsu stance.",
+      "effects": [
+        "You can use your Hijutsu Flexibility ability mod (Str or Con) in place of Strength for weapon attacks with a Bone Weapon.",
+        "Hostile creatures casting a jutsu with Hand Sign (HS) component within your weapon's range trigger attacks of opportunity from you.",
+        "When a weapon or Taijutsu attack using a Bone Weapon is 5+ higher than target AC, or you roll a natural 20, you gain a rank of Battle Lust.",
+        "Beginning at 7th level, if you do not have Extra Attack, you can attack twice while in this stance when you take the Attack action."
+      ],
+      "actions": [],
+      "actionOptions": []
+    },
+    {
+      "id": "clan.vesper.claws-of-night",
+      "category": "taijutsu",
+      "name": "Claws of Night",
+      "expert": false,
+      "expertOf": "",
+      "prerequisite": "Vesper clan",
+      "description": "Vesper's signature combat style. In combat, sharpen and elongate your claws and enter the Claws of Night Taijutsu stance.",
+      "effects": [
+        "Your [Unarmed Damage] die becomes 1d8 and damage type becomes Slashing.",
+        "Once per turn, when inflicting Bruised, you can change it to 1 rank of Bleed instead.",
+        "Once per turn, if you deal [Weapon Damage] with a Blade-group weapon that lacks Two-Handed (or [Unarmed Damage]), force a Con save vs your highest jutsu save — gain a rank of Crimson Hemorrhage on failure.",
+        "Beginning at 7th level, if you do not have Extra Attack, you can attack twice while in this stance when you take the Attack action."
+      ],
+      "actions": [],
+      "actionOptions": []
+    },
+    {
+      "id": "clan.yamada.tameshi-itto-ryu",
+      "category": "bukijutsu",
+      "name": "Tameshi Itto-Ryu",
+      "expert": false,
+      "expertOf": "",
+      "prerequisite": "Yamada clan",
+      "description": "Yamada's signature single-swing executioner stance. While wielding a weapon listed in your Weapon Proficiency trait (Tanto, Broadsword, Katana, Odachi, Chokuto), it becomes your Executioner's Instrument.",
+      "effects": [
+        "Use Hijutsu Flexibility ability mod (Str or Wis) in place of Strength for weapon attacks with Executioner's Instrument weapons.",
+        "Yamada Hijutsu cast with your Executioner's Instrument can use the Ideal Cut ability. At 7th level you can use Tao ability instead (one or the other per casting).",
+        "When you take the Attack action with an Executioner's Instrument, you can use the Empty Blade attack.",
+        "Beginning at 7th level, if you do not have Extra Attack, you can attack twice while in this stance when you take the Attack action."
+      ],
+      "actions": [
+        {
+          "name": "Empty Blade",
+          "actionEconomy": "attack",
+          "description": "Forgo all additional attacks beyond the first as part of this Attack Action. Roll a number of d6s equal to forgone attacks (+1 if the target is Severed). On each 5 or 6 (4-6 with Metal Tao), deal additional damage equal to your [Weapon Damage]."
+        }
+      ],
+      "actionOptions": []
     }
   ]
 }

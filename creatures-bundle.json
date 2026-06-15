@@ -328,6 +328,233 @@
         }
       ],
       "summary": "Conjured construct from the B-Rank Wood Release: Wood Dragon Summoning. Acts at the end of each of caster's turns; only listens to caster. Concentration up to 1 minute."
+    },
+    {
+      "id": "genwa.neon-antivirus",
+      "name": "Neon Antivirus",
+      "owningClanId": "genwa",
+      "owningFeatureId": "",
+      "category": "construct",
+      "size": "Medium",
+      "sizeProgression": [],
+      "armorClass": "16 + 1 for every rank above D-Rank",
+      "hitPoints": "25 + 7 for every rank above D-Rank",
+      "jutsuSlots": "",
+      "speed": "40 ft flying (can hover)",
+      "abilities": {
+        "str": { "mod": 3, "save": true, "note": "Save +5" },
+        "dex": { "mod": 4, "save": true, "note": "Save +6" },
+        "con": { "mod": 4, "save": true, "note": "Save +6" },
+        "int": { "mod": -5, "save": false, "note": "Save -5" },
+        "wis": { "mod": 2, "save": true, "note": "Save +4" },
+        "cha": { "mod": -5, "save": false, "note": "Save -5" }
+      },
+      "saveProficiencies": [
+        "Strength",
+        "Dexterity",
+        "Constitution",
+        "Wisdom"
+      ],
+      "saveNote": "",
+      "skills": [],
+      "damageImmunities": [
+        "Acid",
+        "Necrotic",
+        "Poison",
+        "Lightning"
+      ],
+      "damageResistances": [
+        "Bludgeoning",
+        "Piercing",
+        "Slashing",
+        "Earth"
+      ],
+      "damageVulnerabilities": [
+        "Wind"
+      ],
+      "conditionImmunities": [
+        "All Mental",
+        "All Sensory",
+        "Exhaustion",
+        "Petrified",
+        "Envenomed"
+      ],
+      "senses": [
+        "Darkvision 60 ft.",
+        "Passive Perception 10"
+      ],
+      "traits": [
+        {
+          "name": "Embedded Programming",
+          "description": "The Neon Antivirus is always Signal Boosted but cannot benefit from its bonus to hit or saving throws."
+        },
+        {
+          "name": "Special Frequency",
+          "description": "If the summoner is in Uplink or Downlink stance, the Neon Antivirus gains the associated benefit (Angel Link or Demon Link)."
+        },
+        {
+          "name": "Angel Link",
+          "description": "Emits a healing aura in a 20-foot radius. Allied creatures that begin their turn within the aura gain +1 to saves and regain 6 HP + 6 HP per rank beyond D-Rank at the start of each of their turns."
+        },
+        {
+          "name": "Demon Link",
+          "description": "Emits a wrathful presence in a 20-foot radius. Hostile creatures within have total DR reduced by 2 + 2 per rank beyond D-Rank, and suffer -1 to saving throws."
+        },
+        {
+          "name": "Multiattack",
+          "description": "The Neon Antivirus can make two attacks with its Neon Blast or Neon Claws."
+        },
+        {
+          "name": "Data Share (Recharge 3-4)",
+          "description": "The Neon Antivirus can cast one Genwa Hijutsu of a rank equal to the rank it was summoned at that the summoner knows, except Data Release: Antivirus."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Neon Blast",
+          "actionEconomy": "action",
+          "description": "Ranged Jutsu Attack: +[summoner's highest jutsu attack mod], reach 40 ft, one creature. Hit: 1d8 + 4 lightning damage + 2 lightning per rank beyond D-Rank."
+        },
+        {
+          "name": "Neon Claws",
+          "actionEconomy": "action",
+          "description": "Melee Jutsu Attack: +[summoner's highest jutsu attack mod], reach 5 ft, one creature. Hit: 1d12 + 3 lightning damage + 3 lightning per rank beyond D-Rank."
+        }
+      ],
+      "summary": "Summoned by the D-Rank Data Release: Antivirus jutsu. Commanded as a Bonus Action by the summoner. At B-Rank or higher, summon two — the second always uses the opposite Link effect."
+    },
+    {
+      "id": "hozuki.steam-imp",
+      "name": "Steam Imp",
+      "owningClanId": "hozuki",
+      "owningFeatureId": "",
+      "category": "construct",
+      "size": "Medium",
+      "sizeProgression": [],
+      "armorClass": "14 + your Ninjutsu Ability Modifier",
+      "hitPoints": "10",
+      "jutsuSlots": "",
+      "speed": "30 ft",
+      "abilities": {
+        "str": { "mod": 7, "save": true },
+        "dex": { "mod": 3, "save": true },
+        "con": { "mod": 4, "save": true },
+        "int": { "mod": -5, "save": false },
+        "wis": { "mod": 0, "save": false },
+        "cha": { "mod": -5, "save": false }
+      },
+      "saveProficiencies": [
+        "Strength",
+        "Dexterity",
+        "Constitution"
+      ],
+      "saveNote": "Str/Dex/Con saves use summoner's Ninjutsu ability modifier as the creature's proficiency bonus.",
+      "skills": [],
+      "damageImmunities": [
+        "Cold",
+        "Fire"
+      ],
+      "conditionImmunities": [
+        "All Mental",
+        "All Sensory",
+        "Chilled",
+        "Bleed",
+        "Envenomed"
+      ],
+      "senses": [
+        "Passive Perception 10"
+      ],
+      "traits": [
+        {
+          "name": "Mist's Tyranny",
+          "description": "When the Steam Imp is reduced to 0 HP, it uses its Detonation ability."
+        },
+        {
+          "name": "Looping Destruction (B-Rank)",
+          "description": "At the beginning of your following turn, if the Steam Imp has detonated since your last turn and you are concentrating on the jutsu used to summon it AND either Misty Hallucination / Water Balloon / Demonic Illusion: Steaming Mirage, the Steam Imp is summoned again at no additional cost."
+        },
+        {
+          "name": "Growing Pains",
+          "description": "At the end of each of your turns following its summoning, the Steam Imp grows in size by 1 stage. If it grows to Huge, it uses its Detonation ability."
+        },
+        {
+          "name": "Multiattack (B-Rank)",
+          "description": "The Steam Imp can attack 2 times with its Arm Blade."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Arm Blade",
+          "actionEconomy": "action",
+          "description": "Melee Weapon Attack: reach 5 ft, one creature. Hit: 1d12 + 7 Slashing damage. At A-Rank, also +1d12 cold damage."
+        },
+        {
+          "name": "Detonation",
+          "actionEconomy": "special",
+          "description": "The Steam Imp cannot spend an action to use this ability. When it Detonates, its HP drops to 0 and all creatures within 15 ft make a Dex save — 6d6 cold damage on failure; constructs and structures treat damage as if vulnerable. Increase by +1d6 for every rank beyond C-Rank."
+        }
+      ],
+      "summary": "Summoned by the C-Rank Steaming Danger: Tyranny jutsu. Commanded as a Bonus Action. Uses summoner's Ninjutsu attack bonus and Save DC."
+    },
+    {
+      "id": "yuki.demonic-blizzard-dragon",
+      "name": "Demonic Blizzard Dragon",
+      "owningClanId": "yuki",
+      "owningFeatureId": "",
+      "category": "construct",
+      "size": "Large",
+      "sizeProgression": [],
+      "armorClass": "22",
+      "hitPoints": "80",
+      "jutsuSlots": "",
+      "speed": "60 ft fly",
+      "abilities": {
+        "str": { "mod": 6, "save": true, "note": "Save +9" },
+        "dex": { "mod": 6, "save": true, "note": "Save +9" },
+        "con": { "mod": 6, "save": true, "note": "Save +9" },
+        "int": { "mod": -5, "save": false, "note": "Save -5" },
+        "wis": { "mod": 0, "save": false, "note": "Save +0" },
+        "cha": { "mod": 5, "save": false, "note": "Save -5" }
+      },
+      "saveProficiencies": [
+        "Strength",
+        "Dexterity",
+        "Constitution"
+      ],
+      "saveNote": "",
+      "skills": [],
+      "damageResistances": [
+        "Wind",
+        "Cold",
+        "Earth"
+      ],
+      "damageVulnerabilities": [
+        "Fire"
+      ],
+      "conditionImmunities": [
+        "All Mental",
+        "All Sensory",
+        "All Elemental",
+        "Incapacitated"
+      ],
+      "senses": [
+        "Darkvision 60 ft.",
+        "Passive Perception 10"
+      ],
+      "traits": [],
+      "actions": [
+        {
+          "name": "Ram",
+          "actionEconomy": "action",
+          "description": "Melee Weapon Attack: reach 5 ft, one creature. Hit: 6d6 + 6 Cold damage. When this dragon scores a successful Ram attack, it can Detonate at the summoner's command."
+        },
+        {
+          "name": "Detonate",
+          "actionEconomy": "special",
+          "description": "The Demonic Blizzard Dragon explodes forcing all creatures within 10 ft (excluding caster) to make a Dexterity save — 10d6 cold damage and 2 ranks Chilled + Frostbite on failure; half on success."
+        }
+      ],
+      "summary": "Summoned by the A-Rank Ice Release: Demonic Blizzard Dragon jutsu. Uses summoner's Ninjutsu attack bonus and Save DC. Commanded as a Bonus Action."
     }
   ]
 }

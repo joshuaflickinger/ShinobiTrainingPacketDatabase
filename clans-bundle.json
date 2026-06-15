@@ -4261,6 +4261,1343 @@
       ],
       "stanceGrants": [],
       "creatureGrants": []
+    },
+    {
+      "id": "genwa",
+      "name": "Genwa",
+      "introQuote": "\"Remind me why I'm bringing you along again?\" An Iburi Shinobi states. … The Iburi laces a chained hand scythe with smoke. \"Listen man, hurry up and get us in. Wind natures are kind of a problem for me.\" The Hidden Sand quickly marches towards the two in a loud charge, before a sudden blue flash blinds all, and the Hidden Sand lie incapacitated in a sea of spectral blue swords.",
+      "introAttribution": "— Delsan Iburi, The Long Road, Ch. 30 excerpt.",
+      "subheading": "DIMENSION WALKERS",
+      "loreDescription": "Formally hailing from the Hidden Rain, members of this clan commonly share an affinity with Lightning, and occasionally manifest a powerful nature release transformation known as Data Release, which possesses a unique affinity for technology. The Genwa formerly worked with the Akatsuki to gather information during the rule of Hanzo of the Salamander. However, after his defeat and the rise of Pain, the Genwa were forced into hiding, eventually splitting from the Rain and scattering themselves among other lands.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Intelligence, +1 Dexterity",
+        "speed": "30 feet",
+        "skillProficiencies": [
+          "Ninshou",
+          "Sleight of Hand"
+        ],
+        "extraLanguages": [
+          "Machine-Speak"
+        ],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Tool Proficiencies",
+            "description": "Hacker Kit, Security Kit."
+          },
+          {
+            "name": "Machine-Speak",
+            "description": "You can translate electronic signals transmitted between machines so long as you are in physical contact with either the sending or receiving machine."
+          },
+          {
+            "name": "Passive Affinity",
+            "description": "You have the Lightning Release Affinity."
+          },
+          {
+            "name": "Data Release Techniques",
+            "description": "The Genwa Clan has access to a separate list of jutsu unique to their clan."
+          },
+          {
+            "name": "Hijutsu Flexibility",
+            "description": "Genwa Clan Hijutsu can use either Intelligence or Wisdom as its casting ability score."
+          },
+          {
+            "name": "Radio Tower",
+            "description": "You always count as possessing a Radio Link communication tool that doesn't require a device — you can hear and respond to radio transmissions with no tools. Radio-based communication will always work within 1 mile of you, even if no radio is possible. Signals originating from you cannot be intercepted or traced using ninja tools."
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "genwa.l1.stable-frequency",
+          "name": "Stable Frequency",
+          "level": 1,
+          "description": "You learn two forms that manifest information in a destructive way — your Uplink and Downlink stances. Enter or switch between them as a Bonus Action.\n\nUplink (Chakra stance) — utilize Angel Link effects of Hijutsu; Genwa Hijutsu can originate from any Signal Boosted space/creature; Attack action can use Radiant Beam attacks.\n\nDownlink (Bukijutsu stance) — utilize Demon Link effects of Hijutsu; Genwa Hijutsu vs Shocked creatures converts 1 rank of Shocked to Firewalled; melee weapons you wield become neon Radiant Saber attacks during Attack action.",
+          "source": "Genwa",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "genwa.l3.data-channels",
+          "name": "Data Channels",
+          "level": 3,
+          "description": "When you complete a Long Rest, select a Data Channel and learn its secrets until your next rest. At 7th, select two; at 15th, swap on Short Rest.\n\nHidden Cloud Channel — Genwa Hijutsu grant rank of Mastery vs nature-release jutsu until next turn; +1 AC for a turn on Hijutsu cast (+2 at 11th); Sensory jutsu you benefit from make you invisible to cameras/sensors/electronic detection.\n\nHidden Leaf Channel — Genwa damage jutsu gain +1 per dice rolled (max +10); once per turn an ally within 30 ft gains d4 bonus to next save/check (d6 at 11th); Sensory jutsu you benefit from let you become aware of other Sensory effects within 60 ft.\n\nHidden Mist Channel — Genwa Jutsu cost -1 if you're within / affected by a Lightning Release jutsu (-2 if within 30 ft of a Shocked/Signal Boosted/Firewalled creature); once per turn while obscured by a jutsu, moving out you can Bonus-Action extend it onto yourself; jutsu that create structures or obscurement count you as heavily obscured to sight-based special senses until next turn.\n\nHidden Rain Channel — Genwa Hijutsu count as not having HS OR CS components (pick at cast if both); while concentrating on a Lightning Release jutsu, spend all movement at start of turn to teleport to a space within 60 ft; Sensory jutsu have +15 ft area (+30 at 11th).\n\nHidden Sand Channel — Genwa Hijutsu generate a 20-ft radius around a chosen point giving allies a rank of Mastery vs environmental hazards/area effects; concentrating on a Lightning Release jutsu grants bonus DR = highest ability mod (×2 if two lightning jutsu); area-concentratable jutsu you cast can gain Sensory keyword and grant Tremor Sense in the area.\n\nHidden Stone Channel — Genwa Hijutsu that summon constructs gain bonus HP (D +10 → S +30); once per turn if you're Signal Boosted or a Shocked/Firewalled creature is within 30 ft, dispel the effect to gain an additional reaction (only for casting a construct-summoning Lightning Release Hijutsu); summoned Lightning constructs gain Sensory + 60 ft vision shared with you.",
+          "source": "Genwa",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "genwa.l7.network-integration",
+          "name": "Network Integration",
+          "level": 7,
+          "description": "Spend 10 minutes focusing on a radio signal sensed via Radio Tower — you and up to 3 willing creatures teleport up to 10 miles closer to the source (cannot teleport into structures, through barriers, or machinery). Once per Short/Long Rest.\n\nAdditionally, Hackers Kit activities have DC reduced by 2.",
+          "source": "Genwa",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "genwa.l11.data-break",
+          "name": "Data Break",
+          "level": 11,
+          "description": "Firewalled creatures present additional information to you passively as neon signs. Select one piece of info:\n  • One of the creature's attack bonuses.\n  • One of the creature's Save DCs.\n  • The creature's lowest saving throw type.\n  • The creature's current HP.\n  • The creature's current chakra points.\n  • Number of Tenacity Die / Legendary Resistances.",
+          "source": "Genwa",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "genwa.l15.data-leak",
+          "name": "Data Leak",
+          "level": 15,
+          "description": "When a creature fails a save vs a Genwa Hijutsu you cast that inflicts Firewalled, you can instead inflict the Data Leak condition upon them. Can't be inflicted again on the same creature until they complete a long rest.",
+          "source": "Genwa",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        }
+      ],
+      "pickable": null,
+      "additionalPickables": [],
+      "natureReleaseGrants": [
+        {
+          "level": 1,
+          "picks": 0,
+          "autoReleases": [
+            "Lightning"
+          ],
+          "fromReleases": [],
+          "source": "Passive Affinity",
+          "description": "You have the Lightning Release Affinity."
+        }
+      ],
+      "resources": [],
+      "stanceGrants": [
+        { "level": 1, "stanceId": "clan.genwa.uplink", "source": "Stable Frequency" },
+        { "level": 1, "stanceId": "clan.genwa.downlink", "source": "Stable Frequency" }
+      ],
+      "creatureGrants": []
+    },
+    {
+      "id": "hoshigaki",
+      "name": "Hoshigaki",
+      "introQuote": "Alistair stares down the man in Red. Drawing his Odachi to confront him. He moves in swinging it with ruthless tenacity. He stabs the blade into the ground after his first attack weaving handsigns and conjuring a massive wave of Water that turns into Sharks before they collide with their target. … \"Oh…Well…Looks like I went a tad bit overboard for training, hehe.\"",
+      "introAttribution": "— Tatsunami Aburame, The Long Road, Ch. 13 excerpt.",
+      "subheading": "THE TAILLESS BEAST",
+      "loreDescription": "The Hoshigaki Clan is a clan that hails from the Land of Water and is famous for all the wrong reasons. Every prominent member of their clan has betrayed their home village in more than one way. But this does not brand them all as traitors — instead it has caused a vast majority of them to branch out and move to other villages to break the stigma of their history.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Constitution, +1 Strength",
+        "speed": "30 feet",
+        "skillProficiencies": [
+          "Animal Handling",
+          "Nature"
+        ],
+        "extraLanguages": [
+          "Deep Speech"
+        ],
+        "darkvision": "30 ft",
+        "extraTraits": [
+          {
+            "name": "Weapon Proficiencies",
+            "description": "Power Weapon Group & weapons with the Heavy property."
+          },
+          {
+            "name": "Passive Affinity",
+            "description": "You have the Water Release Affinity."
+          },
+          {
+            "name": "Amphibious",
+            "description": "You can breathe air and water."
+          },
+          {
+            "name": "Aquatic Adaptation",
+            "description": "Swimming and Water-walking speed equal to your walking speed."
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "hoshigaki.l1.deep-sea-predator",
+          "name": "Deep Sea Predator",
+          "level": 1,
+          "description": "Hoshigaki carry features of deep-sea predators of different degrees. Select 2 Predator Traits at L1; +1 at 7th and 15th.",
+          "source": "Hoshigaki",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "hoshigaki.l1.ravenous-chakra",
+          "name": "Ravenous Chakra",
+          "level": 1,
+          "description": "Your body yearns to consume Chakra. Once per turn, when you cast a jutsu with a nature release keyword, deal additional chakra damage based on rank — D 2d6, C 3d6, B 4d6, A 5d6, S 6d6.\n\nAt 7th — gain temporary chakra equal to dice rolled when dealing this damage.\n\nAt 15th — if your jutsu Clashes with an opposing jutsu, treat their jutsu as 1 rank lower for the clash check. If you win, double the chakra damage dice rolled.",
+          "source": "Hoshigaki",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "hoshigaki.l3.apex-berserker",
+          "name": "Apex Berserker",
+          "level": 3,
+          "description": "Bonus Action — transform into your Apex Predator state (shark-like form: gills, wing-like fins, webbed fingers). Lasts 1 minute. If entered again before a long rest, gain 1 rank of Exhaustion.\n\nAt 11th — enter this state once per rest before gaining Exhaustion.\n\nApex Predator (Battle Amp):\n  • Ocean Bond. When water walking or swimming, double your movement speed.\n  • Cold Blooded. Damage to creatures with Bleed / Concussed / Dazed / Demoralized / Grappled / Restrained / Shaken increases by +2 (+4 at 7th, +6 at 15th).\n  • Ravenous Aura. [Unarmed Damage] and [Weapon Damage] can trigger Ravenous Chakra as if a C-Rank Jutsu. Cannot gain temporary chakra this way.\n  • Limitless Blue. Water Release jutsu gain their initial effects as if near a sufficient source of water.\n  • Efficient Recovery. Once per turn, increase Temp HP and chakra gained from allied or self-sourced effects by +4 (+6 at 7th, +8 at 15th).",
+          "source": "Hoshigaki",
+          "kind": "amp",
+          "ampType": "Battle",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "hoshigaki.l3.predatory-surges",
+          "name": "Predatory Surges",
+          "level": 3,
+          "description": "Special instinctual techniques. When you complete a long rest, select two Predator Surges. Use one as part of any trigger. If a Surge requires a save, use your highest jutsu save DC.",
+          "source": "Hoshigaki",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "hoshigaki.l7.abyssal-wayfinder",
+          "name": "Abyssal Wayfinder",
+          "level": 7,
+          "description": "Predict water weather, tides, and visibility on a DC 5 Nature check. While swimming, allies within 20 ft can Action to follow your swim trail, always keeping up. By spending 10 minutes submerged, remove 1 rank of Exhaustion (once per rest).",
+          "source": "Hoshigaki",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "hoshigaki.l7.ichthyic-armorer",
+          "name": "Ichthyic Armorer",
+          "level": 7,
+          "description": "Spend 1 Downtime to perform a Hoshigaki ritual — select two weapon grafts to apply (max 2 per weapon). Options: Raking Dermis (Pierce 2, slashing/piercing), Wing Guard (Blocking 1 + parry reaction reducing damage by [Weapon Damage]), Sawtooth (reduce Temp HP/CP to 0 before damage), Scale Plate (Fortified property), Tiger Pattern (+2 DR per creature hit, max during turn), Marlin Imprint (2 ranks Mastery underwater), Angler Lure (Bonus Action force Wis save → 1 rank Shaken + disadvantage on attacks targeting others).",
+          "source": "Hoshigaki",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "hoshigaki.l11.abyssal-bulwark",
+          "name": "Abyssal Bulwark",
+          "level": 11,
+          "description": "Resistance to Chakra and Cold damage. When hit with a critical hit, gain a Will of Fire. While in Apex Predator state, immunity to Cold and advantage on saves vs Bleed, Dazed, Stunned.",
+          "source": "Hoshigaki",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "hoshigaki.l15.king-of-the-deep",
+          "name": "King of the Deep",
+          "level": 15,
+          "description": "Action — all water within 120 ft collects around you in a massive maelstrom (drains water occupying ≤ 8 spaces). 30-ft radius spinning column of darkened water centered on you, moves with you, 1 minute. Once per long rest.\n  • Creatures in the area are submerged.\n  • Difficult terrain for hostile creatures; allies swim freely.\n  • Ranged attacks into/through have disadvantage.\n  • Hostiles ending turn inside take 4d6 cold damage (as Water Release jutsu).\n  • Inside, your melee attacks gain Reach 2 (if they didn't already); on hit, pull targets 5 ft closer.\n  • Fire Release jutsu inside have damage reduced by 4 dice.\n  • Hostiles casting jutsu inside have cost +8 and damage -2 dice. Gain Temp CP equal to jutsu rank (D 2 → S 6).",
+          "source": "Hoshigaki",
+          "kind": "amp",
+          "ampType": "Battle",
+          "effects": [],
+          "actionEconomy": "action",
+          "equippable": false,
+          "actions": []
+        }
+      ],
+      "pickable": {
+        "pluralLabel": "Predator Traits",
+        "singularLabel": "Predator Trait",
+        "editorDescription": "Choose a Hoshigaki Predator Trait.",
+        "pickerDescription": "Gain 2 at character creation; +1 at 7th and 15th levels.",
+        "options": [
+          {
+            "id": "hoshigaki.predator.apex-gaze",
+            "owningClanId": "hoshigaki",
+            "name": "Apex Gaze",
+            "description": "Take Demoralize as a Bonus Action, no per-hour limit. At 7th — +1 rank Demoralized. At 15th — Demoralize all creatures you see within 20 ft."
+          },
+          {
+            "id": "hoshigaki.predator.iron-stomach",
+            "owningClanId": "hoshigaki",
+            "name": "Iron Stomach",
+            "description": "Your stamina is unmatched. Increase your HP and Chakra Points by an amount equal to your level."
+          },
+          {
+            "id": "hoshigaki.predator.commander-of-the-deep",
+            "owningClanId": "hoshigaki",
+            "name": "Commander of the Deep",
+            "description": "Learn a modified Summoning Technique with a contract with the Shark tribe. Summoned in a large water bubble for land travel using half their swimming speed."
+          },
+          {
+            "id": "hoshigaki.predator.shark-skinned",
+            "owningClanId": "hoshigaki",
+            "name": "Shark Skinned",
+            "description": "While not in Heavy Armor, bonus DR equal to your Constitution modifier. At 11th — melee attackers take slashing damage equal to your Con mod."
+          },
+          {
+            "id": "hoshigaki.predator.tide-locked",
+            "owningClanId": "hoshigaki",
+            "name": "Tide Locked",
+            "description": "Once per turn, when you deal cold damage with a Water Release jutsu, force a Str save — on failure, speed -10 (becomes -20 at 7th, -30 at 15th) OR +2 chakra damage taken until next turn (+4 at 7th, +6 at 15th)."
+          },
+          {
+            "id": "hoshigaki.predator.tiger-sharks-maw",
+            "owningClanId": "hoshigaki",
+            "name": "Tiger Shark's Maw",
+            "description": "Bite attack — Melee Jutsu attack, 1d8 + jutsu mod piercing, +1 crit threat range. At 7th — bite targets make Str save or Grappled. At 15th — failed saves also gain Bleed."
+          },
+          {
+            "id": "hoshigaki.predator.prey-sense",
+            "owningClanId": "hoshigaki",
+            "name": "Prey Sense",
+            "description": "10 ft Blindsight. At 7th — 20 ft (doubled in water). At 15th — 30 ft."
+          }
+        ],
+        "sourceFeatureId": "hoshigaki.l1.deep-sea-predator",
+        "pickGrants": [
+          { "level": 1, "picks": 2 },
+          { "level": 7, "picks": 1 },
+          { "level": 15, "picks": 1 }
+        ]
+      },
+      "additionalPickables": [
+        {
+          "pluralLabel": "Predator Surges",
+          "singularLabel": "Predator Surge",
+          "editorDescription": "Choose a Predator Surge.",
+          "pickerDescription": "Select 2 Surges on long rest. You can switch picks each rest.",
+          "options": [
+            {
+              "id": "hoshigaki.surge.predators-terrain",
+              "owningClanId": "hoshigaki",
+              "name": "Predator's Terrain",
+              "description": "Cast a Water Release area jutsu → make area difficult terrain for 1 min for all creatures except you + 3 chosen. Creatures can spend 10 chakra to ignore until end of turn."
+            },
+            {
+              "id": "hoshigaki.surge.predators-drag",
+              "owningClanId": "hoshigaki",
+              "name": "Predator's Drag",
+              "description": "On a melee hit, target becomes Grappled. Immediately move up to 2× your full speed pulling them. Grappled this way they can't take reactions. End grapple on finishing movement."
+            },
+            {
+              "id": "hoshigaki.surge.predators-clarity",
+              "owningClanId": "hoshigaki",
+              "name": "Predator's Clarity",
+              "description": "When you take damage, mark the triggering creature until end of next turn — aware of them if invisible/hidden."
+            },
+            {
+              "id": "hoshigaki.surge.predators-rend",
+              "owningClanId": "hoshigaki",
+              "name": "Predator's Rend",
+              "description": "On dealing melee damage, force Con save — reduce target's DR by 2 for 1 minute (stacks up to 3 times)."
+            },
+            {
+              "id": "hoshigaki.surge.predators-crash",
+              "owningClanId": "hoshigaki",
+              "name": "Predator's Crash",
+              "description": "Cast a Water Release jutsu vs a creature protected by a Barrier — half the damage also affects creatures protected by the barrier."
+            },
+            {
+              "id": "hoshigaki.surge.predators-feeding",
+              "owningClanId": "hoshigaki",
+              "name": "Predator's Feeding",
+              "description": "On taking damage from a melee attack, spend your reaction to take the Attack action targeting the triggering creature with all attacks."
+            }
+          ],
+          "sourceFeatureId": "hoshigaki.l3.predatory-surges",
+          "pickGrants": []
+        }
+      ],
+      "natureReleaseGrants": [
+        {
+          "level": 1,
+          "picks": 0,
+          "autoReleases": [
+            "Water"
+          ],
+          "fromReleases": [],
+          "source": "Passive Affinity",
+          "description": "You have the Water Release Affinity."
+        }
+      ],
+      "resources": [],
+      "stanceGrants": [],
+      "creatureGrants": []
+    },
+    {
+      "id": "hozuki",
+      "name": "Hozuki",
+      "introQuote": "The Rogue from the badlands sits waiting patiently, hunting his prey. He takes a jug of Water from his pouch and begins to drink from it carefully, not wasting a single drop. After finishing, he reaches behind himself and grabs a large Odachi with one hand, as his arm expands showing a massive increase in strength.",
+      "introAttribution": "— Hato Hyoshi, At Worlds End, Ch. 17 excerpt.",
+      "subheading": "DEMON'S SECOND COMING",
+      "loreDescription": "The Hozuki Clan is a relatively small clan that hails from the Land of Water. While the clan itself is small, it has had prominent members who have attained the rank of Seven Swordsmen and garnered notoriety as excellent swordsman and even better assassins. The Hozuki clan has a unique trait, allowing them to turn their body into a liquid form passively. Due to this extreme affinity with Water Release, they have lost the ability to access the Lightning Release Affinity entirely.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Strength, +1 Intelligence",
+        "speed": "30 feet",
+        "skillProficiencies": [
+          "Martial Arts",
+          "Chakra Control"
+        ],
+        "extraLanguages": [],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Water Release Affinity",
+            "description": "You begin with the Water Release affinity."
+          },
+          {
+            "name": "Swimming Speed",
+            "description": "Swim speed equal to your land speed."
+          },
+          {
+            "name": "Liquid Biology",
+            "description": "You can breathe air and water."
+          },
+          {
+            "name": "Altered Water",
+            "description": "Earth Release no longer has elemental advantage vs your Water Release jutsu. Lightning Release now has elemental advantage against jutsu you cast with Water Release."
+          },
+          {
+            "name": "Hijutsu Flexibility",
+            "description": "Hozuki Clan Hijutsu can use either Strength or Intelligence as its casting ability score."
+          },
+          {
+            "name": "Hozuki Techniques",
+            "description": "The Hozuki Clan has access to a separate list of jutsu unique to their clan."
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "hozuki.l1.hydration",
+          "name": "Hydration",
+          "level": 1,
+          "description": "Hydration resource — 1 + your highest ability modifier. Regain on long rest, taking damage from a Water Release jutsu, beginning your turn at least half submerged, or casting a Water Release jutsu with a sufficient water source. Once per turn, when you take lightning damage, lose 2 Hydration.\n\nSpend Hydration on Liquification Techniques:\n  • Capillary Infiltration (2 Hyd) — squeeze through 1-inch gaps, immunity to Grappled/Restrained until end of turn.\n  • Hydrofication — Hijutsu's Hydrofication effect (1 Hyd).\n  • Liquid Evasion (1 Hyd, reaction) — vs bludgeon/pierce/slash/cold/earth damage, gain resistance and shift 10 ft as a puddle. Cold damage instead grants Temp HP = jutsu rank ×5.\n  • Liquid Impact (3 Hyd) — turn a crit hit against you into a normal hit.\n  • Water Pistol (2 Hyd, turn) — for 1 minute, Attack action lets you make Water Bullet attacks (1 at L1, 2 at 7th, 3 at 15th). Counts as casting a Hozuki Hijutsu with Ninjutsu + Water Release keywords at your highest rank.\n  • Water Muscles (1 Hyd) — when dealing [Weapon Damage] or [Unarmed Damage], +2 damage until next turn (+4 at 7th, +6 at 15th).\n\nWater Bullet — ranged Jutsu attack 30 ft, 1d8 + mod bludgeoning/piercing/cold. Pierce 6 at 7th, 2d8 at 11th, Pierce 12 at 15th.",
+          "source": "Hozuki",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "hozuki.l3.mistborn-infiltrator",
+          "name": "Mistborn Infiltrator",
+          "level": 3,
+          "description": "Select two Liquid Infiltration techniques. +1 at 11th level.",
+          "source": "Hozuki",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "hozuki.l7.follow-the-current",
+          "name": "Follow the Current",
+          "level": 7,
+          "description": "Bonus Action while at least half submerged — teleport to a space within the same body of water up to 120 ft away. 10-minute recharge.",
+          "source": "Hozuki",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "hozuki.l11.blood-as-thick-as-oil",
+          "name": "Blood as Thick as Oil",
+          "level": 11,
+          "description": "Hozuki Hijutsu with Water Release now have elemental advantage vs Earth Release. Hozuki Hijutsu that deal damage treat structures and constructs with HP as if vulnerable to its damage.",
+          "source": "Hozuki",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "hozuki.l15.heir-of-the-mist",
+          "name": "Heir of the Mist",
+          "level": 15,
+          "description": "Once per turn, when you cast a Water Release jutsu that costs chakra, spend 2 Hydration to gain Temp HP equal to jutsu rank ×5 (D 5 → S 25), lasting until next turn.\n\nFinally, on long rest select a Tidal State, of which you gain its effects until next long rest. Enter for 1 minute as a Bonus Action + 4 Hydration (once per rest).\n\nTidal Gains (Battle Amp). Embodies physical strength. Colossus — size +1, melee weapon and unarmed attacks gain Reach 1 (or +1 rank if already Reach). Muscular Overdrive — Water Muscles benefits triggered freely on Hydration use. Water Cannons — Once per turn, when dealing cold damage with Water Release, gain a Hydration. Hydro Armor — +rank Mastery vs bludgeoning, piercing, slashing, cold, fire damage. Water Pressure — Once per turn, dealing [Weapon Damage] or [Unarmed Damage] to a larger/equal creature can force a Con save (failure: 2 ranks Weakened + Prone).\n\nMirage Regent (Battle Amp). Embodies absolute spread. Mist Mirage — radiate a cloud of mist filling 30 ft cube around you. Hostiles in the area attempt to keep visual track. Hostiles failing CM save vs your highest jutsu save DC roll a d12 (1-9 or higher = chooses target; 5-8 = attacks a copy; 1-4 = miss). Where are You Looking? — first time per turn you roll a d12 (5-12 = no penalty; 1-4 = miss). Everywhere and Nowhere — attacks you make and Hijutsu you cast can originate from anywhere within your mist.",
+          "source": "Hozuki",
+          "kind": "amp",
+          "ampType": "Battle",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        }
+      ],
+      "pickable": {
+        "pluralLabel": "Liquid Infiltration Techniques",
+        "singularLabel": "Liquid Infiltration",
+        "editorDescription": "Choose a Hozuki Liquid Infiltration.",
+        "pickerDescription": "Gain 2 at 3rd level; +1 at 11th.",
+        "options": [
+          {
+            "id": "hozuki.infiltration.vapor-shroud",
+            "owningClanId": "hozuki",
+            "name": "Vapor Shroud",
+            "description": "Bonus Action — exhale a halo of mist for 1 min. You and allies starting turns within 10 ft gain rank of Mastery to Stealth and +10 speed (2 ranks at 7th). Wind/Lightning Release hostile effects end early. Short rest recharge."
+          },
+          {
+            "id": "hozuki.infiltration.hydrophonic-sense",
+            "owningClanId": "hozuki",
+            "name": "Hydrophonic Sense",
+            "description": "While in contact with a liquid source (puddles, sewers, etc.), gain Tremor sense up to 1 mile. Hear conversations near connected water bodies (focus one location at a time)."
+          },
+          {
+            "id": "hozuki.infiltration.rain-traversal",
+            "owningClanId": "hozuki",
+            "name": "Rain Traversal",
+            "description": "Leave no tracks or scent through rain, mist, or standing water. Tracking creatures pay +10 DC."
+          },
+          {
+            "id": "hozuki.infiltration.mist-voice",
+            "owningClanId": "hozuki",
+            "name": "Mist Voice",
+            "description": "Communicate with creatures in contact with the same body of water within 120 ft via small voice-bubbles (10-word max messages, only the intended creature hears)."
+          },
+          {
+            "id": "hozuki.infiltration.dampen-reverb",
+            "owningClanId": "hozuki",
+            "name": "Dampen Reverb",
+            "description": "Bonus Action — create a 10-ft radius bubble of water centered on you for 10 min (or until a hostile passes through). Sound cannot escape nor penetrate. Short rest recharge."
+          }
+        ],
+        "sourceFeatureId": "hozuki.l3.mistborn-infiltrator",
+        "pickGrants": [
+          { "level": 3, "picks": 2 },
+          { "level": 11, "picks": 1 }
+        ]
+      },
+      "additionalPickables": [],
+      "natureReleaseGrants": [
+        {
+          "level": 1,
+          "picks": 0,
+          "autoReleases": [
+            "Water"
+          ],
+          "fromReleases": [],
+          "source": "Water Release Affinity",
+          "description": "You begin with the Water Release Affinity."
+        }
+      ],
+      "resources": [
+        {
+          "name": "Hydration",
+          "autoKey": "clan:hozuki:hydration",
+          "source": "Hydration",
+          "minLevel": 1,
+          "maxFormulaDescription": "1 + highest ability modifier",
+          "maxFormula": { "base": 1, "perHighest": 1 },
+          "replenishOn": "long"
+        }
+      ],
+      "stanceGrants": [],
+      "creatureGrants": []
+    },
+    {
+      "id": "kaguya",
+      "name": "Kaguya",
+      "introQuote": "Kamira ejects a bone from her shoulder creating a saber. She's wounded, weakened, and outgunned. Standing against her Jonin teacher who has fallen prey to a Genjutsu. … She draws a second sword made of bone from her ribcage. She dashes towards him, but he parries her attacks. She pushes through her pain and begins to perform one of her clans Dance Arts.",
+      "introAttribution": "— Tatsunami Aburame, The Long Road, Ch. 16 excerpt.",
+      "subheading": "SAVAGE BATTLE INSTINCTS",
+      "loreDescription": "The Kaguya Clan was previously an extinct clan known for their savage battle tactics. There are stories of Kaguya who loved war so much, they would enter battles and conflicts to show off their fighting prowess. The ability to manipulate their own bone structure creating weapons gives them amazing fighting skills.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Strength or Dexterity, +1 Constitution",
+        "speed": "35 feet",
+        "skillProficiencies": [
+          "Athletics",
+          "Martial Arts"
+        ],
+        "extraLanguages": [],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Hijutsu Flexibility",
+            "description": "Kaguya Clan Hijutsu can use either Constitution or Strength as its casting ability score."
+          },
+          {
+            "name": "Shikotsumyaku Dance",
+            "description": "The Kaguya Clan has access to a separate list of jutsu unique to their clan."
+          },
+          {
+            "name": "Bone Weapons",
+            "description": "Bonus Action — conjure one melee weapon (Bulk 2) or two melee weapons (Bulk 1). Weapons share any weapon seals on weapons you currently have that they qualify for. Brittle — break if another bone weapon is conjured."
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "kaguya.l1.shikotsumyaku-stance",
+          "name": "Shikotsumyaku Stance",
+          "level": 1,
+          "description": "Primary fighting style. Bukijutsu stance providing weapon-attacks via bones, attacks of opportunity against HS jutsu casters, and a path to gain Battle Lust on solid hits.",
+          "source": "Kaguya",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "kaguya.l3.calcified-structure",
+          "name": "Calcified Structure",
+          "level": 3,
+          "description": "Select one Defining Anatomy. +1 at 7th and 15th. Options: Ossuary Crown (Mastery vs Concussed/Confused/Dazed), Marrow Overflow (Mastery to Athletics/Acrobatics + regain HP = level on short rest), Lamellar Lattice (Mastery vs Bruised/Staggered/Shaken), Femur Springs (+10 speed; jump +10 horizontal, +5 vertical), Ulna Aegis (+2 DR vs visible attackers (+4 at 7th, +6 at 15th); once per long rest treat crit as normal hit), Skeletal Reinforcement (first HP regained per turn from a jutsu = result + level).",
+          "source": "Kaguya",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "kaguya.l7.ivory-fragments",
+          "name": "Ivory Fragments",
+          "level": 7,
+          "description": "Leave bone fragments behind as caltrops/trail. While climbing, leave bone holds for allies (gain climbing speed = movement). Form bone slivers = Con mod once per rest; each functions as Sealing Art: Chakra Mark at D-Rank for 10 minutes.",
+          "source": "Kaguya",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "kaguya.l11.desire-for-battle",
+          "name": "Desire for Battle",
+          "level": 11,
+          "description": "When rolling initiative, roll 1d4 — gain that many ranks of Battle Lust. When a creature deals damage to you, they become Battle Marked until end of next turn — attacks vs Battle Marked creatures cannot be made at disadvantage.",
+          "source": "Kaguya",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "kaguya.l15.dance-of-the-pale-tyrant",
+          "name": "Dance of the Pale Tyrant",
+          "level": 15,
+          "description": "Enter the ultimate performance stance for 1 minute (Battle Amp); requires a rest after.\n  • Tyrant's Lust. Once per turn, gain Battle Lust when you take damage or deal damage with a Bone Weapon to a Physical-condition creature.\n  • Ivory Judgement. When you take the Attack action or AoO using a Bone Weapon, +1 attack.\n  • Counter Dance. Hostiles casting M-component jutsu in your weapon's range trigger AoO.",
+          "source": "Kaguya",
+          "kind": "amp",
+          "ampType": "Battle",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        }
+      ],
+      "pickable": {
+        "pluralLabel": "Defining Anatomies",
+        "singularLabel": "Defining Anatomy",
+        "editorDescription": "Choose a Defining Anatomy.",
+        "pickerDescription": "Gain 1 at 3rd level; +1 at 7th and 15th levels.",
+        "options": [
+          {
+            "id": "kaguya.anatomy.ossuary-crown",
+            "owningClanId": "kaguya",
+            "name": "Ossuary Crown",
+            "description": "Skull resists Concussed, Confused, Dazed (Mastery on saves)."
+          },
+          {
+            "id": "kaguya.anatomy.marrow-overflow",
+            "owningClanId": "kaguya",
+            "name": "Marrow Overflow",
+            "description": "Mastery to Athletics or Acrobatics. Regain HP = level on Short Rest."
+          },
+          {
+            "id": "kaguya.anatomy.lamellar-lattice",
+            "owningClanId": "kaguya",
+            "name": "Lamellar Lattice",
+            "description": "Ribcage resists Bruised, Staggered, Shaken (Mastery on saves)."
+          },
+          {
+            "id": "kaguya.anatomy.femur-springs",
+            "owningClanId": "kaguya",
+            "name": "Femur Springs",
+            "description": "+10 speed; jump distance +10 ft, jump height +5 ft."
+          },
+          {
+            "id": "kaguya.anatomy.ulna-aegis",
+            "owningClanId": "kaguya",
+            "name": "Ulna Aegis",
+            "description": "+2 DR vs visible attacker (+4 at 7th, +6 at 15th). Once per long rest, treat a critical hit as a normal hit."
+          },
+          {
+            "id": "kaguya.anatomy.skeletal-reinforcement",
+            "owningClanId": "kaguya",
+            "name": "Skeletal Reinforcement",
+            "description": "First time each turn you regain HP from a jutsu, +HP = your level."
+          }
+        ],
+        "sourceFeatureId": "kaguya.l3.calcified-structure",
+        "pickGrants": [
+          { "level": 3, "picks": 1 },
+          { "level": 7, "picks": 1 },
+          { "level": 15, "picks": 1 }
+        ]
+      },
+      "additionalPickables": [],
+      "natureReleaseGrants": [],
+      "resources": [
+        {
+          "name": "Battle Lust",
+          "autoKey": "clan:kaguya:battle-lust",
+          "source": "Shikotsumyaku Stance",
+          "minLevel": 1,
+          "maxFormulaDescription": "5 (Max Rank)",
+          "maxFormula": { "base": 5 },
+          "replenishOn": "none"
+        }
+      ],
+      "stanceGrants": [
+        { "level": 1, "stanceId": "clan.kaguya.shikotsumyaku", "source": "Shikotsumyaku Stance" }
+      ],
+      "creatureGrants": []
+    },
+    {
+      "id": "vesper",
+      "name": "Vesper",
+      "introQuote": "Drese awaits perched on a corner of the Victorian era building in Lordan City, in the Land of Moons. … Drese snickers before smiling with two large fangs protruding from where his K9s should be. \"Nah, I don't need it. I'm bout to have a meal in a minute anyway.\" … Drese's eyes flickers red. \"To eat the rich.\"",
+      "introAttribution": "— Otsohi Suzumaru, Shinobi Historia, Ch. 12 excerpt.",
+      "subheading": "NOCTURNAL HUNTERS",
+      "loreDescription": "The Vesper Clan is a clan that originally hails from the Land of Moons, but has since migrated to the Land of Water. Their origins trace back to a Sage known for his association with the Bat tribe. The Clan is often associated with bat-like traits and features — red eyes, darker skin, more pointed ears, fanglike teeth and a preference for the night over the day.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Charisma, +1 Strength or Dexterity",
+        "speed": "35 feet",
+        "skillProficiencies": [
+          "Athletics",
+          "Stealth"
+        ],
+        "extraLanguages": [],
+        "darkvision": "60 ft",
+        "extraTraits": [
+          {
+            "name": "Nocturnal Movement",
+            "description": "While in dim light or darkness, your movement cannot provoke attacks of opportunity."
+          },
+          {
+            "name": "Nocturnal-Speak",
+            "description": "Speak to and understand Rats, Bats, Snakes, Wolves and Predator Birds."
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "vesper.l1.claws-of-night",
+          "name": "Claws of Night",
+          "level": 1,
+          "description": "Enter the Claws of Night Taijutsu stance. Sharpen and elongate your claws. Combat with Blade-group weapons or unarmed.",
+          "source": "Vesper",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "vesper.l1.echo-of-night",
+          "name": "Echo of Night",
+          "level": 1,
+          "description": "Sound-based bat-like techniques.\n  • Echolocation. Bonus Action — 30 ft blindsight for 1 min while you can hear (suppressed if Deafened). Mastery on Perception (sound).\n  • Pinging. Bonus Action — emit a click; creatures within 10 ft of a point within 30 ft are Pinged until your next turn. Attacks vs Pinged creatures cannot be at disadvantage. Range becomes 45 ft at 7th, 60 ft at 15th.\n  • Sonar Reprisal. Pinged creatures trigger AoO from allies within your Echolocation range if invisible/unseen.",
+          "source": "Vesper",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "vesper.l3.vampyric-physique",
+          "name": "Vampyric Physique",
+          "level": 3,
+          "description": "Select 2 Physique options at L3; +1 at 7th and 15th.",
+          "source": "Vesper",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "vesper.l3.mesmeric-sonance",
+          "name": "Mesmeric Sonance",
+          "level": 3,
+          "description": "Learn either Hypnotic Voice or Hypnotic Gaze at L3; gain the other at 11th.\n\nHypnotic Voice — Action, 20-ft cone (40 ft at 11th). Wis save vs your highest jutsu save DC. Counts as a Genjutsu of your highest rank.\n  Critical Success: resist.\n  Success: Confused until end of next turn.\n  Failure: Confused + Dazed.\n  Critical Failure: also Slowed.\n\nHypnotic Gaze — Action vs a creature within 30 ft (must see eyes). Cha save vs your highest jutsu save DC. Counts as a Genjutsu of your highest rank requiring concentration. Failed save creatures cannot suffer the failure / crit-failure effect again until you complete a rest.\n  Critical Success: resist.\n  Success: Charmed until end of next turn.\n  Failure: Charmed + obey one command for 1 minute.\n  Critical Failure: Charmed for 1 minute, obeying ongoing commands you give as Bonus Action. Damaged creatures can remake save once per turn.",
+          "source": "Vesper",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "action",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "vesper.l7.nocturnal-dominion",
+          "name": "Nocturnal Dominion",
+          "level": 7,
+          "description": "On rest, select 2 abilities from: Umbral Domain, Vapor Reprieve, Dread Weave, Terror-Borne Constructs. Saves use your highest jutsu save DC or attack bonus.",
+          "source": "Vesper",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "vesper.l7.mist-step",
+          "name": "Mist Step",
+          "level": 7,
+          "description": "Bonus Action while not in direct sunlight — transform into a swirl of mist and teleport up to 40 ft (+20 at 11th). Once per use, then needs to cast a Ninjutsu / Genjutsu of C-Rank or higher costing chakra to recharge.",
+          "source": "Vesper",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "vesper.l7.umbral-transmutation",
+          "name": "Umbral Transmutation",
+          "level": 7,
+          "description": "Bonus Action — enter your Umbral Monarch state for 1 minute. Once per long rest; if entered again before long rest, gain 1 rank of Exhaustion.\n\nUmbral Monarch (Battle Amp). Bat-wreathed terror.\n  • Nocturnal Wings. Gain a fly speed = unarmed [Echolocation] expand to passive vigil, with wings attached to your arms.\n  • Sonar. Echolocation range becomes 60 ft.\n  • Pinging. Range increases to 45 ft (60 ft at +2).\n  • Beast Claws. Your [Unarmed Damage] increases to 1d12 (1d12 at 11th, 4d6 at 15th).\n  • Fenies. If you begin your turn with [Unarmed Damage] / [Weapon Damage], you can add 1 rank of Crimson Hemorrhage to each damaged creature.\n  • Crimson Feast. Once per turn, when you take damage, by spending 1 rank of Crimson Hemorrhage from a creature within 30 ft of you, regain 1 rank of damage dealt as HP.\n  • Sonic Lance. As an Action, fire a 60-ft long line beam of disordered sound. All creatures in the area make a Constitution save vs your highest jutsu save DC. (Success — Dazzled, Failure — Blinded, Critical Failure — same as Failure + Confused for the same duration.)\n  • Umbral Shockwave. Action — release a pulse of darkness centered on you, filling a 20-ft radius. Creatures in range make a Wisdom save (Visual, Auditory, Tactile Genjutsu of your highest rank). On failure: damage = 1d6 (10 per rank) + Demoralized.",
+          "source": "Vesper",
+          "kind": "amp",
+          "ampType": "Battle",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "vesper.l11.nocturnal-discussions",
+          "name": "Nocturnal Discussions",
+          "level": 11,
+          "description": "When entering a social encounter, decide Patient, Impatient, or neither.\n\nPatient — cannot gain jutsu/feature bonuses. Gain a Will of Night (one-use, 1 minute) for 2 ranks of Mastery to all Wis/Cha skill checks.\n\nImpatient — gain rank of Mastery in one skill of your choice until encounter end. If you fail 2+ checks, you and your team's Social Attitude with the target creature is reduced by 2 ranks.",
+          "source": "Vesper",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "vesper.l15.nocturnal-supremacy",
+          "name": "Nocturnal Supremacy",
+          "level": 15,
+          "description": "Choose between Dominion and Requiem (changeable via Full-Rest ritual).\n\nDominion — when you roll initiative, radiate shadows; Echolocation blindsight increases to 40 ft. Additionally, if you teleport into a dimly-lit/dark space adjacent to a Berserked/Charmed/Confused/Demoralized/Shaken creature, force a Wis save vs your highest jutsu save DC. On failure, they must spend movement/action/Bonus Action to harm a creature you select. Save by 5+ grants immunity until you rest.\n\nRequiem — embody the Apex Vampyr. While in Claws of Night or Umbral Monarch, gain +15 speed and +1 attack as part of Attack action. Creatures with Bleed or Crimson Hemorrhage grant +1 crit threat range. Bonus Action — siphon Bleed/Crimson Hemorrhage from creatures within 30 ft (1d6 HP or 6 Temp HP per rank removed).",
+          "source": "Vesper",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        }
+      ],
+      "pickable": {
+        "pluralLabel": "Vampyric Physique Options",
+        "singularLabel": "Vampyric Physique",
+        "editorDescription": "Choose a Vampyric Physique option.",
+        "pickerDescription": "Gain 2 at 3rd level; +1 at 7th and 15th levels.",
+        "options": [
+          {
+            "id": "vesper.physique.anchored-steps",
+            "owningClanId": "vesper",
+            "name": "Anchored Steps",
+            "description": "Creatures/effects that attempt to move you against your will make checks at disadvantage. You make saves/checks to resist being moved at advantage."
+          },
+          {
+            "id": "vesper.physique.dominating-stability",
+            "owningClanId": "vesper",
+            "name": "Dominating Stability",
+            "description": "Rank of Mastery to Strength saving throws."
+          },
+          {
+            "id": "vesper.physique.dinner-bell",
+            "owningClanId": "vesper",
+            "name": "Dinner Bell",
+            "description": "When initiative is rolled, spend your Reaction to gain rank of Mastery to all d20 rolls until end of next turn."
+          },
+          {
+            "id": "vesper.physique.gravestone-dragging",
+            "owningClanId": "vesper",
+            "name": "Gravestone Dragging",
+            "description": "Bulk +5. While grappling and moving, moving does not count as difficult terrain for you."
+          },
+          {
+            "id": "vesper.physique.inhuman-stamina",
+            "owningClanId": "vesper",
+            "name": "Inhuman Stamina",
+            "description": "Advantage on checks/saves to resist Exhaustion. Action Dash → can Bonus Action Dash again that turn."
+          },
+          {
+            "id": "vesper.physique.launching-throw",
+            "owningClanId": "vesper",
+            "name": "Launching Throw",
+            "description": "Thrown objects/items/tools have +20 ft range. Rank of Mastery to Shove (2 at 7th, 3 at 15th)."
+          },
+          {
+            "id": "vesper.physique.vaulted-limbs",
+            "owningClanId": "vesper",
+            "name": "Vaulted Limbs",
+            "description": "Climbing speed = movement speed. Reduce fall damage dice by half your level."
+          }
+        ],
+        "sourceFeatureId": "vesper.l3.vampyric-physique",
+        "pickGrants": [
+          { "level": 3, "picks": 2 },
+          { "level": 7, "picks": 1 },
+          { "level": 15, "picks": 1 }
+        ]
+      },
+      "additionalPickables": [
+        {
+          "pluralLabel": "Nocturnal Dominion Abilities",
+          "singularLabel": "Nocturnal Dominion Ability",
+          "editorDescription": "Choose a Nocturnal Dominion ability.",
+          "pickerDescription": "Select 2 on rest (changeable on each rest).",
+          "options": [
+            {
+              "id": "vesper.dominion.umbral-domain",
+              "owningClanId": "vesper",
+              "name": "Umbral Domain",
+              "description": "Action — select a point within 60 ft. 30-ft radius zone of shadows for 1 min. Spaces are Chakra-based darkness + difficult terrain (you see normally; not difficult for you). Hostiles starting their turn in the area make Wis save (C-Rank Genjutsu Visual + Tactile). Damage +1d8 at 11th and 15th. Success: half of 4d8 psychic. Failure: 4d8 psychic + 1 Demoralized. Critical Failure: 6d8 psychic + 2 Demoralized."
+            },
+            {
+              "id": "vesper.dominion.vapor-reprieve",
+              "owningClanId": "vesper",
+              "name": "Vapor Reprieve",
+              "description": "Reaction to taking damage — transform a portion of the damaged area into mist. Reduce damage by 2 dice (3 dice at 15th). Once per use; recharges when you cast a Taijutsu/Bukijutsu of C-Rank or higher costing chakra."
+            },
+            {
+              "id": "vesper.dominion.dread-weave",
+              "owningClanId": "vesper",
+              "name": "Dread Weave",
+              "description": "Once per turn, when you cast a Visual or Auditory Genjutsu, failed saves grant 1 rank Shaken. Critical Failure → also Berserked. If the creature has 2+ Demoralized, +1 rank Shaken."
+            },
+            {
+              "id": "vesper.dominion.terror-borne-constructs",
+              "owningClanId": "vesper",
+              "name": "Terror-Borne Constructs",
+              "description": "When you summon a creature from a Genjutsu or with the Illusory Construct trait, it gains +HP = 5 + your level and +2 damage first-attack (+4 at 11th)."
+            }
+          ],
+          "sourceFeatureId": "vesper.l7.nocturnal-dominion",
+          "pickGrants": []
+        }
+      ],
+      "natureReleaseGrants": [],
+      "resources": [],
+      "stanceGrants": [
+        { "level": 1, "stanceId": "clan.vesper.claws-of-night", "source": "Claws of Night" }
+      ],
+      "creatureGrants": []
+    },
+    {
+      "id": "yamada",
+      "name": "Yamada",
+      "introQuote": "When the blade finds the seam between extended muscle, sinew, and bone... anybody — no matter how sturdy — can be cleaved. No matter how unconventional the opponent may be the principles behind decapitation still hold. Know the body's framework, and weave into the openings. Such is the way of Yamada Asaemon…",
+      "introAttribution": "— Yamada Asaemon Sagiri, Jigokuraku.",
+      "subheading": "SINGLE-SWING STYLE",
+      "loreDescription": "The Yamada are sword testers and executioners. Sometime ago, a fraction of their clan broke rank, and crossed the sea, landing on the shores of the Land of Water. They retained their original work as executioners for the Daimyo, and some even officially joined the Shinobi Military. As part of their training, they spend a great deal of time deepening their understanding of the human body — it is not uncommon to find a Yamada working in the morgue dissecting corpses to better understand the ways to slice a human.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Charisma, +1 Strength or Dexterity",
+        "speed": "30 feet",
+        "skillProficiencies": [
+          "Martial Arts",
+          "Medicine"
+        ],
+        "extraLanguages": [],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Tool Proficiency",
+            "description": "Medicine Kit."
+          },
+          {
+            "name": "Weapon Proficiencies",
+            "description": "Tanto, Broadsword, Katana, Odachi, Chokuto."
+          },
+          {
+            "name": "Single-Swing Practitioner",
+            "description": "The Yamada Clan has access to a separate list of jutsu unique to their clan."
+          },
+          {
+            "name": "Hijutsu Flexibility",
+            "description": "Yamada Clan Hijutsu can use either Strength or Wisdom as its casting ability score."
+          },
+          {
+            "name": "Anatomical Studies",
+            "description": "Use Medicine in place of Illusions, Martial Arts or Ninshou to take the Read the Enemy action."
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "yamada.l1.tameshi-itto-ryu",
+          "name": "Tameshi Itto-Ryu",
+          "level": 1,
+          "description": "Yamada signature stance. With Executioner's Instrument weapons (Tanto/Broadsword/Katana/Odachi/Chokuto), use Hijutsu Flexibility for attacks. Yamada Hijutsu can use Ideal Cut effects (Tao at 7th, either-or). When taking Attack action, use Empty Blade (forgo additional attacks, roll d6s = forgone × +1 if Severed, each 5-6 deals additional [Weapon Damage]).",
+          "source": "Yamada",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "yamada.l3.asaemon-disciplines",
+          "name": "Asaemon Disciplines",
+          "level": 3,
+          "description": "Select 2 Disciplines at L3; +1 at 7th and 15th. Use your highest jutsu attack bonus / save DC for effects.",
+          "source": "Yamada",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "yamada.l7.assessment-of-tao",
+          "name": "Assessment of Tao",
+          "level": 7,
+          "description": "Spend 1 minute focusing — for 10 minutes, creatures of your level or lower within 120 ft that can mold chakra (and aren't suppressing) reveal their presence to you. Does not reveal exact location. Grants immunity to being Surprised and hidden creatures cannot make attacks at advantage. Once per rest.",
+          "source": "Yamada",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "yamada.l11.tao-attunement",
+          "name": "Tao Attunement",
+          "level": 11,
+          "description": "Tao is older than Chakra. Select one of five Tao attributes (changeable on short rest):\n\nWood — When you regain HP or heal another creature's HP, increase by half your level (once per creature per rest). When 2+ hostile creatures are within Executioner's Instrument range, Empty Blade can target up to 2.\n\nFire — 2 ranks Mastery on initiative. Once per turn, on Dash/Disengage, make an Empty Blade attack as part of the action (treated as forgoing 2 attacks).\n\nEarth — Advantage on checks/saves vs being moved/Prone. Once per turn, forgo an Attack action attack to guard yourself, reducing next instance of damage by [Weapon Damage] until next turn.\n\nMetal — Empty Blade triggers on 4, 5 or 6 d6 results. If you miss your Empty Blade attack, spend Bonus Action to remake.\n\nWater — When a creature tries to dash/disengage/grapple/disarm/shove/forcefully move you while in Executioner's Instrument range, make one weapon attack. Once per turn, if a creature within 30 ft attacks an ally within 30 ft, spend reaction to move up to your speed adjacent to ally, roll [Weapon Damage] dice and add half to ally's AC. If attack misses, deal [Weapon Damage] to attacker.",
+          "source": "Yamada",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "yamada.l15.the-middle-path",
+          "name": "The Middle Path",
+          "level": 15,
+          "description": "Bonus Action as part of casting a Hijutsu, you can use BOTH Ideal Cut and Tao abilities. Once per turn, when making an Empty Blade attack, reduce the value needed to trigger its effect by 1.",
+          "source": "Yamada",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        }
+      ],
+      "pickable": {
+        "pluralLabel": "Asaemon Disciplines",
+        "singularLabel": "Asaemon Discipline",
+        "editorDescription": "Choose an Asaemon Discipline.",
+        "pickerDescription": "Gain 2 at 3rd level; +1 at 7th and 15th levels.",
+        "options": [
+          {
+            "id": "yamada.discipline.anatomist",
+            "owningClanId": "yamada",
+            "name": "Anatomist",
+            "description": "Mastery to Survival (2 at 7th, 3 at 15th). Once per turn, dealing damage with Executioner's Instrument to Bruised creature — force Con save; on failure, lose Bruised and gain Severed."
+          },
+          {
+            "id": "yamada.discipline.blind-blade",
+            "owningClanId": "yamada",
+            "name": "Blind Blade",
+            "description": "While you can hear + mold chakra, gain 10 ft Blindsight (15 at 7th, 20 at 15th). Attacks in blindsight cannot be at disadvantage."
+          },
+          {
+            "id": "yamada.discipline.carpenter",
+            "owningClanId": "yamada",
+            "name": "Carpenter",
+            "description": "Mastery to Crafting (2 at 7th, 3 at 15th). Once per turn, dealing [Weapon Damage] to construct/structure using the 3rd-bullet of Tameshi Itto-Ryu, roll 2 additional d6s."
+          },
+          {
+            "id": "yamada.discipline.interrogator",
+            "owningClanId": "yamada",
+            "name": "Interrogator",
+            "description": "Mastery to Intimidation (2 at 7th, 3 at 15th). Demoralize doesn't have opposed check — vs target's Wis DC. Beat by 10+ → Standards/Minions drop weapons and flee until next turn."
+          },
+          {
+            "id": "yamada.discipline.judge",
+            "owningClanId": "yamada",
+            "name": "Judge",
+            "description": "Mastery on saves vs Charmed, Confused, Demoralized, Dazed (2 at 11th)."
+          },
+          {
+            "id": "yamada.discipline.lawyer",
+            "owningClanId": "yamada",
+            "name": "Lawyer",
+            "description": "Mastery to Investigation (2 at 7th, 3 at 15th). Once per turn, dealing damage with Executioner's Instrument to creature with at least 1 rank of Confused/Dazed — force Con save; on failure, lose that condition and gain Severed."
+          },
+          {
+            "id": "yamada.discipline.politician",
+            "owningClanId": "yamada",
+            "name": "Politician",
+            "description": "Mastery to Deception (2 at 7th, 3 at 15th). When you take Create Diversion, also make one Weapon attack as part of the action. On success, make 2 weapon attacks."
+          },
+          {
+            "id": "yamada.discipline.surgeon",
+            "owningClanId": "yamada",
+            "name": "Surgeon",
+            "description": "Mastery to Medicine (2 at 7th, 3 at 15th). Once per turn, dealing damage with Executioner's Instrument to creature with at least 1 rank of Bleed — force Con save; on failure, lose Bleed and gain Severed."
+          }
+        ],
+        "sourceFeatureId": "yamada.l3.asaemon-disciplines",
+        "pickGrants": [
+          { "level": 3, "picks": 2 },
+          { "level": 7, "picks": 1 },
+          { "level": 15, "picks": 1 }
+        ]
+      },
+      "additionalPickables": [],
+      "natureReleaseGrants": [],
+      "resources": [],
+      "stanceGrants": [
+        { "level": 1, "stanceId": "clan.yamada.tameshi-itto-ryu", "source": "Tameshi Itto-Ryu" }
+      ],
+      "creatureGrants": []
+    },
+    {
+      "id": "yuki",
+      "name": "Yuki",
+      "introQuote": "A masked shinobi stalks a group of spies. … Ice erupts from the ground creating ground spikes, skewing a few of the intruding spies. … \"You have wronged the village hidden in the Mist. … by order of lady Mizukage, you have been sentenced to death.\" The words come out cold, and unfeeling.",
+      "introAttribution": "— Tatsunami Aburame, The Long Road, Ch. 16 excerpt.",
+      "subheading": "COLD TO THE BONE",
+      "loreDescription": "The Yuki Clan is a family of shinobi found in the Land of Water. They were almost wiped out due to a massive Kekkei Genkai revolt held in the country. Many died, and because of this their bloodline splintered. They no longer share a common family name, and are generally known as a family that in combat are nigh unbeatable.",
+      "traits": {
+        "recommendedAbilityScores": "+2 Dexterity or Intelligence, +1 Intelligence or Charisma (Int cannot be the +1 if it was the +2)",
+        "speed": "30 feet",
+        "skillProficiencies": [
+          "Chakra Control",
+          "Stealth"
+        ],
+        "extraLanguages": [],
+        "darkvision": "",
+        "extraTraits": [
+          {
+            "name": "Ice Release Affinity",
+            "description": "You begin with either Wind or Water Release Affinity (pick one)."
+          },
+          {
+            "name": "Ice Release Techniques",
+            "description": "The Yuki Clan has access to a separate list of jutsu unique to their clan."
+          },
+          {
+            "name": "Hijutsu Flexibility",
+            "description": "Yuki Clan Hijutsu can use either Dexterity or Intelligence as its casting ability score."
+          },
+          {
+            "name": "Cold Adjustment",
+            "description": "Immune to hostile cold environments and don't need to make checks/saves to resist effects caused by extreme cold."
+          },
+          {
+            "name": "Slick Movement",
+            "description": "Ignores difficult terrain and effects that impede movement caused by jutsu with Wind or Water Release keywords."
+          }
+        ]
+      },
+      "branchLabel": "",
+      "branchPluralLabel": "",
+      "branchPickLevel": 0,
+      "branches": [],
+      "features": [
+        {
+          "id": "yuki.l1.the-looking-glass",
+          "name": "The Looking Glass",
+          "level": 1,
+          "description": "Manipulate water + wind release chakra, fuse them into mirror-like glass constructs (Ice Mirrors). Bonus Action — conjure a 6-ft × 3-ft × 2-in mirror in an unoccupied space within 30 ft. Mirror has 10 HP, 20 AC, resistance to Piercing/Slashing/Cold/Wind, vulnerable to Fire, lasts 1 minute. Maintain up to 2 (max +1 at 7th, 11th, 15th); overflow melts oldest.\n\nAbilities while at least one mirror is active:\n  • Join Reflection — 5 ft movement adjacent to mirror to infuse into it. While infused, occupy mirror's space; reflection shown on all active mirrors. 5 ft movement to exit. If mirror's HP reduced to 0 while occupied, remaining damage applies to you.\n  • Attacking Reflections — infusing while another mirror is active grants Stealth check with Mastery; on success, Hide benefits (creatures can't tell which mirror is yours).\n  • Mirror's Protection — attacks vs you (while occupying) target the mirror. Immunity to Grappled/Restrained/Prone; can't be moved against will (except by teleportation).\n  • Reflective Movement — 10 ft movement to teleport between mirrors within 30 ft.\n  • Mirrored Strike — while occupying a mirror, ranged attacks don't end Hide.",
+          "source": "Yuki",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "yuki.l3.bloody-mist-legacy",
+          "name": "Bloody Mist Legacy",
+          "level": 3,
+          "description": "Select 1 Path. Swap via Bonus Action; cannot reselect previously chosen paths until you spend 10+ minutes outside combat. Ability saves/attacks use your highest jutsu save DC / attack bonus.",
+          "source": "Yuki",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "yuki.l7.ice-release-manifestation",
+          "name": "Ice Release Manifestation",
+          "level": 7,
+          "description": "Gain the second Nature release you didn't pick from Ice Release Affinity. When casting a Wind or Water Release jutsu, change damage type to Wind or Cold respectively.\n\nIce Mirrors gain:\n  • Use your AC or mirror's AC, whichever is higher.\n  • Out of combat, allow allies to teleport through your mirrors to another mirror.\n  • When you summon a mirror, you can suspend it in the air no higher than 10 ft off the ground.",
+          "source": "Yuki",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "yuki.l11.sanctum-of-ice",
+          "name": "Sanctum of Ice",
+          "level": 11,
+          "description": "When you begin your turn within 30 ft of a creature with Chilled or Frostbite ranks, reduce their ranks by up to 5 and regain HP = 10× ranks removed.\n\nAdditionally, when you would end your turn with ranks of an Elemental condition while another creature has Chilled or Frostbite, reduce that creature's ranks by up to 5 to reduce yours by an equal amount. Recharges after end of next turn.",
+          "source": "Yuki",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "none",
+          "equippable": false,
+          "actions": []
+        },
+        {
+          "id": "yuki.l15.demonic-mirror-master",
+          "name": "Demonic Mirror Master",
+          "level": 15,
+          "description": "Bonus Action — enter Demonic Ice Prism state for 1 minute. Once per rest.\n  • Select up to 8 unoccupied spaces within 60 ft — summon an Ice Mirror in each. Immediately occupy the closest. These don't count against your normal limit.\n  • At start of each turn, switch which Bloody Mist Legacy path you benefit from. Doesn't prevent switching back during the duration.\n  • When you cast Ice Daggers Hijutsu, compare attack vs AC of all chosen creatures within 15 ft of an active Ice Mirror.",
+          "source": "Yuki",
+          "kind": "feature",
+          "effects": [],
+          "actionEconomy": "bonus",
+          "equippable": false,
+          "actions": []
+        }
+      ],
+      "pickable": {
+        "pluralLabel": "Bloody Mist Paths",
+        "singularLabel": "Bloody Mist Path",
+        "editorDescription": "Choose a Bloody Mist Legacy path. Swap via Bonus Action.",
+        "pickerDescription": "Pick paths to switch between. Cannot reselect a path until 10 min outside combat.",
+        "options": [
+          {
+            "id": "yuki.path.refraction",
+            "owningClanId": "yuki",
+            "name": "Refraction",
+            "description": "Double Pane (create 2 mirrors at once with Poison immunity). Truth in Passing (Mastery to Investigation, 2 at 11th; Study action as Action). Frostbane (when inflicting Frostbite within 10 ft of mirror, drag target between mirrors falling prone)."
+          },
+          {
+            "id": "yuki.path.hoarfrost",
+            "owningClanId": "yuki",
+            "name": "Hoarfrost",
+            "description": "Frosted Glass (mirrors emit 10-ft mist; allies in mist gain Mirror's Protection). Ominous Reflections (Mastery to Chakra Control; Suppress Chakra → fake-occupy a mirror). Brine Prison (Frostbite inflicted → 10-ft radius difficult terrain for 1 min; fire damage dispels)."
+          },
+          {
+            "id": "yuki.path.glacial-movement",
+            "owningClanId": "yuki",
+            "name": "Glacial Movement",
+            "description": "Glacial Jump (Reflective Movement costs no movement). Hostile Terrain (Mastery to Initiative; difficult terrain you create deals 5 cold per space). Rime Line (leave rime trail on movement; difficult terrain you/allies ignore; melts on your next turn)."
+          },
+          {
+            "id": "yuki.path.black-ice-mirror",
+            "owningClanId": "yuki",
+            "name": "Black Ice Mirror",
+            "description": "Black Iron Reflection (mirrors gain 7 DR). Frost Courier (Mastery to Athletics; allies damaged within 10 ft of mirror can reaction-teleport between mirrors). Black Frost (creature destroying your occupied mirror makes Con save vs Frostbite)."
+          },
+          {
+            "id": "yuki.path.shiver-weave",
+            "owningClanId": "yuki",
+            "name": "Shiver-Weave",
+            "description": "Invisible Threads (Reflective Movement leaves invisible line; hostile crossing → reaction-teleport + attacks per active mirror, Dex save → speed 0). Hail Burst (Mastery to Stealth; on cast Yuki Hijutsu, release 15-ft cube totally obscured cloud). Frost Splinter (mirror destroyed → reaction-teleport to another mirror; you take any damage)."
+          },
+          {
+            "id": "yuki.path.frost-bound-shield",
+            "owningClanId": "yuki",
+            "name": "Frost Bound Shield",
+            "description": "Bulwark (mirrors lose Fire vulnerability + gain bonus HP = your level). Stalwart (Mastery to Str/Dex saves while occupying mirror, 2 at 11th; mirrors can't have HP reduced below 1 by AoE damage). Black Frost (inflicting Frostbite restores all your active mirrors' HP)."
+          }
+        ],
+        "sourceFeatureId": "yuki.l3.bloody-mist-legacy",
+        "pickGrants": [
+          { "level": 3, "picks": 1 }
+        ]
+      },
+      "additionalPickables": [],
+      "natureReleaseGrants": [
+        {
+          "level": 1,
+          "picks": 1,
+          "autoReleases": [],
+          "fromReleases": [
+            "Wind",
+            "Water"
+          ],
+          "source": "Ice Release Affinity",
+          "description": "Pick Wind or Water Release."
+        },
+        {
+          "level": 7,
+          "picks": 0,
+          "autoReleases": [],
+          "fromReleases": [
+            "Wind",
+            "Water"
+          ],
+          "source": "Ice Release Manifestation",
+          "description": "Gain the other of Wind / Water at 7th level."
+        }
+      ],
+      "resources": [],
+      "stanceGrants": [],
+      "creatureGrants": []
     }
   ]
 }

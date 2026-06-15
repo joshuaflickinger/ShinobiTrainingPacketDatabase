@@ -791,6 +791,86 @@
       ],
       "sourceKind": "clan",
       "source": "Shakuton"
+    },
+    {
+      "id": "elemental.firewalled",
+      "category": "elemental",
+      "name": "Firewalled",
+      "description": "Stable Frequency – Firewalled. [Elemental]\nYour chakra network has been overrun by Data Release, locking down your output channels.\n  • A Firewalled creature cannot benefit from any additional actions, bonus actions or reactions granted by jutsu or features.\n  • A Firewalled creature cannot increase their concentration slots or gain bonus chakra.\n  • A Firewalled creature reveals one passive piece of information to the inflicter (Genwa's choice — see the Data Break feature).\n  • Effects that would cleanse the Shocked condition can also cleanse this condition.\n  • A Firewalled creature can spend their Action to make a DC 15 Medicine check to end this condition.",
+      "tags": [
+        "elemental"
+      ],
+      "sourceKind": "clan",
+      "source": "Genwa"
+    },
+    {
+      "id": "elemental.data-leak",
+      "category": "elemental",
+      "name": "Data Leak",
+      "description": "Data Leak. [Elemental]\nThe Genwa has hijacked your physical form like a misconfigured signal.\n  • A Data Leak creature suffers vulnerability to one damage type of the inflicter's choice.\n  • A Data Leak creature is treated as the only target of jutsu they aren't the only target of (single-target rules apply against AoE effects when the inflicter wishes).\n  • Once per turn, when a Data Leak creature takes damage, the inflicter chooses whether they make a saving throw, gain a chosen Physical / Mental / Sensory condition, or have one resource suspended for the duration.\n  • A Data Leak creature cannot have this condition inflicted upon them again until they complete a long rest.",
+      "tags": [
+        "elemental"
+      ],
+      "sourceKind": "clan",
+      "source": "Genwa"
+    },
+    {
+      "id": "mental.signal-boosted",
+      "category": "mental",
+      "name": "Signal Boosted",
+      "description": "Stable Frequency – Signal Boosted. [Mental / Will Amp]\nYou are charged with Data Release chakra and see it upgrading you in the following ways:\n  • Allied Network. The Genwa that applied this status can now see and hear through your senses, as if they shared your perceptive abilities.\n  • Relay Node. The Genwa that applied this status can cast their Hijutsu and have their origin be from your space, using your senses to determine what they can see and hear.\n  • Team Link. You radiate a 10-foot radius of neon light; all allied creatures within this radius gain a +1 bonus to their attacks and saving throws.\n  • Signal Degradation. This state degrades quickly, dispelling itself at the end of the Genwa's turn that applied this status, unless otherwise stated.",
+      "tags": [
+        "mental"
+      ],
+      "sourceKind": "clan",
+      "source": "Genwa"
+    },
+    {
+      "id": "physical.crimson-hemorrhage",
+      "category": "physical",
+      "name": "Crimson Hemorrhage",
+      "description": "Claws of Night – Crimson Hemorrhage. Max Ranks: 5. [Physical]\n  • Once per turn, a creature with Crimson Hemorrhage takes 1d6 necrotic damage for each rank it has when it makes a Strength, Dexterity or Constitution saving throw.\n  • A creature with Crimson Hemorrhage that takes Unarmed or Weapon damage from a hostile creature heals the attacking creature's hit points by 2.\n  • At the end of a creature with Crimson Hemorrhage's turn, if it has ranks of Bleed, it loses those ranks of Bleed and gains an equal number of ranks of Crimson Hemorrhage. This does not occur if it has 5 ranks of Crimson Hemorrhage.",
+      "maxRank": 5,
+      "tags": [
+        "physical"
+      ],
+      "sourceKind": "clan",
+      "source": "Vesper"
+    },
+    {
+      "id": "physical.severed",
+      "category": "physical",
+      "name": "Severed",
+      "description": "Severed — Asaemon Discipline. [Physical]\nA Severed creature has part of their body severely wounded. When a creature gains this condition, roll 1d6 and apply the effect based on the result. If a creature would be Severed again, they instead gain +1 rank of Shaken. Creatures without the listed anatomy are immune to that result. If a creature regains hit points or spends an Action to make a DC 15 Medicine check, this condition ends. You may increase the DC by +2 for every rank of Shaken a creature has.\n  1. Hand / Arm. The Severed creature cannot make Hand- or Sword-aligned actions.\n  2. Eyes. The affected creature becomes Blinded.\n  3. Back / Wings / Tail. The affected creature loses its flying or swim speed if any. They also lose concentration of all jutsu they are concentrating on and cannot concentrate on more than 1 jutsu at a time.\n  4. Foot / Leg. The affected creature cannot cast jutsu with a Mobility (M) component, and their speed is reduced by half.\n  5. Torso / Abdomen. The affected creature reduces the damage they deal by 10.\n  6. Neck / Head. The affected creature is Incapacitated. The creature incapacitated in this way can still take actions to heal, consume items to perform skill-based actions.",
+      "tags": [
+        "physical"
+      ],
+      "sourceKind": "clan",
+      "source": "Yamada"
+    },
+    {
+      "id": "elemental.frostbite",
+      "category": "elemental",
+      "name": "Frostbite",
+      "description": "Frostbite. Max Ranks: 5. [Elemental]\nA Frostbitten creature suffers the effects of extreme cold.\n  • A Frostbitten creature takes 1d10 cold damage at the end of their turn for each rank they have, if they have not spent at least half of their movement moving into a new space before the end of their turns.\n  • A Frostbitten creature cannot cast jutsu with the Combo keyword, or benefit from a jutsu's Chain 2 or 3 effects.\n  • Creatures that are immune to Cold damage is immune to this condition.\n  • A Frostbitten creature can spend an Action to make a DC 20 Dexterity ability check to end this affliction. On a successful check, the condition ends.",
+      "maxRank": 5,
+      "tags": [
+        "elemental"
+      ],
+      "sourceKind": "clan",
+      "source": "Yuki"
+    },
+    {
+      "id": "mental.battle-lust",
+      "category": "mental",
+      "name": "Battle Lust",
+      "description": "Battle Lust — Kaguya Battle Amp. Max Rank: 5. [Mental]\nYour clan's inherent lust for combat rises to the surface increasing your combat potential. You can spend Battle Lust to enhance Kaguya Clan Hijutsu.\n  • Accelerated Assault. You gain a +5 bonus to speed for each rank you have.\n  • Battle Focus. You gain an additional reaction, which you can only take to perform opportunity attacks, for each rank you have, per round.\n  • Violent Desire. Damage you deal to creatures with ranks of Bleed is increased by +2. This increases to +4 at 11th level.\n  • Calming Down. If you did not deal or take damage before the end of your turn, you lose a rank of Battle Lust.",
+      "maxRank": 5,
+      "tags": [
+        "mental"
+      ],
+      "sourceKind": "clan",
+      "source": "Kaguya"
     }
   ]
 }
